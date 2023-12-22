@@ -1,0 +1,22 @@
+.navItems{
+       color: black;
+       font-weight: bold;
+       text-transform: uppercase;
+       text-decoration: none;
+       
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    gap:45px;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.stickyHeader {
+    position:-webkit-sticky;
+    top: 0;
+    z-index: 100;
+   
+}
