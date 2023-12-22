@@ -3,7 +3,9 @@
        font-weight: bold;
        text-transform: uppercase;
        text-decoration: none;
-       
+       display: inline-block;
+       position: relative;
+           
 }
 
 .nav {
@@ -12,11 +14,57 @@
     gap:45px;
     align-items: center;
     margin-right: 50px;
+    height:96px;
+    
+   
 }
 
 .stickyHeader {
-    position:-webkit-sticky;
+
+    position: sticky;
     top: 0;
-    z-index: 100;
+    z-index: 999;
    
 }
+
+.stickyHeader:hover {
+    background-color: #ebebeb;
+     transition-delay: .3s;
+     transition: all 1s ease;
+}
+
+/* 
+#lapSubmenu {
+ display: none;
+}
+
+#navItems1:hover #lapSubmenu{
+    display: block;
+}; */
+
+.menu {
+   display: none;
+    position: absolute; 
+   
+    /* Other styles as needed */
+  }
+  
+  .menu.visible {
+    display: block;
+    position: absolute;
+    z-index: 500;
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    justify-content: center;
+    transition-delay: .3s;
+    transition: all 1s ease;
+
+  }
+
+
+
+
+
+ 
+

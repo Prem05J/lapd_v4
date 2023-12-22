@@ -1,23 +1,64 @@
-.swiper {
-    width: 100%;
-    height: 100%;
-  }
-  
-  .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-  
-    /* Center slide text vertically */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  
+.swipBox1 {
+  background-size: cover;
+ background-image: url("../../public//Images//Home//HeroImage-01.jpg");
+  background-position: center;
+  width:100%;
+  height:60vh;
+
+}
+.swipBox2 {
+  background-size: cover;
+ background-image: url("../../public//Images//Home//HeroImage-02.jpg");
+  background-position: center;
+  width:100%;
+  height:60vh;
+}
+.swipBox3 {
+  background-size: cover;
+ background-image: url("../../public//Images//Home//HeroImage-03.jpg");
+  background-position: center;
+  width:100%;
+  height:60vh;
+}
+.swipBox4 {
+  background-size: cover;
+ background-image: url("../../public//Images//Home//HeroImage-04.jpg");
+  background-position: center;
+  width:100%;
+  height:60vh;
+}
+.swipBox5 {
+  background-size: cover;
+ background-image: url("../../public//Images//Home//HeroImage-05.jpg");
+  background-position: center;
+  width:100%;
+  height:60vh;
+}
+.swipBox6 {
+  background-size: cover;
+ background-image: url("../../public//Images//Home//HeroImage-06.jpg");
+  background-position: center;
+  width:100%;
+  height:60vh;
+}
+
+.videoBox {
+  background-image: url("../../public//Images//Home//video-img-01.jpg");
+  background-size: cover;
+  background-position: center;
+  width:100%;
+  height:60vh;
+  margin-top: -25px;
+}
+
+
+
+.nameBox {
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  background-color: #052942;
+}
+
