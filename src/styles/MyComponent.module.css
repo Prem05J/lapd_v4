@@ -8,8 +8,11 @@
 
 .imgs {
     width: 100%;
+   
 
 }
+
+
 
 .space{
     padding: 60px;
@@ -26,6 +29,11 @@
 .boxes:hover{
     background: #ebf4f7;
     color: #e73f15;
+
+}
+.boxes:hover .imgs {
+    transform: scale(1.2);
+    transition-delay: .5s;
 }
 
 @media screen and (max-width: 768px) {
@@ -62,12 +70,20 @@
 .news{
     background-color: #052942;
     color: #fff;
-    padding: 37px 30px;
+    padding: 10px;
+   
 }
 
 .news h3{
     font-size: 28px;
     font-weight: 600;
+}
+@media screen and (max-width: 768px) {
+    .news h3{
+        font-size: 22px;
+        font-weight: 600;
+    }
+   
 }
 
 .news p{
@@ -85,6 +101,7 @@
     font-size: 18px;
     line-height: 28px;
     letter-spacing: normal;
+    font-weight: 100;
 }
 
 .textspace h3:hover{
@@ -121,8 +138,9 @@
     margin-top: 15px;
 }
 
-.textstyle h4:hover{
-    color:#e73f15;
+
+.textLink {
+    font-size: 70px;
 }
 
 .textstyle p{

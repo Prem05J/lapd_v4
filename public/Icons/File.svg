@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>8829A603-37D0-44CA-9BF0-41B426F022B4@2x</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1440" height="287"></rect>
+        <filter x="-9.0%" y="-38.3%" width="118.1%" height="190.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="20" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="40" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Desktop-(For-Dev)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="DEV-|-LAPDOnline-|-Dropdown" transform="translate(-335.000000, -269.000000)">
+            <rect fill="#FFFFFF" x="0" y="0" width="1440" height="750"></rect>
+            <g id="Header" transform="translate(135.000000, 288.000000)" fill="#0F212B" font-family="PublicSans-Regular, Public Sans" font-size="22" font-weight="normal" letter-spacing="-0.25" line-spacing="28">
+                <text id="The-Official-Site-of">
+                    <tspan x="0" y="22">The Official Site of the Los Angeles Police Department</tspan>
+                </text>
+            </g>
+            <g id="Dropdown" transform="translate(0.000000, 218.000000)">
+                <g id="DropdownBG">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="icon-file-orange" transform="translate(335.000000, 51.000000)" fill="#E73F15">
+                    <path d="M19.3630136,2.00000453 C19.6271613,2.00079945 19.880316,2.10608217 20.0671451,2.29293152 L20.0671451,2.29293152 L33.9121451,16.1394315 C34.099658,16.3269648 34.205,16.5813023 34.205,16.8465 L34.205,16.8465 L34.2056478,16.9521402 C34.2075732,16.988854 34.2074355,17.0255402 34.2053057,17.0620281 L34.205,36.708 C34.205,37.2602847 33.7572847,37.708 33.205,37.708 L33.205,37.708 L7,37.708 C6.44771525,37.708 6,37.2602847 6,36.708 L6,36.708 L6,3 C6,2.44771525 6.44771525,2 7,2 L7,2 Z M18.307,3.999 L7.9997,3.99945 L7.9997,35.70745 L32.2047,35.70745 L32.204,18.011 L19.3075,18.01105 C18.7946642,18.01105 18.3719928,17.6250098 18.3142277,17.1276711 L18.3075,17.01105 L18.307,3.999 Z M20.3067,5.42845 L20.3067,16.01045 L30.8047,16.01045 L20.3067,5.42845 Z" id="icon-filepolicereport"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

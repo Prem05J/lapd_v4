@@ -1,0 +1,141 @@
+.footerImage {
+    width: 100%;
+    height: 476px;
+}
+.hsix{
+    font-family: Public Sans,sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+    letter-spacing: .75px;
+    line-height: 20px;
+    margin: 0px 0px 10px;
+}
+
+.list{
+    list-style-type: none;
+    font-family: Public Sans,sans-serif;
+    font-size: 16px;
+    padding-left: 0px;
+}
+.socialspace{
+    position: absolute;
+    bottom: 200px;
+}
+
+.scimg{
+    height: 22px;
+    width: 22px;
+}
+
+.scrclr{
+    color: #002944;
+}
+.fbspace{
+        padding: 5px;
+}
+
+
+  
+.list li{
+    margin-bottom: 6px;
+}
+.lnk{
+    text-decoration: none; 
+    color: black; 
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.lnk:hover{
+    color: #e73f15;
+}
+
+
+
+.clearfix{
+    padding: 30px 15px;
+    margin-top: 70px;
+}
+
+.socialcard{
+    background-color: #ebf4f7;
+    padding: 30px 0px 10px 30px;
+    width: 250px;
+}
+
+/* subfooter */
+.subfooter{
+    padding: 24px 0 23px;
+    background-color: #052942;
+    font-size: 24px;
+    line-height: 20px;
+    margin-top: 61px;
+}
+
+.subclr span{
+    color: #798c96;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 24px 0 23px;
+    margin: 0px 31px;
+}
+
+.sublnk{
+    text-decoration: none; 
+    color: #fff; 
+}
+.sublnk:hover{
+    color: #ccc;
+}
+.spn{
+    margin-left: 0px !important;
+    margin-right: 15px !important;
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .obt{
+        padding-right: 40px !important;
+    }
+    .clearfix{
+        padding: 16px;
+        margin-bottom: 95px !important;
+    }
+    .footerImage {
+        width: 100%;
+        height: 376px !important;
+    }
+    .subclr span{
+        margin: 0px 15px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .clearfix{
+        padding: 16px;
+    }
+    .socialcard{
+        background-color: #ebf4f7;
+        padding: 30px 50px 10px 30px;
+        width: 250px;
+        bottom: 50px;
+    }
+    .clearfix{
+        padding: 30px 15px;
+        margin-top: 0px;
+    }
+    .socialcard{
+        position: absolute;
+        bottom: 180px;
+    }
+    .mobspace{
+        margin-top: 180px;
+    }
+}

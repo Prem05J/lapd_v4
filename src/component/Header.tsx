@@ -69,7 +69,7 @@ const Header = () => {
           <Box sx={{ display: "flex", alignItems: "center", backgroundColor: "#ebf4f7", width: "100%", justifyContent: "center", height: "50px" }}>
             <Typography>Have a Safe Holiday </Typography> <span style={{ height: "2px", width: "20px", opacity: ".9", backgroundColor: "black", marginLeft: "10px" }}></span>
             <Button disableRipple href='https://www.youtube.com/watch?v=SIUb_Y3fVFk'>
-              <Typography sx={{ color: "red", textTransform: "none", '&:hover': { color: "grey" } }}>{`Chief's Message - December 2023`}</Typography>
+              <Typography sx={{ color: "#e73f15", textTransform: "none", '&:hover': { color: "grey" } }}>{`Chief's Message - December 2023`}</Typography>
             </Button>
 
           </Box>

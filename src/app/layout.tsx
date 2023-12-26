@@ -1,6 +1,5 @@
 import type { Metadata } from 'next'
-
-import Header from '@/component/Header'
+import Navbar from '@/component/Navbar'
 import Footer from '@/component/Footer'
 import { Margin } from '@mui/icons-material'
 
@@ -16,13 +15,27 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html>
-      <head></head>
+  
+      <html>
+
+        <head>
+          {/* AOS Animation*/}
+          <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+        </head>
+        
       <body style={{margin:"0px"}}>
-       <Header />
+      <Navbar />
         {children}
-        <Footer />
+       <Footer /> 
+
+        {/* AOS Animation*/}
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
         </body>
     </html>
+
   )
 }
