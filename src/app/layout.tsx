@@ -1,7 +1,9 @@
 import type { Metadata } from 'next'
 import Navbar from '@/component/Navbar'
 import Footer from '@/component/Footer'
-import { Margin } from '@mui/icons-material'
+import { Poppins } from 'next/font/google'
+import "./globals.css"
+
 
 
 export const metadata: Metadata = {
@@ -15,26 +17,27 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-  
-      <html>
 
-        <head>
-          {/* AOS Animation*/}
-          <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <html>
 
-        </head>
-        
-      <body style={{margin:"0px"}}>
-      <Navbar />
+      <head>
+        {/* AOS Animation*/}
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+      </head>
+    
+      <body style={{ margin: "0px" }}>
+        <Navbar />
         {children}
-       <Footer /> 
+        <Footer />
 
         {/* AOS Animation*/}
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
-        </body>
+        <script>
+          AOS.init();
+        </script>
+
+      </body>
+     
     </html>
 
   )

@@ -5,7 +5,7 @@ import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import { Grid } from '@mui/material';
-import styles from '../../styles/MyComponent.module.css'
+import styles from '../../styles/home.module.css'
 import Link from 'next/link';
 import Colors from "../../stylingColors/colors.module.scss"
 

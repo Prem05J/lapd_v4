@@ -5,12 +5,11 @@ import Footer2 from "../../public/Images/footer2.jpg"
 import footerStyle from "../styles/footer.module.css"
 import Image from 'next/image'
 import Link from 'next/link'
-import { Padding } from '@mui/icons-material'
 import InstagramIcon from '@mui/icons-material/Instagram';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import Facebook from '../../public/Icons/icon-fb.svg'
-import Subfooter from "./Subfooter"
+
 
 const Footer = () => {
   return (
@@ -89,8 +88,19 @@ const Footer = () => {
 
 
     </Box>
-    <Subfooter />
+   
+    <Box sx={{textAlign:"center"}} className={footerStyle.subfooter}>
+    <Grid container>
+      <Grid item md={8} lg={9} className={footerStyle.subclr}>
+        <span>Copyright ©2023<Link href="#" target={'_blank'} className={footerStyle.sublnk}> Los Angeles Police Foundation</Link> and the LAPD. All Rights Reserved.</span><span className={footerStyle.spn}><Link href="#" target={'_blank'} className={footerStyle.sublnk}>Privacy Policy</Link></span> <span className={footerStyle.spn}><Link href="#" target={'_blank'} className={footerStyle.sublnk}>Do Not Sell My Info</Link></span>
+      </Grid>
+      <Grid item md={4} lg={3}>
+        <span><Link href="#" target="_blank" rel='noopener'></Link></span>
+      </Grid>
+    </Grid>
+  </Box>
     </Box>
+   
   )
 }
 

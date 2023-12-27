@@ -1,6 +1,6 @@
 import { Box, Grid, Typography } from '@mui/material'
 import React from 'react'
-import styles from '../../styles/MyComponent.module.css'
+import styles from '../../styles/home.module.css'
 import InsertDriveFileOutlinedIcon from '@mui/icons-material/InsertDriveFileOutlined';
 import CarCrashOutlinedIcon from '@mui/icons-material/CarCrashOutlined';
 import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
@@ -10,6 +10,7 @@ import PersonOutlineOutlinedIcon from '@mui/icons-material/PersonOutlineOutlined
 import Link from 'next/link';
 
 const Quicklinks = () => {
+    
     return (
         <Box className={styles.space}>
             <Typography sx={{ fontWeight: '800', fontSize: '15px', paddingBottom: '5px' }}>QUICK LINKS</Typography>
@@ -18,7 +19,7 @@ const Quicklinks = () => {
                     <Link href="#" className={styles.link}>
                         <Box className={`${styles.boxes} ${styles.none} ${styles.pb}`}>
                             <InsertDriveFileOutlinedIcon className={styles.imgs} sx={{ height: "40px", width: "40px",  marginBottom: '10px'}} />
-                            <Typography  sx={{  fontSize: '14px', display: 'block', textAlign: 'center',}}>File a Police Report</Typography>
+                            <Typography  sx={{  fontSize: '14px', display: 'block', textAlign: 'center',}} className={styles.file}>File a Police Report</Typography>
                         </Box>
                     </Link>
                 </Grid>

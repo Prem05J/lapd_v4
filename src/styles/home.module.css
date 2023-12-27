@@ -1,16 +1,4 @@
-
-.mySwiper {
-  --swiper-pagination-color:white;
-  --swiper-pagination-bullet-size: 8px;
-  --swiper-pagination-bullet-inactive-color: #ccc;
-  --swiper-pagination-bottom: 25px;
-  
-
-} 
-
-
-
-
+/* Top-section */
 
 @media screen and (max-width: 992px) {
   .italicTypo1 {
@@ -39,9 +27,19 @@
           justify-content: center;
   }
   
-
 }
 
+
+/* Swiper-section */
+
+
+.mySwiper {
+  --swiper-pagination-color:white;
+  --swiper-pagination-bullet-size: 8px;
+  --swiper-pagination-bullet-inactive-color: #ccc;
+  --swiper-pagination-bottom: 25px;
+
+} 
 
 .swipBox1 {
   background-size: cover;
@@ -49,9 +47,8 @@
   background-position: center;
   width:100%;
   height:65vh;
-  
-
 }
+
 .swipBox2 {
   background-size: cover;
  background-image: url("../../public//Images//Home//HeroImage-02.jpg");
@@ -86,7 +83,6 @@
   background-position: center;
   width:100%;
   height:65vh;
- 
 }
 
 .videoBox {
@@ -98,8 +94,7 @@
   margin-top: -25px;
   position: relative;
   transition: transform 0.2s ease-in-out;
- 
-}
+ }
 
 
 
@@ -110,8 +105,7 @@
   padding-top: 3%;
   padding-bottom: 3%;
   background-color: #052942;
-  
-}
+  }
 
 .videoBoxContent {
   position: absolute;
@@ -119,13 +113,11 @@
   width: 100%;
   padding-top: 5%;
   padding-bottom: 5%;
-  
-}
+  }
 
 
 .playBoxIcon {
   margin-left: 5px;
-  
 }
 
 .playBox {
@@ -143,26 +135,208 @@
  background-color:transparent;
  border:3px solid #ffffff;
  opacity: .9;
-
-
 }
+
 .videoBox:hover  {
   transform: scale(1.05);
   
 }
 
-.swiper-pagination-bullet {
-  width: 10px;
-  height: 10px;
-  background-color: #1a9658; /* Set your desired bullet color */
-  opacity: 0.5;
+/* Quick-Links */
+
+.boxes{
+  display: grid;
+  padding: 45px;
+  border-left: 1px solid #d0dade;
+  border-top: 1px solid #d0dade;
+  color: black;
 }
 
-.swiper-pagination-bullet-active {
-  opacity: 1;
+.imgs {
+  width: 100%;
+}
+
+.file{
+  padding-bottom: 21px;
+}
+
+.space{
+  padding: 60px;
+}
+
+.link{
+  text-decoration: none;
+}
+
+.pb{
+  padding-bottom: 24px !important;
+}
+
+.boxes:hover{
+  background: #ebf4f7;
+  color: #e73f15;
+
+}
+.boxes:hover .imgs {
+  transform: scale(1.2);
+  transition-delay: .5s;
+}
+
+@media screen and (max-width: 768px) {
+  .space{
+      padding: 20px !important;
+  }
+  .boxes{
+      display: grid;
+      padding: 45px;
+      border-left: 1px solid #d0dade;
+      border-top: 1px solid #d0dade;
+      border-right: 1px solid #d0dade;
+  }
+  .pb{
+      padding-bottom: 45px !important;
+  }
+  .none{
+      border-right: none;
+  }
+  .bottom{
+      padding-bottom: 10px;
+  }
+  .file{
+      padding-bottom: 0px;
+  }
+ 
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+ 
+  .pb{
+      padding-bottom: 24px !important;
+  }
+  .file{
+      padding-bottom: 0px;
+  }
 }
 
 
+
+
+/* Tab-section */
+
+
+.news{
+    background-color: #052942;
+    color: #fff;
+    padding: 10px;
+   
+}
+
+.news h3{
+    font-size: 28px;
+    font-weight: 600;
+}
+@media screen and (max-width: 768px) {
+    .news h3{
+        font-size: 22px;
+        font-weight: 600;
+    }
+   
+}
+
+.news p{
+    font-size: 18px;
+}
+
+
+.news h3:hover{
+    color: #798c96;
+}
+
+.textspace h3{
+    color: black;
+    text-align: left;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: normal;
+    font-weight: 100;
+}
+
+.textspace h3:hover{
+    color:#e73f15;
+}
+
+.textspace p{
+    color: #798c96;
+    padding-top: 10px;
+}
+
+.line{
+    width: 20px;
+    height: 2px;
+    margin-top: 10px;
+    background-color: black;
+}
+.seperate p:hover{
+   color:#e73f15;
+}
+
+
+/* menu-2 */
+.calendar{
+    background: #ebf4f7;
+    font-weight: bolder;
+    padding:15px 35px;
+    line-height: 20px;
+}
+
+.textstyle h4{
+    font-size: 24px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+
+.textLink {
+    font-size: 70px;
+}
+
+.textstyle p{
+    margin-left: 20px;
+    color: #798c96;
+}
+.seperateone{
+    background-color: #ebf4f7;
+}
+.seperateone p{
+    color:#e73f15;
+}
+
+.lineone{
+    width: 20px;
+    height: 2px;
+    background-color: black;
+}
+
+.cardtext{
+    font-weight: bolder;
+    font-size: 26px;
+}
+.cardtextone{
+    font-size: 16px;
+    color: black;
+}
+
+
+.hdr{
+    padding: 30px;
+    background-color: #ebf4f7;
+}
+
+
+
+
+
+/* Card section */
 
 .cardImage {
   width: 100%;
@@ -173,10 +347,8 @@
 
 
 @media screen and (max-width: 1150px) {
-
-  .paddingBox {
+ .paddingBox {
     padding: 0px;
   }
-
 }
 

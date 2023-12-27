@@ -43,7 +43,7 @@ const Navbar = () => {
     return (
         <>
             <div className="non-sticky-header">
-                <Box sx={{ display: "flex", flexDirection: "column" }}>
+                <Box sx={{ display: toggle ? tablet ? "none"  : ' ' : "flex", flexDirection: "column" }}>
 
                     <Box sx={{ width: "100%", backgroundColor: "#052942", height: "50px", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
 
@@ -100,7 +100,7 @@ const Navbar = () => {
             <Box className={navStyle.stickyHeader} sx={{ padding: "2% 5% 2% 5%", position: tablet ? 'relative' : "sticky" }}>
                 <Grid sx={{}} container rowSpacing={2} columnSpacing={2}>
                     <Grid item xs={4} sm={2} md={2}>
-                        <Box sx={{ marginTop: "-12px" }}>
+                        <Box sx={{ marginTop: "-12px", display: toggle ? tablet ? "none" : '' : "block" }}>
                             <Image src={headerLogo} alt="header-logo" height={96} width={68} />
                         </Box>
                     </Grid>
@@ -134,7 +134,7 @@ const Navbar = () => {
                                             </Box>
                                             <Box sx={{ display: "flex", alignItems: "center", gap: "20px" }}>
                                                 <Image src={jointTeam} alt='search' height={35} width={35} />
-                                                <Link style={{ textDecoration: 'none' }} href='#'>
+                                                <Link style={{ textDecoration: 'none' }} href='/join-the-team'>
                                                     <Typography sx={{ color: "black", fontSize: "22px", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`Join the LAPD`}</Typography>
                                                 </Link>
 
@@ -438,7 +438,7 @@ const Navbar = () => {
                     </Grid>
                     <Grid item xs={1} sm={2} md={1}>
                         <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: tablet ? 'space-between' : 'flex-start', height: '100%' }}>
-                            <SearchIcon sx={{ cursor: 'pointer', width: '35px', height: '35px', color: tablet ? '#e73f15' : '#000' }} />
+                            <SearchIcon sx={{ display:toggle ? "none" : "block",cursor: 'pointer', width: '35px', height: '35px', color: tablet ? '#e73f15' : '#000' }} />
 
                             <MenuIcon onClick={toggleBtn} sx={{ display: tablet ? toggle ? 'none' : 'block' : 'none', cursor: 'pointer', marginRight: '10px', width: '40px', height: '40px', color: '#e73f15' }} />
 

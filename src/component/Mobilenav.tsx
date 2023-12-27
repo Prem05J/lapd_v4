@@ -9,8 +9,6 @@ import Link from 'next/link';
 import Image from 'next/image'
 import navStyle from '../styles/nav.module.css'
 import { Divider } from '@mui/material';
-
-
 import searchIcon2 from "../../public/Icons/search-alt-2-svgrepo-com.svg"
 import infoIcon from "../../public/Icons/message.png"
 import joinLapd from '../../public/Icons/icon-jointheteam.svg';
@@ -21,17 +19,6 @@ import criminalVictms from '../../public/Icons/blk-ribbon.png'
 import missingPerson from '../../public/Icons/icon-missing.svg'
 import iWatch from '../../public/Icons/bino2.png'
 import news from '../../public/Icons/icon-newsroom.svg'
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -62,12 +49,12 @@ const Mobilenav: React.FC = () => {
 
     return (
 
-        <Box>
-            <Box sx={{ display: 'flex', flexDirection: 'column', width: '100%' }}>
-                <Typography sx={{ padding: '10px 30px', fontSize: '12px', marginBottom: '10px' }}>For Emergencies Dial 911 | For Non-Emergency Police Response 877-ASK-LAPD</Typography>
+        <Box sx={{height: '100vh',backgroundColor:"#fff"}}>
+            <Box sx={{ display: 'flex', flexDirection: 'column', backgroundColor:"#ffffff" }}>
+                <Typography sx={{ padding: '10px 30px', fontSize: '12px', backgroundColor: '#fff'}}>For Emergencies Dial 911 | For Non-Emergency Police Response 877-ASK-LAPD</Typography>
             </Box>
 
-            <Accordion sx={{ boxShadow: 'none', border: '1px solid #ccc', width: '100%', padding: '0 10px' }} disableGutters={true} expanded={expanded === 'panel1'}
+            <Accordion sx={{ boxShadow: 'none', border: '1px solid #ccc'}} disableGutters={true} expanded={expanded === 'panel1'}
                 onChange={handleChange('panel1')}>
                 <AccordionSummary
                     expandIcon={<ExpandMoreIcon sx={{ color: activeButton ? '#fff' : '#e73f15' }} />}
@@ -156,7 +143,7 @@ const Mobilenav: React.FC = () => {
                 </AccordionDetails>
             </Accordion>
 
-            <Accordion sx={{ boxShadow: 'none', border: '1px solid #ccc', width: '100%', padding: '0 10px' }} expanded={expanded === 'panel2'}
+            <Accordion sx={{ boxShadow: 'none', border: '1px solid #ccc'}} expanded={expanded === 'panel2'}
                 onChange={handleChange('panel2')} disableGutters={true}>
                 <AccordionSummary
                     expandIcon={<ExpandMoreIcon sx={{ color: activeButton ? '#fff' : '#e73f15' }} />}
@@ -234,7 +221,7 @@ const Mobilenav: React.FC = () => {
                 </AccordionDetails>
             </Accordion>
 
-            <Accordion sx={{ boxShadow: 'none', border: '1px solid #ccc', width: '100%', padding: '0 10px' }} expanded={expanded === 'panel3'}
+            <Accordion sx={{ boxShadow: 'none', border: '1px solid #ccc'}} expanded={expanded === 'panel3'}
                 onChange={handleChange('panel3')} disableGutters={true}>
                 <AccordionSummary
                     expandIcon={<ExpandMoreIcon sx={{ color: activeButton ? '#fff' : '#e73f15' }} />}
@@ -328,7 +315,7 @@ const Mobilenav: React.FC = () => {
                 </AccordionDetails>
             </Accordion>
 
-            <Accordion sx={{ boxShadow: 'none', border: '1px solid #ccc', width: '100%', padding: '0 10px' }} expanded={expanded === 'panel4'}
+            <Accordion sx={{ boxShadow: 'none', border: '1px solid #ccc'}} expanded={expanded === 'panel4'}
                 onChange={handleChange('panel4')} disableGutters={true}>
                 <AccordionSummary
                     expandIcon={<ExpandMoreIcon sx={{ color: activeButton ? '#fff' : '#e73f15' }} />}
@@ -380,7 +367,7 @@ const Mobilenav: React.FC = () => {
                 </AccordionDetails>
             </Accordion>
 
-            <Accordion sx={{ boxShadow: 'none', border: '1px solid #ccc', width: '100%', padding: '0 10px' }} expanded={expanded === 'panel5'}
+            <Accordion sx={{ boxShadow: 'none', border: '1px solid #ccc'}} expanded={expanded === 'panel5'}
                 onChange={handleChange('panel5')} disableGutters={true}>
                 <AccordionSummary
                     expandIcon={<ExpandMoreIcon sx={{ color: activeButton ? '#fff' : '#e73f15' }} />}
