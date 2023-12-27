@@ -126,7 +126,7 @@ const Navbar = () => {
                                             </Box>
                                             <Box sx={{ display: "flex", alignItems: "center", gap: "20px" }}>
                                                 <Image src={infoIcon} alt='search' height={32} width={32} />
-                                                <Link style={{ textDecoration: 'none' }} href='#'>
+                                                <Link style={{ textDecoration: 'none' }} href='/inside-the-lapd'>
                                                     <Typography sx={{ color: "black", fontSize: "22px", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`Inside the LAPD`}</Typography>
                                                 </Link>
 
@@ -134,7 +134,7 @@ const Navbar = () => {
                                             </Box>
                                             <Box sx={{ display: "flex", alignItems: "center", gap: "20px" }}>
                                                 <Image src={jointTeam} alt='search' height={35} width={35} />
-                                                <Link style={{ textDecoration: 'none' }} href='/join-the-team'>
+                                                <Link style={{ textDecoration: 'none' }} href='/training-division/join-the-team'>
                                                     <Typography sx={{ color: "black", fontSize: "22px", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`Join the LAPD`}</Typography>
                                                 </Link>
 

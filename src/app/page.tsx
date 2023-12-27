@@ -1,5 +1,5 @@
 "use client"
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Image from 'next/image';
 import Link from 'next/link';
 import { Box, Typography, Grid, TextField, IconButton, Divider, Button } from '@mui/material'
@@ -19,6 +19,16 @@ import SwiperImage from '@/component/Home/Swiper';
 
 const Home = () => {
 
+  const [isVisible, setIsVisible] = useState(false);
+
+    useEffect(() => {
+        const delay = setTimeout(() => {
+            setIsVisible(true);
+        }, 10);
+
+        return () => clearTimeout(delay);
+    }, []);
+
     return (
         <div className={homeStyle.home}>
 
@@ -32,13 +42,16 @@ const Home = () => {
                 </Typography>
                 <Box sx={{ margin:"6% 0% -7% 0%" }}>
                             <TextField
-                                className={homeStyle.formTextField}
+                             className={`${homeStyle.formTextField} ${isVisible ? homeStyle.visible: ''}`}
                                   sx={{
-                                    width: "55%",
+                                    width: "50%",
+                                    position: 'absolute',
+                                    marginTop: '50px',
+                                    opacity: '0',
                                     zIndex: "9999",
                                     backgroundColor: "white",
                                     paddingTop: "10px",
-                                    paddingBottom:"10px",
+                                    paddingBottom: "10px",
                                     border: "1px solid black",
                                     ":hover": { border: "1px solid red", transitionDelay: ".2s;" }
                                 }}
@@ -138,7 +151,7 @@ const Home = () => {
                                 </Box>
 
                             </Box>
-                            <Box sx={{ display: "flex", alignItems: "center",  height: "50px", gap:"10px" }}>
+                            <Box sx={{ display: "flex", alignItems: "center",  height: "50px" }}>
                                <span style={{ height: "2px", width: "20px", opacity: ".9", backgroundColor: "black"}}></span>
                              <Link style={{ textDecoration: 'none' }} href='https://www.youtube.com/watch?v=SIUb_Y3fVFk'>
                             <Typography sx={{ color: "#e73f15", textTransform: "none", '&:hover': { color: "grey" } }}>{`Watch Critical Incident Videos`}</Typography>
@@ -150,7 +163,6 @@ const Home = () => {
 
                 </Grid>
             </Box>
-            
             </Box>
 
             

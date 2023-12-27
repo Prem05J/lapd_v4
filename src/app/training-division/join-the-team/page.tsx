@@ -7,7 +7,7 @@ import LaunchIcon from '@mui/icons-material/Launch';
 import useMediaQuery from '@mui/material/useMediaQuery'
 import { Grid } from '@mui/material'
 
-const page = () => {
+const JoinTeam = () => {
   const mobile = useMediaQuery('(max-width: 576px)');
   return (
     <>
@@ -70,4 +70,4 @@ const page = () => {
   )
 }
 
-export default page
+export default JoinTeam
