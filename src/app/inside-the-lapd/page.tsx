@@ -4,8 +4,9 @@ import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import styles from './inside.module.css'
-import pdf from '../../../public/Images/pdf.png'
-const page = () => {
+import pdf from '../../../public/Icons/pdf-svg-icon.svg'
+
+const InsideLap = () => {
     return (
         <>
             <Box className={styles.bg}>
@@ -53,4 +54,4 @@ const page = () => {
     )
 }
 
-export default page
+export default InsideLap

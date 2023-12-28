@@ -1,0 +1,124 @@
+.fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    }
+    @-webkit-keyframes fadeInUp {
+    0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 25%, 0);
+    transform: translate3d(0, 25%, 0);
+    }
+    100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+    }
+    }
+    @keyframes fadeInUp {
+    0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 25%, 0);
+    transform: translate3d(0, 25%, 0);
+    }
+    100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+    }
+    } 
+
+    .link {
+        text-decoration: none;
+         color: #e73f15;
+         cursor: pointer;
+              
+    }
+
+    .link:hover {
+        color: #798c96;
+        cursor: pointer;
+    }
+
+ 
+    @media screen and (max-width: 576px) {
+        .commissionImage {
+            width: 350px;
+            height: 350px;
+        }
+    }
+
+    @media screen and (max-width: 600px) {
+       .cardBox {
+        height: 100px;
+        padding-right: 5%;
+       }
+    }
+
+
+    .hline{
+        width: 18px !important;
+        height: 2px !important;
+        background-color: #fff !important;
+        position: absolute;
+        margin-bottom: 2px;
+    }
+     .hline1 {
+        width: 18px !important;
+        height: 2px !important;
+        background-color: #000 !important;
+       
+        margin-bottom: 2px;
+     }
+
+    .insidelnk{
+        text-decoration: none;
+        font-size: 16px; 
+        color: #7ddfff;
+        margin-left: 25px;
+    }
+    
+    .insidelnk:hover{
+        color: #fff;
+    }
+
+   .data  {
+        border: 1px solid #dee2e6;
+        padding: 10px;
+      }
+      
+      .table {
+       width: 60%;
+        border-collapse: collapse;
+      }
+       .row:nth-child(even){background-color: #ebf4f7;}
+
+       .listItem{
+        padding-left: 0px !important;
+    
+    }
+    .listItem li{
+        list-style-type: none;
+        margin-bottom: 16px;
+    }
+    
+    .listItem a{
+        text-decoration: none;
+        color: #e73f15 ;
+        font-size: 16px;
+    }
+    
+    .listItem a:hover{
+        color: #798c96;
+    }
+
+    @media screen and (max-width: 1010px) {
+        .table {
+          width: 100%;
+            
+          }
+     }
+ 

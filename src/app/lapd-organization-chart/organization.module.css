@@ -1,0 +1,183 @@
+.bg{
+    background-color: #0f212b;
+    color: #fff;
+}
+
+.h1size{
+    font-size: 62px;
+    margin: 0px 0px 20px 0px;
+}
+
+.bluecard{
+    background-color: #ebf4f7;
+    padding: 43px 44px 43px 40px;
+}
+.bluecard p{
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.blockspace{
+    padding: 36px 0px 36px 80px;
+}
+
+
+.insidelnk{
+    text-decoration: none;
+    font-size: 16px; 
+    color: #7ddfff;
+    margin-left: 10px;
+}
+
+.insidelnk:hover{
+    color: #fff;
+}
+
+
+
+
+.fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    }
+    @-webkit-keyframes fadeInUp {
+    0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 25%, 0);
+    transform: translate3d(0, 25%, 0);
+    }
+    100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+    }
+    }
+    @keyframes fadeInUp {
+    0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 25%, 0);
+    transform: translate3d(0, 25%, 0);
+    }
+    100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+    }
+    } 
+
+
+    .xs{
+        display: none;
+    }
+
+/* tablet */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .blockspace{
+        padding: 36px 0px 36px 60px;
+    }
+
+    .h1size{
+        font-size: 49px !important;
+        margin: 0px 0px 20px 0px;
+    }
+    /* constitutional */
+    .wholeblock{
+        margin: 50px 30px 70px 30px !important;
+    }
+    .blockspace{
+        padding: 36px 0px 36px 60px !important;
+    }
+    .bluecard{
+    background-color: #ebf4f7;
+    padding: 43px 22px 43px 20px;
+}
+.gridscardpadone{
+    padding: 40px 20px 0px 30px !important;
+}
+.gridscardpadtwo{
+    padding: 40px 40px 0px 30px !important;
+}
+}
+
+/* mobile */
+@media screen and (max-width: 576px) {
+    .blockspace{
+        padding: 36px 0px 36px 20px;
+    }
+    .wholeblock{
+        margin: 50px 20px 20px 20px !important;
+    }
+   
+    .h1size{
+        font-size: 38px;
+        margin: 0px 0px 20px 0px;
+    }
+    /* aboutcard */
+    
+.gridscardpadone{
+    padding: 0px 0px 40px 20px !important;
+    margin-right: 20px;
+}
+.gridscardpadtwo{
+    padding: 0px 15px 40px 20px !important;
+    margin-right: 5px;
+}
+.bluecard{
+    background-color: #ebf4f7;
+    padding: 43px 22px 43px 20px;
+}
+.lg{
+    display: none;
+}
+.xs{
+    display: block;
+    padding-top: 100px;
+}
+}
+
+
+/* about card */
+
+.linkbox{
+    background-color: #ebf4f7;
+    padding: 25px;
+}
+.linkbox h2{
+    font-size: 26px;
+}
+.aboutul{
+    padding-left: 0px !important;
+
+}
+.aboutul li{
+    list-style-type: none;
+    margin-bottom: 16px;
+}
+
+.aboutul a{
+    text-decoration: none;
+    color: #e73f15 ;
+    font-size: 16px;
+}
+
+.aboutul a:hover{
+    color: #798c96;
+}
+
+
+.gridscardpadone{
+    padding: 40px 20px 0px 80px;
+}
+.gridscardpadtwo{
+    padding: 40px 40px 0px 20px;
+}
+
+.wholeblock{
+    margin: 75px 0px 20px 80px;
+}

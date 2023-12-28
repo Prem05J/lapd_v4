@@ -146,38 +146,38 @@ const Navbar = () => {
 
                                         <Box sx={{ display: "flex", flexDirection: "row", gap: "30px"}}>
                                             <Box sx={{ display: "flex", flexDirection: "column", gap: "10px" }}>
-                                                <Link style={{ textDecoration: 'none' }} href='#'>
+                                                <Link style={{ textDecoration: 'none' }} href='https://www.lapdcsp.org/'>
                                                     <Typography sx={{ color: "black", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`Community Safety Partnership Bureau`}</Typography>
                                                 </Link>
-                                                <Link style={{ textDecoration: 'none' }} href='#'>
+                                                <Link style={{ textDecoration: 'none' }} href='/office-of-the-chief-of-police/constitutional-policing'>
                                                     <Typography sx={{ color: "black", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`Constitutional Policing`}</Typography>
                                                 </Link>
-                                                <Link style={{ textDecoration: 'none' }} href='#'>
+                                                <Link style={{ textDecoration: 'none' }} href='/history-of-the-lapd'>
                                                     <Typography sx={{ color: "black", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`History of the LAPD`}</Typography>
                                                 </Link>
-                                                <Link style={{ textDecoration: 'none' }} href='#'>
+                                                <Link style={{ textDecoration: 'none' }} href='/lapd-organization-chart'>
                                                     <Typography sx={{ color: "black", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`LAPD Organization Chart`}</Typography>
                                                 </Link>
-                                                <Link style={{ textDecoration: 'none' }} href='#'>
+                                                <Link style={{ textDecoration: 'none' }} href='https://thelapdstore.com/'>
                                                     <Typography sx={{ color: "black", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`LAPD Store`}</Typography>
                                                 </Link>
                                             </Box>
 
                                             <Box sx={{ display: "flex", flexDirection: "column", gap: "10px" }}>
-                                                <Link style={{ textDecoration: 'none' }} href='#'>
-                                                    <Typography sx={{ color: "black", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`Community Safety Partnership Bureau`}</Typography>
+                                                <Link style={{ textDecoration: 'none' }} href='/police-commission/medal-of-valor'>
+                                                    <Typography sx={{ color: "black", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`Medal of Valor, Purple Heart & Preservation of Life Awards`}</Typography>
+                                                </Link>
+                                                <Link style={{ textDecoration: 'none' }} href='/our-motto-mission-statement-core-values'>
+                                                    <Typography sx={{ color: "black", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`Mission, Vision, Values`}</Typography>
                                                 </Link>
                                                 <Link style={{ textDecoration: 'none' }} href='#'>
-                                                    <Typography sx={{ color: "black", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`Constitutional Policing`}</Typography>
+                                                    <Typography sx={{ color: "black", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`Officers Killed in the Line of Duty`}</Typography>
                                                 </Link>
                                                 <Link style={{ textDecoration: 'none' }} href='#'>
-                                                    <Typography sx={{ color: "black", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`History of the LAPD`}</Typography>
+                                                    <Typography sx={{ color: "black", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`Strategic Plan 2021 to 2023`}</Typography>
                                                 </Link>
-                                                <Link style={{ textDecoration: 'none' }} href='#'>
-                                                    <Typography sx={{ color: "black", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`LAPD Organization Chart`}</Typography>
-                                                </Link>
-                                                <Link style={{ textDecoration: 'none' }} href='#'>
-                                                    <Typography sx={{ color: "black", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`LAPD Store`}</Typography>
+                                                <Link style={{ textDecoration: 'none' }} href='/public-communications-group/media-relations-division/entertainment-trademark-unit/'>
+                                                    <Typography sx={{ color: "black", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`Trademark & Licensing`}</Typography>
                                                 </Link>
                                             </Box>
                                         </Box>

@@ -1,0 +1,64 @@
+
+.listItem{
+    padding-left: 0px !important;
+    margin-top: 50px;
+
+}
+.listItem li{
+    list-style-type: none;
+    margin-bottom: 16px;
+    
+}
+
+.listItem a{
+    text-decoration: none;
+    color: #e73f15 ;
+    font-size: 16px;
+  
+}
+
+.listItem a:hover{
+    color: #798c96;
+}
+
+.lapdImage {
+    width: 100%;
+    height: 600px;
+}
+
+
+
+@media screen and (max-width: 1300px) {
+    .lapdImage {
+        width: 100%;
+      height: 320px ;
+  }
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px){ 
+    .lapdImage {
+        width: 100%;
+        height: 250px !important;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .lapdImage {
+          width: 100%;
+          height: 165px;
+    }
+}
+
+
+.factslist li {
+    text-decoration: none;
+    list-style: none;
+    margin-top: 12px;
+  
+  
+}
+
+
