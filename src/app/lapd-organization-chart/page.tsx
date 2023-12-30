@@ -6,7 +6,7 @@ import Image from 'next/image'
 import styles from './organization.module.css'
 import pdf from '../../../public/pdf.png'
 import pdf1 from '../../../public/Icons/icon-pdf-white.svg'
-
+import global from "../global.module.css"
 import Typography from '@mui/material/Typography'
 import LaunchIcon from '@mui/icons-material/Launch';
 const page = () => {
@@ -15,7 +15,7 @@ const page = () => {
             {/* 1st block */}
             <Box className={styles.bg}>
                 <Grid container className={styles.blockspace}>
-                    <Grid item xs={11} sm={10} md={7} lg={6} className={styles.fadeInUp}>
+                    <Grid item xs={11} sm={10} md={7} lg={6} className={global.fadeInUp}>
                         <h1 className={styles.h1size}>LAPD Organization Chart</h1>
                         <Box sx={{ display: 'flex', alignItems: 'center' }}>
                             <Image src={pdf1} alt='pdf' style={{ height: '25px', width: '25px' }} /><Link href="#" className={styles.insidelnk}>LAPD Organization Flow Chart</Link>
@@ -25,7 +25,7 @@ const page = () => {
             </Box>
             {/* 2nd block */}
 
-            <Box className={`${styles.wholeblock} ${styles.fadeInUp}`}>
+            <Box className={`${styles.wholeblock} ${global.fadeInUp}`}>
                 <Box>
                     <Grid container>
                         <Grid item xs={12} sm={12} md={10} lg={7} className={styles.bluecard}>
@@ -40,7 +40,7 @@ const page = () => {
             {/*====================================== lg & md view ================================================*/}
 
             <Box className={styles.lg}>
-                <Grid container className={styles.fadeInUp}>
+                <Grid container className={global.fadeInUp}>
 
                     {/*====================================== Left side ================================================*/}
 
@@ -240,7 +240,7 @@ const page = () => {
 
             <Box className={styles.xs}>
                 <Box>
-                    <Grid container className={styles.fadeInUp}>
+                    <Grid container className={global.fadeInUp}>
 
                         <Grid item xs={12} className={styles.gridscardpadone}>
                             <Box className={styles.linkbox}>
@@ -267,7 +267,7 @@ const page = () => {
                     </Grid>
                 </Box>
                 <Box>
-                    <Grid container className={styles.fadeInUp}>
+                    <Grid container className={global.fadeInUp}>
 
                         <Grid item xs={12} className={styles.gridscardpadone}>
                             <Box className={styles.linkbox}>
@@ -290,7 +290,7 @@ const page = () => {
                     </Grid>
                 </Box>
                 <Box>
-                    <Grid container className={styles.fadeInUp}>
+                    <Grid container className={global.fadeInUp}>
 
                         <Grid item xs={12} className={styles.gridscardpadone}>
                             <Box className={styles.linkbox}>
@@ -306,7 +306,7 @@ const page = () => {
                 </Box>
 
                 <Box>
-                    <Grid container className={styles.fadeInUp}>
+                    <Grid container className={global.fadeInUp}>
 
                         <Grid item xs={12} className={styles.gridscardpadone}>
                             <Box className={styles.linkbox}>
@@ -338,7 +338,7 @@ const page = () => {
                     </Grid>
                 </Box>
                 <Box>
-                    <Grid container className={styles.fadeInUp}>
+                    <Grid container className={global.fadeInUp}>
 
                         <Grid item xs={12} className={styles.gridscardpadone}>
                             <Box className={styles.linkbox}>
@@ -378,7 +378,7 @@ const page = () => {
 
 
                 <Box>
-                    <Grid container className={styles.fadeInUp}>
+                    <Grid container className={global.fadeInUp}>
 
                         <Grid item xs={12} className={styles.gridscardpadone}>
                             <Box className={styles.linkbox}>
@@ -412,7 +412,7 @@ const page = () => {
                     </Grid>
                 </Box>
                 <Box>
-                    <Grid container className={styles.fadeInUp}>
+                    <Grid container className={global.fadeInUp}>
 
                         <Grid item xs={12} className={styles.gridscardpadone}>
                             <Box className={styles.linkbox}>
@@ -460,7 +460,7 @@ const page = () => {
                 </Box>
 
                 <Box>
-                    <Grid container className={styles.fadeInUp}>
+                    <Grid container className={global.fadeInUp}>
 
                         <Grid item xs={12} className={styles.gridscardpadone}>
                             <Box className={styles.linkbox}>

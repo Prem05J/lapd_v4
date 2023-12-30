@@ -1,0 +1,30 @@
+.link a{
+    text-decoration: none;
+    color: #e73f15 ;
+    font-size: 16px;
+}
+
+.link a:hover{
+    color: #798c96;
+}
+
+.bullet {
+    padding:4px;
+    background-color: #7ddfff;
+    border-radius: 50%;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.listBox {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+}

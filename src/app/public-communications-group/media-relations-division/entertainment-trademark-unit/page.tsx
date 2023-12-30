@@ -6,21 +6,23 @@ import Image from 'next/image'
 import styles from "./entertainment.module.css"
 import pdf from '../../../public/pdf.png'
 import Typography from '@mui/material/Typography'
-import LaunchIcon from '@mui/icons-material/Launch';
+import global from "../../../global.module.css"
+
+
 const Entertainment = () => {
     return (
         <>
             {/* 1st block */}
             <Box className={styles.bg}>
                 <Grid container className={styles.blockspace}>
-                    <Grid item xs={11} sm={6} md={7} lg={7} className={styles.fadeInUp}>
+                    <Grid item xs={11} sm={6} md={7} lg={7} className={global.fadeInUp}>
                         <h1 className={styles.h1size}>Entertainment Trademark Unit</h1>
 
                     </Grid>
                 </Grid>
             </Box>
             {/* 2nd block */}
-            <Box className={`${styles.wholeblock} ${styles.fadeInUp}`}>
+            <Box className={`${styles.wholeblock} ${global.fadeInUp}`}>
                 <Box>
                     <Grid container>
                         <Grid item xs={11}sm={11} md={10} lg={8} className={styles.textstyl} sx={{ marginTop: '10px' }}>

@@ -7,13 +7,15 @@ import Typography from '@mui/material/Typography'
 import LaunchIcon from '@mui/icons-material/Launch';
 import styles from "./constitutional.module.css";
 import pdf from '../../../../public/Icons/pdf-svg-icon.svg'
+import global from "../../global.module.css"
+
 const Constitutional = () => {
     return (
         <>
             {/* 1st block */}
             <Box className={styles.bg}>
                 <Grid container className={styles.blockspace}>
-                    <Grid item xs={11} sm={10} md={7} lg={6} className={styles.fadeInUp}>
+                    <Grid item xs={11} sm={10} md={7} lg={6} className={global.fadeInUp}>
                         <h1 className={styles.h1size}>Office of Constitutional Policing and Policy</h1>
                         <Box sx={{ display: 'flex', alignItems: 'center' }}>
                             <span className={styles.hline}></span><Link href="#" className={styles.insidelnk}>Commanding Officer - Police Administrator Lizabeth Rhodes</Link>
@@ -22,7 +24,7 @@ const Constitutional = () => {
                 </Grid>
             </Box>
             {/* 2nd block */}
-            <Box className={`${styles.wholeblock} ${styles.fadeInUp}`}>
+            <Box className={`${styles.wholeblock} ${global.fadeInUp}`}>
             <Box>
                 <Grid container>
                     <Grid item sm={10} md={10} lg={5} className={styles.textstyl}>
@@ -46,15 +48,15 @@ const Constitutional = () => {
             </Box>
             </Box>
             <Box>
-                <Grid container className={styles.fadeInUp}>
+                <Grid container className={global.fadeInUp}>
 
                     <Grid item sm={6} md={6} lg={6} className={styles.gridscardpadone}>
                         <Box className={styles.linkbox}>
                             <h2>Use Of Force Year End Review</h2>
                             <ul className={styles.aboutul}>
-                                <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}><Image src={pdf} alt='pdf' style={{ height: '25px', width: '25px', marginRight: '10px' }} />2021 Use of Force - Year End Report</Link></li>
-                                <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}><Image src={pdf} alt='pdf' style={{ height: '25px', width: '25px', marginRight: '10px' }} />2020 Use Of Force - Year End Review</Link></li>
-                                <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}><Image src={pdf} alt='pdf' style={{ height: '25px', width: '25px', marginRight: '10px' }} />2019 End of Year Report Crime & Initiatives</Link></li>
+                                <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}><Image src={pdf} alt='pdf' style={{ height: '20px', width: '20px', marginRight: '10px' }} />2021 Use of Force - Year End Report</Link></li>
+                                <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}><Image src={pdf} alt='pdf' style={{ height: '20px', width: '20px', marginRight: '10px' }} />2020 Use Of Force - Year End Review</Link></li>
+                                <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}><Image src={pdf} alt='pdf' style={{ height: '20px', width: '20px', marginRight: '10px' }} />2019 End of Year Report Crime & Initiatives</Link></li>
                             </ul>
                         </Box>
                     </Grid>
@@ -62,9 +64,9 @@ const Constitutional = () => {
                         <Box className={styles.linkbox}>
                             <h2>About the LAPD</h2>
                             <ul className={styles.aboutul}>
-                            <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}><Image src={pdf} alt='pdf' style={{ height: '25px', width: '25px', marginRight: '10px' }} />Arrestees with Mental Illness</Link></li>
-                                <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}><Image src={pdf} alt='pdf' style={{ height: '25px', width: '25px', marginRight: '10px' }} />Effective Encounters with Mentally Ill Persons</Link></li>
-                                <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}><Image src={pdf} alt='pdf' style={{ height: '25px', width: '25px', marginRight: '10px' }} />Office of the Inspector General - Categorical Use of Force</Link></li>
+                            <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}><Image src={pdf} alt='pdf' style={{ height: '20px', width: '20px', marginRight: '10px' }} />Arrestees with Mental Illness</Link></li>
+                                <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}><Image src={pdf} alt='pdf' style={{ height: '20px', width: '20px', marginRight: '10px' }} />Effective Encounters with Mentally Ill Persons</Link></li>
+                                <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}><Image src={pdf} alt='pdf' style={{ height: '20px', width: '20px', marginRight: '10px' }} />Office of the Inspector General - Categorical Use of Force</Link></li>
                             </ul>
                         </Box>
                     </Grid>
@@ -72,40 +74,40 @@ const Constitutional = () => {
                 </Grid>
             </Box>
             <Box>
-                <Grid container className={styles.fadeInUp}>
+                <Grid container className={global.fadeInUp}>
 
                     <Grid item sm={6} md={6} lg={6} className={styles.gridscardpadone}>
                         <Box className={styles.linkbox}>
                             <h2>Consent Decree Mental Illness, Final Report, Harvard Study</h2>
                             <ul className={styles.aboutul}>
-                            <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}><Image src={pdf} alt='pdf' style={{ height: '25px', width: '25px', marginRight: '10px' }} />Consent Decree City Compliance Report</Link></li>
-                                <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}><Image src={pdf} alt='pdf' style={{ height: '25px', width: '25px', marginRight: '10px' }} />Final Consent Decree</Link></li>
-                                <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}><Image src={pdf} alt='pdf' style={{ height: '25px', width: '25px', marginRight: '10px' }} />Harvard Study - LAPD Under a Consent Decree</Link></li>                            </ul>
+                            <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}><Image src={pdf} alt='pdf' style={{ height: '20px', width: '20px', marginRight: '10px' }} />Consent Decree City Compliance Report</Link></li>
+                                <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}><Image src={pdf} alt='pdf' style={{ height: '20px', width: '20px', marginRight: '10px' }} />Final Consent Decree</Link></li>
+                                <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}><Image src={pdf} alt='pdf' style={{ height: '20px', width: '20px', marginRight: '10px' }} />Harvard Study - LAPD Under a Consent Decree</Link></li>                            </ul>
                         </Box>
                     </Grid>
                     <Grid item sm={6} md={6} lg={6} className={styles.gridscardpadtwo}>
                         <Box className={styles.linkbox}>
                             <h2>Final Report Mac Arthur Park Incident</h2>
                             <ul className={styles.aboutul}>
-                                <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}><Image src={pdf} alt='pdf' style={{ height: '25px', width: '25px', marginRight: '10px' }} />Final Report on Mac Arthur Park Incident</Link></li>
-                                <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}><Image src={pdf} alt='pdf' style={{ height: '25px', width: '25px', marginRight: '10px' }} />Final Report Mac Arthur Incident - Spanish</Link></li>
+                                <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}><Image src={pdf} alt='pdf' style={{ height: '20px', width: '20px', marginRight: '10px' }} />Final Report on Mac Arthur Park Incident</Link></li>
+                                <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}><Image src={pdf} alt='pdf' style={{ height: '20px', width: '20px', marginRight: '10px' }} />Final Report Mac Arthur Incident - Spanish</Link></li>
                             </ul>
                         </Box>
                     </Grid>
                 </Grid>
             </Box>
             <Box>
-                <Grid container className={styles.fadeInUp}>
+                <Grid container className={global.fadeInUp}>
 
                     <Grid item sm={6} md={6} lg={6} className={styles.gridscardpadone}>
                         <Box className={styles.linkbox}>
                             <h2>Miscellaneous Consent Decree Reports</h2>
                             <ul className={styles.aboutul}>
                                 <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}><LaunchIcon sx={{color: 'black', marginRight: '10px'}}/>Federal judge lifts LAPD consent decree</Link></li>
-                                <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}><Image src={pdf} alt='pdf' style={{ height: '25px', width: '25px', marginRight: '10px' }} />Motor Vehicle and Pedestrian Stop Data</Link></li>
-                                <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}><Image src={pdf} alt='pdf' style={{ height: '25px', width: '25px', marginRight: '10px' }} />Pedestrian and Motor Vehicle Post-Stop Data Analysis Report</Link></li>      
-                                <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}><Image src={pdf} alt='pdf' style={{ height: '25px', width: '25px', marginRight: '10px' }} />Summary of Department Response to Lodestar Report</Link></li>
-                                <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}><Image src={pdf} alt='pdf' style={{ height: '25px', width: '25px', marginRight: '10px' }} />Training the 21st Century Police Officer - RAND Report</Link></li>      
+                                <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}><Image src={pdf} alt='pdf' style={{ height: '20px', width: '20px', marginRight: '10px' }} />Motor Vehicle and Pedestrian Stop Data</Link></li>
+                                <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}><Image src={pdf} alt='pdf' style={{ height: '20px', width: '20px', marginRight: '10px' }} />Pedestrian and Motor Vehicle Post-Stop Data Analysis Report</Link></li>      
+                                <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}><Image src={pdf} alt='pdf' style={{ height: '20px', width: '20px', marginRight: '10px' }} />Summary of Department Response to Lodestar Report</Link></li>
+                                <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}><Image src={pdf} alt='pdf' style={{ height: '20px', width: '20px', marginRight: '10px' }} />Training the 21st Century Police Officer - RAND Report</Link></li>      
                             </ul>
                         </Box>
                     </Grid>

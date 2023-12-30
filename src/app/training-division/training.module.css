@@ -1,6 +1,5 @@
 .bullet {
-    width: 8px;
-    height: 8px;
+    padding: 4px;
     background-color: #7ddfff;
     border-radius: 50%;
 }

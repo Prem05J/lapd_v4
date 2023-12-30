@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import Navbar from '@/component/Navbar'
 import Footer from '@/component/Footer'
 import { Poppins } from 'next/font/google'
-import "./globals.css"
+
 
 
 

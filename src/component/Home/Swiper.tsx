@@ -6,6 +6,7 @@ import {  Autoplay, Pagination } from 'swiper/modules';
 import Image from 'next/image';
 import Link from 'next/link';
 import playIcon from "../../../public/Icons/play-1001-svgrepo-com.svg"
+import global from "../../app/global.module.css"
 
 
 const SwiperImage = () => {
@@ -86,7 +87,7 @@ const SwiperImage = () => {
                         <Link href="">
                         <Box className={homeStyle.videoBox}>
                             <Box className={homeStyle.videoBoxContent}>
-                        <Box sx={{display:"flex",gap:"10px",paddingLeft:"20px"}}>
+                        <Box className={global.fadeInUp} sx={{display:"flex",gap:"10px",paddingLeft:"20px"}}>
                            <Box className={homeStyle.playBox}>
                                <Image className={homeStyle.playBoxIcon} src={playIcon} alt="playIcon" width={25} height={25} />
                            </Box>

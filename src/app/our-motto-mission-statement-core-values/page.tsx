@@ -9,6 +9,7 @@ import Image from 'next/image'
 import topImage1 from "../../../public/Images/lapd_topimage1.jpg"
 import topImage2 from "../../../public/Images/lapd_topimage2.jpg"
 import Link from 'next/link'
+import global from "../global.module.css"
 
 
 const MissionVision = () => {
@@ -18,7 +19,7 @@ const MissionVision = () => {
     return (
         <div>
             <Box sx={{ display: 'flex', padding: '32px 5%', flexDirection: 'column', background: '#0f212b' }}>
-                <Grid container>
+                <Grid container className={global.fadeInUp}>
                     <Grid item xs={11} sm={10} lg={6} >
                         <Typography className={styles.fadeInUp} sx={{ color: '#fff', margin: '0px 0px 20px', fontSize: mobile ? '34px' : '3vw', fontWeight: '700' }}>Our Commitment to the  People of Los Angeles</Typography>
                     </Grid>
@@ -27,7 +28,7 @@ const MissionVision = () => {
             </Box>
 
 
-            <Grid container sx={{ padding: "50px 5% 0% 5%" }}>
+            <Grid className={global.fadeInUp} container sx={{ padding: "50px 5% 0% 5%" }}>
                 <Grid item xs={12} sm={9} lg={5}>
                     <Box>
                         <Typography sx={{ fontSize: "34px", fontWeight: "700" }}>
@@ -52,20 +53,15 @@ const MissionVision = () => {
 
             </Grid>
 
-            <Box sx={{ display: "flex", marginTop: "60px" }} >
-                <Grid container>
-                    <Grid item xs={12} sm={12} md={12} className={styles.bag}>
+            <Box className={global.fadeInUp} sx={{ display: "flex", marginTop: "60px" }} >
+               
                         <Image className={styles.lapdImage} src={topImage1} alt="top-image1" />
-                    </Grid>
-                </Grid>
-                <Grid container>
-                    <Grid item xs={12} sm={12} md={12}>
+               
                         <Image className={styles.lapdImage} src={topImage2} alt="top-image1" />
-                    </Grid>
-                </Grid>
+                   
             </Box>
 
-            <Grid container sx={{ padding: "50px 5% 0% 5%" }}>
+            <Grid className={global.fadeInUp} container sx={{ padding: "50px 5% 0% 5%" }}>
                 <Grid item xs={12} sm={9} lg={5}>
                     <Box>
                         <Typography sx={{ fontWeight: "bold", fontSize: "24px" }}>Our Mission Statement</Typography>
@@ -88,7 +84,7 @@ const MissionVision = () => {
                 </Grid>
             </Grid>
 
-            <Grid container columnSpacing={5} rowSpacing={5} sx={{ padding: "50px 5% 0% 5%" }}>
+            <Grid className={global.fadeInUp} container columnSpacing={5} rowSpacing={5} sx={{ padding: "50px 5% 50px 5%" }}>
                 <Grid item xs={12} sm={9} lg={5}>
                     <Box sx={{ backgroundColor: "#ebf4f7", padding: "5% 5% 5% 5%", marginTop: "30px" }}>
                         <Typography sx={{ fontWeight: "bold", fontSize: "24px" }}>I Want to Know</Typography>

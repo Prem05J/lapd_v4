@@ -6,16 +6,16 @@ import Link from 'next/link'
 import LaunchIcon from '@mui/icons-material/Launch';
 import useMediaQuery from '@mui/material/useMediaQuery'
 import { Grid } from '@mui/material'
-import JoinStyles from "./join.module.css"
+import global from "../../global.module.css"
 
 const JoinTeam = () => {
   const mobile = useMediaQuery('(max-width: 576px)');
   return (
     <>
       <Box sx={{ display: 'flex', padding: '32px 5%', flexDirection: 'column', background: '#0f212b' }}>
-        <Typography sx={{ marginBottom: '8px', color: '#fff', fontSize: mobile ? '18px' : '22px' }} className={JoinStyles.fadeInUp}>Become a Police Officer, Candidate Advancement Program (CAP), Rehires</Typography>
-        <Typography className={JoinStyles.fadeInUp} sx={{ color: '#fff', margin: '0px 0px 20px', fontSize: mobile ? '30px' : '62px', fontWeight: '700' }}>Join LAPD</Typography>
-        <Link className={JoinStyles.fadeInUp} style={{ textDecoration: 'none', display: 'flex', alignItems: 'center' }} href='https://www.joinlapd.com/'>
+        <Typography sx={{ marginBottom: '8px', color: '#fff', fontSize: mobile ? '18px' : '22px' }} className={global.fadeInUp}>Become a Police Officer, Candidate Advancement Program (CAP), Rehires</Typography>
+        <Typography className={global.fadeInUp} sx={{ color: '#fff', margin: '0px 0px 20px', fontSize: mobile ? '30px' : '62px', fontWeight: '700' }}>Join LAPD</Typography>
+        <Link className={global.fadeInUp} style={{ textDecoration: 'none', display: 'flex', alignItems: 'center' }} href='https://www.joinlapd.com/'>
           <LaunchIcon sx={{ fontSize: 'large', color: '#fff', marginRight: '5px' }} />
           <Typography sx={{ padding: '0px 0px 0xp 20px', color: "#7DDFFF", fontSize: "16px", textTransform: "none", '&:hover': { color: "#fff" } }}>Join the LAPD</Typography>
         </Link>
@@ -23,7 +23,7 @@ const JoinTeam = () => {
 
       <Grid container>
         <Grid item xs={12} sm={10} md={6}>
-          <Box className={JoinStyles.fadeInUp} sx={{ padding: '45px', background: '#ebf4f7', margin: mobile ? '50px 0px' : '50px 0px 0px 50px' }}>
+          <Box className={global.fadeInUp} sx={{ padding: '45px', background: '#ebf4f7', margin: mobile ? '50px 0px' : '50px 0px 0px 50px' }}>
             <Typography sx={{ fontSize: '26px', fontWeight: '700', marginBottom: '20px' }}>Join the LAPD</Typography>
             <ul style={{listStyleType: 'none', paddingLeft: '0'}}>
               <li style={{margin: '15px 0px'}}>

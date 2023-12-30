@@ -6,6 +6,7 @@ import React from 'react'
 import LaunchIcon from '@mui/icons-material/Launch';
 import useMediaQuery from '@mui/material/useMediaQuery'
 import { Grid, styled } from '@mui/material';
+import styles from "../../global.module.css"
 
 const MedalValor = () => {
     const mobile = useMediaQuery('(max-width: 576px)');
@@ -21,15 +22,15 @@ const MedalValor = () => {
     return (
         <>
             <Box sx={{ display: 'flex', padding: '32px 5%', flexDirection: 'column', background: '#0f212b' }}>
-                <Typography sx={{ marginBottom: '5px', color: '#fff', fontSize: mobile ? '18px' : '22px', fontStyle: 'italic' }}>valor, preservation of life, extreme courage</Typography>
-                <Typography sx={{ color: '#fff', margin: '0px 0px 20px', fontSize: mobile ? '30px' : '62px', fontWeight: '700' }}>Medal of Valor</Typography>
-                <Link style={{ textDecoration: 'none', display: 'flex', alignItems: 'center' }} href='https://www.joinlapd.com/'>
+                <Typography className={styles.fadeInUp} sx={{ marginBottom: '5px', color: '#fff', fontSize: mobile ? '18px' : '22px', fontStyle: 'italic' }}>valor, preservation of life, extreme courage</Typography>
+                <Typography className={styles.fadeInUp} sx={{ color: '#fff', margin: '0px 0px 20px', fontSize: mobile ? '30px' : '62px', fontWeight: '700' }}>Medal of Valor</Typography>
+                <Link className={styles.fadeInUp} style={{ textDecoration: 'none', display: 'flex', alignItems: 'center' }} href='https://www.joinlapd.com/'>
                     <LaunchIcon sx={{ fontSize: 'large', color: '#fff', marginRight: '5px' }} />
                     <Typography sx={{ padding: '0px 0px 0xp 20px', color: "#7DDFFF", fontSize: "16px", textTransform: "none", '&:hover': { color: "#fff" } }}>Awards and Decorations</Typography>
                 </Link>
             </Box>
 
-            <Grid container style={{ padding: '5%' }}>
+            <Grid className={styles.fadeInUp} container style={{ padding: '5%' }}>
                 <Grid item xs={12} sm={12} md={7}>
                     <Typography sx={{ marginBottom: '30px', textAlign: 'justify', fontSize: '18px' }}>
                         The Medal of Valor is the Los Angeles Police Department’s highest honor and is awarded to officers who distinguish themselves by conspicuous bravery or heroism above and beyond the normal demands of police service. To be awarded the Medal of Valor, an officer would have performed an act displaying extreme courage while consciously facing imminent peril.
@@ -40,7 +41,7 @@ const MedalValor = () => {
                 </Grid>
             </Grid>
 
-            <Grid container style={{ padding: '5%' }}>
+            <Grid className={styles.fadeInUp} container style={{ padding: '5%' }}>
                 <Grid item xs={12} sm={6} md={4} sx={{ padding: '35px 30px', background: '#ebf4f7' }}>
                     <Typography sx={{ fontSize: '25px', fontWeight: '700', marginBottom: '30px' }}>Award Recipients</Typography>
 

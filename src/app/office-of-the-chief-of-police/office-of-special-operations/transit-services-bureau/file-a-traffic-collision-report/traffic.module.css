@@ -14,51 +14,10 @@
     padding: 36px 0px 36px 80px;
 }
 
-.hline{
-    width: 18px !important;
-    height: 2px !important;
-    background-color: #fff !important;
-    position: absolute;
-    margin-bottom: 2px;
-}
-
-.hlinetwo{
-    width: 18px !important;
-    height: 2px !important;
-    background-color: #000000 !important;
-    position: absolute;
-    margin-bottom: 2px;
-}
-
-.insidelnk{
-    text-decoration: none;
-    font-size: 16px; 
-    color: #7ddfff;
-    margin-left: 25px;
-}
-
-.insidelnk:hover{
-    color: #fff;
-}
-.insidelnktwo{
-    text-decoration: none;
-    font-size: 16px; 
-    color: #e73f15;
-    margin-left: 25px;
-}
-.insidelnktwo:hover{
-    color: #798c96;
-}
 
 .textstyl p{
     font-size: 18px;
-    font-weight: 400;
-    line-height: 1.55;
-    margin: 0px 0px 30px 0px !important;
-    letter-spacing: -.3px;
 }
-
-
 .textstyl p a{
     color: red;
     text-decoration: none;
@@ -66,8 +25,38 @@
 .textstyl p a:hover{
     color: #798c96;
     text-decoration: none;
+} 
+
+.bold{
+    font-weight: bold;
+    margin-top: 30px;
+}
+.bold span{
+    font-weight: normal;
+}
+.bolder{
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.bolder span{
+    font-weight: normal;
+}
+.disc{
+    list-style-type: disc;
+    color: #7ddfff;
+    font-size: 22px;
+    padding-left: 25px;
 }
 
+
+.disc li span{
+    text-decoration: underline;
+}
+
+.bottom{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
 
 /* tablet */
 
@@ -97,18 +86,18 @@
     .wholeblock{
         margin: 50px 0px 20px 20px !important;
     }
-  
+
     .h1size{
         font-size: 38px;
         margin: 0px 0px 20px 0px;
     }
-    /* aboutcard */
-    
-
-.mobmargin{
-    margin-left: 2px;
-}
-
+    .textstyl{
+        padding-right: 10px;
+    }
+    .bottom{
+        margin-bottom: 60px;
+        margin-top: 30px;
+    }
 }
 
 

@@ -8,7 +8,7 @@ import Box from '@mui/material/Box';
 import Link from 'next/link';
 import Image from 'next/image'
 import navStyle from '../styles/nav.module.css'
-import { Divider } from '@mui/material';
+import { Divider, Button } from '@mui/material';
 import searchIcon2 from "../../public/Icons/search-alt-2-svgrepo-com.svg"
 import infoIcon from "../../public/Icons/message.png"
 import joinLapd from '../../public/Icons/icon-jointheteam.svg';
@@ -19,6 +19,7 @@ import criminalVictms from '../../public/Icons/blk-ribbon.png'
 import missingPerson from '../../public/Icons/icon-missing.svg'
 import iWatch from '../../public/Icons/bino2.png'
 import news from '../../public/Icons/icon-newsroom.svg'
+import global from "../app/global.module.css"
 
 
 
@@ -49,7 +50,7 @@ const Mobilenav: React.FC = () => {
 
     return (
 
-        <Box sx={{height: '100vh',backgroundColor:"#fff"}}>
+        <Box sx={{height: '100vh',backgroundColor:"#fff",textAlign:"center"}}>
             <Box sx={{ display: 'flex', flexDirection: 'column', backgroundColor:"#ffffff" }}>
                 <Typography sx={{ padding: '10px 30px', fontSize: '12px', backgroundColor: '#fff'}}>For Emergencies Dial 911 | For Non-Emergency Police Response 877-ASK-LAPD</Typography>
             </Box>
@@ -68,19 +69,19 @@ const Mobilenav: React.FC = () => {
                 <AccordionDetails>
                     <ul style={{ listStyleType: 'none', paddingLeft: '0' }}>
                         <li>
-                            <Link href='/' className={navStyle.menu_links}>
+                            <Link href='#' className={navStyle.menu_links}>
                                 <Image src={searchIcon2} alt='search' height={32} width={32} />
                                 <Typography sx={{ marginLeft: '10px', color: "#0f212b", textTransform: "none", '&:hover': { color: "#e73f15" } }} className={navStyle.link_text}>Find Your Local Police Station</Typography>
                             </Link>
                         </li>
                         <li>
-                            <Link href='/' className={navStyle.menu_links}>
+                            <Link href='/inside-the-lapd' className={navStyle.menu_links}>
                                 <Image src={infoIcon} alt='search' height={32} width={32} />
                                 <Typography sx={{ color: "#0f212b", textTransform: "none", '&:hover': { color: "#e73f15" }, marginLeft: '10px' }} className={navStyle.link_text}>Inside the LAPD</Typography>
                             </Link>
                         </li>
                         <li>
-                            <Link href='/' className={navStyle.menu_links}>
+                            <Link href='/training-division/join-the-team' className={navStyle.menu_links}>
                                 <Image src={joinLapd} alt='search' height={32} width={32} />
                                 <Typography sx={{ color: "#0f212b", textTransform: "none", '&:hover': { color: "#e73f15" }, marginLeft: '10px' }} className={navStyle.link_text}>Join the LAPD</Typography>
                             </Link>
@@ -90,52 +91,52 @@ const Mobilenav: React.FC = () => {
                         </li>
 
                         <li>
-                            <Link href='/' className={navStyle.menu_links}>
+                            <Link href='https://www.lapdcsp.org/' className={navStyle.menu_links}>
                                 <Typography sx={{ color: "#0f212b", textTransform: "none", '&:hover': { color: "#e73f15" } }} className={navStyle.link_text}>Community Safety Partnership Bureau</Typography>
                             </Link>
                         </li>
                         <li>
-                            <Link href='/' className={navStyle.menu_links}>
+                            <Link href='/police-commission/medal-of-valor' className={navStyle.menu_links}>
                                 <Typography sx={{ color: "#0f212b", textTransform: "none", '&:hover': { color: "#e73f15" } }} className={navStyle.link_text}>Medal of Valor, Purple Heart & Preservation of Life Awards</Typography>
                             </Link>
                         </li>
                         <li>
-                            <Link href='/' className={navStyle.menu_links}>
+                            <Link href='/office-of-the-chief-of-police/constitutional-policing' className={navStyle.menu_links}>
                                 <Typography sx={{ color: "#0f212b", textTransform: "none", '&:hover': { color: "#e73f15" } }} className={navStyle.link_text}>Constitutional Policing</Typography>
                             </Link>
                         </li>
                         <li>
-                            <Link href='/' className={navStyle.menu_links}>
+                            <Link href='/our-motto-mission-statement-core-values' className={navStyle.menu_links}>
                                 <Typography sx={{ color: "#0f212b", textTransform: "none", '&:hover': { color: "#e73f15" } }} className={navStyle.link_text}>Mission, Vision, Values</Typography>
                             </Link>
                         </li>
                         <li>
-                            <Link href='/' className={navStyle.menu_links}>
+                            <Link href='/history-of-the-lapd' className={navStyle.menu_links}>
                                 <Typography sx={{ color: "#0f212b", textTransform: "none", '&:hover': { color: "#e73f15" } }} className={navStyle.link_text}>History of the LAPD</Typography>
                             </Link>
                         </li>
                         <li>
-                            <Link href='/' className={navStyle.menu_links}>
+                            <Link href='#' className={navStyle.menu_links}>
                                 <Typography sx={{ color: "#0f212b", textTransform: "none", '&:hover': { color: "#e73f15" } }} className={navStyle.link_text}>Officers Killed in the Line of Duty</Typography>
                             </Link>
                         </li>
                         <li>
-                            <Link href='/' className={navStyle.menu_links}>
+                            <Link href='/lapd-organization-chart' className={navStyle.menu_links}>
                                 <Typography sx={{ color: "#0f212b", textTransform: "none", '&:hover': { color: "#e73f15" } }} className={navStyle.link_text}>LAPD Organization Chart</Typography>
                             </Link>
                         </li>
                         <li>
-                            <Link href='/' className={navStyle.menu_links}>
+                            <Link href='#' className={navStyle.menu_links}>
                                 <Typography sx={{ color: "#0f212b", textTransform: "none", '&:hover': { color: "#e73f15" } }} className={navStyle.link_text}>Strategic Plan 2021 to 2023</Typography>
                             </Link>
                         </li>
                         <li>
-                            <Link href='/' className={navStyle.menu_links}>
+                            <Link href='https://thelapdstore.com/' className={navStyle.menu_links}>
                                 <Typography sx={{ color: "#0f212b", textTransform: "none", '&:hover': { color: "#e73f15" } }} className={navStyle.link_text}>LAPD Store</Typography>
                             </Link>
                         </li>
                         <li>
-                            <Link href='/' className={navStyle.menu_links}>
+                            <Link href='/public-communications-group/media-relations-division/entertainment-trademark-unit/' className={navStyle.menu_links}>
                                 <Typography sx={{ color: "#0f212b", textTransform: "none", '&:hover': { color: "#e73f15" } }} className={navStyle.link_text}>Trademark & Licensing</Typography>
                             </Link>
                         </li>
@@ -408,6 +409,12 @@ const Mobilenav: React.FC = () => {
                     </ul>
                 </AccordionDetails>
             </Accordion>
+
+                            <Link href="#"><Button sx={{marginTop:"20px",borderRadius:"0px",backgroundColor:"#e73f15",padding:"12px 16px",width:"98%",boxShadow:"inset 0 0 0 0 #ff7526",transition: "ease-in-out.3s"}} className={global.contactBtn} variant="contained" >
+                                        <Typography sx={{ fontWeight: "bold" }}>CONTACT </Typography>
+                                    </Button></Link>
+                          
+                                
 
         </Box>
     );

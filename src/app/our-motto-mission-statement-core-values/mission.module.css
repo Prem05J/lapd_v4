@@ -22,35 +22,12 @@
 }
 
 .lapdImage {
-    width: 100%;
-    height: 600px;
+    width: 50%;
+    height:auto;
 }
 
 
 
-@media screen and (max-width: 1300px) {
-    .lapdImage {
-        width: 100%;
-      height: 320px ;
-  }
-}
-
-
-
-@media screen and (min-width: 768px) and (max-width: 1024px){ 
-    .lapdImage {
-        width: 100%;
-        height: 250px !important;
-    }
-    
-}
-
-@media screen and (max-width: 768px) {
-    .lapdImage {
-          width: 100%;
-          height: 165px;
-    }
-}
 
 
 .factslist li {

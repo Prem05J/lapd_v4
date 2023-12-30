@@ -2,14 +2,15 @@
 import React from 'react'
 import Box from '@mui/material/Box'
 import Grid from '@mui/material/Grid'
-import { Typography } from '@mui/material'
+import Typography  from '@mui/material/Typography'
 import Link from 'next/link'
 import styles from "./policeComission.module.css"
 import useMediaQuery from '@mui/material/useMediaQuery'
 import LaunchIcon from '@mui/icons-material/Launch';
 import Image from 'next/image'
 import commissionImage from "../../../public/Images/BOPC-Image-large.jpg"
-import pdf from "../../../public/Images/pdf.png"
+import pdf from "../../../public/Icons/pdf-svg-icon.svg"
+import global from "../global.module.css"
 
 
 const PoliceCommission = () => {
@@ -19,10 +20,10 @@ const PoliceCommission = () => {
     return (
         <>
             <Box sx={{ display: 'flex', padding: '32px 5%', flexDirection: 'column', background: '#0f212b' }}>
-                <Typography className={styles.fadeInUp} sx={{ marginBottom: '8px', color: '#fff', fontSize: mobile ? '20px' : '22px' }}>Under the City Charter, the Board of Police Commissioners is the head of  the <br /> Police Department.</Typography>
-                <Typography className={styles.fadeInUp} sx={{ color: '#fff', margin: '0px 0px 20px', fontSize: mobile ? '34px' : '60px', fontWeight: '700' }}>Police Commission</Typography>
+                <Typography className={global.fadeInUp} sx={{ marginBottom: '8px', color: '#fff', fontSize: mobile ? '20px' : '22px' }}>Under the City Charter, the Board of Police Commissioners is the head of  the <br /> Police Department.</Typography>
+                <Typography className={global.fadeInUp} sx={{ color: '#fff', margin: '0px 0px 20px', fontSize: mobile ? '34px' : '60px', fontWeight: '700' }}>Police Commission</Typography>
             </Box>
-            <Box sx={{ marginTop: "50px", textAlign: "center", padding: "0% 1% 3% 3%" }}>
+            <Box className={global.fadeInUp} sx={{ marginTop: "50px", textAlign: "center", padding: "0% 1% 3% 3%" }}>
                 <Grid container rowSpacing={7} sx={{ justifyContent: "space-evenly", textAlign: "left" }}>
                     <Grid item sm={11} md={9} lg={4}>
                         <Typography sx={{ fontSize: "18px" }}>The Board of Police Commissioners serves as the head of the Los Angeles Police Department, functioning like a corporate board of directors, setting policies for the Department and overseeing its operations. The Board works in conjunction with the Chief of Police who acts as a chief executive officer and reports to the Board. There are five civilian members who make up the Board of Police Commissioners.
@@ -50,7 +51,7 @@ const PoliceCommission = () => {
 
             </Box>
 
-            <Grid container >
+            <Grid className={global.fadeInUp} container >
                 <Box sx={{ display: 'flex', width: "100%", flexDirection: 'column', background: '#0f212b', padding: '32px 5%' }}>
                     <Grid item xs={11} sm={9} md={5}>
                         <Typography className={styles.fadeInUp} sx={{ marginBottom: '8px', color: '#fff', fontSize: mobile ? '35px' : '60px', fontWeight: 'bold', lineHeight: "1.2" }}>The Function and Role of the Board of Police Commissioners</Typography>
@@ -64,7 +65,7 @@ const PoliceCommission = () => {
 
             </Grid>
  
-         <Box sx={{padding:"0% 5% 0% 5%"}}>
+              <Box className={global.fadeInUp} sx={{padding:"0% 5% 0% 5%"}}>
             <Box sx={{ paddingTop: "60px" }}>
                 <Typography sx={{ fontSize: "18px" }}>For public comments, general inquiries, and concerns, email <a href='#' className={styles.link}>policecommission@lapd.online.</a></Typography>
 
@@ -119,6 +120,7 @@ const PoliceCommission = () => {
                 <Typography sx={{ fontWeight: "700", fontSize: "28px" }}>Police Commission & Miscellaneous</Typography>
                 <Box sx={{ marginTop: "20px" }}>
                     <table className={styles.table}>
+                    <tbody>
                         <tr className={styles.row}>
                             <td className={styles.data}><Link className={styles.link} href="#"> <Typography>
                                 Rules of the Police Commission</Typography></Link></td>
@@ -131,7 +133,9 @@ const PoliceCommission = () => {
                         <tr className={styles.row}>
                             <td className={styles.data}>
                                 <Link className={styles.link} href="#"><Typography>Policy Regarding Commission and Department Discussion Time Limits</Typography></Link>
-                            </td> </tr>
+                            </td> 
+                            </tr>
+                            </tbody>
                     </table>
 
                 </Box>
@@ -143,7 +147,7 @@ const PoliceCommission = () => {
                         <Box sx={{ backgroundColor: "#ebf4f7",padding:"3% 0% 3% 3%" }}>
                             <Typography sx={{ fontWeight: "bold", fontSize: "24px" }}>Meeting Agenda</Typography>
                             <ul className={styles.listItem}>
-                                <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}><Image src={pdf} alt='pdf' style={{ height: '25px', width: '25px', marginRight: '10px' }} />December 26, 2023 - Cancelled</Link></li>
+                                <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}><Image src={pdf} alt='pdf' style={{ height: '20px', width: '20px', marginRight: '10px' }} />December 26, 2023 - Cancelled</Link></li>
                                 <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}>Archives</Link></li>
                                 <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}><LaunchIcon sx={{ color: 'black', marginRight: '10px' }} />To receive Police Commission agendas as soon as they are released, please click here to subscribe</Link></li>
                             </ul>
@@ -187,10 +191,10 @@ const PoliceCommission = () => {
                             </li>
                             <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}><LaunchIcon sx={{ color: 'black', marginRight: '10px' }} />2022 Use of Force - Year End Report</Link></li>
                             <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}><LaunchIcon sx={{ color: 'black', marginRight: '10px' }} />2022 Use of Force Executive Summary</Link></li>
-                            <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}><Image src={pdf} alt='pdf' style={{ height: '25px', width: '25px', marginRight: '10px' }} />2021 Use of Force - Year End Report</Link></li>
-                            <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}><Image src={pdf} alt='pdf' style={{ height: '25px', width: '25px', marginRight: '10px' }} />2021 Use of Force - Year End Report Executive Summary</Link></li>
+                            <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}><Image src={pdf} alt='pdf' style={{ height: '20px', width: '20px', marginRight: '10px' }} />2021 Use of Force - Year End Report</Link></li>
+                            <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}><Image src={pdf} alt='pdf' style={{ height: '20px', width: '20px', marginRight: '10px' }} />2021 Use of Force - Year End Report Executive Summary</Link></li>
                             <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}><LaunchIcon sx={{ color: 'black', marginRight: '10px' }} />2020 Use of Force - Year End Report</Link></li>
-                            <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}><Image src={pdf} alt='pdf' style={{ height: '25px', width: '25px', marginRight: '10px' }} />2019 Use of Force - Year End Report</Link></li>
+                            <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}><Image src={pdf} alt='pdf' style={{ height: '20px', width: '20px', marginRight: '10px' }} />2019 Use of Force - Year End Report</Link></li>
                             <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}><LaunchIcon sx={{ color: 'black', marginRight: '10px' }} />2018 Use of Force Executive Summary - Year End Report</Link></li>
                             <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}><LaunchIcon sx={{ color: 'black', marginRight: '10px' }} />2018 Use of Force - Year End Report</Link></li>
                             <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}><LaunchIcon sx={{ color: 'black', marginRight: '10px' }} />2017 Use of Force - Year End Report</Link></li>
@@ -224,7 +228,7 @@ const PoliceCommission = () => {
                             <Typography sx={{ fontWeight: "bold", fontSize: "24px" }}>Additional Information and Web Links</Typography>
                             </li>
                             <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}>Police Commission Hearing Examiners</Link></li>
-                            <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}><Image src={pdf} alt='pdf' style={{ height: '25px', width: '25px', marginRight: '10px' }} />Application for Police Commission Hearing Examiner</Link></li>
+                            <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}><Image src={pdf} alt='pdf' style={{ height: '20px', width: '20px', marginRight: '10px' }} />Application for Police Commission Hearing Examiner</Link></li>
                             <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}><LaunchIcon sx={{ color: 'black', marginRight: '10px' }} />LA Police Commission Twitter</Link></li>
                             <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}><LaunchIcon sx={{ color: 'black', marginRight: '10px' }} />LA Police Commission YouTube</Link></li>
                             <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}><LaunchIcon sx={{ color: 'black', marginRight: '10px' }} />Los Angeles Superior Court – Small Claims Advisor</Link></li>
@@ -297,14 +301,14 @@ const PoliceCommission = () => {
                             <li>
                             <Typography sx={{ fontWeight: "bold", fontSize: "24px" }}>Reform Measures</Typography>
                             </li>
-                            <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}><Image src={pdf} alt='pdf' style={{ height: '25px', width: '25px', marginRight: '10px' }} />2022 CPRA Inspection</Link></li>
+                            <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}><Image src={pdf} alt='pdf' style={{ height: '20px', width: '20px', marginRight: '10px' }} />2022 CPRA Inspection</Link></li>
                             
                             <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}><LaunchIcon sx={{ color: 'black', marginRight: '10px' }} />Community Safety Partnership</Link></li>
-                            <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}><Image src={pdf} alt='pdf' style={{ height: '25px', width: '25px', marginRight: '10px' }} />Discipline Resulting from Out of Policy Officer Involved Shootings, 2015-2020</Link></li>
+                            <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}><Image src={pdf} alt='pdf' style={{ height: '20px', width: '20px', marginRight: '10px' }} />Discipline Resulting from Out of Policy Officer Involved Shootings, 2015-2020</Link></li>
                             <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}><LaunchIcon sx={{ color: 'black', marginRight: '10px' }} />Office of Inspector General - Board of Rights</Link></li>
                             <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}><LaunchIcon sx={{ color: 'black', marginRight: '10px' }} />Racial and Identity Profiling Summary</Link></li>
                             <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}><LaunchIcon sx={{ color: 'black', marginRight: '10px' }} />Racial and Identity Profiling Technical</Link></li>
-                            <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}><Image src={pdf} alt='pdf' style={{ height: '25px', width: '25px', marginRight: '10px' }} />Review of Department Disciplinary and Complaint processes</Link></li>
+                            <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}><Image src={pdf} alt='pdf' style={{ height: '20px', width: '20px', marginRight: '10px' }} />Review of Department Disciplinary and Complaint processes</Link></li>
                             <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}><LaunchIcon sx={{ color: 'black', marginRight: '10px' }} />Stop Data Report Nov 2020</Link></li>
                             <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}><LaunchIcon sx={{ color: 'black', marginRight: '10px' }} />Stop Data Report Oct 2020</Link></li>
                            

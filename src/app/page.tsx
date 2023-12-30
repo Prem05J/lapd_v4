@@ -15,6 +15,7 @@ import SearchIcon from '@mui/icons-material/Search';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import SwiperImage from '@/component/Home/Swiper';
+import global from "./global.module.css"
 
 
 const Home = () => {
@@ -81,7 +82,7 @@ const Home = () => {
             <SwiperImage />
           </section>
 
-           <Box className={homeStyle.paddingBox} sx={{padding:"2% 10% 0% 15%"}}>
+           <Box className={`${homeStyle.paddingBox} ${global.fadeInUp}` } sx={{padding:"2% 10% 0% 15%"}}>
 
             <Quicklinks />
 

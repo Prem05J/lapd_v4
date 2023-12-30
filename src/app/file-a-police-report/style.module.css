@@ -1,0 +1,90 @@
+.content_list{
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.content_list > li{
+    position: relative;
+}
+.content_list > li:not(:nth-child(2)):before{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: skyblue;
+    top: 8%;
+    left: 0;
+    border-radius: 50%;
+}
+
+.nxtList > li{
+    position: relative;
+    margin: 15px 0px;
+}
+.nxtListtext{
+    font-size: 18px;
+    margin-left: 25px;
+}
+.nxtList > li::before{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: skyblue;
+    top:25%;
+    left: 0;
+    border-radius: 50%;
+}
+
+.paraStyle{
+    font-size: 18px;
+    margin: 20px 0px;
+    margin-left: 20px;
+    text-align: justify;
+    position: relative;
+}
+.boldText{
+    font-weight: bold;
+}
+.hypen{
+    position: absolute;
+    width: 15px;
+    height: 2px;
+    background-color: #000;
+    top: 50%;
+}
+.innerLink{
+    text-decoration: none;
+    margin-right: 10px;
+    margin-left: 25px;
+    color: #e73f15;
+}
+.innerLink:hover{
+    color: #798c96;
+}
+
+.vertical{
+    position: absolute;
+    width: 2px;
+    height: 20px;
+    background-color: #000;
+    top: 0%;
+}
+
+.flextcnt{
+    position: relative;
+    display: flex;
+    flex-direction: 'row';
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 20px 0px;
+    text-align: justify;
+}
+.flextcnt > span{
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    background-color: skyblue;
+    border-radius: 50%;
+    top: 10%;
+}

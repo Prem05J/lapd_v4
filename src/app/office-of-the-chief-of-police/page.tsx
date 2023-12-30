@@ -6,7 +6,8 @@ import Grid from '@mui/material/Grid'
 import LaunchIcon from '@mui/icons-material/Launch';
 import useMediaQuery from '@mui/material/useMediaQuery'
 import Link from 'next/link';
-import styles from "./office.module.css"
+import styles from "./office.module.css";
+import global from "../global.module.css"
 
 const Office = () => {
 
@@ -16,15 +17,15 @@ const Office = () => {
 
         <>
             <Box sx={{ display: 'flex', padding: '32px 5%', flexDirection: 'column', background: '#0f212b' }}>
-                <Typography className={styles.fadeInUp} sx={{ marginBottom: '8px', color: '#fff', fontSize: mobile ? '18px' : '22px' }}>Chief Michel Moore</Typography>
-                <Typography className={styles.fadeInUp} sx={{ color: '#fff', margin: '0px 0px 20px', fontSize: mobile ? '30px' : '62px', fontWeight: '700' }}>Office of the Chief of Police</Typography>
-                <Link className={styles.fadeInUp} style={{ textDecoration: 'none', display: 'flex', alignItems: 'center' }} href='https://www.lapdonline.org/office-of-the-chief-of-police-ocop/'>
+                <Typography className={global.fadeInUp} sx={{ marginBottom: '8px', color: '#fff', fontSize: mobile ? '18px' : '22px' }}>Chief Michel Moore</Typography>
+                <Typography className={global.fadeInUp} sx={{ color: '#fff', margin: '0px 0px 20px', fontSize: mobile ? '30px' : '62px', fontWeight: '700' }}>Office of the Chief of Police</Typography>
+                <Link className={global.fadeInUp} style={{ textDecoration: 'none', display: 'flex', alignItems: 'center' }} href='https://www.lapdonline.org/office-of-the-chief-of-police-ocop/'>
                     <LaunchIcon sx={{ fontSize: 'large', color: '#fff', marginRight: '5px' }} />
                     <Typography sx={{ padding: '0px 0px 0xp 20px', color: "#7DDFFF", fontSize: "16px", textTransform: "none", '&:hover': { color: "#fff" } }}>Office of the Chief of Police (OCOP)</Typography>
                 </Link>
             </Box>
 
-            <Box className={styles.fadeInUp} sx={{ padding: '5%' }}>
+            <Box className={global.fadeInUp} sx={{ padding: '5%' }}>
                 <Box>
                     <ul style={{ listStyleType: 'none', paddingLeft: '0', margin: '0px 0px 30px' }}>
                         <li><Typography className={styles.typograpy_list}>100 West First Street</Typography></li>
