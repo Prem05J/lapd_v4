@@ -16,7 +16,7 @@ const InsideLap = () => {
                         <h4 className={styles.h4size}>&quot; It is the mission of the Los Angeles Police Department to safeguard the lives and property of the people we serve, to reduce the incidence and fear of crime, and to enhance public safety while working with the diverse communities to improve their quality of life. Our mandate is to do so with honor and integrity, while at all times conducting ourselves with the highest ethical standards to maintain public confidence. &quot;</h4>
                         <h1 className={styles.h1size}>Inside The LAPD</h1>
                         <Box sx={{ display: 'flex', alignItems: 'center' }}>
-                            <span className={styles.hline}></span><Link href="#" className={styles.insidelnk}>Chief of Police Michel Moore</Link>
+                            <span className={styles.hline}></span><Link href="javascript:;" className={styles.insidelnk}>Chief of Police Michel Moore</Link>
                         </Box>
                     </Grid>
                 </Grid>
@@ -28,14 +28,14 @@ const InsideLap = () => {
                         <Box className={styles.linkbox}>
                             <h2>About the LAPD</h2>
                             <ul className={styles.aboutul}>
-                                <li><Link href="#">Office of the Inspector General</Link></li>
-                                <li><Link href="#">Police Commission</Link></li>
-                                <li><Link href="#">LAPD Organization</Link></li>
-                                <li><Link href="#">History of the LAPD</Link></li>
-                                <li><Link href="#">Los Angeles Police Department Safe Place</Link></li>
-                                <li><Link href="#">Professional Standards Bureau</Link></li>
-                                <li><Link href="#">Saluting Our Heroes</Link></li>
-                                <li><Link href="#">Sworn and Civilian Report</Link></li>
+                                <li><Link href="javascript:;">Office of the Inspector General</Link></li>
+                                <li><Link href="javascript:;">Police Commission</Link></li>
+                                <li><Link href="javascript:;">LAPD Organization</Link></li>
+                                <li><Link href="javascript:;">History of the LAPD</Link></li>
+                                <li><Link href="javascript:;">Los Angeles Police Department Safe Place</Link></li>
+                                <li><Link href="javascript:;">Professional Standards Bureau</Link></li>
+                                <li><Link href="javascript:;">Saluting Our Heroes</Link></li>
+                                <li><Link href="javascript:;">Sworn and Civilian Report</Link></li>
                             </ul>
                         </Box>
                     </Grid>
@@ -43,8 +43,8 @@ const InsideLap = () => {
                         <Box className={styles.linkbox}>
                             <h2>Resources</h2>
                             <ul className={styles.aboutul}>
-                                <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}><Image src={pdf} alt='pdf' style={{ height: '20px', width: '20px', marginRight: '10px' }} />Board of Inquiry Report [PDF] - Rampart Area Corruption Incident</Link></li>
-                                <li><Link href="#">Sites of Interest</Link></li>
+                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Image src={pdf} alt='pdf' style={{ height: '20px', width: '20px', marginRight: '10px' }} />Board of Inquiry Report [PDF] - Rampart Area Corruption Incident</Link></li>
+                                <li><Link href="javascript:;">Sites of Interest</Link></li>
                             </ul>
                         </Box>
                     </Grid>

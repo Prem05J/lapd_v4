@@ -1,0 +1,18 @@
+.lnk {
+    color: #e73f15;
+    ;
+    text-decoration: none;
+
+}
+
+.box2 a:hover {
+    color: #798c96;
+    ;
+}
+
+
+
+.letter {
+    font-size: 18px;
+    line-height: 28px;
+}

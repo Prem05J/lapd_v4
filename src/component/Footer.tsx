@@ -39,10 +39,10 @@ const Footer = () => {
             <h6 className={footerStyle.hsix} style={{ color: '#798c96' }}>STAY CONNECTED</h6>
 
             <ul className={footerStyle.list}>
-              <li style={{ display: 'flex', alignItems: 'center' }}><Link href="#" className={footerStyle.lnk}><Image className={footerStyle.scimg} src={Facebook} alt="facebook" /><span className={footerStyle.fbspace}>Facebook</span></Link></li>
-              <li><Link href="#" className={footerStyle.lnk}><InstagramIcon className={footerStyle.scrclr} /><span className={footerStyle.fbspace}>Instagram</span></Link></li>
-              <li><Link href="#" className={footerStyle.lnk}><TwitterIcon className={footerStyle.scrclr} /><span className={footerStyle.fbspace}>Twitter</span></Link></li>
-              <li><Link href="#" className={footerStyle.lnk}><YouTubeIcon className={footerStyle.scrclr} /><span className={footerStyle.fbspace}>Youtube</span></Link></li>
+              <li style={{ display: 'flex', alignItems: 'center' }}><Link href="javascript:;" className={footerStyle.lnk}><Image className={footerStyle.scimg} src={Facebook} alt="facebook" /><span className={footerStyle.fbspace}>Facebook</span></Link></li>
+              <li><Link href="javascript:;" className={footerStyle.lnk}><InstagramIcon className={footerStyle.scrclr} /><span className={footerStyle.fbspace}>Instagram</span></Link></li>
+              <li><Link href="javascript:;" className={footerStyle.lnk}><TwitterIcon className={footerStyle.scrclr} /><span className={footerStyle.fbspace}>Twitter</span></Link></li>
+              <li><Link href="javascript:;" className={footerStyle.lnk}><YouTubeIcon className={footerStyle.scrclr} /><span className={footerStyle.fbspace}>Youtube</span></Link></li>
             </ul>
           </Box>
         </Grid>
@@ -61,21 +61,21 @@ const Footer = () => {
             <Grid container>
               <Grid item xs={12} sm={4} lg={4}>
                 <ul className={footerStyle.list}>
-                  <li><Link href="#" className={footerStyle.lnk}>File a Police Report</Link></li>
-                  <li ><Link href="#" className={`${footerStyle.lnk} ${footerStyle.obt}`}>Obtain a Traffic Collision Report</Link></li>
-                  <li><Link href="#" className={footerStyle.lnk}>Crime Mappings</Link></li>
+                  <li><Link href="javascript:;" className={footerStyle.lnk}>File a Police Report</Link></li>
+                  <li ><Link href="javascript:;" className={`${footerStyle.lnk} ${footerStyle.obt}`}>Obtain a Traffic Collision Report</Link></li>
+                  <li><Link href="javascript:;" className={footerStyle.lnk}>Crime Mappings</Link></li>
                 </ul>
               </Grid>
               <Grid item xs={12} sm={4} lg={4}>
                 <ul className={footerStyle.list}>
-                  <li><Link href="#" className={footerStyle.lnk}>Join the Team</Link></li>
-                  <li><Link href="#" className={footerStyle.lnk}>Police Commission</Link></li>
-                  <li><Link href="#" className={footerStyle.lnk}>Reference Library</Link></li>
+                  <li><Link href="javascript:;" className={footerStyle.lnk}>Join the Team</Link></li>
+                  <li><Link href="javascript:;" className={footerStyle.lnk}>Police Commission</Link></li>
+                  <li><Link href="javascript:;" className={footerStyle.lnk}>Reference Library</Link></li>
                 </ul>
               </Grid>
               <Grid item xs={12} sm={4} lg={4}>
                 <ul className={footerStyle.list}>
-                  <li><Link href="#" className={footerStyle.lnk}>Contact us</Link></li>
+                  <li><Link href="javascript:;" className={footerStyle.lnk}>Contact us</Link></li>
                 </ul>
               </Grid>
             </Grid>
@@ -92,10 +92,10 @@ const Footer = () => {
     <Box sx={{textAlign:"center"}} className={footerStyle.subfooter}>
     <Grid container>
       <Grid item md={8} lg={9} className={footerStyle.subclr}>
-        <span>Copyright ©2023<Link href="#" target={'_blank'} className={footerStyle.sublnk}> Los Angeles Police Foundation</Link> and the LAPD. All Rights Reserved.</span><span className={footerStyle.spn}><Link href="#" target={'_blank'} className={footerStyle.sublnk}>Privacy Policy</Link></span> <span className={footerStyle.spn}><Link href="#" target={'_blank'} className={footerStyle.sublnk}>Do Not Sell My Info</Link></span>
+        <span>Copyright ©2023<Link href="javascript:;" target={'_blank'} className={footerStyle.sublnk}> Los Angeles Police Foundation</Link> and the LAPD. All Rights Reserved.</span><span className={footerStyle.spn}><Link href="javascript:;" target={'_blank'} className={footerStyle.sublnk}>Privacy Policy</Link></span> <span className={footerStyle.spn}><Link href="javascript:;" target={'_blank'} className={footerStyle.sublnk}>Do Not Sell My Info</Link></span>
       </Grid>
       <Grid item md={4} lg={3}>
-        <span><Link href="#" target="_blank" rel='noopener'></Link></span>
+        <span><Link href="javascript:;" target="_blank" rel='noopener'></Link></span>
       </Grid>
     </Grid>
   </Box>

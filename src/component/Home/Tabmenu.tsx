@@ -55,7 +55,7 @@ export default function BasicTabs() {
  
   return (
     <Box sx={{padding:"2% 0% 2% 0%"}}>
-    <Box sx={{ width: '100%' }}>
+    
       <Box sx={{ borderBottom: 1, borderColor: '#0f212b' }}>
         <Tabs  value={value} onChange={handleChange} sx={{"& button.Mui-selected": {color:Colors.orangeColor}}} TabIndicatorProps={{
       style: {
@@ -112,9 +112,7 @@ export default function BasicTabs() {
                 </Grid>
 
               </Box>
-              <Box sx={{ display: 'flex', padding: '10px 30px 30px 0px' }}>
              
-              </Box>
               <Box sx={{ display: "flex", alignItems: "center",  height: "50px",gap:"10px" }}>
                                <span style={{ height: "2px", width: "20px", opacity: ".9", backgroundColor: "black"}}></span>
                              <Link style={{ textDecoration: 'none' }} href='https://www.youtube.com/watch?v=SIUb_Y3fVFk'>
@@ -164,7 +162,7 @@ export default function BasicTabs() {
         </Box>
       </CustomTabPanel>
 
-    </Box>
+   
     </Box>
   );
 }

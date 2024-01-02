@@ -1,0 +1,156 @@
+.bg{
+    background-color: #0f212b;
+    color: #fff;
+}
+
+.h4size{
+    font-size: 22px;
+    line-height: 1.27;
+    letter-spacing: -0.25px;
+    margin: 0px 0px 8px 0px;
+    font-style: italic;
+}
+
+.h1size{
+    font-size: 62px;
+    margin: 0px 0px 20px 0px;
+}
+
+
+
+.blockspace{
+    padding: 36px 0px 36px 75px;
+}
+
+.hline{
+    width: 18px !important;
+    height: 2px !important;
+    background-color: #fff !important;
+    position: absolute;
+    margin-bottom: 2px;
+}
+
+.insidelnk{
+    text-decoration: none;
+    font-size: 16px; 
+    color: #7ddfff;
+    margin-left: 10px;
+}
+
+.insidelnk:hover{
+    color: #fff;
+}
+
+
+.you{
+    width:560px ; 
+    height: 315px ;
+}
+
+
+/* about card */
+
+.linkbox{
+    background-color: #ebf4f7;
+    padding: 25px;
+}
+.linkbox h2{
+    font-size: 26px;
+}
+.aboutul{
+    padding-left: 0px !important;
+
+}
+.aboutul li{
+    list-style-type: none;
+    margin-bottom: 16px;
+}
+
+.aboutul a{
+    text-decoration: none;
+    color: #e73f15 ;
+    font-size: 16px;
+}
+
+.aboutul a:hover{
+    color: #798c96;
+}
+
+.leftgap{
+    margin-left: 75px;
+}
+
+.lnk{
+    text-decoration: none;
+    color:#e73f15;
+    font-size: 31px;
+}
+.lnk:hover{
+    color: #798c96;
+
+}
+.gridscardpadone{
+    padding: 40px 20px 40px 40px;
+}
+.gridscardpadtwo{
+    padding: 40px 40px 40px 20px;
+}
+
+/* tablet */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .blockspace{
+        padding: 36px 0px 36px 60px;
+    }
+    .h4size{
+        font-size: 20px;
+    } 
+    .h1size{
+        font-size: 49px !important;
+        margin: 0px 0px 20px 0px;
+    }
+
+
+    .you{
+        width:760px ; 
+        height: 315px ;
+    }
+}
+/* mobile */
+@media screen and (max-width: 768px) {
+    .blockspace{
+        padding: 36px 0px 36px 30px;
+    }
+    .h4size{
+        font-size: 20px;
+    }    
+    .h1size{
+        font-size: 38px;
+        margin: 0px 0px 20px 0px;
+    }
+    /* aboutcard */
+    
+.gridscardpadone{
+    padding: 40px 0px 40px 30px !important;
+}
+.gridscardpadtwo{
+    padding: 40px 40px 40px 30px !important;
+}
+
+.leftgap{
+    margin-left: 30px !important;
+    margin-top: 30px;
+}
+.lnk{
+    font-size: 14px !important;
+}
+
+.you{
+    height: 315px;
+    width: 100%;
+}
+.h1size{
+    font-size: 27px;
+    margin: 0px 0px 0px 0px;
+}
+
+}

@@ -42,12 +42,12 @@ const TransitServices = () => {
 
                             <Typography sx={{ marginBottom: '30px' }}>To Obtain Traffic Collision Reports Online</Typography>
                             <Typography>If you would like to obtain your Traffic Collision Report online, please click on the link below:</Typography>
-                            <Typography className={styles.bold}>Obtain a Traffic Collision Report in: <span><Link href="#">ENGLISH</Link> &nbsp;|&nbsp;  <Link href="#">Spanish – Español</Link></span></Typography>
-                            <Typography className={styles.bold}>Powered by <span><Link href="#">LexisNexis</Link></span></Typography>
+                            <Typography className={styles.bold}>Obtain a Traffic Collision Report in: <span><Link href="javascript:;">ENGLISH</Link> &nbsp;|&nbsp;  <Link href="javascript:;">Spanish – Español</Link></span></Typography>
+                            <Typography className={styles.bold}>Powered by <span><Link href="javascript:;">LexisNexis</Link></span></Typography>
 
                             <Typography sx={{ marginTop: '30px', marginBottom: '30px' }}>To Obtain Traffic Collision Reports  via United States Mail</Typography>
 
-                            <Typography sx={{ marginBottom: '30px' }}>To request a report through the United States Mail, download and complete the Traffic Collision Report Request and return it with a $11.00 check or money order payable to the LAPD<Link href="#"> (do not send cash)</Link> to:</Typography>
+                            <Typography sx={{ marginBottom: '30px' }}>To request a report through the United States Mail, download and complete the Traffic Collision Report Request and return it with a $11.00 check or money order payable to the LAPD<Link href="javascript:;"> (do not send cash)</Link> to:</Typography>
 
                             <Typography>Los Angeles Police Department</Typography>
                             <Typography>Records and Identification Division</Typography>
@@ -56,9 +56,9 @@ const TransitServices = () => {
                             <Typography sx={{ marginBottom: '30px' }}>Los Angeles, CA 90030</Typography>
 
 
-                            <Typography sx={{ marginBottom: '30px' }}>NOTE: Please contact the recorded line <span><Link href="#">(213) 486-8130</Link></span> for additional information or status update on receiving the report.</Typography>
+                            <Typography sx={{ marginBottom: '30px' }}>NOTE: Please contact the recorded line <span><Link href="javascript:;">(213) 486-8130</Link></span> for additional information or status update on receiving the report.</Typography>
 
-                            <Typography sx={{ marginBottom: '30px' }}>Download the <span><Link href="#">Traffic Collision Report Request</Link></span> Form</Typography>
+                            <Typography sx={{ marginBottom: '30px' }}>Download the <span><Link href="javascript:;">Traffic Collision Report Request</Link></span> Form</Typography>
 
                             <Typography sx={{ marginBottom: '30px' }}>If you are unable to print or view the form, please make sure your written request includes:</Typography>
 
@@ -75,7 +75,7 @@ const TransitServices = () => {
                             <Box sx={{display:"flex"}}><Typography sx={{fontWeight:"bold"}}>10.&nbsp;&nbsp;</Typography><Typography>Requester’s Name, Address, and Telephone Number</Typography></Box>
                             
                             </Box>
-                            <Typography className={styles.bottom}><span><Link href="#">Request Traffic or Crime Report</Link></span></Typography>
+                            <Typography className={styles.bottom}><span><Link href="javascript:;">Request Traffic or Crime Report</Link></span></Typography>
 
                         </Grid>
                     </Grid>

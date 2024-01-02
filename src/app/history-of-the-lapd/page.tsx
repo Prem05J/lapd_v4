@@ -11,44 +11,44 @@ import pdf from "../../../public/Icons/pdf-svg-icon.svg"
 import global from "../global.module.css"
 
 // ------------ 1873 - 1904 ------------- 
-const pdf_1 = '/pdfs/first/timeline-page-2.pdf';
-const pdf_2 = '/pdfs/first/timeline-page-3.pdf';
-const pdf_3 = '/pdfs/first/timeline-page-4.pdf';
-const pdf_4 = '/pdfs/first/timeline-page-5.pdf';
-const pdf_5 = '/pdfs/first/timeline-page-6.pdf';
-const pdf_6 = '/pdfs/first/timeline-page-7.pdf';
-const pdf_7 = '/pdfs/first/timeline-page-8.pdf';
-const pdf_8 = '/pdfs/first/timeline-page-9.pdf';
+const pdf_1 = '/pdfs/history/first/timeline-page-2.pdf';
+const pdf_2 = '/pdfs/history/first/timeline-page-3.pdf';
+const pdf_3 = '/pdfs/history/first/timeline-page-4.pdf';
+const pdf_4 = '/pdfs/history/first/timeline-page-5.pdf';
+const pdf_6 = '/pdfs/history/first/timeline-page-7.pdf';
+const pdf_5 = '/pdfs/history/first/timeline-page-6.pdf';
+const pdf_7 = '/pdfs/history/first/timeline-page-8.pdf';
+const pdf_8 = '/pdfs/history/first/timeline-page-9.pdf';
 
 // ------------ 1913 - 1944 ------------- 
-const pdf_9 = '/pdfs/second/timeline-page-10.pdf';
-const pdf_10 = '/pdfs/second/timeline-page-11.pdf';
-const pdf_11 = '/pdfs/second/timeline-page-12.pdf';
-const pdf_12 = '/pdfs/second/timeline-page-13.pdf';
-const pdf_13 = '/pdfs/second/timeline-page-14.pdf';
-const pdf_14 = '/pdfs/second/timeline-page-15.pdf';
-const pdf_15 = '/pdfs/second/timeline-page-17.pdf';
+const pdf_9 = '/pdfs/history/second/timeline-page-10.pdf';
+const pdf_10 = '/pdfs/history/second/timeline-page-11.pdf';
+const pdf_11 = '/pdfs/history/second/timeline-page-12.pdf';
+const pdf_12 = '/pdfs/history/second/timeline-page-13.pdf';
+const pdf_13 = '/pdfs/history/second/timeline-page-14.pdf';
+const pdf_14 = '/pdfs/history/second/timeline-page-15.pdf';
+const pdf_15 = '/pdfs/history/second/timeline-page-17.pdf';
 
 // ------------ 1953 - 1984 ------------- 
-const pdf_16 = '/pdfs/thired/timeline-page-18.pdf';
-const pdf_17 = '/pdfs/thired/timeline-page-19.pdf';
-const pdf_18 = '/pdfs/thired/timeline-page-20.pdf';
-const pdf_19 = '/pdfs/thired/timeline-page-21.pdf';
-const pdf_20 = '/pdfs/thired/timeline-page-22.pdf';
-const pdf_21 = '/pdfs/thired/timeline-page-23.pdf';
-const pdf_22 = '/pdfs/thired/timeline-page-24.pdf';
-const pdf_23 = '/pdfs/thired/timeline-page-25.pdf';
+const pdf_16 = '/pdfs/history/thired/timeline-page-18.pdf';
+const pdf_17 = '/pdfs/history/thired/timeline-page-19.pdf';
+const pdf_18 = '/pdfs/history/thired/timeline-page-20.pdf';
+const pdf_19 = '/pdfs/history/thired/timeline-page-21.pdf';
+const pdf_20 = '/pdfs/history/thired/timeline-page-22.pdf';
+const pdf_21 = '/pdfs/history/thired/timeline-page-23.pdf';
+const pdf_22 = '/pdfs/history/thired/timeline-page-24.pdf';
+const pdf_23 = '/pdfs/history/thired/timeline-page-25.pdf';
 
 // ------------ 1993 - 2019 ------------- 
-const pdf_24 = '/pdfs/fourth/timeline-page-26.pdf';
-const pdf_25 = '/pdfs/fourth/timeline-page-27.pdf';
-const pdf_26 = '/pdfs/fourth/timeline-page-28.pdf';
-const pdf_27 = '/pdfs/fourth/timeline-page-29.pdf';
-const pdf_28 = '/pdfs/fourth/timeline-page-30.pdf';
-const pdf_29 = '/pdfs/fourth/timeline-page-31.pdf';
-const pdf_30 = '/pdfs/fourth/timeline-page-32.pdf';
-const pdf_31 = '/pdfs/fourth/timeline-page-33.pdf';
-const pdf_32 = '/pdfs/fourth/timeline-page-34.pdf';
+const pdf_24 = '/pdfs/history/fourth/timeline-page-26.pdf';
+const pdf_25 = '/pdfs/history/fourth/timeline-page-27.pdf';
+const pdf_26 = '/pdfs/history/fourth/timeline-page-28.pdf';
+const pdf_27 = '/pdfs/history/fourth/timeline-page-29.pdf';
+const pdf_28 = '/pdfs/history/fourth/timeline-page-30.pdf';
+const pdf_29 = '/pdfs/history/fourth/timeline-page-31.pdf';
+const pdf_30 = '/pdfs/history/fourth/timeline-page-32.pdf';
+const pdf_31 = '/pdfs/history/fourth/timeline-page-33.pdf';
+const pdf_32 = '/pdfs/history/fourth/timeline-page-34.pdf';
 
 
 

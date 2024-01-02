@@ -114,7 +114,7 @@ const Navbar = () => {
                                 <li onMouseEnter={() => setIshover1(true)}
                                     onMouseLeave={() => setIshover1(false)}>
 
-                                    <Link href="#" className={navStyle.menu}>YOUR LAPD</Link>
+                                    <Link href="javascript:;" className={navStyle.menu}>YOUR LAPD</Link>
                                     <Box className={navStyle.fadeInUp}  sx={{
                                         display: ishover1 ? 'flex' : 'none', position: 'absolute', width: "100%", marginTop: "48px", padding: "5% 0% 5% 0%", left: '0px',
                                         boxShadow: 'rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px', zIndex: '9999', backgroundColor: "#ffffff", justifyContent:"center", gap: "50px",transition:"all 3s ease-out"
@@ -190,7 +190,7 @@ const Navbar = () => {
 
                                 <li onMouseEnter={() => setIshover2(true)}
                                     onMouseLeave={() => setIshover2(false)}>
-                                    <Link href="#" className={navStyle.menu}>GET SERVICE</Link>
+                                    <Link href="javascript:;" className={navStyle.menu}>GET SERVICE</Link>
                                     <Box className={navStyle.fadeInUp} sx={{
                                         display: ishover2 ? 'flex' : 'none', position: 'absolute', width: "100%", marginTop: "48px", padding: "5% 0% 5% 0%", left: '0px',
                                         boxShadow: 'rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px', zIndex: '9999', backgroundColor: "#ffffff", justifyContent: "center", gap: "50px"
@@ -219,10 +219,10 @@ const Navbar = () => {
                                                 <Link style={{ textDecoration: 'none' }} onClick={() => setIshover2(false)} href='#'>
                                                     <Typography sx={{ color: "black", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`California Public Records Act`}</Typography>
                                                 </Link>
-                                                <Link style={{ textDecoration: 'none' }} onClick={() => setIshover2(false)} href='#'>
+                                                <Link style={{ textDecoration: 'none' }} onClick={() => setIshover2(false)} href='/office-of-the-chief-of-police/office-of-special-operations/detective-bureau/detective-services-group/ccw-carry-concealed-weapon-license'>
                                                     <Typography sx={{ color: "black", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`CCW Carry Concealed Weapon License`}</Typography>
                                                 </Link>
-                                                <Link style={{ textDecoration: 'none' }} onClick={() => setIshover2(false)} href='#'>
+                                                <Link style={{ textDecoration: 'none' }} onClick={() => setIshover2(false)} href='/employee-commendation'>
                                                     <Typography sx={{ color: "black", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`Commend an Officer`}</Typography>
                                                 </Link>
                                                 <Link style={{ textDecoration: 'none' }} onClick={() => setIshover2(false)} href='/faqs'>
@@ -234,16 +234,16 @@ const Navbar = () => {
                                             </Box>
 
                                             <Box sx={{ display: "flex", flexDirection: "column", gap: "10px" }}>
-                                                <Link style={{ textDecoration: 'none' }} href='#' onClick={() => setIshover2(false)}>
+                                                <Link style={{ textDecoration: 'none' }} href='/fireworks-complaints' onClick={() => setIshover2(false)}>
                                                     <Typography sx={{ color: "black", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`Fireworks Complaints`}</Typography>
                                                 </Link>
                                                 <Link style={{ textDecoration: 'none' }} onClick={() => setIshover2(false)} href='/inside-the-lapd/obtaining-police-information'>
                                                     <Typography sx={{ color: "black", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`Request a Police Report (Victims Only)`}</Typography>
                                                 </Link>
-                                                <Link style={{ textDecoration: 'none' }} onClick={() => setIshover2(false)} href='#'>
+                                                <Link style={{ textDecoration: 'none' }} onClick={() => setIshover2(false)} href='/inside-the-lapd/sites-of-interest'>
                                                     <Typography sx={{ color: "black", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`Sites of Interest`}</Typography>
                                                 </Link>
-                                                <Link style={{ textDecoration: 'none' }} onClick={() => setIshover2(false)} href='#'>
+                                                <Link style={{ textDecoration: 'none' }} onClick={() => setIshover2(false)} href='/reference-library/undocumented-immigrants/'>
                                                     <Typography sx={{ color: "black", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`Undocumented Immigrants`}</Typography>
                                                 </Link>
 
@@ -255,7 +255,7 @@ const Navbar = () => {
 
                                 <li onMouseEnter={() => setIshover3(true)}
                                     onMouseLeave={() => setIshover3(false)}>
-                                    <Link href="#" className={navStyle.menu}>CRIME INFO</Link>
+                                    <Link href="javascript:;" className={navStyle.menu}>CRIME INFO</Link>
                                     <Box className={navStyle.fadeInUp} sx={{
                                         display: ishover3 ? 'flex' : 'none', position: 'absolute', width: "100%", marginTop: "48px", padding: "5% 0% 5% 0%", left: '0px',
                                         boxShadow: 'rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px', zIndex: '9999', backgroundColor: "#ffffff", justifyContent: "center", gap: "50px"
@@ -334,7 +334,7 @@ const Navbar = () => {
 
                                 <li onMouseEnter={() => setIshover4(true)}
                                     onMouseLeave={() => setIshover4(false)}>
-                                    <Link href="#" className={navStyle.menu}>GET INVOLVED</Link>
+                                    <Link href="javascript:;" className={navStyle.menu}>GET INVOLVED</Link>
 
                                     <Box className={navStyle.fadeInUp} sx={{
                                         display: ishover4 ? 'flex' : 'none', position: 'absolute', width: "100%", marginTop: "48px", padding: "5% 0% 5% 0%", left: '0px',
@@ -382,7 +382,7 @@ const Navbar = () => {
 
                                 <li onMouseEnter={() => setIshover5(true)}
                                     onMouseLeave={() => setIshover5(false)}>
-                                    <Link href="#" className={navStyle.menu}>News</Link>
+                                    <Link href="javascript:;" className={navStyle.menu}>News</Link>
                                     <Box className={navStyle.fadeInUp} sx={{
                                         display: ishover5 ? 'flex' : 'none', position: 'absolute', width: "100%", marginTop: "48px", padding: "5% 0% 5% 0%", left: '0px',
                                         boxShadow: 'rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px', zIndex: '9999', backgroundColor: "#ffffff", justifyContent: "center", gap: "50px"

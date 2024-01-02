@@ -44,13 +44,13 @@ const SpecialOperation = () => {
 
         <Grid container sx={{ marginTop: "50px" }}>
           <Grid item xs={12} sm={12} md={9} lg={5}>
-            <Typography className={styles.link} sx={{ fontSize: "18px" }}>Office of Special Operations oversees all specialized units under: <Link href="#">Counter-Terrorism and
-              Special Operations Bureau</Link>,<Link href="#"> Detective Bureau</Link> and <Link href="#">Transit Services Bureau</Link>.</Typography>
+            <Typography className={styles.link} sx={{ fontSize: "18px" }}>Office of Special Operations oversees all specialized units under: <Link href="javascript:;">Counter-Terrorism and
+              Special Operations Bureau</Link>,<Link href="javascript:;"> Detective Bureau</Link> and <Link href="javascript:;">Transit Services Bureau</Link>.</Typography>
           </Grid>
 
         </Grid>
 
-        <Typography className={styles.link} sx={{ marginTop: "50px" }}><Link href="#">Office of Special Operations Notices</Link></Typography>
+        <Typography className={styles.link} sx={{ marginTop: "50px" }}><Link href="javascript:;">Office of Special Operations Notices</Link></Typography>
       </Box>
     </div>
   )

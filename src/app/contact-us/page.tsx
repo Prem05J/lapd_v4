@@ -35,14 +35,14 @@ const Contact = () => {
               <Box sx={{backgroundColor:"#ebf4f7",padding:"40px 20px 40px 40px",display:"flex",flexDirection:"column",gap:"20px"}}>
                <Typography sx={{fontSize:"26px",fontWeight:"bold"}}>Phone Numbers</Typography>
                <Typography className={contactStyle.linkText1} sx={{fontSize:"16px",fontWeight:"bold"}}>For Life-Threatening Emergencies <br />
-                    <Link href="#">9-1-1</Link> </Typography>
-              <Typography className={contactStyle.linkText1}><Link href="#">9-1-1 Use and Abuse</Link></Typography>
+                    <Link href="javascript:;">9-1-1</Link> </Typography>
+              <Typography className={contactStyle.linkText1}><Link href="javascript:;">9-1-1 Use and Abuse</Link></Typography>
               <Typography sx={{fontSize:"16px",fontWeight:"bold"}} className={contactStyle.linkText1}>For Terrorist Threats <br />
-              <Link href="#">1-877-A-THREAT </Link>or 
+              <Link href="javascript:;">1-877-A-THREAT </Link>or 
               <Link href="">(1-877-284-7328)</Link></Typography>
 
               <Typography  sx={{fontSize:"16px",fontWeight:"bold"}} className={contactStyle.linkText1}>For Non-Emergency Police Response <br />
-              <Link href="#">1-877-ASK-LAPD </Link>or 
+              <Link href="javascript:;">1-877-ASK-LAPD </Link>or 
               <Link href="">(1-877-275-5273)</Link></Typography>
               <Typography sx={{fontSize:"16px"}} >Press # 2 for Spanish</Typography>
               </Box>
@@ -54,7 +54,7 @@ const Contact = () => {
                <Typography>In case of an emergency, telephone 911. An emergency is a situation that threatens human life or property and demands immediate attention. Please note due to a high volume of e-mails we receive on a daily basis there may be a delay in our response.
                  Although our goal is to accommodate all e-mails, they are answered based on available resources.</Typography>
                 <Typography className={contactStyle.linkText2} sx={{fontSize:"16px"}} >For questions and comments, email:<br />
-                     <Link href="#">contact.lapdonline@gmail.com</Link> </Typography>
+                     <Link href="javascript:;">contact.lapdonline@gmail.com</Link> </Typography>
               </Box>
             </Grid>
 
@@ -65,7 +65,7 @@ const Contact = () => {
                    100 West 1st Street<br/>
                  Los Angeles, CA 90012</Typography>
                 <Typography className={contactStyle.linkText2} sx={{fontSize:"18px"}} ><span className={contactStyle.spanDash}></span>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <Link href="#"> Find Contact Info for Your Local  LAPD Police Station</Link> </Typography>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <Link href="javascript:;"> Find Contact Info for Your Local  LAPD Police Station</Link> </Typography>
               </Box>
             </Grid>
         </Grid>
@@ -76,47 +76,47 @@ const Contact = () => {
                <Typography sx={{fontSize:"26px",fontWeight:"bold"}}>Non-Emergency Crime Reporting & Hotlines</Typography>
                
               <Typography sx={{fontSize:"16px",fontWeight:"bold"}} className={contactStyle.linkText1}>Abandoned Vehicles<br />
-              <Link href="#">800-ABANDON</Link>or 
+              <Link href="javascript:;">800-ABANDON</Link>or 
               <Link href="">(800-222-6366)</Link></Typography>
 
               <Typography sx={{fontSize:"16px",fontWeight:"bold"}} className={contactStyle.linkText1}>Battered Women Hotline<br />
-              <Link href="#">310-392-8381</Link> </Typography>
+              <Link href="javascript:;">310-392-8381</Link> </Typography>
 
               <Typography sx={{fontSize:"16px",fontWeight:"bold"}} className={contactStyle.linkText1}>Child Abuse<br />
-              <Link href="#">800-540-4000</Link> </Typography>
+              <Link href="javascript:;">800-540-4000</Link> </Typography>
 
               <Typography sx={{fontSize:"16px",fontWeight:"bold"}} className={contactStyle.linkText1}>Lights And Noise<br />
-              <Link href="#">888-524-2845</Link> </Typography>
+              <Link href="javascript:;">888-524-2845</Link> </Typography>
 
               <Typography sx={{fontSize:"16px",fontWeight:"bold"}} className={contactStyle.linkText1}>Los Angeles Rape Battered Hotline<br />
-              <Link href="#">310-392-8381</Link> </Typography>
+              <Link href="javascript:;">310-392-8381</Link> </Typography>
 
               <Typography sx={{fontSize:"16px",fontWeight:"bold"}} className={contactStyle.linkText1}>Mothers Against Drunk Drivers (MADD)<br />
-              <Link href="#">800-438-6233</Link> </Typography>
+              <Link href="javascript:;">800-438-6233</Link> </Typography>
 
               <Typography sx={{fontSize:"16px",fontWeight:"bold"}} className={contactStyle.linkText1}>Narcotic Drug Abuse<br />
-              <Link href="#">800-252-6465</Link> </Typography>
+              <Link href="javascript:;">800-252-6465</Link> </Typography>
 
               <Typography sx={{fontSize:"16px",fontWeight:"bold"}} className={contactStyle.linkText1}>Narcotics Hotline<br />
-              <Link href="#">800-662-BUST (2878)</Link> </Typography>
+              <Link href="javascript:;">800-662-BUST (2878)</Link> </Typography>
 
               <Typography sx={{fontSize:"16px",fontWeight:"bold"}} className={contactStyle.linkText1}>Operation Clean Sweep (Graffiti)<br />
-              <Link href="#">800-611-CITY (2489)</Link> </Typography>
+              <Link href="javascript:;">800-611-CITY (2489)</Link> </Typography>
 
               <Typography sx={{fontSize:"16px",fontWeight:"bold"}} className={contactStyle.linkText1}>Rape Hotline<br />
-              <Link href="#">626-793-3385</Link> </Typography>
+              <Link href="javascript:;">626-793-3385</Link> </Typography>
 
               <Typography sx={{fontSize:"16px",fontWeight:"bold"}} className={contactStyle.linkText1}>Runaway Hotline<br />
-              <Link href="#">800-231-6946</Link> </Typography>
+              <Link href="javascript:;">800-231-6946</Link> </Typography>
 
               <Typography sx={{fontSize:"16px",fontWeight:"bold"}} className={contactStyle.linkText1}>Suicide Hotline<br />
-              <Link href="#">877-727-4747</Link> </Typography>
+              <Link href="javascript:;">877-727-4747</Link> </Typography>
 
               <Typography sx={{fontSize:"16px",fontWeight:"bold"}} className={contactStyle.linkText1}>Terrorist Threats<br />
-              <Link href="#">1-877-A-THREAT (284-7328)</Link> </Typography>
+              <Link href="javascript:;">1-877-A-THREAT (284-7328)</Link> </Typography>
 
               <Typography sx={{fontSize:"16px",fontWeight:"bold"}} className={contactStyle.linkText1}>24-Hour Anonymous Tip Line<br />
-              <Link href="#">1-877-LAPD 24-7 </Link>or 
+              <Link href="javascript:;">1-877-LAPD 24-7 </Link>or 
               <Link href="">(1-877-527-3247)</Link></Typography>
 
               
@@ -127,38 +127,38 @@ const Contact = () => {
               <Box sx={{backgroundColor:"#ebf4f7",padding:"40px 20px 40px 40px",display:"flex",flexDirection:"column",gap:"20px"}}>
                <Typography  sx={{fontSize:"26px",fontWeight:"bold"}}>Get Service</Typography>
                <Typography className={contactStyle.linkText2} sx={{fontSize:"16px"}} >
-                     <Link href="#">File a Police Report</Link>
+                     <Link href="javascript:;">File a Police Report</Link>
                       </Typography>
 
                       <Typography className={contactStyle.linkText2} sx={{fontSize:"16px"}} >
-                      <Link href="#">Request a Traffic Report</Link>
+                      <Link href="javascript:;">Request a Traffic Report</Link>
                       </Typography>
               </Box>
 
               <Box sx={{backgroundColor:"#ebf4f7",padding:"40px 20px 40px 40px",marginTop:"30px",display:"flex",flexDirection:"column",gap:"20px"}}>
                <Typography  sx={{fontSize:"26px",fontWeight:"bold"}}>Other Services</Typography>
                <Typography sx={{fontSize:"16px",fontWeight:"bold"}} className={contactStyle.linkText1}>General City Telephone Information<br />
-              <Link href="#">213-485-2121</Link></Typography>
+              <Link href="javascript:;">213-485-2121</Link></Typography>
               <Typography sx={{fontSize:"16px",fontWeight:"bold"}} className={contactStyle.linkText1}>Animal Regulations<br />
-              <Link href="#">888-452-7381</Link></Typography>
+              <Link href="javascript:;">888-452-7381</Link></Typography>
               <Typography sx={{fontSize:"16px",fontWeight:"bold"}} className={contactStyle.linkText1}>Bureau Of Street Services<br />
-              <Link href="#">800-996-2489</Link></Typography>
+              <Link href="javascript:;">800-996-2489</Link></Typography>
               <Typography sx={{fontSize:"16px",fontWeight:"bold"}} className={contactStyle.linkText1}>California Highway Patrol<br />
-              <Link href="#">323-906-3434</Link></Typography>
+              <Link href="javascript:;">323-906-3434</Link></Typography>
               <Typography sx={{fontSize:"16px",fontWeight:"bold"}} className={contactStyle.linkText1}>County Jail Information<br />
-              <Link href="#">213-473-6100</Link></Typography>
+              <Link href="javascript:;">213-473-6100</Link></Typography>
               <Typography sx={{fontSize:"16px",fontWeight:"bold"}} className={contactStyle.linkText1}>Department of Sanitation<br />
-              <Link href="#">800-773-2489</Link></Typography>
+              <Link href="javascript:;">800-773-2489</Link></Typography>
               <Typography sx={{fontSize:"16px",fontWeight:"bold"}} className={contactStyle.linkText1}>Department of Water And Power<br />
-              <Link href="#">800-342-5397</Link></Typography>
+              <Link href="javascript:;">800-342-5397</Link></Typography>
               <Typography sx={{fontSize:"16px",fontWeight:"bold"}} className={contactStyle.linkText1}>L.A. County Referral<br />
-              <Link href="#">800-339-6993</Link></Typography>
+              <Link href="javascript:;">800-339-6993</Link></Typography>
               <Typography sx={{fontSize:"16px",fontWeight:"bold"}} className={contactStyle.linkText1}>Legal Aid<br />
-              <Link href="#">213-385-2202</Link></Typography>
+              <Link href="javascript:;">213-385-2202</Link></Typography>
               <Typography sx={{fontSize:"16px",fontWeight:"bold"}} className={contactStyle.linkText1}>Parking Violations<br />
-              <Link href="#">213-742-1884</Link></Typography>
+              <Link href="javascript:;">213-742-1884</Link></Typography>
               <Typography sx={{fontSize:"16px",fontWeight:"bold"}} className={contactStyle.linkText1}>TDD<br />
-              <Link href="#">800-660-4026</Link></Typography>
+              <Link href="javascript:;">800-660-4026</Link></Typography>
               </Box>
             </Grid>
 
@@ -186,19 +186,19 @@ const Contact = () => {
        <Box sx={{backgroundColor:"#ebf4f7",padding:"40px 20px 40px 40px",display:"flex",flexDirection:"column",gap:"20px"}}>
                <Typography  sx={{fontSize:"26px",fontWeight:"bold"}}>Actions & Information</Typography>
                <Typography className={contactStyle.linkText2} sx={{fontSize:"16px"}} >
-                     <Link href="#">Employee Commendation</Link>
+                     <Link href="javascript:;">Employee Commendation</Link>
                       </Typography>
 
                       <Typography className={contactStyle.linkText2} sx={{fontSize:"16px"}} >
-                      <Link href="#">Report Employee Misconduct</Link>
+                      <Link href="javascript:;">Report Employee Misconduct</Link>
                       </Typography>
 
                       <Typography className={contactStyle.linkText2} sx={{fontSize:"16px"}} >
-                      <Link href="#">LAPD Command Staff</Link>
+                      <Link href="javascript:;">LAPD Command Staff</Link>
                       </Typography>
 
                       <Typography className={contactStyle.linkText2} sx={{fontSize:"16px"}} >
-                      <Link href="#">FAQ&rsquo;s </Link>
+                      <Link href="javascript:;">FAQ&rsquo;s </Link>
                       </Typography>
         </Box></Grid>
 
@@ -207,10 +207,10 @@ const Contact = () => {
                <Typography  sx={{fontSize:"26px",fontWeight:"bold"}}>External Resources</Typography>
             
            <Typography className={contactStyle.linkText2}>
-             <Link href="#" style={{ display: 'flex', alignItems: 'center' }}><LaunchIcon sx={{color: 'black', marginRight: '10px'}}/>
+             <Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><LaunchIcon sx={{color: 'black', marginRight: '10px'}}/>
              3-1-1 City-Wide Services Directory</Link></Typography>
              <Typography className={contactStyle.linkText2}>
-             <Link href="#" style={{ display: 'flex', alignItems: 'center' }}><LaunchIcon sx={{color: 'black', marginRight: '10px'}}/>
+             <Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><LaunchIcon sx={{color: 'black', marginRight: '10px'}}/>
              City of Los Angeles Telephone Directory- CityFone</Link></Typography>
           
         </Box></Grid>

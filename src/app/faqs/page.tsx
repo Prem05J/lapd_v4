@@ -31,28 +31,28 @@ const Faq = () => {
                     <Box sx={{backgroundColor:"#ebf4f7",padding:"40px 20px 40px 40px",display:"flex",flexDirection:"column",gap:"20px"}}>
                       <Typography  sx={{fontSize:"26px",fontWeight:"bold"}}>Frequently Asked Questions (FAQs)</Typography>
                        <Typography className={faq.linkText} sx={{fontSize:"18px"}} ><span className={faq.spanDash}></span>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <Link href="#">Frequently Asked Questions (FAQs)</Link> </Typography>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <Link href="javascript:;">Frequently Asked Questions (FAQs)</Link> </Typography>
               </Box>
                   </Grid>
                   <Grid item xs={12} sm={12} md={6} lg={3.5}>
                     <Box sx={{backgroundColor:"#ebf4f7",padding:"40px 20px 40px 40px",display:"flex",flexDirection:"column",gap:"20px"}}>
                       <Typography  sx={{fontSize:"26px",fontWeight:"bold"}}>Entertainment Trademark Unit FAQ&apos;s</Typography>
                        <Typography className={faq.linkText} sx={{fontSize:"18px"}} ><span className={faq.spanDash}></span>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <Link href="#">Filming with the LAPD, Documentary, TV &nbsp; Shows, Reality, Fees, etc.</Link> </Typography>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <Link href="javascript:;">Filming with the LAPD, Documentary, TV &nbsp; Shows, Reality, Fees, etc.</Link> </Typography>
               </Box>
                   </Grid>
                   <Grid item xs={12} sm={12} md={6} lg={3.5}>
                     <Box sx={{backgroundColor:"#ebf4f7",padding:"40px 20px 40px 40px",display:"flex",flexDirection:"column",gap:"20px"}}>
                       <Typography  sx={{fontSize:"26px",fontWeight:"bold"}}>Missing Persons FAQ</Typography>
                        <Typography className={faq.linkText} sx={{fontSize:"18px"}} ><span className={faq.spanDash}></span>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <Link href="#">Missing</Link> </Typography>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <Link href="javascript:;">Missing</Link> </Typography>
               </Box>
                   </Grid>
                   <Grid item xs={12} sm={12} md={6} lg={3.5}>
                     <Box sx={{backgroundColor:"#ebf4f7",padding:"40px 20px 40px 40px",display:"flex",flexDirection:"column",gap:"20px"}}>
                       <Typography  sx={{fontSize:"26px",fontWeight:"bold"}}>Traffic FAQ</Typography>
                        <Typography className={faq.linkText} sx={{fontSize:"18px"}} ><span className={faq.spanDash}></span>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <Link href="#">Traffic FAQ</Link> </Typography>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <Link href="javascript:;">Traffic FAQ</Link> </Typography>
               </Box>
                   </Grid>
                 </Grid>

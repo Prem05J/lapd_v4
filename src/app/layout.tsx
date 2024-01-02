@@ -23,8 +23,10 @@ export default function RootLayout({
       <head>
         {/* AOS Animation*/}
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
       </head>
-    
+
       <body style={{ margin: "0px" }}>
         <Navbar />
         {children}
@@ -37,7 +39,7 @@ export default function RootLayout({
         </script>
 
       </body>
-     
+
     </html>
 
   )

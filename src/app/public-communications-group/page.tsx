@@ -48,7 +48,7 @@ const PublicCommunication = () => {
               <Grid container>
               <Grid className={styles.link} item xs={12} sm={12} md={9} lg={7}>
                <Typography sx={{fontSize:"18px"}}>The Public Communication Group is a primary organizational component of the
-               <Link href="#"> Office of the Chief of Police</Link>. Its activities are directed by the Public Communications Group</Typography>
+               <Link href="javascript:;"> Office of the Chief of Police</Link>. Its activities are directed by the Public Communications Group</Typography>
               </Grid>
               </Grid>
 
@@ -61,9 +61,9 @@ const PublicCommunication = () => {
               </Grid>
 
               
-               <Typography className={styles.link}> <Link href="#">Media Relations Handbook</Link></Typography>
-               <Typography className={styles.link}> <Link href="#">Press Pass Policy</Link></Typography>
-               <Typography className={styles.link}> <Link href="#">News Room</Link></Typography>
+               <Typography className={styles.link}> <Link href="javascript:;">Media Relations Handbook</Link></Typography>
+               <Typography className={styles.link}> <Link href="javascript:;">Press Pass Policy</Link></Typography>
+               <Typography className={styles.link}> <Link href="javascript:;">News Room</Link></Typography>
 
                <Box sx={{display:"flex",flexDirection:"column",gap:"30px"}}>
                 <Typography sx={{fontWeight:"bold",fontSize:"18px"}}>History of MRS</Typography>
@@ -136,7 +136,7 @@ const PublicCommunication = () => {
               <li className={styles.list}>
               <Box className={styles.bullet}></Box>
               <Typography className={styles.link } sx={{fontSize:"18px"}}>Providing information about how to obtain   <span style={{height:"2px",backgroundColor:"#000",width:"18px",position:"absolute",marginTop:"12px"}}></span> &nbsp;&nbsp;&nbsp;&nbsp;
-              <Link href="#" className={styles.insidelnktwo}> media passes </Link> which permit entry
+              <Link href="javascript:;" className={styles.insidelnktwo}> media passes </Link> which permit entry
                across police lines to report the news is a function of MRS.</Typography>
               </li>
               <li className={styles.list}>

@@ -1,0 +1,9 @@
+.linkText a{
+text-decoration: none;
+color: #e73f15;
+font-size: 18px;
+}
+
+.linkText a:hover{
+          color:#798c96;
+    }

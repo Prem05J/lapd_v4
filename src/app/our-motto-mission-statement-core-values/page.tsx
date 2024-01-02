@@ -41,11 +41,11 @@ const MissionVision = () => {
                             <Typography sx={{ fontStyle: "italic", fontSize: "18px" }}>It is the vision of the Los Angeles Police Department to, as closely as possible, achieve a City free from crime and public disorder.</Typography>
                         </Box>
                         <ul className={styles.listItem}>
-                            <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}>LAPD Badge Description</Link></li>
-                            <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}>Motto</Link></li>
-                            <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}>Mission Statement</Link></li>
-                            <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}>Core Values</Link></li>
-                            <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}>Management Principles</Link></li>
+                            <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>LAPD Badge Description</Link></li>
+                            <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Motto</Link></li>
+                            <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Mission Statement</Link></li>
+                            <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Core Values</Link></li>
+                            <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Management Principles</Link></li>
                         </ul>
                     </Box>
                 </Grid>
@@ -89,8 +89,8 @@ const MissionVision = () => {
                     <Box sx={{ backgroundColor: "#ebf4f7", padding: "5% 5% 5% 5%", marginTop: "30px" }}>
                         <Typography sx={{ fontWeight: "bold", fontSize: "24px" }}>I Want to Know</Typography>
                         <ul className={styles.listItem}>
-                            <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}>How do I find information for my academic research project?</Link></li>
-                            <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}>Where can I find information on the history of the LAPD?</Link></li>
+                            <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>How do I find information for my academic research project?</Link></li>
+                            <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Where can I find information on the history of the LAPD?</Link></li>
 
                         </ul>
 

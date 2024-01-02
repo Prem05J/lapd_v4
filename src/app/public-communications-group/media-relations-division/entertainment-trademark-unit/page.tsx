@@ -34,9 +34,9 @@ const Entertainment = () => {
 
                             <Typography>With the Internet as an ever-increasing source of information and images, as well as consumer goods and services, it is more important than ever for the Department to maintain proper surveillance and control of its intellectual properties.</Typography>
 
-                            <Typography>Questions or reports of possible violations, including inquiries about how to properly license and use LAPD trademarked material are welcome and may be submitted directly to the ETU by calling <Link href="#" className={styles.mobmargin}> 213-486-7063</Link>.</Typography>
+                            <Typography>Questions or reports of possible violations, including inquiries about how to properly license and use LAPD trademarked material are welcome and may be submitted directly to the ETU by calling <Link href="javascript:;" className={styles.mobmargin}> 213-486-7063</Link>.</Typography>
                             <Typography>LAPDonline.org® is a registered trademark of the City of Los Angeles.</Typography>
-                            <Typography><Link href="#">Filming With The LAPD</Link></Typography>
+                            <Typography><Link href="javascript:;">Filming With The LAPD</Link></Typography>
 
                         </Grid>
                     </Grid>

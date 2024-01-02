@@ -410,7 +410,7 @@ const Mobilenav: React.FC = () => {
                 </AccordionDetails>
             </Accordion>
 
-                            <Link href="#"><Button sx={{marginTop:"20px",borderRadius:"0px",backgroundColor:"#e73f15",padding:"12px 16px",width:"98%",boxShadow:"inset 0 0 0 0 #ff7526",transition: "ease-in-out.3s"}} className={global.contactBtn} variant="contained" >
+                            <Link href="javascript:;"><Button sx={{marginTop:"20px",borderRadius:"0px",backgroundColor:"#e73f15",padding:"12px 16px",width:"98%",boxShadow:"inset 0 0 0 0 #ff7526",transition: "ease-in-out.3s"}} className={global.contactBtn} variant="contained" >
                                         <Typography sx={{ fontWeight: "bold" }}>CONTACT </Typography>
                                     </Button></Link>
                           
