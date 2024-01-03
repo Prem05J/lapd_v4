@@ -21,7 +21,7 @@ const MediaRelationsDivision = () => {
             </Box>
 
             <Grid container className={global.fadeInUp}>
-                <Grid item xs={12} sm={6} md={8} sx={{ padding: '5%' }}>
+                <Grid item xs={12} sm={12} md={12} lg={7} xl={5} sx={{ padding: '5%' }}>
                     <Box>
                         <ul style={{ listStyleType: 'none', paddingLeft: '0', marginBottom: '0' }}>
                             <li style={{ margin: '3px 0px' }}><Typography sx={{ fontWeight: 'bold', fontSize: '18px' }}>Media Relations Division</Typography></li>

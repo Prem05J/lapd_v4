@@ -25,7 +25,7 @@ const PoliceCommission = () => {
             </Box>
             <Box className={global.fadeInUp} sx={{ marginTop: "50px", textAlign: "center", padding: "0% 1% 3% 3%" }}>
                 <Grid container rowSpacing={7} sx={{ justifyContent: "space-evenly", textAlign: "left" }}>
-                    <Grid item sm={11} md={9} lg={4}>
+                    <Grid item sm={11} md={6} lg={6} xl={4.1}>
                         <Typography sx={{ fontSize: "18px" }}>The Board of Police Commissioners serves as the head of the Los Angeles Police Department, functioning like a corporate board of directors, setting policies for the Department and overseeing its operations. The Board works in conjunction with the Chief of Police who acts as a chief executive officer and reports to the Board. There are five civilian members who make up the Board of Police Commissioners.
                         </Typography>
 
@@ -42,9 +42,9 @@ const PoliceCommission = () => {
                             <Link className={styles.link} href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><LaunchIcon sx={{ color: 'black', marginRight: '10px' }} /><Typography sx={{ fontSize: "18px" }}>Federal judge lifts LAPD consent decree</Typography></Link></Box>
 
                     </Grid>
-                    <Grid item sm={11} md={9} lg={4}>
+                    <Grid item sm={11} md={6} lg={6} xl={4.1}>
 
-                        <Image className={styles.commissionImage} src={commissionImage} alt="commission-image" width={500} height={500} />
+                        <Image className={styles.commissionImage} src={commissionImage} alt="commission-image" width={450} height={450} />
                     </Grid>
                 </Grid>
 

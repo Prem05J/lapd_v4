@@ -64,7 +64,12 @@
     top: 0;
     z-index: 99999;
     background-color: #ffffff;
-    
+  }
+
+  @media screen and (max-width: 992px) {
+    .stickyHeader {
+        padding: 15px;
+      }
   }
 
 

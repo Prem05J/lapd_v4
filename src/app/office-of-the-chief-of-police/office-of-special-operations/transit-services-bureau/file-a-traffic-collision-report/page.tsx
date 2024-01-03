@@ -21,7 +21,7 @@ const TransitServices = () => {
             <Box className={styles.wholeblock}>
                 <Box>
                     <Grid className={global.fadeInUp} container>
-                        <Grid item xs={12} sm={10} md={10} lg={7} className={styles.textstyl} >
+                        <Grid item xs={12} sm={12} md={12} lg={7} xl={5} className={styles.textstyl} >
                             <Typography sx={{ marginBottom: '30px' }}>Traffic Collision Reports may be released to authorized persons such as victims, representative(s) of the victim, or such individuals as provided in Section 20012 of the Vehicle Code, by requesting the report online or via United States Mail.</Typography>
                             <Typography sx={{ fontWeight: 'bold', marginBottom: '30px' }}>NOTE:</Typography>
                             <ul className={styles.disc}>

@@ -25,7 +25,7 @@ const Entertainment = () => {
             <Box className={`${styles.wholeblock} ${global.fadeInUp}`}>
                 <Box>
                     <Grid container>
-                        <Grid item xs={11}sm={11} md={10} lg={8} className={styles.textstyl} sx={{ marginTop: '10px' }}>
+                        <Grid item xs={11} sm={12} md={12} lg={7} xl={5} className={styles.textstyl} sx={{ marginTop: '10px' }}>
                             <Typography>Since its inception in January 2006, the Entertainment Trademark Unit (ETU), which is part of the Public Information Office, has embarked on a number of important tasks. The ETU, which is composed of both sworn and civilian employees, has three primary goals:
                             </Typography>
                             <Typography>To protect LAPD trademarked material (often referred to as “intellectual property”) used in the media or on commercial products by maintaining proper licensing agreements. This material includes the Department’s badge, acronym (LAPD), uniform, and motto (“To Protect and to Serve”);</Typography>

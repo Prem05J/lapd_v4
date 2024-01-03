@@ -31,7 +31,7 @@ const MedalValor = () => {
             </Box>
 
             <Grid className={styles.fadeInUp} container style={{ padding: '5%' }}>
-                <Grid item xs={12} sm={12} md={7}>
+                <Grid item xs={12} sm={12} md={12} lg={7} xl={5}>
                     <Typography sx={{ marginBottom: '30px', textAlign: 'justify', fontSize: '18px' }}>
                         The Medal of Valor is the Los Angeles Police Department’s highest honor and is awarded to officers who distinguish themselves by conspicuous bravery or heroism above and beyond the normal demands of police service. To be awarded the Medal of Valor, an officer would have performed an act displaying extreme courage while consciously facing imminent peril.
                     </Typography>
@@ -42,7 +42,7 @@ const MedalValor = () => {
             </Grid>
 
             <Grid className={styles.fadeInUp} container style={{ padding: '5%' }}>
-                <Grid item xs={12} sm={6} md={4} sx={{ padding: '35px 30px', background: '#ebf4f7' }}>
+                <Grid item xs={12} sm={6} md={12} lg={7} xl={5} sx={{ padding: '35px 30px', background: '#ebf4f7' }}>
                     <Typography sx={{ fontSize: '25px', fontWeight: '700', marginBottom: '30px' }}>Award Recipients</Typography>
 
                     <ul style={{listStyleType: 'none', paddingLeft: '0'}}>

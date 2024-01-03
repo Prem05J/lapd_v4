@@ -29,7 +29,7 @@ const MissionVision = () => {
 
 
             <Grid className={global.fadeInUp} container sx={{ padding: "50px 5% 0% 5%" }}>
-                <Grid item xs={12} sm={9} lg={5}>
+                <Grid item xs={12} sm={12} md={12} lg={7} xl={5}>
                     <Box>
                         <Typography sx={{ fontSize: "34px", fontWeight: "700" }}>
                             The Los Angeles Police Department is committed to serving the community while protecting the rights of all persons.
@@ -62,7 +62,7 @@ const MissionVision = () => {
             </Box>
 
             <Grid className={global.fadeInUp} container sx={{ padding: "50px 5% 0% 5%" }}>
-                <Grid item xs={12} sm={9} lg={5}>
+                <Grid item xs={12} sm={12} md={12} lg={7} xl={5}>
                     <Box>
                         <Typography sx={{ fontWeight: "bold", fontSize: "24px" }}>Our Mission Statement</Typography>
                         <Box sx={{ backgroundColor: "#ebf4f7", padding: "5% 5% 5% 5%", marginTop: "30px" }}>
@@ -85,7 +85,7 @@ const MissionVision = () => {
             </Grid>
 
             <Grid className={global.fadeInUp} container columnSpacing={5} rowSpacing={5} sx={{ padding: "50px 5% 50px 5%" }}>
-                <Grid item xs={12} sm={9} lg={5}>
+                <Grid item xs={12} sm={12} md={12} lg={7} xl={5}>
                     <Box sx={{ backgroundColor: "#ebf4f7", padding: "5% 5% 5% 5%", marginTop: "30px" }}>
                         <Typography sx={{ fontWeight: "bold", fontSize: "24px" }}>I Want to Know</Typography>
                         <ul className={styles.listItem}>
@@ -97,7 +97,7 @@ const MissionVision = () => {
                     </Box>
                 </Grid>
 
-                <Grid item xs={12} sm={9} lg={5}>
+                <Grid item xs={12} sm={12} md={12} lg={7} xl={5}>
                     <Box className={styles.factslist} sx={{ backgroundColor: "#ebf4f7", padding: "5% 5% 5% 5%", marginTop: "30px" }}>
                         <Typography sx={{ fontWeight: "bold", fontSize: "24px" }}>Interesting Facts</Typography>
                         <Box>

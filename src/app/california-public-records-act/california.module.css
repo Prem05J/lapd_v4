@@ -1,0 +1,364 @@
+.bg{
+    background-color: #0f212b;
+    color: #fff;
+}
+
+.h1size{
+    font-size: 62px;
+    margin: 0px 0px 20px 0px;
+}
+
+.bluecard{
+    background-color: #ebf4f7;
+    padding: 43px 44px 43px 40px;
+}
+.bluecard p{
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.blockspace{
+    padding: 36px 0px 36px 80px;
+}
+
+
+
+.hlinetwo{
+    width: 18px !important;
+    height: 2px !important;
+    background-color: #000000 !important;
+    position: absolute;
+    margin-bottom: 2px;
+}
+
+.insidelnk{
+    text-decoration: none;
+    font-size: 16px; 
+    color: #7ddfff;
+    margin-left: 10px;
+}
+
+.insidelnk:hover{
+    color: #fff;
+}
+
+.insidelnktwo{
+    text-decoration: none;
+    font-size: 16px; 
+    color: #e73f15;
+    margin-left: 25px;
+}
+.insidelnktwo:hover{
+    color: #798c96;
+}
+
+.textstyl h2{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 0px 0px 22px 0px !important;
+    letter-spacing: -.3px;
+}
+.textstyl p a{
+    color: red;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 28px; 
+    letter-spacing: normal;
+}
+.textstyl p a:hover{
+    color: #798c96;
+    text-decoration: none;
+}
+
+
+.readMoreHide{
+    display: none;
+}
+.readMoreView{
+    display: block;
+}
+
+
+.scale_up_left {
+    -webkit-animation: scale_up_left 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: scale_up_left 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+
+@-webkit-keyframes scale_up_left {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+      -webkit-transform-origin: 0% 50%;
+              transform-origin: 0% 50%;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: 0% 50%;
+              transform-origin: 0% 50%;
+    }
+  }
+  @keyframes scale_up_left {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+      -webkit-transform-origin: 0% 50%;
+              transform-origin: 0% 50%;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: 0% 50%;
+              transform-origin: 0% 50%;
+    }
+  }
+
+
+/* tablet */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .blockspace{
+        padding: 36px 0px 36px 60px;
+    }
+    /* .h4size{
+        font-size: 20px;
+    }  */
+    .h1size{
+        font-size: 49px !important;
+        margin: 0px 0px 20px 0px;
+    }
+    /* constitutional */
+    .wholeblock{
+        margin: 50px 30px 70px 30px !important;
+    }
+    .blockspace{
+        padding: 36px 0px 36px 60px !important;
+    }
+    .bluecard{
+    background-color: #ebf4f7;
+    padding: 43px 22px 43px 20px;
+}
+.gridscardpadone{
+    padding: 40px 20px 0px 30px !important;
+}
+.gridscardpadtwo{
+    padding: 40px 40px 0px 30px !important;
+}
+.typoleft{
+    margin: 60px 0px 30px 60px !important;
+}
+
+.bottom{
+    margin-bottom: 30px;
+    margin-left: 60px !important;
+}
+.ptag{
+    margin-left: 60px !important;
+}
+.spaceleft{
+    margin-left: 60px !important;
+}
+.ptag1{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.55;
+    margin-left: 60px !important;
+    font-style: italic;
+}
+.spaceleft{
+    margin-left: 55px !important;
+}
+.read{
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 30px;
+    margin-left: 60px !important;
+    padding-top: 30px;
+}
+.linkbox1{
+    background-color: #ebf4f7;
+    padding: 25px 0px 50px 0px;
+    margin: 0px 40px 40px 0px;
+}
+}
+
+
+
+
+
+/* mobile */
+@media screen and (max-width: 576px) {
+    .blockspace{
+        padding: 36px 0px 36px 20px;
+    }
+    .wholeblock{
+        margin: 50px 20px 20px 20px !important;
+    }
+    /* .h4size{
+        font-size: 20px;
+    }     */
+    .h1size{
+        font-size: 38px;
+        margin: 0px 0px 20px 0px;
+    }
+    /* aboutcard */
+    .bottom{
+        margin-bottom: 30px;
+        margin-left: 20px !important;
+    }
+    .typoleft{
+        margin: 60px 0px 30px 20px !important;
+    }
+
+.gridscardpadone{
+    padding: 0px 0px 40px 20px !important;
+    margin-right: 20px;
+}
+.gridscardpadtwo{
+    padding: 0px 15px 40px 20px !important;
+    margin-right: 5px;
+}
+.bluecard{
+    background-color: #ebf4f7;
+    padding: 43px 22px 43px 20px;
+}
+
+
+.ptag{
+    margin-left: 20px !important;
+}
+.spaceleft{
+    margin-left: 20px !important;
+}
+.ptag1{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.55;
+    margin-left: 20px !important;
+    font-style: italic;
+}
+
+.disc{
+    padding-left: 0px;
+}
+
+.read{
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 30px;
+    margin-left: 40px !important;
+    padding-top: 30px;
+}
+
+}
+
+
+.read{
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 30px;
+    margin-left: 80px;
+    padding-top: 30px;
+}
+.spaceleft{
+    margin-left: 80px;
+}
+.typoleft{
+    margin: 60px 0px 30px 80px;
+}
+
+/* about card */
+
+.linkbox{
+    background-color: #ebf4f7;
+    padding: 25px;
+}
+.linkbox1{
+    background-color: #ebf4f7;
+    padding: 25px 0px 50px 0px;
+    margin: 0px 40px 40px 0px;
+}
+.linkbox2{
+    background-color: #ebf4f7;
+    padding: 25px 0px 50px 0px;
+    margin: 0px 0px 40px 0px;
+}
+
+.linkbox h2{
+    font-size: 26px;
+}
+.aboutul{
+    padding-left: 0px !important;
+
+}
+.aboutul li{
+    list-style-type: none;
+    margin-bottom: 16px;
+}
+.ptag{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.55;
+    margin-left: 80px;
+    margin-bottom: 30px;
+}
+.ptag1{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.55;
+    margin-left: 80px;
+    font-style: italic;
+}
+.aboutul a{
+    text-decoration: none;
+    color: #e73f15 ;
+    font-size: 16px;
+}
+
+.bottom{
+    margin-bottom: 30px;
+    margin-left: 80px;
+}
+.aboutul a:hover{
+    color: #798c96;
+}
+.disc{
+    list-style-type: disc;
+    color: #7ddfff;
+    font-size: 22px;
+    padding-left: 25px;
+}
+
+
+.disc li span{
+    text-decoration: underline;
+}
+
+
+.gridscardpadone{
+    padding: 0px 20px 0px 80px;
+}
+
+
+.gridscardpadone2nd{
+    padding: 0px 20px 0px 20px;
+}
+.gridscardpadtwo{
+    padding: 0px 40px 0px 20px;
+}
+
+.wholeblock{
+    margin: 75px 0px 20px 80px;
+}
+
+
+.hoveLink{
+    color: #e73f15;
+    line-height: 24px;
+    text-align: left;
+    font-weight: 400;
+    text-decoration: none;
+}

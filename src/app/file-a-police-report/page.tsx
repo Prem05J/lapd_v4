@@ -21,7 +21,7 @@ const FileReport = () => {
             </Box>
 
             <Grid container className={global.fadeInUp}  sx={{ padding: '5%' }}>
-                <Grid item xs={12} sm={10} md={10} lg={7}>
+                <Grid item xs={12} sm={12} md={12} lg={7} xl={5}>
                     <Box>
                         <ul className={Styles.content_list}>
                             <li>

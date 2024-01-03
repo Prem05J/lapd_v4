@@ -46,7 +46,7 @@ function a11yProps(index: number) {
   };
 }
 
-export default function BasicTabs() {
+const BasicTabs = () => {
   const [value, setValue] = React.useState(0);
 
   const handleChange = (event: React.SyntheticEvent, newValue: number) => {
@@ -54,15 +54,15 @@ export default function BasicTabs() {
   };
  
   return (
+
     <Box sx={{padding:"2% 0% 2% 0%"}}>
-    
       <Box sx={{ borderBottom: 1, borderColor: '#0f212b' }}>
         <Tabs  value={value} onChange={handleChange} sx={{"& button.Mui-selected": {color:Colors.orangeColor}}} TabIndicatorProps={{
       style: {
       backgroundColor: Colors.orangeColor,
       height:"7px", 
     }
-  }} aria-label="basic tabs example">
+   }} aria-label="basic tabs example">
           <Tab label= "NEWSROOM" disableRipple sx={{fontSize:"16px",fontWeight:"bold",color:"#000000"}} {...a11yProps(0)} />
           <Tab label= "EVENTS" disableRipple sx={{fontSize:"16px",fontWeight:"bold",color:"#000000"}}  {...a11yProps(1)} />
         </Tabs>
@@ -161,8 +161,9 @@ export default function BasicTabs() {
           </Grid>
         </Box>
       </CustomTabPanel>
-
-   
     </Box>
+
   );
 }
+
+export default BasicTabs

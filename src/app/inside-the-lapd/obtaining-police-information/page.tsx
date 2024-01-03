@@ -28,7 +28,7 @@ const Request = () => {
             </Box>
             <Grid className={global.fadeInUp } container>
 
-                <Grid item xs={12} sm={12} md={7} lg={6}>
+                <Grid item xs={12} sm={12} md={12} lg={7} xl={5}>
                 <Box sx={{marginTop:"50px"}} className={styles.request2}>
                 <Link className={styles.lnk} href="javascript:;">
                     <Typography className={styles.letter}>

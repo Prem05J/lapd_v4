@@ -25,7 +25,7 @@ const Quicklinks = () => {
                 </Grid>
                 <Grid item xs={6} sm={6} md={2} className={styles.bottom}>
                     <Link href="javascript:;" className={styles.link}>
-                        <Box className={styles.boxes} sx={{ padding: '35px 35px 34px 35px !important', display:"flex",flexDirection:"coumn",alignItems:"center"}}>
+                        <Box className={styles.boxes} sx={{ padding: '35px 35px 34px 35px !important', display:"flex",flexDirection:"coumn", alignItems:"center"}}>
                             <CarCrashOutlinedIcon className={styles.imgs} sx={{ height: "40px", width: "40px", marginBottom: '10px' }} />
                             <Typography sx={{ fontSize: '14px', display: 'block', textAlign: 'center' }}>Obtaining a Traffic Collision Report</Typography>
                         </Box>

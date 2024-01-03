@@ -1,0 +1,60 @@
+.linkHover{
+    text-decoration: none;
+    color: #e73f15;
+}
+.linkHover:hover{
+    color: #798c96;
+}
+.paraStyle{
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 15px 0px;
+    text-align: justify;
+}
+.hyphen{
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    background-color: #000;
+}
+
+.readMoreHide{
+    display: none;
+}
+.readMoreView{
+    display: block;
+}
+.scale_up_left {
+    -webkit-animation: scale_up_left 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: scale_up_left 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+
+@-webkit-keyframes scale_up_left {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+      -webkit-transform-origin: 0% 50%;
+              transform-origin: 0% 50%;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: 0% 50%;
+              transform-origin: 0% 50%;
+    }
+  }
+  @keyframes scale_up_left {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+      -webkit-transform-origin: 0% 50%;
+              transform-origin: 0% 50%;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: 0% 50%;
+              transform-origin: 0% 50%;
+    }
+  }

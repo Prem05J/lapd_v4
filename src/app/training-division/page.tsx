@@ -26,15 +26,19 @@ const Training = () => {
         </Link>
 
       </Box>
-      <Box className={global.fadeInUp} sx={{display:"flex",flexDirection:"column",paddingTop:"2%",paddingLeft:"5%"}}>
+      <Box className={global.fadeInUp} sx={{display:"flex",flexDirection:"column",paddingTop:"2%",padding:"5%"}}>
        <Grid container rowSpacing={5}>
-        <Grid item xs={12} sm={10} md={6}>
+        <Grid item xs={12} sm={12} md={12} lg={7} xl={5}>
         <Typography sx={{fontSize:"18px"}}>
         The mission of the Los Angeles Police Department’s (LAPD) Training Division is to provide state of the art, meaningful, realistic, and relevant training to in-service and recruit officers in order to 
         prepare them for field duty. Training Division has five major sections:
         </Typography>
           </Grid>
-          <Grid item xs={12} sm={7}>
+        
+      
+          </Grid>
+
+          <Box sx={{marginTop:"20px"}}>
           <ul className={trainingStyle.listBox}>
             <li className={trainingStyle.list}>
               <Box className={trainingStyle.bullet}></Box>
@@ -57,8 +61,7 @@ const Training = () => {
               <Typography sx={{fontSize:"18px"}}>Support Section</Typography>
               </li>
           </ul>
-          </Grid>
-          </Grid>
+          </Box>
         
         
 

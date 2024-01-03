@@ -29,7 +29,7 @@ const OnDocument = () => {
         <Box className={global.fadeInUp}  sx={{padding:"40px 5% 40px 5%"}}>
 
         <Grid container>
-            <Grid item xs={12} sm={8} lg={5}>
+            <Grid item xs={12} sm={12} md={12} lg={7} xl={5}>
                 <Typography sx={{fontSize:"18px"}}>
                 Los Angeles is proud to be a welcoming city and to embody the inclusive values that are the bedrock of our country. 
                 In a welcoming home to all, cooperation
@@ -39,7 +39,7 @@ const OnDocument = () => {
         </Grid>
 
          <Grid container sx={{marginTop:"30px"}}>
-            <Grid item xs={12} sm={8} lg={5}>
+            <Grid item xs={12} sm={12} md={12} lg={7} xl={5}>
                 <Typography sx={{fontSize:"18px"}}>
                 The Los Angeles Police Department also recognizes that the Constitution of the United States guarantees 
                 equal protection to all persons under its jurisdiction. With those principles at its core, it is the policy

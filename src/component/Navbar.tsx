@@ -23,6 +23,8 @@ import Mobilenav from "../component/Mobilenav"
 import global from "../app/global.module.css"
 
 
+
+
 const Navbar = () => {
 
     const [toggle, setToggle] = useState(false)
@@ -33,6 +35,7 @@ const Navbar = () => {
     const close = () => {
         setToggle(false)
     }
+
     const [ishover1, setIshover1] = useState(false);
     const [ishover2, setIshover2] = useState(false);
     const [ishover3, setIshover3] = useState(false);
@@ -40,17 +43,17 @@ const Navbar = () => {
     const [ishover5, setIshover5] = useState(false);
 
 
-    const tablet = useMediaQuery('(max-width:992px)');
+    const tablet = useMediaQuery('(max-width:1150px)');
 
 
     return (
         <>
             <div className="non-sticky-header">
-                <Box sx={{ display: toggle ? tablet ? "none"  : ' ' : "flex", flexDirection: "column" }}>
+                <Box sx={{ display: toggle ? tablet ? "none" : ' ' : "flex", flexDirection: "column" }}>
 
                     <Box sx={{ width: "100%", backgroundColor: "#052942", height: "50px", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
 
-                        <Box sx={{ display: "flex", gap: "6px", marginLeft: "15px",flexDirection:"row",alignItems:"center" }}>
+                        <Box sx={{ display: "flex", gap: "6px", marginLeft: "15px", flexDirection: "row", alignItems: "center" }}>
                             <Image alt="logo" src={logo} height={30} width={30} />
                             <Typography sx={{ color: "white", fontSize: "16px", fontWeight: "bold" }}>LOS ANGELS</Typography>
                         </Box>
@@ -70,7 +73,7 @@ const Navbar = () => {
 
                             <Box>
                                 <Box sx={{ display: "flex", gap: "5px" }}>
-                                    <Box className={navStyle.topNavbar}  sx={{ backgroundColor: "white", borderRadius: "5px", padding: "1px 7px 1px 7px", textAlign: "center", justifyContent: "center", display: "flex" }}>
+                                    <Box className={navStyle.topNavbar} sx={{ backgroundColor: "white", borderRadius: "5px", padding: "1px 7px 1px 7px", textAlign: "center", justifyContent: "center", display: "flex" }}>
                                         <Typography sx={{ fontSize: "12px" }}>LA</Typography>
                                     </Box>
                                     <Typography className={navStyle.headerContent} sx={{ color: "white", fontSize: "12px" }}>
@@ -80,7 +83,7 @@ const Navbar = () => {
                             </Box>
 
 
-                            <Box className={navStyle.headerContent}  sx={{ padding: "5px" }}>
+                            <Box className={navStyle.headerContent} sx={{ padding: "5px" }}>
                                 <input placeholder='English'></input>
                             </Box>
                         </Box>
@@ -100,14 +103,15 @@ const Navbar = () => {
                 </Box>
             </div>
 
-            <Box className={navStyle.stickyHeader} sx={{ padding: "25px 50px 10px 50px" }}>
+            <Box className={navStyle.stickyHeader} sx={{ padding: "15px 15% 15px 15%" }}>
                 <Grid sx={{}} container rowSpacing={2} columnSpacing={2}>
                     <Grid item xs={4} sm={2} md={2}>
                         <Box sx={{ marginTop: "-12px", display: toggle ? tablet ? "none" : '' : "block" }}>
-                        <Link href="/"><Image src={headerLogo} id="logo" alt="header-logo" height={96} width={68}/></Link>
+                            <Link href="/"><Image src={headerLogo} id="logo" alt="header-logo" height={96} width={68} /></Link>
                         </Box>
                     </Grid>
                     <Grid item xs={4} sm={8} md={9}>
+
                         <Box sx={{ display: tablet ? 'none' : '' }}>
                             <ul className={navStyle.lists} style={{ display: 'flex', alignItems: 'center', justifyContent: "end", listStyle: 'none', gap: "20px" }}>
 
@@ -115,12 +119,12 @@ const Navbar = () => {
                                     onMouseLeave={() => setIshover1(false)}>
 
                                     <Link href="javascript:;" className={navStyle.menu}>YOUR LAPD</Link>
-                                    <Box className={navStyle.fadeInUp}  sx={{
+                                    <Box className={navStyle.fadeInUp} sx={{
                                         display: ishover1 ? 'flex' : 'none', position: 'absolute', width: "100%", marginTop: "48px", padding: "5% 0% 5% 0%", left: '0px',
-                                        boxShadow: 'rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px', zIndex: '9999', backgroundColor: "#ffffff", justifyContent:"center", gap: "50px",transition:"all 3s ease-out"
+                                        boxShadow: 'rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px', zIndex: '9999', backgroundColor: "#ffffff", justifyContent: "center", gap: "50px", transition: "all 3s ease-out"
                                     }}>
                                         {/* ------------------- Sub-cnt -----------------  */}
-                                        <Box  sx={{ display: "flex", flexDirection: "column", gap: "30px",marginLeft:"-50px" }}>
+                                        <Box sx={{ display: "flex", flexDirection: "column", gap: "30px", marginLeft: "-50px" }}>
                                             <Box sx={{ display: "flex", alignItems: "center", gap: "20px" }}>
                                                 <Image src={searchIcon2} alt='search' height={32} width={32} />
                                                 <Link style={{ textDecoration: 'none' }} href='#' onClick={() => setIshover1(false)}>
@@ -147,7 +151,7 @@ const Navbar = () => {
 
                                         <Divider orientation="vertical" flexItem sx={{ backgroundColor: "grey" }} />
 
-                                        <Box sx={{ display: "flex", flexDirection: "row", gap: "30px"}}>
+                                        <Box sx={{ display: "flex", flexDirection: "row", gap: "30px" }}>
                                             <Box sx={{ display: "flex", flexDirection: "column", gap: "10px" }}>
                                                 <Link style={{ textDecoration: 'none' }} href='https://www.lapdcsp.org/'>
                                                     <Typography sx={{ color: "black", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`Community Safety Partnership Bureau`}</Typography>
@@ -198,7 +202,7 @@ const Navbar = () => {
                                         {/* ------------------- Sub-cnt -----------------  */}
                                         <Box sx={{ display: "flex", flexDirection: "column", gap: "30px" }}>
                                             <Box sx={{ display: "flex", alignItems: "center", gap: "20px" }}>
-                                                <Image src={File} alt='search' height={32} width={32}  />
+                                                <Image src={File} alt='search' height={32} width={32} />
                                                 <Link style={{ textDecoration: 'none' }} href='/file-a-police-report' onClick={() => setIshover2(false)}>
                                                     <Typography sx={{ color: "black", fontSize: "22px", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`File a Police Report`}</Typography>
                                                 </Link>
@@ -216,7 +220,7 @@ const Navbar = () => {
 
                                         <Box sx={{ display: "flex", flexDirection: "row", gap: "30px" }}>
                                             <Box sx={{ display: "flex", flexDirection: "column", gap: "10px", alignItems: "flex-start" }}>
-                                                <Link style={{ textDecoration: 'none' }} onClick={() => setIshover2(false)} href='#'>
+                                                <Link style={{ textDecoration: 'none' }} onClick={() => setIshover2(false)} href='/california-public-records-act'>
                                                     <Typography sx={{ color: "black", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`California Public Records Act`}</Typography>
                                                 </Link>
                                                 <Link style={{ textDecoration: 'none' }} onClick={() => setIshover2(false)} href='/office-of-the-chief-of-police/office-of-special-operations/detective-bureau/detective-services-group/ccw-carry-concealed-weapon-license'>
@@ -228,7 +232,7 @@ const Navbar = () => {
                                                 <Link style={{ textDecoration: 'none' }} onClick={() => setIshover2(false)} href='/faqs'>
                                                     <Typography sx={{ color: "black", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`FAQ’s`}</Typography>
                                                 </Link>
-                                                <Link style={{ textDecoration: 'none' }} onClick={() => setIshover2(false)} href='#'>
+                                                <Link style={{ textDecoration: 'none' }} onClick={() => setIshover2(false)} href='/office-of-the-chief-of-police/professional-standards-bureau/report-employee-misconduct/'>
                                                     <Typography sx={{ color: "black", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`File a Complaint`}</Typography>
                                                 </Link>
                                             </Box>
@@ -264,13 +268,13 @@ const Navbar = () => {
                                         <Box sx={{ display: "flex", flexDirection: "column", gap: "30px" }}>
                                             <Box sx={{ display: "flex", alignItems: "center", gap: "20px" }}>
                                                 <Image src={CrimeMap} alt='search' height={32} width={32} />
-                                                <Link style={{ textDecoration: 'none' }} href='#'>
+                                                <Link onClick={() => setIshover3(false)} style={{ textDecoration: 'none' }} href='/office-of-the-chief-of-police/office-of-special-operations/detective-bureau/crime-mapping-and-compstat/' >
                                                     <Typography sx={{ color: "black", fontSize: "22px", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`Crime Mapping & COMPSTAT`}</Typography>
                                                 </Link>
                                             </Box>
                                             <Box sx={{ display: "flex", alignItems: "center", gap: "20px" }}>
                                                 <Image src={Ribbon} alt='search' height={32} width={32} />
-                                                <Link style={{ textDecoration: 'none' }} href='#'>
+                                                <Link onClick={() => setIshover3(false)} style={{ textDecoration: 'none' }} href='#'>
                                                     <Typography sx={{ color: "black", fontSize: "22px", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`2022 Criminal Homicide Victims`}</Typography>
                                                 </Link>
 
@@ -422,7 +426,7 @@ const Navbar = () => {
                                 </li>
 
                                 <li>
-                                    <Link href="/contact-us"><Button sx={{borderRadius:"0px",backgroundColor:"#e73f15",padding:"12px 16px",boxShadow:"inset 0 0 0 0 #ff7526",transition: "ease-out .5s"}} className={global.contactBtn} variant="contained" >
+                                    <Link href="/contact-us"><Button sx={{ borderRadius: "0px", backgroundColor: "#e73f15", padding: "12px 16px", boxShadow: "inset 0 0 0 0 #ff7526", transition: "ease-out .5s" }} className={global.contactBtn} variant="contained" >
                                         <Typography sx={{ fontWeight: "bold" }}>CONTACT </Typography>
                                     </Button></Link>
                                 </li>
@@ -430,18 +434,18 @@ const Navbar = () => {
                         </Box>
 
 
-                      {/* ==================== Mobile Menu =======================  */}
-                      <Box sx={{ display: tablet ? 'block' : 'none', opacity: toggle ? '1' : '0', transition: 'all .3s ease-in-out', zIndex:"99999" }}>
-                            <Box sx={{ position: 'absolute', top: '100%', width: '100%', left: '0' }} >
-                                <Mobilenav />
+                        {/* ==================== Mobile Menu =======================  */}
+                        <Box sx={{ display: tablet ? 'block' : 'none', transition: 'all .3s ease-in-out', zIndex: toggle ? "99999" : '0' }}>
+                            <Box sx={{ position: 'absolute', top: toggle ? '100%' : '-1500px', width: '100%', left: '0', transition: 'top .5s ease-in-out' }} >
+                                <Mobilenav navClose={close}/>
                             </Box>
                         </Box>
                         {/* ========================== End Mobile menu =================  */}
 
                     </Grid>
-                    <Grid item xs={1} sm={2} md={1}>
-                        <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: tablet ? 'space-between' : 'flex-start', height: '100%' }}>
-                            <SearchIcon sx={{ display:toggle ? "none" : "block",cursor: 'pointer', width: '35px', height: '35px', color: tablet ? '#e73f15' : '#000' }} />
+                    <Grid item xs={4} sm={2} md={1}>
+                        <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: tablet ? 'flex-end' : 'flex-start', height: '100%' }}>
+                            <SearchIcon sx={{ display: toggle ? "none" : "block", cursor: 'pointer', width: '35px', height: '35px', color: tablet ? '#e73f15' : '#000' }} />
 
                             <MenuIcon onClick={toggleBtn} sx={{ display: tablet ? toggle ? 'none' : 'block' : 'none', cursor: 'pointer', marginRight: '10px', width: '40px', height: '40px', color: '#e73f15' }} />
 

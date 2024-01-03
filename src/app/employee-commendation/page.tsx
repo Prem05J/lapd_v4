@@ -22,7 +22,7 @@ const Commendation = () => {
 
             <Box sx={{ padding: "40px 5% 40px 5%" }}>
                 <Grid className={global.fadeInUp} container>
-                    <Grid item xs={12} sm={12} md={7} lg={6}>
+                    <Grid item xs={12} sm={12} md={12} lg={7} xl={5}>
                         <Box className={styles.box1} sx={{ marginTop: "50px" }}>
                             <Typography className={styles.letter}>
                                 If you would like to commend an employee of the Los

@@ -34,7 +34,7 @@ const Office = () => {
                         <li><Typography className={styles.typograpy_list}>213-486-0150</Typography></li>
                     </ul>
                     <Grid container>
-                        <Grid item xs={12} sm={12} md={8}>
+                        <Grid item xs={12} sm={12} md={12} lg={7} xl={5}>
                             <Typography className={styles.para_styles}>
                                 The Chief of Police (COP) is the highest-ranking officer in the Police Department. The COP is appointed by the Mayor, is subject to the approval of the <Link href='https://www.lapdonline.org/police-commission/function-and-role-of-the-board-of-police-commissioners/' className={styles.anchor_link}>Police Commission</Link> and the City Council, and can serve a maximum of two five-year terms. As a general manager of the Police Department, the COP is responsible for the planning, efficient administration and operation of the Police Department under the authority of the Board of Police Commissioners. <Link href='https://www.lapdonline.org/command-staff/moore-michel/' className={styles.anchor_link}>Michel Moore</Link> is currently Chief of Police for the Los Angeles Police Department.
                             </Typography>
