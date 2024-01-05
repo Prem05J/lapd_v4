@@ -5,23 +5,9 @@
     padding: 50px 0% 50px 0%;
 }
 
-.request2{
-    background-color:#fff;
-     padding-left: 5%;
-    padding-right: 5%;
 
-}
-.request3{
-    background-color:#fff;
-    padding-left: 5%;
-    padding-right: 5%;
-}
 
-@media screen and (max-width: 780px) {
-    .request2 {
-       padding-left: 5%;
-    }
-  }
+
 
 .lnk{
     color:#e73f15; ;

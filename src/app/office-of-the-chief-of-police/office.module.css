@@ -1,13 +1,8 @@
-.typograpy_list{
-    color: '#0f212b';
-    font-weight: 'bold'; 
-    font-size: '18px'
-}
 .para_styles{
     color: #0f212b;
     margin: 0px 0px 30px;
     font-size: 18px;
-    text-align: justify;
+  
 }
 .anchor_link{
     text-decoration: none;

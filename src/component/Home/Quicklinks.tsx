@@ -12,7 +12,7 @@ import Link from 'next/link';
 const Quicklinks = () => {
     
     return (
-        <Box className={styles.space}>
+        <Box>
             <Typography sx={{ fontWeight: '800', fontSize: '15px', paddingBottom: '5px' }}>QUICK LINKS</Typography>
             <Grid container>
                 <Grid item xs={6} sm={6} md={2} className={styles.bottom}>

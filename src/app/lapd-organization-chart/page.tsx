@@ -1,3 +1,4 @@
+'use client'
 import Grid from '@mui/material/Grid'
 import Box from '@mui/material/Box'
 import React from 'react'
@@ -9,26 +10,38 @@ import pdf1 from '../../../public/Icons/icon-pdf-white.svg'
 import global from "../global.module.css"
 import Typography from '@mui/material/Typography'
 import LaunchIcon from '@mui/icons-material/Launch';
-const page = () => {
+import { Container } from '@mui/material'
+import useMediaQuery from '@mui/material/useMediaQuery'
+
+
+const OrganizationChat = () => {
+
+    const mobile = useMediaQuery('(max-width: 576px)');
+
+
     return (
         <>
             {/* 1st block */}
             <Box className={styles.bg}>
+                <Container>
                 <Grid container className={styles.blockspace}>
-                    <Grid item xs={11} sm={10} md={7} lg={6} className={global.fadeInUp}>
-                        <h1 className={styles.h1size}>LAPD Organization Chart</h1>
+                    <Grid item xs={11} sm={10} md={12} className={global.fadeInUp}>
+                        <Typography sx={{fontSize: mobile ? "40px" : "62px",fontWeight:"bold"}}>LAPD Organization Chart</Typography>
                         <Box sx={{ display: 'flex', alignItems: 'center' }}>
-                            <Image src={pdf1} alt='pdf' style={{ height: '25px', width: '25px' }} /><Link href="javascript:;" className={styles.insidelnk}>LAPD Organization Flow Chart</Link>
+                            <Image src={pdf1} alt='pdf' style={{ height: '25px', width: '25px' }} /><Link href="javascript:;" className={styles.insidelnk}><Typography>LAPD Organization Flow Chart</Typography></Link>
                         </Box>
                     </Grid>
                 </Grid>
+                </Container>
             </Box>
             {/* 2nd block */}
 
+
+            <Container>
             <Box className={`${styles.wholeblock} ${global.fadeInUp}`}>
                 <Box>
                     <Grid container>
-                        <Grid item xs={12} sm={12} md={10} lg={7} className={styles.bluecard}>
+                        <Grid item xs={12} sm={12} md={10} lg={7} xl={8} className={styles.bluecard}>
                             <Typography>The Los Angeles Police Department is one of the largest and most innovative law enforcement agencies in the world. It is responsible for providing police service to an area encompassing 468 square miles and 21 community areas, representing approximately over 4 million residents as of 2023.</Typography>
                             <Typography sx={{ marginTop: '30px' }}>The Board of Police Commissioners oversees all operations of the LAPD. For more information about any office of the LAPD, click the name of the office you are interested in below. You may also click the charts below to view the full LAPD Organizational Chart or the Organizational Chart for the City of Los Angeles.</Typography>
                         </Grid>
@@ -39,12 +52,12 @@ const page = () => {
 
             {/*====================================== lg & md view ================================================*/}
 
-            <Box className={styles.lg}>
-                <Grid container className={global.fadeInUp}>
+            <Box className={styles.lg} sx={{marginTop:"30px"}}>
+                <Grid container className={global.fadeInUp} columnSpacing={5} rowSpacing={5}>
 
                     {/*====================================== Left side ================================================*/}
 
-                    <Grid item sm={6} md={6} lg={6} className={styles.gridscardpadone}>
+                    <Grid item sm={6} md={6} lg={6}>
                         <Box className={styles.linkbox}>
                             <h2>Board of Police Commissioners</h2>
                             <ul className={styles.aboutul}>
@@ -138,7 +151,7 @@ const page = () => {
                     {/*====================================== Right side ================================================*/}
 
 
-                    <Grid item sm={6} md={6} lg={6} className={styles.gridscardpadtwo}>
+                    <Grid item sm={6} md={6} lg={6} >
                         <Box className={styles.linkbox}>
                             <h2>Chief of Staff</h2>
                             <ul className={styles.aboutul}>
@@ -240,9 +253,9 @@ const page = () => {
 
             <Box className={styles.xs}>
                 <Box>
-                    <Grid container className={global.fadeInUp}>
+                    <Grid container className={global.fadeInUp} columnSpacing={5} rowSpacing={5}>
 
-                        <Grid item xs={12} className={styles.gridscardpadone}>
+                        <Grid item xs={12} >
                             <Box className={styles.linkbox}>
                                 <h2>Board of Police Commissioners</h2>
                                 <ul className={styles.aboutul}>
@@ -251,7 +264,7 @@ const page = () => {
                                 </ul>
                             </Box>
                         </Grid>
-                        <Grid item xs={12} className={styles.gridscardpadtwo}>
+                        <Grid item xs={12} >
                             <Box className={styles.linkbox}>
                                 <h2>Chief of Staff</h2>
                                 <ul className={styles.aboutul}>
@@ -266,10 +279,11 @@ const page = () => {
 
                     </Grid>
                 </Box>
-                <Box>
-                    <Grid container className={global.fadeInUp}>
 
-                        <Grid item xs={12} className={styles.gridscardpadone}>
+                <Box sx={{marginTop:"40px"}}>
+                    <Grid container className={global.fadeInUp} columnSpacing={5} rowSpacing={5}>
+
+                        <Grid item xs={12}>
                             <Box className={styles.linkbox}>
                                 <h2>Community Safety Partnership Bureau</h2>
                                 <ul className={styles.aboutul}>
@@ -277,7 +291,7 @@ const page = () => {
                                 </ul>
                             </Box>
                         </Grid>
-                        <Grid item xs={12} className={styles.gridscardpadtwo}>
+                        <Grid item xs={12}>
                             <Box className={styles.linkbox}>
                                 <h2>Office of Constitutional Policing & Policy</h2>
                                 <ul className={styles.aboutul}>
@@ -289,10 +303,11 @@ const page = () => {
                         </Grid>
                     </Grid>
                 </Box>
-                <Box>
-                    <Grid container className={global.fadeInUp}>
 
-                        <Grid item xs={12} className={styles.gridscardpadone}>
+                <Box sx={{marginTop:"40px"}}>
+                    <Grid container className={global.fadeInUp} columnSpacing={5} rowSpacing={5}>
+
+                        <Grid item xs={12}>
                             <Box className={styles.linkbox}>
                                 <h2>Professional Standards Bureau</h2>
                                 <ul className={styles.aboutul}>
@@ -305,10 +320,10 @@ const page = () => {
                     </Grid>
                 </Box>
 
-                <Box>
-                    <Grid container className={global.fadeInUp}>
+                <Box sx={{marginTop:"40px"}}>
+                    <Grid container className={global.fadeInUp} columnSpacing={5} rowSpacing={5}>
 
-                        <Grid item xs={12} className={styles.gridscardpadone}>
+                        <Grid item xs={12} >
                             <Box className={styles.linkbox}>
                                 <h2>Office of Support Services</h2>
                                 <ul className={styles.aboutul}>
@@ -317,7 +332,7 @@ const page = () => {
                                 </ul>
                             </Box>
                         </Grid>
-                        <Grid item xs={12} className={styles.gridscardpadtwo}>
+                        <Grid item xs={12} >
                             <Box className={styles.linkbox}>
                                 <h2>Administrative Services Bureau</h2>
                                 <ul className={styles.aboutul}>
@@ -337,10 +352,12 @@ const page = () => {
 
                     </Grid>
                 </Box>
-                <Box>
-                    <Grid container className={global.fadeInUp}>
 
-                        <Grid item xs={12} className={styles.gridscardpadone}>
+
+                <Box sx={{marginTop:"40px"}}>
+                    <Grid container className={global.fadeInUp} columnSpacing={5} rowSpacing={5}>
+
+                        <Grid item xs={12} >
                             <Box className={styles.linkbox}>
                                 <h2>Training Bureau</h2>
                                 <ul className={styles.aboutul}>
@@ -350,7 +367,7 @@ const page = () => {
                                 </ul>
                             </Box>
                         </Grid>
-                        <Grid item xs={12} className={styles.gridscardpadtwo}>
+                        <Grid item xs={12} >
                             <Box className={styles.linkbox}>
                                 <h2>Office of Special Operations</h2>
                                 <ul className={styles.aboutul}>
@@ -377,10 +394,10 @@ const page = () => {
                 </Box>
 
 
-                <Box>
-                    <Grid container className={global.fadeInUp}>
+                <Box sx={{marginTop:"40px"}}>
+                    <Grid container className={global.fadeInUp} columnSpacing={5} rowSpacing={5}>
 
-                        <Grid item xs={12} className={styles.gridscardpadone}>
+                        <Grid item xs={12} >
                             <Box className={styles.linkbox}>
                                 <h2>Detective Bureau</h2>
                                 <ul className={styles.aboutul}>
@@ -397,7 +414,7 @@ const page = () => {
                                 </ul>
                             </Box>
                         </Grid>
-                        <Grid item xs={12} className={styles.gridscardpadtwo}>
+                        <Grid item xs={12} >
                             <Box className={styles.linkbox}>
                                 <h2>Information Technology Bureau</h2>
                                 <ul className={styles.aboutul}>
@@ -411,10 +428,10 @@ const page = () => {
 
                     </Grid>
                 </Box>
-                <Box>
-                    <Grid container className={global.fadeInUp}>
+                <Box sx={{marginTop:"40px"}}>
+                    <Grid container className={global.fadeInUp} columnSpacing={5} rowSpacing={5}>
 
-                        <Grid item xs={12} className={styles.gridscardpadone}>
+                        <Grid item xs={12} >
                             <Box className={styles.linkbox}>
                                 <h2>Office of Operations</h2>
                                 <ul className={styles.aboutul}>
@@ -448,7 +465,7 @@ const page = () => {
                                 </ul>
                             </Box>
                         </Grid>
-                        <Grid item xs={12} className={styles.gridscardpadtwo}>
+                        <Grid item xs={12} >
                             <Box className={styles.linkbox}>
                                 <h2>Personnel Division</h2>
                                 <ul className={styles.aboutul}>
@@ -459,10 +476,10 @@ const page = () => {
                     </Grid>
                 </Box>
 
-                <Box>
-                    <Grid container className={global.fadeInUp}>
+                <Box sx={{marginTop:"40px"}}>
+                    <Grid container className={global.fadeInUp} columnSpacing={5} rowSpacing={5}>
 
-                        <Grid item xs={12} className={styles.gridscardpadone}>
+                        <Grid item xs={12} >
                             <Box className={styles.linkbox}>
                                 <h2>Specialized Units</h2>
                                 <ul className={styles.aboutul}>
@@ -485,8 +502,10 @@ const page = () => {
                 </Box>
             </Box>
 
+            </Container>
+
         </>
     )
 }
 
-export default page
+export default OrganizationChat

@@ -7,6 +7,7 @@ import Typography from "@mui/material/Typography";
 import Link from "next/link";
 import global from "../global.module.css";
 import useMediaQuery from '@mui/material/useMediaQuery'
+import { Container } from "@mui/material";
 
 
 const Commendation = () => {
@@ -16,13 +17,16 @@ const Commendation = () => {
     return (
         <div>
             <Box sx={{ display: 'flex', padding: '32px 5%', flexDirection: 'column', background: '#0f212b' }}>
-
+                        <Container>
                 <Typography className={global.fadeInUp} sx={{ color: '#fff', margin: '0px 0px 10px', fontSize: mobile ? '40px' : '62px', fontWeight: '700' }}>Employee Commendation</Typography>
-            </Box>
+                </Container>
+                </Box>
 
-            <Box sx={{ padding: "40px 5% 40px 5%" }}>
+
+         <Container>
+            <Box sx={{ padding: "30px 0px 30px 0px" }}>
                 <Grid className={global.fadeInUp} container>
-                    <Grid item xs={12} sm={12} md={12} lg={7} xl={5}>
+                    <Grid item xs={12} sm={12} md={10}  lg={8}>
                         <Box className={styles.box1} sx={{ marginTop: "50px" }}>
                             <Typography className={styles.letter}>
                                 If you would like to commend an employee of the Los
@@ -40,7 +44,7 @@ const Commendation = () => {
                             </Typography>
                         </Box>
 
-                        <Box className={styles.box2} sx={{ marginTop: "50px" }}>
+                        <Box className={styles.box2} sx={{ marginTop: "30px" }}>
                             <Link className={styles.lnk} href="#">
                                 <Typography className={styles.letter}>Commendation in English</Typography>
                             </Link>
@@ -65,6 +69,7 @@ const Commendation = () => {
                         </Box>
                     </Grid>
                 </Grid></Box>
+                </Container>
         </div>
     );
 };

@@ -5,7 +5,10 @@
     text-transform: uppercase;
     letter-spacing: .75px;
     color: #000;
+    line-height: 20px;
     padding: 54px 0;
+    height: auto;
+    font-family: sans-serif;
 }
 .lists > li{
     margin: 0px 10px;

@@ -1,3 +1,4 @@
+'use client'
 import Grid from '@mui/material/Grid'
 import Box from '@mui/material/Box'
 import React from 'react'
@@ -5,23 +6,27 @@ import Link from 'next/link'
 import styles from './traffic.module.css'
 import Typography from '@mui/material/Typography'
 import global from "../../../../global.module.css"
+import { Container } from '@mui/material'
 
 const TransitServices = () => {
     return (
         <>
             {/* 1st block */}
             <Box className={styles.bg}>
-                <Grid container className={styles.blockspace}>
-                    <Grid  className={global.fadeInUp} item xs={11} sm={10} md={7} lg={7}>
+                <Container>
+                <Grid container>
+                    <Grid  className={global.fadeInUp} item xs={12} sm={10} md={7} lg={8}>
                         <h1 className={styles.h1size}>Obtain A Traffic Collision Report</h1>
                     </Grid>
                 </Grid>
+                </Container>
             </Box>
             {/* 2nd block */}
-            <Box className={styles.wholeblock}>
-                <Box>
+            <Container>
+          
+                <Box sx={{marginTop:"60px"}}>
                     <Grid className={global.fadeInUp} container>
-                        <Grid item xs={12} sm={12} md={12} lg={7} xl={5} className={styles.textstyl} >
+                        <Grid item xs={12} sm={12} md={10} lg={7} xl={8} className={styles.textstyl} >
                             <Typography sx={{ marginBottom: '30px' }}>Traffic Collision Reports may be released to authorized persons such as victims, representative(s) of the victim, or such individuals as provided in Section 20012 of the Vehicle Code, by requesting the report online or via United States Mail.</Typography>
                             <Typography sx={{ fontWeight: 'bold', marginBottom: '30px' }}>NOTE:</Typography>
                             <ul className={styles.disc}>
@@ -80,7 +85,8 @@ const TransitServices = () => {
                         </Grid>
                     </Grid>
                 </Box>
-            </Box>
+           
+            </Container>
 
 
         </>

@@ -9,6 +9,7 @@ import Image from 'next/image';
 import bodyImg from '../../../public/Images/thumbnailImage.png';
 import pdf from "../../../public/Icons/pdf-svg-icon.svg"
 import global from "../global.module.css"
+import { Container } from '@mui/material';
 
 // ------------ 1873 - 1904 ------------- 
 const pdf_1 = '/pdfs/history/first/timeline-page-2.pdf';
@@ -67,21 +68,27 @@ const HistoryOfLapd: React.FC = () => {
     return (
         <>
             <Box sx={{ display: 'flex', padding: '32px 5%', flexDirection: 'column', background: '#0f212b' }}>
+                <Container>
                 <Typography className={global.fadeInUp} sx={{ marginBottom: '8px', color: '#fff', fontSize: mobile ? '18px' : '22px', fontStyle: 'italic' }}>from the early beginnings to the present</Typography>
                 <Typography className={global.fadeInUp} sx={{ color: '#fff', margin: '0px 0px 10px', fontSize: mobile ? '30px' : '62px', fontWeight: '700' }}>History of the LAPD</Typography>
+                </Container>
             </Box>
-            <Grid container sx={{ margin: '20px 0px' }} className={global.fadeInUp}>
-                <Grid item xs={12} sm={12} md={12} lg={7} xl={5}>
-                    <Box sx={{ padding: mobile ? '0' : '30px' }}>
+
+
+
+              <Container>
+                 <Grid container sx={{marginTop:"50px" }} className={global.fadeInUp}>
+                  <Grid item xs={12} sm={12} md={10}  xl={8}>
+                    <Box>
                         <Image src={bodyImg} alt='Body-Image' style={{ width: '100%', height: tab ? '100vh' : mobile ? '50vh' : '' }} />
                     </Box>
                 </Grid>
                 
             </Grid>
 
-            <Grid className={global.fadeInUp} container style={{ padding: mobile ? '20px' : tab ? '40px' : '30px 50px' }} columnSpacing={4} rowSpacing={2}>
+            <Grid className={global.fadeInUp} container  columnSpacing={5} rowSpacing={5}>
                 {/* ---------------- First Box -------------- */}
-                <Grid item xs={12} sm={6} lg={4.1}>
+                <Grid item xs={12} sm={6} >
                     <Box sx={{ padding: '35px', background: '#ebf4f7' }}>
                         <Typography sx={{ fontSize: '26px', fontWeight: '700', marginBottom: '20px' }}>LAPD History 1873-1904</Typography>
                         <ul style={{ listStyleType: 'none', paddingLeft: '0', marginBottom: '0' }}>
@@ -99,7 +106,7 @@ const HistoryOfLapd: React.FC = () => {
                 </Grid>
 
                 {/* ---------------- Second Box -------------- */}
-                <Grid item xs={12} sm={6} lg={4.1} >
+                <Grid item xs={12} sm={6} >
                     <Box sx={{ padding: '35px', background: '#ebf4f7' }}>
                         <Typography sx={{ fontSize: '26px', fontWeight: '700', marginBottom: '20px' }}>LAPD History 1913-1944</Typography>
                         <ul style={{ listStyleType: 'none', paddingLeft: '0', marginBottom: '0' }}>
@@ -117,7 +124,7 @@ const HistoryOfLapd: React.FC = () => {
                 </Grid>
 
                 {/* ---------------- Thired Box -------------- */}
-                <Grid item xs={12} sm={6} lg={4.1} >
+                <Grid item xs={12} sm={6}>
                     <Box sx={{ padding: '35px', background: '#ebf4f7' }}>
                         <Typography sx={{ fontSize: '26px', fontWeight: '700', marginBottom: '20px' }}>LAPD History 1953-1984</Typography>
                         <ul style={{ listStyleType: 'none', paddingLeft: '0', marginBottom: '0' }}>
@@ -135,7 +142,7 @@ const HistoryOfLapd: React.FC = () => {
                 </Grid>
 
                 {/* ---------------- Fourth Box -------------- */}
-                <Grid item xs={12} sm={6} lg={4.1} sx={{marginTop: mobile ? '0' :'-35px'}}>
+                <Grid item xs={12} sm={6} sx={{marginTop: mobile ? '0' :'-35px'}}>
                     <Box sx={{ padding: '35px', background: '#ebf4f7' }}>
                         <Typography sx={{ fontSize: '26px', fontWeight: '700', marginBottom: '20px' }}>LAPD History 1993-2019</Typography>
                         <ul style={{ listStyleType: 'none', paddingLeft: '0', marginBottom: '0' }}>
@@ -154,6 +161,7 @@ const HistoryOfLapd: React.FC = () => {
 
 
             </Grid>
+            </Container>
         </>
     )
 }

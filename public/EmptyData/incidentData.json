@@ -1,0 +1,11 @@
+[
+{"Sno":8,"Date":"12/08/2023","Type":"MCIT","Division":"Southeast","Location":"Century Bl/McKinley Ave","Name":"N/A","NRNumber":"NRM019-23cm/mo","VID":"NVA","Video":false},
+{"Sno":7,"Date":"11/21/2023","Type":"MCIT","Division":"Newton","Location":"N/B 57/Yorba Linda","Name":"N/A","NRNumber":"NRM018-23","VID":"VID","Video":true},
+{"Sno":6,"Date":"11/19/2023","Type":"MCIT","Division":"Harbor","Location":"Avalon Bl/PCH","Name":"Juvenile","NRNumber":"NRM017-23","VID":"VID","Video":true},
+{"Sno":5,"Date":"11/11/2023","Type":"MCIT","Division":"Southeast","Location":"MLK/Vermont","Name":"N/A","NRNumber":"NRM016-23","VID":"VID","Video":true},
+{"Sno":4,"Date":"11/05/2023","Type":"MCIT","Division":"Newton","Location":"17th St/Main St","Name":"Albert Diaz","NRNumber":"NRM015-23","VID":"VID","Video":true},
+{"Sno":3,"Date":"02/16/2023","Type":"MCIT","Division":"77th","Location":"San Pedro Ave/Gage Ave","Name":"Sutton, Dashawn","NRNumber":"NRM019-23cm/mo","VID":"VID","Video":true},
+{"Sno":2,"Date":"02/16/2023","Type":"MCIT","Division":"Devonshire","Location":"Lindley Ave/Roscoe Blvd","Name":"Garcia, Esteban","NRNumber":"NRM019-23cm/mo","VID":"VID","Video":true},
+{"Sno":1,"Date":"01/31/2023","Type":"MCIT","Division":"Foothill","Location":"Woodman Ave & Lanark St","Name":"De La Cruz, Oscar","NRNumber":"NRM019-23cm/mo","VID":"VID","Video":true}
+
+]

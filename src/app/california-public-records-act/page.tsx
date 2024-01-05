@@ -8,6 +8,7 @@ import styles from './california.module.css'
 import Typography from '@mui/material/Typography'
 import LaunchIcon from '@mui/icons-material/Launch';
 import useMediaQuery from '@mui/material/useMediaQuery'
+import { Container } from '@mui/material'
 
 
 const California = () => {
@@ -20,21 +21,25 @@ const California = () => {
 
             {/* 1st block */}
             <Box className={styles.bg}>
-                <Grid container className={styles.blockspace}>
-                    <Grid item xs={11} sm={10} md={7} lg={7}>
+                <Container>
+                <Grid container>
+                    <Grid item xs={11} sm={10} md={9} lg={8}>
                         <h1 className={styles.h1size}>California Public Records Act</h1>
                         <Box sx={{ display: 'flex', alignItems: 'center' }}>
                             <LaunchIcon sx={{ color: '#fff' }} />  <Link href="#" className={styles.insidelnk}>California Public Records Act (CPRA)</Link>
                         </Box>
                     </Grid>
                 </Grid>
+                </Container>
             </Box>
             {/* 2nd block */}
 
-            <Box>
+
+           <Container>
+         
                 <Grid container>
-                    <Grid item xs={12} sm={11} md={10} lg={7} className={styles.textstyl} >
-                        <h3 style={{ fontSize: '26px', fontWeight: 'bold' }} className={styles.typoleft}>What is the California Public Records Act?</h3>
+                    <Grid item xs={12} sm={11} md={10} lg={9} className={styles.textstyl} >
+                        <h3 style={{ fontSize: '26px', fontWeight: 'bold' }}>What is the California Public Records Act?</h3>
 
                         <Typography className={styles.bottom}><span><Link href="#">CPRA Manual</Link></span></Typography>
                         <Typography className={styles.bottom}><span><Link href="#">Admin Order 4, 2019</Link></span></Typography>
@@ -49,7 +54,7 @@ const California = () => {
                         <Typography className={styles.ptag}>Certain records or portions of records are subject to privacy laws and/or other exemptions and are rarely ever available for viewing. All agency records not exempted by law are otherwise available.</Typography>
 
 
-                        <Typography sx={{display: toggle ? 'none' : 'flex', alignItems: 'center', marginBottom: '30px', marginLeft: tab ?'20px' : '80px', paddingTop: '30px'}}>
+                        <Typography sx={{display: toggle ? 'none' : 'flex', alignItems: 'center', marginBottom: '30px', paddingTop: '30px'}}>
                             <span className={styles.hlinetwo}></span><Link href="javascript:;" className={styles.insidelnktwo} onClick={() => setToggle(true)}>Read More</Link>
                         </Typography>
 
@@ -110,7 +115,7 @@ const California = () => {
 
                     </Grid>
                 </Grid>
-            </Box>
+          
 
 
 
@@ -120,12 +125,12 @@ const California = () => {
 
 
 
-            <Box sx={{ margin: tab ? '20px 50px' : '100px 70px' }}>
+            
                 <Grid container columnSpacing={3} rowSpacing={7}>
 
                     <Grid item xs={12} sm={6} md={3}>
                         <Box sx={{ background: '#ebf4f7', padding: '24px', height: '70%' }}>
-                            <Box sx={{}}>
+                      
                                 <Typography sx={{ marginBottom: '15px', fontSize: '20px', lineHeight: '24px', fontWeight: '700' }}>CPRA Manual</Typography>
                                 <Typography sx={{ display: 'flex', alignItems: 'center' }}>
                                     <LaunchIcon sx={{ width: '20px', padding: '0px 5px 0px 0px' }} />
@@ -133,7 +138,7 @@ const California = () => {
                                         CPRA Manual
                                     </Link>
                                 </Typography>
-                            </Box>
+                         
                         </Box>
                     </Grid>
 
@@ -200,7 +205,7 @@ const California = () => {
                     </Grid>
 
                 </Grid>
-            </Box>
+           
 
             {/* ================================================== section ================================================ */}
 
@@ -211,7 +216,7 @@ const California = () => {
 
                     {/*====================================== Left side ================================================*/}
 
-                    <Grid item xs={12} sm={6} md={3} sx={{marginTop:"40px"}} className={styles.gridscardpadone}>
+                    <Grid item xs={12} sm={6} md={3} sx={{marginTop:"40px"}}>
                         <Box className={styles.linkbox}>
                             <h2>Im Looking for...</h2>
                             <ul className={styles.aboutul}>
@@ -236,7 +241,7 @@ const California = () => {
             </Box>
 
 
-
+            </Container>
             {/*====================================== xs view ================================================*/}
 
 

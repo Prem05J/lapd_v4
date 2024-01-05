@@ -6,6 +6,7 @@ import Link from 'next/link'
 import useMediaQuery from '@mui/material/useMediaQuery'
 import Styles from './style.module.css'
 import Grid from '@mui/material/Grid'
+import { Container } from '@mui/material'
 
 
 const Professional = () => {
@@ -16,10 +17,14 @@ const Professional = () => {
 
     return (
         <>
-            <Box sx={{ display: 'flex', padding: '32px 5%', flexDirection: 'column', background: '#0f212b' }}>
-                <Typography sx={{ color: '#fff', margin: '0px 0px 20px', fontSize: mobile ? '30px' : '62px', fontWeight: '700', width: mobile ? '100%' : '70%' }}>Professional Standards Bureau</Typography>
-            </Box>
-            <Box sx={{ padding: '0px 5%' }}>
+            <Box sx={{ display: 'flex', padding: '32px 0px', flexDirection: 'column', background: '#0f212b' }}>
+                <Container>
+                <Typography sx={{ color: '#fff', margin: '0px 0px 20px', fontSize: mobile ? '30px' : '62px', fontWeight: '700', width: mobile ? '100%' : '70%',lineHeight:"1.2" }}>Professional Standards Bureau</Typography>
+                </Container>
+                </Box>
+
+            <Container>
+            <Box sx={{marginTop:"70px"}}>
                 <ul style={{ listStyleType: 'none', paddingLeft: '0' }}>
                     <li><Typography className={Styles.para}>Professional Standards Bureau</Typography></li>
                     <li><Typography className={Styles.para}>201 N. Figueroa Street, Suite 1600</Typography></li>
@@ -28,8 +33,8 @@ const Professional = () => {
                 </ul>
 
 
-                <Grid container>
-                    <Grid item xs={12} sm={12} md={12} lg={7} xl={7}>
+                <Grid container sx={{marginTop:"30px"}}>
+                    <Grid item xs={12} sm={12} md={12} lg={8}>
                         <Typography sx={{ fontSize: '18px', fontWeight: '700', lineHeight: '1.7' }}>
                             GOALS:
                         </Typography>
@@ -130,7 +135,7 @@ const Professional = () => {
                 </Grid>
 
                 <Grid container>
-                    <Grid item xs={12} sm={12} md={12} lg={7} xl={7}>
+                    <Grid item xs={12} sm={6}>
                         <Box sx={{ padding: '45px', background: '#ebf4f7', margin: '20px 0px' }}>
                             <Typography sx={{ fontSize: '20px', marginBottom: '20px', fontWeight: '700' }}>Public Reports on Discipline</Typography>
                             <Typography sx={{ fontSize: '16px', lineHeight: '1.5', margin: '20px 0px' }}>
@@ -145,6 +150,7 @@ const Professional = () => {
                     </Grid>
                 </Grid>
             </Box>
+            </Container>
 
         </>
     )

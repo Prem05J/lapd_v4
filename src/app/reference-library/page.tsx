@@ -10,6 +10,7 @@ import Grid  from '@mui/material/Grid'
 import styles from "./reference.module.css"
 import Image from 'next/image'
 import pdf from "../../../public/Icons/pdf-svg-icon.svg"
+import { Container } from '@mui/material'
 
 
 const ReferenceLibrary = () => {
@@ -19,18 +20,21 @@ const ReferenceLibrary = () => {
   return (
     <div>
         <Box sx={{ display: 'flex', padding: '32px 5%', flexDirection: 'column', background: '#0f212b' }}>
+          <Container>
         <Typography sx={{ marginBottom: '8px', color: '#fff', fontSize: mobile ? '18px' : '22px' }} className={global.fadeInUp}>Historical Documents and Internal Reports</Typography>
         <Typography className={global.fadeInUp} sx={{ color: '#fff', margin: '0px 0px 20px', fontSize: mobile ? '30px' : '62px', fontWeight: '700' }}>Reference Library</Typography>
         <Link className={global.fadeInUp} style={{ textDecoration: 'none', display: 'flex', alignItems: 'center' }} href='https://www.joinlapd.com/'>
           <LaunchIcon sx={{ fontSize: 'large', color: '#fff', marginRight: '5px' }} />
           <Typography sx={{ padding: '0px 0px 0xp 20px', color: "#7DDFFF", fontSize: "16px", textTransform: "none", '&:hover': { color: "#fff" } }}>Public Records are available via the City Clerk website</Typography>
         </Link>
+        </Container>
         </Box>
 
-        <Box className={global.fadeInUp} sx={{padding:"0% 5% 5% 5%"}}>
+        <Container>
+        <Box className={global.fadeInUp} >
             <Grid container sx={{marginTop:"40px"}} rowSpacing={5} columnSpacing={5}>
 
-                   <Grid item xs={12} sm={12} md={6} lg={4.1}>
+                   <Grid item xs={12} sm={6}>
                     <Box sx={{backgroundColor:"#ebf4f7",padding:"30px 30px 30px 40px",display:"flex",flexDirection:"column",gap:"20px"}}>
                       <Typography  sx={{fontSize:"26px",fontWeight:"bold"}}>Los Angeles Police Department Manual</Typography>
                       <Typography sx={{fontSize:"20px",fontWeight:"bold"}}>Updated 01/26/2023</Typography>
@@ -38,14 +42,14 @@ const ReferenceLibrary = () => {
                       </Box>
                    </Grid>
               
-                  <Grid item xs={12} sm={12} md={6} lg={4.1}>
+                  <Grid item xs={12} sm={6} >
                     <Box sx={{backgroundColor:"#ebf4f7",padding:"30px 30px 30px 40px",display:"flex",flexDirection:"column",gap:"20px"}}>
                       <Typography  sx={{fontSize:"26px",fontWeight:"bold"}}>Critical Incident Videos</Typography>
                       <Typography className={styles.listItem} sx={{fontSize:"18px"}} ><Link href="javascript:;">Critical Incident Videos</Link> </Typography>
                    </Box>
                   </Grid>
 
-                  <Grid item xs={12} sm={12} md={6} lg={4.1}>
+                  <Grid item xs={12} sm={6} >
                     <Box sx={{backgroundColor:"#ebf4f7",padding:"30px 30px 0px 40px",display:"flex",flexDirection:"column",gap:"20px"}}>
                       <Typography  sx={{fontSize:"26px",fontWeight:"bold"}}>2022 Use of Force Year End Review</Typography>
                       <ul className={styles.listItem}>
@@ -56,7 +60,7 @@ const ReferenceLibrary = () => {
                           </Box> 
                   </Grid>
                
-                  <Grid item xs={12} sm={12} md={6} lg={4.1}>
+                  <Grid item xs={12} sm={6} >
                     <Box sx={{backgroundColor:"#ebf4f7",padding:"40px 30px 40px 40px",display:"flex",flexDirection:"column",gap:"20px"}}>
                       <Typography  sx={{fontSize:"26px",fontWeight:"bold"}}>Administrative, Directives and Special Orders</Typography>
                       <Typography sx={{fontSize:"20px",fontWeight:"bold"}}>Updated 07/26/2023</Typography>
@@ -68,7 +72,7 @@ const ReferenceLibrary = () => {
               </Box>
                   </Grid>
                   
-                  <Grid item xs={12} sm={12} md={6} lg={4.1}>
+                  <Grid item xs={12} sm={6}>
                     <Box sx={{backgroundColor:"#ebf4f7",padding:"30px 30px 0px 40px",display:"flex",flexDirection:"column",gap:"20px"}}>
                       <Typography  sx={{fontSize:"26px",fontWeight:"bold"}}>Reference Library & Historical Documents</Typography>
                       <ul className={styles.listItem}>
@@ -85,7 +89,7 @@ const ReferenceLibrary = () => {
                         </ul>
                   </Box>
                   </Grid>
-                  <Grid item xs={12} sm={12} md={6} lg={4.1}>
+                  <Grid item xs={12} sm={6}>
                     <Box sx={{display:"flex",flexDirection:"column",gap:"30px"}}>
                     <Box sx={{backgroundColor:"#ebf4f7",padding:"30px 30px 0px 40px",display:"flex",flexDirection:"column",gap:"20px"}}>
                       <Typography  sx={{fontSize:"26px",fontWeight:"bold"}}>Strategic Plan & Goals</Typography>
@@ -111,6 +115,7 @@ const ReferenceLibrary = () => {
                  
                </Grid>
         </Box>
+        </Container>
     </div>
   )
 }

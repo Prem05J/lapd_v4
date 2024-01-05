@@ -10,6 +10,7 @@ import LaunchIcon from '@mui/icons-material/Launch'
 import styles from "./styles.module.css"
 import Image from 'next/image'
 import pdf from "../../../../public/Icons/pdf-svg-icon.svg"
+import { Container } from '@mui/material'
 
 
 const SiteOfInterest = () => {
@@ -18,19 +19,22 @@ const SiteOfInterest = () => {
 
   return (
     <div>
-       <Box sx={{ display: 'flex', padding: '32px 5%', flexDirection: 'column', background: '#0f212b' }}>
+       <Box sx={{ display: 'flex', padding: '32px 0px', flexDirection: 'column', background: '#0f212b' }}>
+        <Container>
         <Grid container>
-            <Grid item xs={12} sm={12} lg={5}>
+            <Grid item xs={12} sm={12} lg={8}>
             <Typography className={global.fadeInUp} sx={{ marginBottom: '8px', color: '#fff', fontSize: mobile ? '18px' : '22px' }} >The following lists Web sites that are related to either the City of Los Angeles, the LAPD, or crime prevention agencies.</Typography>
             <Typography className={global.fadeInUp} sx={{ color: '#fff', margin: '0px 0px 20px', fontSize: mobile ? '30px' : '62px', fontWeight: '700' }}>Sites of Interest</Typography>
             </Grid>
         </Grid>
+        </Container>
       </Box>
 
-      <Box className={global.fadeInUp} sx={{padding:"0% 5% 5% 5%"}}>
+    <Container>
+      <Box className={global.fadeInUp}>
       <Grid container sx={{marginTop:"40px"}} rowSpacing={5} columnSpacing={5}>
 
-      <Grid item xs={12} sm={12} md={6} lg={4.1}>
+      <Grid item xs={12} sm={6}  >
                     <Box sx={{backgroundColor:"#ebf4f7",padding:"40px 30px 40px 40px",display:"flex",flexDirection:"column",gap:"20px"}}>
                       <Typography  sx={{fontSize:"26px",fontWeight:"bold"}}>City of Los Angeles</Typography>
                      
@@ -55,7 +59,7 @@ const SiteOfInterest = () => {
               </Box>
         </Grid>
 
-        <Grid item xs={12} sm={12} md={6} lg={4.1}>
+        <Grid item xs={12} sm={6} >
             <Box sx={{display:"flex",flexDirection:"column",gap:"30px"}}>
             <Box sx={{backgroundColor:"#ebf4f7",padding:"40px 30px 30px 40px",display:"flex",flexDirection:"column",gap:"20px"}}>
                       <Typography  sx={{fontSize:"26px",fontWeight:"bold"}}>County of Los Angeles</Typography>
@@ -89,7 +93,7 @@ const SiteOfInterest = () => {
                    
         </Grid>
 
-        <Grid item xs={12} sm={12} md={6} lg={4.1} className={styles.gridBox}>
+        <Grid item xs={12} sm={6}  className={styles.gridBox}>
                     <Box sx={{backgroundColor:"#ebf4f7",padding:"40px 30px 40px 40px",display:"flex",flexDirection:"column",gap:"20px"}}>
                       <Typography  sx={{fontSize:"26px",fontWeight:"bold"}}>Federal Law Enforcement Agencies</Typography>
                      
@@ -107,7 +111,7 @@ const SiteOfInterest = () => {
               </Box>
         </Grid>
 
-        <Grid item xs={12} sm={12} md={6} lg={4.1}>
+        <Grid item xs={12} sm={6} >
                     <Box sx={{backgroundColor:"#ebf4f7",padding:"40px 30px 40px 40px",display:"flex",flexDirection:"column",gap:"20px"}}>
                       <Typography  sx={{fontSize:"26px",fontWeight:"bold"}}>Other Law Enforcement Agencies</Typography>
                      
@@ -128,7 +132,7 @@ const SiteOfInterest = () => {
               </Box>
         </Grid>
 
-        <Grid item xs={12} sm={12} md={6} lg={4.1} className={styles.gridBox1}>
+        <Grid item xs={12} sm={6}  className={styles.gridBox1}>
                     <Box sx={{backgroundColor:"#ebf4f7",padding:"40px 30px 40px 40px",display:"flex",flexDirection:"column",gap:"20px"}}>
                       <Typography  sx={{fontSize:"26px",fontWeight:"bold"}}>Criminal Justice Research and Other Legal Information</Typography>
                      
@@ -149,6 +153,7 @@ const SiteOfInterest = () => {
 
       </Grid>
         </Box>
+        </Container>
 
 
         </div>

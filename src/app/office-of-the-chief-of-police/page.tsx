@@ -8,6 +8,7 @@ import useMediaQuery from '@mui/material/useMediaQuery'
 import Link from 'next/link';
 import styles from "./office.module.css";
 import global from "../global.module.css"
+import { Container } from '@mui/material'
 
 const Office = () => {
 
@@ -16,25 +17,32 @@ const Office = () => {
     return (
 
         <>
-            <Box sx={{ display: 'flex', padding: '32px 5%', flexDirection: 'column', background: '#0f212b' }}>
-                <Typography className={global.fadeInUp} sx={{ marginBottom: '8px', color: '#fff', fontSize: mobile ? '18px' : '22px' }}>Chief Michel Moore</Typography>
-                <Typography className={global.fadeInUp} sx={{ color: '#fff', margin: '0px 0px 20px', fontSize: mobile ? '30px' : '62px', fontWeight: '700' }}>Office of the Chief of Police</Typography>
-                <Link className={global.fadeInUp} style={{ textDecoration: 'none', display: 'flex', alignItems: 'center' }} href='https://www.lapdonline.org/office-of-the-chief-of-police-ocop/'>
+            <Box sx={{ display: 'flex', padding: '32px 0px', flexDirection: 'column', background: '#0f212b' }}>
+                <Container>
+                   <Typography className={global.fadeInUp} sx={{ color: '#fff', fontSize: mobile ? '20px' : '22px' }}>Chief Michel Moore</Typography>
+                   <Grid container>
+                        <Grid item xs={12} sm={12} md={7} lg={8}>
+                <Typography className={global.fadeInUp} sx={{ color: '#fff',lineHeight:"1.2",padding:"0px 30px 10px 0px", fontSize: mobile ? '38px' : '62px', fontWeight: '700' }}>Office of the Chief of Police</Typography>
+                </Grid>
+                    </Grid>
+                 <Link className={global.fadeInUp} style={{ textDecoration: 'none', display: 'flex', alignItems: 'center' }} href='https://www.lapdonline.org/office-of-the-chief-of-police-ocop/'>
                     <LaunchIcon sx={{ fontSize: 'large', color: '#fff', marginRight: '5px' }} />
                     <Typography sx={{ padding: '0px 0px 0xp 20px', color: "#7DDFFF", fontSize: "16px", textTransform: "none", '&:hover': { color: "#fff" } }}>Office of the Chief of Police (OCOP)</Typography>
                 </Link>
+                </Container>
             </Box>
 
-            <Box className={global.fadeInUp} sx={{ padding: '5%' }}>
+<Container>
+            <Box className={global.fadeInUp} sx={{marginTop:"60px"}}>
                 <Box>
                     <ul style={{ listStyleType: 'none', paddingLeft: '0', margin: '0px 0px 30px' }}>
-                        <li><Typography className={styles.typograpy_list}>100 West First Street</Typography></li>
-                        <li><Typography className={styles.typograpy_list}>Suite 1072</Typography></li>
-                        <li><Typography className={styles.typograpy_list}>Los Angeles, CA 90012</Typography></li>
-                        <li><Typography className={styles.typograpy_list}>213-486-0150</Typography></li>
+                        <li><Typography sx={{fontWeight:"bold",fontSize:"18px"}}>100 West First Street</Typography></li>
+                        <li><Typography sx={{fontWeight:"bold",fontSize:"18px"}}>Suite 1072</Typography></li>
+                        <li><Typography sx={{fontWeight:"bold",fontSize:"18px"}}>Los Angeles, CA 90012</Typography></li>
+                        <li><Typography sx={{fontWeight:"bold",fontSize:"18px"}}>213-486-0150</Typography></li>
                     </ul>
                     <Grid container>
-                        <Grid item xs={12} sm={12} md={12} lg={7} xl={5}>
+                        <Grid item xs={12} sm={12} md={11} lg={9} xl={8}>
                             <Typography className={styles.para_styles}>
                                 The Chief of Police (COP) is the highest-ranking officer in the Police Department. The COP is appointed by the Mayor, is subject to the approval of the <Link href='https://www.lapdonline.org/police-commission/function-and-role-of-the-board-of-police-commissioners/' className={styles.anchor_link}>Police Commission</Link> and the City Council, and can serve a maximum of two five-year terms. As a general manager of the Police Department, the COP is responsible for the planning, efficient administration and operation of the Police Department under the authority of the Board of Police Commissioners. <Link href='https://www.lapdonline.org/command-staff/moore-michel/' className={styles.anchor_link}>Michel Moore</Link> is currently Chief of Police for the Los Angeles Police Department.
                             </Typography>
@@ -58,6 +66,7 @@ const Office = () => {
                     </Grid>
                 </Box>
             </Box>
+            </Container>
         </>
     )
 }

@@ -297,13 +297,13 @@ const Navbar = () => {
                                                 <Link style={{ textDecoration: 'none' }} href='#'>
                                                     <Typography sx={{ color: "black", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`AB 953: The Racial and Identity Profiling Act of 2015 (RIPA)`}</Typography>
                                                 </Link>
-                                                <Link style={{ textDecoration: 'none' }} href='#'>
+                                                <Link style={{ textDecoration: 'none' }} href='https://www.ojp.gov/about/offices/bureau-justice-statistics-bjs'>
                                                     <Typography sx={{ color: "black", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`Bureau of Justice Statistics (BJS)`}</Typography>
                                                 </Link>
                                                 <Link style={{ textDecoration: 'none' }} href='#'>
                                                     <Typography sx={{ color: "black", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`Crime Prevention`}</Typography>
                                                 </Link>
-                                                <Link style={{ textDecoration: 'none' }} href='#'>
+                                                <Link style={{ textDecoration: 'none' }} href='/office-of-the-chief-of-police/professional-standards-bureau/critical-incident-videos/'>
                                                     <Typography sx={{ color: "black", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`Critical Incident Videos`}</Typography>
                                                 </Link>
                                                 <Link style={{ textDecoration: 'none' }} href='#'>
@@ -431,6 +431,7 @@ const Navbar = () => {
                                     </Button></Link>
                                 </li>
                             </ul>
+                            
                         </Box>
 
 

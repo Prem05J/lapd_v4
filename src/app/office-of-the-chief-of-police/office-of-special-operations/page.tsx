@@ -7,6 +7,7 @@ import Link from 'next/link'
 import useMediaQuery from '@mui/material/useMediaQuery'
 import Grid from '@mui/material/Grid'
 import styles from "./specialoperation.module.css"
+import { Container } from '@mui/material'
 
 const SpecialOperation = () => {
 
@@ -15,10 +16,11 @@ const SpecialOperation = () => {
 
   return (
     <div>
-      <Box sx={{ display: 'flex', padding: '32px 5%', flexDirection: 'column', background: '#0f212b' }}>
+      <Box sx={{ display: 'flex', padding: '35px 0px', flexDirection: 'column', background: '#0f212b' }}>
+        <Container>
         <Grid className={global.fadeInUp} container>
-          <Grid item xs={12} sm={12} md={7} lg={5}>
-            <Typography  sx={{ color: '#fff', margin: '0px 0px 20px', fontSize: mobile ? '30px' : '62px', fontWeight: '700' }}>
+          <Grid item xs={12} sm={12} md={7} >
+            <Typography  sx={{ color: '#fff',lineHeight:"1", margin: '0px 0px 20px', fontSize: mobile ? '30px' : '62px', fontWeight: '700' }}>
               Office of Special Operations
             </Typography>
             <Link style={{ textDecoration: 'none', display: 'flex', alignItems: 'center' }} href='https://www.joinlapd.com/'>
@@ -29,11 +31,11 @@ const SpecialOperation = () => {
             </Link>
           </Grid>
         </Grid>
+        </Container>
+        </Box>
 
-
-      </Box>
-
-      <Box className={global.fadeInUp} sx={{ padding: "60px 5% 3% 5%" }}>
+    <Container>
+      <Box className={global.fadeInUp} sx={{ padding: "60px 0% 3% 0%" }}>
 
         <Box>
           <Typography sx={{ fontSize: "18px" }}>100 West 1st Street</Typography>
@@ -43,7 +45,7 @@ const SpecialOperation = () => {
         </Box>
 
         <Grid container sx={{ marginTop: "50px" }}>
-          <Grid item xs={12} sm={12} md={9} lg={5}>
+          <Grid item xs={12} sm={11} md={9} lg={8}>
             <Typography className={styles.link} sx={{ fontSize: "18px" }}>Office of Special Operations oversees all specialized units under: <Link href="javascript:;">Counter-Terrorism and
               Special Operations Bureau</Link>,<Link href="javascript:;"> Detective Bureau</Link> and <Link href="javascript:;">Transit Services Bureau</Link>.</Typography>
           </Grid>
@@ -52,6 +54,7 @@ const SpecialOperation = () => {
 
         <Typography className={styles.link} sx={{ marginTop: "50px" }}><Link href="javascript:;">Office of Special Operations Notices</Link></Typography>
       </Box>
+      </Container>
     </div>
   )
 }

@@ -9,6 +9,7 @@ import Grid from '@mui/material/Grid'
 import Image from 'next/image'
 import pdf from '../../../public/Images/pdf-svg-icon.svg'
 import LaunchIcon from '@mui/icons-material/Launch';
+import { Container } from '@mui/material'
 
 const Reportemployee = () => {
     const mobile = useMediaQuery('(max-width: 576px)');
@@ -17,14 +18,18 @@ const Reportemployee = () => {
     return (
         <>
             <Box sx={{ display: 'flex', padding: '32px 5%', flexDirection: 'column', background: '#0f212b' }}>
-                <Typography sx={{ color: '#fff', margin: '0px 0px 20px', fontSize: mobile ? '30px' : '62px', fontWeight: '700' }}>Report Employee Misconduct</Typography>
+                <Container>
+                <Typography sx={{ color: '#fff', margin: '0px 0px 20px', fontSize: mobile ? '28px' : '62px', fontWeight: '700',lineHeight:"1" }}>Report Employee Misconduct</Typography>
                 <Link style={{ textDecoration: 'none', display: 'flex', alignItems: 'center' }} href='/information-on-how-to-file-a-complaint'>
                     <LaunchIcon sx={{ fontSize: 'large', color: '#fff', marginRight: '5px' }} />
                     <Typography sx={{ padding: '0px 0px 0xp 20px', color: "#7DDFFF", fontSize: "16px", textTransform: "none", '&:hover': { color: "#fff" } }}>Information on How to File a Complaint</Typography>
                 </Link>
+                </Container>
             </Box>
 
-            <Box sx={{ padding: '0px 5%' }}>
+
+            <Container>
+            <Box sx={{ padding: '30px 0px' }}>
                 <ul style={{ paddingLeft: '10px' }}>
                     <li>
                         <Typography className={Styles.paraStyle} ><Link href='https://www.lapdonline.org/contact-us/' className={Styles.linkHover}>Contact Us</Link></Typography>
@@ -37,7 +42,7 @@ const Reportemployee = () => {
                     </li>
                 </ul>
                 <Grid container>
-                    <Grid item xs={12} sm={12} md={12} lg={7} xl={7}>
+                    <Grid item xs={12} sm={12} md={12} lg={8}>
                         <Typography sx={{ fontWeight: 'bold' }} className={Styles.paraStyle}>
                             QUALITY SERVICE IS YOUR RIGHT
                         </Typography>
@@ -114,6 +119,7 @@ const Reportemployee = () => {
                 </Grid>
 
             </Box>
+            </Container>
 
 
 

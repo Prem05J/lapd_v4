@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react'
 import Image from 'next/image';
 import Link from 'next/link';
-import { Box, Typography, Grid, TextField, IconButton, Divider, Button } from '@mui/material'
+import { Box, Typography, Grid, TextField, IconButton, Divider, Button, Container } from '@mui/material'
 import homeStyle from "../styles/home.module.css"
 import Quicklinks from '@/component/Home/Quicklinks';
 import BasicTabs from '@/component/Home/Tabmenu';
@@ -82,7 +82,9 @@ const Home = () => {
         <SwiperImage />
       </section>
 
-      <Box className={`${homeStyle.paddingBox} ${global.fadeInUp}`} sx={{ padding: "2% 10% 0% 15%" }}>
+
+<Container>
+      <Box sx={{marginTop:"12%",display:"flex",flexDirection:"column",gap:"60px"}} className={`${homeStyle.paddingBox} ${global.fadeInUp}`} >
 
         <Quicklinks />
 
@@ -90,7 +92,7 @@ const Home = () => {
 
         <Box sx={{ alignContent: "center", justifyContent: "center", alignItems: "center", padding: "0px 10px 0px 10px" }}>
           <Grid container rowSpacing={6} columnSpacing={5} >
-            <Grid item xs={12} sm={12} md={6} lg={4}>
+            <Grid item xs={12} sm={6} md={6} lg={4}>
               <Box sx={{ display: "flex", flexDirection: "column", backgroundColor: "#ebf4f7" }}>
                 <Image className={homeStyle.cardImage} src={TeamImage} alt="teamImage" />
                 <Box sx={{ paddingLeft: "50px", gap: "20px", display: "flex", flexDirection: "column", marginTop: "20px" }}>
@@ -106,7 +108,7 @@ const Home = () => {
               </Box>
             </Grid>
 
-            <Grid item xs={12} sm={12} md={6} lg={4}>
+            <Grid item xs={12} sm={6} md={6} lg={4}>
               <Box sx={{ display: "flex", flexDirection: "column", backgroundColor: "#ebf4f7" }}>
                 <Image className={homeStyle.cardImage} src={Axiom} alt="teamImage" />
                 <Box sx={{ paddingLeft: "50px", gap: "20px", display: "flex", flexDirection: "column", marginTop: "20px" }}>
@@ -165,6 +167,7 @@ const Home = () => {
           </Grid>
         </Box>
       </Box>
+      </Container>
 
 
     </div>

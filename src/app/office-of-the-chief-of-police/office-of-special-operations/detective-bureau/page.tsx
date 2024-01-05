@@ -14,6 +14,7 @@ import detective2 from "../../../../../public/Images/detective_2.jpg"
 import detective3 from "../../../../../public/Images/detective_3.jpg"
 import detective4 from "../../../../../public/Images/detective_4.jpg"
 import detective5 from "../../../../../public/Images/detective_5.jpg"
+import { Container } from '@mui/material'
 
 
 
@@ -25,24 +26,27 @@ const DetectiveBureau = () => {
   return (
     <div>
 
-      <Box sx={{ display: 'flex', padding: '32px 5%', flexDirection: 'column', background: '#0f212b' }}>
+      <Box sx={{ display: 'flex', padding: '32px 0px', flexDirection: 'column', background: '#0f212b' }}>
+        <Container>
         <Grid container >
-       <Grid item xs={12} sm={12} lg={5}>
-       <Typography className={global.fadeInUp} sx={{ color: '#fff', margin: '0px 0px 20px', fontSize: mobile ? '40px' : '62px', fontWeight: '700' }}>Detective Bureau</Typography>
+       <Grid item xs={11} sm={11} lg={8}>
+       <Typography className={global.fadeInUp} sx={{ color: '#fff', margin: '0px 0px 20px', fontSize: mobile ? '35px' : '62px', fontWeight: '700' }}>Detective Bureau</Typography>
         <Box className={global.fadeInUp} sx={{ display: 'flex', alignItems: 'center' }}>
                             <span className={styles.hline}></span><Link href="javascript:;" className={styles.linktext}><Typography>Commanding Officer Deputy Chief Kris Pitcher</Typography></Link>
                         </Box>
        </Grid>
        
        </Grid>
-    
-        </Box>
+       </Container>
+      </Box>
 
-        <Box sx={{padding:"40px 5% 40px 5%"}}>
 
-         <Grid className={global.fadeInUp} container columnSpacing={5} rowSpacing={10} justifyContent="center">
-         <Grid item xs={12} sm={12} md={6} lg={4.1}>
-            <Box sx={{display:"flex",flexDirection:"column",backgroundColor:"#ebf4f7",height:"100%"}}>
+       <Container>
+        <Box sx={{padding:"40px 0px 40px 0px"}}>
+
+         <Grid className={global.fadeInUp} container columnSpacing={4} rowSpacing={10}>
+         <Grid item xs={12} sm={6}>
+            <Box sx={{display:"flex",flexDirection:"column",backgroundColor:"#ebf4f7"}}>
             <Box sx={{textAlign:"center",backgroundColor:"#052942"}}>
                     <Image src={detective1} alt="detective-image" className={styles.detectiveImage}/>
                 </Box>
@@ -65,7 +69,7 @@ const DetectiveBureau = () => {
                
          </Grid>
 
-         <Grid item xs={12} sm={12} md={6} lg={4.1}>
+         <Grid item xs={12} sm={6}>
             <Box sx={{display:"flex",flexDirection:"column",backgroundColor:"#ebf4f7",height:"100%"}}>
             <Box  sx={{textAlign:"center",backgroundColor:"#052942"}}>
                     <Image src={detective2} alt="detective-image" className={styles.detectiveImage}/>
@@ -89,7 +93,7 @@ const DetectiveBureau = () => {
                
          </Grid>
 
-         <Grid item xs={12} sm={12} md={6} lg={4.1}>
+         <Grid item xs={12} sm={6}>
             <Box sx={{display:"flex",flexDirection:"column",backgroundColor:"#ebf4f7",height:"100%"}}>
             <Box sx={{textAlign:"center",backgroundColor:"#052942"}}>
                     <Image src={detective3} alt="detective-image" className={styles.detectiveImage}/>
@@ -112,7 +116,7 @@ const DetectiveBureau = () => {
                
          </Grid>
 
-         <Grid item xs={12} sm={12} md={6} lg={4.1}>
+         <Grid item xs={12} sm={6}>
             <Box sx={{display:"flex",flexDirection:"column",height:"100%",backgroundColor:"#ebf4f7"}}>
             <Box sx={{padding:"30px 30px 30px 40px",display:"flex",flexDirection:"column"}}>
                      <Typography >Ahmad Zarekani</Typography>
@@ -139,7 +143,7 @@ const DetectiveBureau = () => {
                
          </Grid>
          
-         <Grid item xs={12} sm={12} md={6} lg={4.1}>
+         <Grid item xs={12} sm={6}>
             <Box sx={{display:"flex",flexDirection:"column",backgroundColor:"#ebf4f7",height:"100%"}}>
             <Box  sx={{textAlign:"center",backgroundColor:"#052942"}}>
                     <Image src={detective4} alt="detective-image" className={styles.detectiveImage}/>
@@ -167,7 +171,7 @@ const DetectiveBureau = () => {
                
          </Grid>
 
-         <Grid item xs={12} sm={12} md={6} lg={4.1}>
+         <Grid item xs={12} sm={6}>
             <Box sx={{display:"flex",flexDirection:"column",backgroundColor:"#ebf4f7",height:"100%"}}>
             <Box  sx={{textAlign:"center",backgroundColor:"#052942"}}>
                     <Image src={detective5} alt="detective-image" className={styles.detectiveImage}/>
@@ -201,8 +205,8 @@ const DetectiveBureau = () => {
                
          </Grid>
         </Grid>
-
-        </Box>
+          </Box>
+        </Container>
 
         </div>
   )

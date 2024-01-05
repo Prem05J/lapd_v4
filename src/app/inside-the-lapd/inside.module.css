@@ -1,6 +1,7 @@
 .bg{
     background-color: #0f212b;
     color: #fff;
+    padding:"25px"
 }
 
 .h4size{
@@ -18,9 +19,8 @@
 }
 
 
-
 .blockspace{
-    padding: 36px 0px 36px 5%;
+    padding: 36px 0px 36px 0px;
 }
 
 .hline{
@@ -45,9 +45,7 @@
 
 /* tablet */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-    .blockspace{
-        padding: 36px 0px 36px 60px;
-    }
+ 
     .h4size{
         font-size: 20px;
     } 
@@ -58,9 +56,7 @@
 }
 /* mobile */
 @media screen and (max-width: 768px) {
-    .blockspace{
-        padding: 36px 0px 36px 30px;
-    }
+  
     .h4size{
         font-size: 20px;
     }    
@@ -70,12 +66,7 @@
     }
     /* aboutcard */
     
-.gridscardpadone{
-    padding: 40px 0px 40px 30px !important;
-}
-.gridscardpadtwo{
-    padding: 40px 40px 40px 30px !important;
-}
+
 }
 
 
@@ -105,12 +96,4 @@
 
 .aboutul a:hover{
     color: #798c96;
-}
-
-
-.gridscardpadone{
-    padding: 40px 20px 40px 40px;
-}
-.gridscardpadtwo{
-    padding: 40px 40px 40px 20px;
 }

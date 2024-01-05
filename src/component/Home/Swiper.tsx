@@ -14,7 +14,7 @@ const SwiperImage = () => {
     <div>
           <Box sx={{ marginTop: '5%' }}>
                 <Grid className={homeStyle.swiperBox} container rowSpacing={2}>
-                    <Grid item xs={12} sm={12} md={8}>
+                    <Grid item xs={12} sm={12} md={12} lg={8}>
                   
                         <Swiper
                          className={homeStyle.mySwiper}
@@ -83,7 +83,7 @@ const SwiperImage = () => {
                       
                     </Grid>
 
-                    <Grid item xs={12} sm={12} md={4}  sx={{overflow:"hidden"}}>
+                    <Grid item xs={12} sm={12} md={12}  lg={4} sx={{overflow:"hidden"}}>
                         <Link href="">
                         <Box className={homeStyle.videoBox}>
                             <Box className={homeStyle.videoBoxContent}>

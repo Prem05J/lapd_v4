@@ -9,6 +9,7 @@ import Grid from '@mui/material/Grid'
 import Image from 'next/image'
 import pdf from '../../../../../../../public/Icons/pdf-svg-icon.svg'
 import global from "../../../../../global.module.css"
+import { Container } from '@mui/material'
 
 // ------------ CCW  ------------- 
 const pdf_1 = '/pdfs/ccw/CCW-After-Interview-Instructions.pdf';
@@ -28,12 +29,14 @@ const CCWcarry = () => {
         <>
 
             <Box sx={{ display: 'flex', padding: '32px 5%', flexDirection: 'column', background: '#0f212b' }}>
+                <Container>
                 <Typography className={global.fadeInUp} sx={{ marginBottom: '8px', color: '#fff', fontSize: mobile ? '18px' : '22px', fontStyle: 'italic', width: mobile ? '100%' : '70%' }}>Pursuant to California Penal Code section 26155, the Los Angeles Police Department&rsquo;s (LAPD) policy is to issue a CCW license to an applicant who demonstrates that he/she...</Typography>
                 <Typography className={global.fadeInUp} sx={{ color: '#fff', margin: '0px 0px 20px', fontSize: mobile ? '30px' : '62px', fontWeight: '700', width: mobile ? '100%' : '70%', lineHeight: '1.3' }}>CCW Carry Concealed Weapon License Policy</Typography>
-            </Box>
+                </Container>
+                </Box>
 
-
-            <Box  className={global.fadeInUp} sx={{ padding: '5%' }}>
+           <Container>
+            <Box  className={global.fadeInUp} sx={{ paddingTop: '5%' }}>
                 <Typography sx={{ fontSize: '25px', fontWeight: '700' }}>FAQ&rsquo;S</Typography>
                 <Link href={pdf_2} target='_blank' className={Styles.linkHover} >
                     <Typography style={{ margin: '15px 0px', fontSize: '18px' }}>LAPD CCW Frequently Asked Questions</Typography>
@@ -224,18 +227,8 @@ const CCWcarry = () => {
                     </Grid>
                 </Box>
 
-
-
-
-
-
-
-
-
-
-
-                <Grid container style={{ marginTop: '50px' }}>
-                    <Grid item xs={12} sm={12} md={6}>
+              <Grid container style={{ marginTop: '50px' }}>
+                    <Grid item xs={12} sm={6} >
                         <Box sx={{ padding: '45px', background: '#ebf4f7' }}>
                             <Typography variant='h2' sx={{ fontSize: '26px', fontWeight: '700', lineHeight: '1.5', marginBottom: '20px' }}>Additional Information and Frequently Asked Questions</Typography>
 
@@ -278,6 +271,7 @@ const CCWcarry = () => {
                 </Grid>
 
             </Box>
+            </Container>
         </>
     )
 }

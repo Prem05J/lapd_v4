@@ -8,6 +8,7 @@ import styles from './crime.module.css'
 import crime from "../../../../../../public/Images/crime_map_image.jpg"
 import LaunchIcon from '@mui/icons-material/Launch';
 import Typography from '@mui/material/Typography'
+import { Container } from '@mui/material'
 
 
 const CrimeMapping = () => {
@@ -17,8 +18,9 @@ const CrimeMapping = () => {
     return (
         <>
             <Box className={styles.bg}>
-                <Grid container className={styles.blockspace}>
-                    <Grid item xs={11} sm={10} md={7} lg={6}>
+                <Container>
+                <Grid container>
+                    <Grid item xs={11} sm={10} md={12} lg={7}>
                         <h4 className={styles.h4size}>up-to-date crime statistics for neighborhoods throughout Los Angeles</h4>
                         <h1 className={styles.h1size}>Crime Mapping and COMPSTAT</h1>
                         <Box sx={{ display: 'flex', alignItems: 'center' }}>
@@ -26,10 +28,13 @@ const CrimeMapping = () => {
                         </Box>
                     </Grid>
                 </Grid>
+                </Container>
             </Box>
-            <Box>
+
+            <Container>
+            <Box sx={{marginTop:"60px"}}>
                 <Grid container className={styles.blockspace}>
-                    <Grid item lg={7}>
+                    <Grid item lg={8}>
                         <Typography>
                             <Image src={crime} alt='' style={{ float: 'left', width: '300px', height: '205px', margin: '0px 20px 20px 0px' }} /> Get up-to-date crime statistics for neighborhoods throughout Los Angeles. Being informed about crime in your community is the first step in preventing future occurrences. <Link href="#" className={styles.lnk}>Go to Crime Mapping</Link>.
                         </Typography>
@@ -209,6 +214,7 @@ const CrimeMapping = () => {
 
                 </Grid>
             </Box>
+            </Container>
         </>
     )
 }

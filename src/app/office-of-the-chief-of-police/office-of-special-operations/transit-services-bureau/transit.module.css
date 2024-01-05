@@ -1,6 +1,7 @@
 .bg{
     background-color: #0f212b;
     color: #fff;
+    padding:40px 0px
 }
 
 
@@ -10,11 +11,6 @@
     margin: 0px 0px 20px 0px;
 }
 
-
-
-.blockspace{
-    padding: 36px 0px 36px 80px;
-}
 
 .hline{
     width: 18px !important;
@@ -38,10 +34,7 @@
 
 /* tablet */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-    .blockspace{
-        padding: 36px 0px 36px 60px;
-    }
-
+    
     .h1size{
         font-size: 49px !important;
         margin: 0px 0px 20px 0px;
@@ -49,10 +42,7 @@
 }
 /* mobile */
 @media screen and (max-width: 768px) {
-    .blockspace{
-        padding: 36px 0px 36px 30px;
-    }
-   
+    
     .h1size{
         font-size: 38px;
         margin: 0px 0px 20px 0px;

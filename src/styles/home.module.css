@@ -112,6 +112,14 @@
   position: relative;
   transition: transform 0.2s ease-in-out;
  }
+ @media screen and (max-width: 920px) {
+  .swipBox1, .swipBox2 ,.swipBox3, .swipBox4 ,.swipBox5, .swipBox6, .videoBox {
+    height: 40vh;
+  }
+
+ }
+
+
 
 
 
@@ -177,9 +185,7 @@
   padding-bottom: 21px;
 }
 
-.space{
-  padding: 60px;
-}
+
 
 .link{
   text-decoration: none;
@@ -200,9 +206,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .space{
-      padding: 20px !important;
-  }
+ 
   .boxes{
       display: grid;
       padding: 45px;
@@ -362,10 +366,14 @@
 
 
 
-
+/* 
 @media screen and (max-width: 1150px) {
  .paddingBox {
-    padding: 5px;
+    margin-top: 30px;
   }
 }
+
+.paddingBox {
+  margin-top: 150px;
+} */
 

@@ -1,18 +1,21 @@
-    import Grid from '@mui/material/Grid'
-    import Box from '@mui/material/Box'
-    import React from 'react'
-    import Link from 'next/link'
-    import Image from 'next/image'
-    import styles from './transit.module.css'
-    import pdf from "../../../../../public/Icons/pdf-svg-icon.svg"
-    import LaunchIcon from '@mui/icons-material/Launch';
-    import global from "../../../global.module.css"
+'use client'   
+import Grid from '@mui/material/Grid'
+import Box from '@mui/material/Box'
+import React from 'react'
+import Link from 'next/link'
+import Image from 'next/image'
+import styles from './transit.module.css'
+import pdf from "../../../../../public/Icons/pdf-svg-icon.svg"
+import LaunchIcon from '@mui/icons-material/Launch';
+import global from "../../../global.module.css"
+import { Container } from '@mui/material'
 
     const page = () => {
         return (
             <>
             <Box className={styles.bg}>
-                <Grid container className={styles.blockspace}>
+                <Container>
+                <Grid container>
                     <Grid className={global.fadeInUp} item xs={11} sm={10} md={7} lg={7}>
                         <h1 className={styles.h1size}>Transit Services Bureau</h1>
                         <Box sx={{ display: 'flex', alignItems: 'center' }}>
@@ -20,11 +23,14 @@
                         </Box>
                     </Grid>
                 </Grid>
+                </Container>
             </Box>
-            <Box>
-                <Grid container className={global.fadeInUp} sx={{ padding: '30px 0 0' }}>
 
-                    <Grid item sm={6} md={6} lg={6} className={styles.gridscardpadone}>
+            <Container>
+            <Box>
+                <Grid container className={global.fadeInUp} sx={{ padding: '60px 0px' }}>
+
+                    <Grid item xs={12} sm={6}>
                         <Box className={styles.linkbox}>
                             <h2>Notices</h2>
                             <ul className={styles.aboutul}>
@@ -67,6 +73,7 @@
                     </Grid>
                 </Grid>
             </Box>
+            </Container>
             </>
         )
     }

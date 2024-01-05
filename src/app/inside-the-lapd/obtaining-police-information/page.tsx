@@ -7,6 +7,7 @@ import Link from "next/link";
 import Grid from "@mui/material/Grid";
 import useMediaQuery from '@mui/material/useMediaQuery'
 import global from "../../global.module.css"
+import { Container } from "@mui/material";
 
 const Request = () => {
 
@@ -17,18 +18,21 @@ const Request = () => {
     return (
         <div>
             <Box className={styles.request1}>
+                <Container>
                 <Grid container>
-                    <Grid item xs={10} sm={12} md={4} lg={4}>
-                    <Typography className={global.fadeInUp } variant="h2" sx={{marginLeft:"5%",fontWeight:"bold",fontSize: mobile ? '30px' : '62px',}}>
+                    <Grid item xs={12} sm={12} md={12} lg={8}>
+                    <Typography className={global.fadeInUp } variant="h2" sx={{fontWeight:"bold",fontSize: mobile ? '30px' : '62px',}}>
                     Obtaining Police Information
                 </Typography>
                     </Grid>
                 </Grid>
-               
-            </Box>
+                </Container>
+              </Box>
+
+              <Container>
             <Grid className={global.fadeInUp } container>
 
-                <Grid item xs={12} sm={12} md={12} lg={7} xl={5}>
+                <Grid item xs={12} sm={12} md={9} lg={8}>
                 <Box sx={{marginTop:"50px"}} className={styles.request2}>
                 <Link className={styles.lnk} href="javascript:;">
                     <Typography className={styles.letter}>
@@ -254,6 +258,7 @@ const Request = () => {
                 </Grid>
 
             </Grid>
+            </Container>
             
         </div>
     );
