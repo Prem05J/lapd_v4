@@ -18,12 +18,12 @@ const California = () => {
     const [toggle, setToggle] = useState(false)
     return (
         <>
-
+            
             {/* 1st block */}
             <Box className={styles.bg}>
                 <Container>
                 <Grid container>
-                    <Grid item xs={11} sm={10} md={9} lg={8}>
+                    <Grid item xs={11} sm={10} md={7} lg={8}>
                         <h1 className={styles.h1size}>California Public Records Act</h1>
                         <Box sx={{ display: 'flex', alignItems: 'center' }}>
                             <LaunchIcon sx={{ color: '#fff' }} />  <Link href="#" className={styles.insidelnk}>California Public Records Act (CPRA)</Link>
@@ -33,28 +33,28 @@ const California = () => {
                 </Container>
             </Box>
             {/* 2nd block */}
+            <Container>
 
-
-           <Container>
-         
+            <Box>
                 <Grid container>
-                    <Grid item xs={12} sm={11} md={10} lg={9} className={styles.textstyl} >
-                        <h3 style={{ fontSize: '26px', fontWeight: 'bold' }}>What is the California Public Records Act?</h3>
+                    <Grid item xs={12} sm={11} md={10} lg={7} className={styles.textstyl} >
+                        <Typography style={{ fontSize: '26px', fontWeight: 'bold', margin:'30px 0px 15px 0px' }} >What is the California Public Records Act?</Typography>
 
-                        <Typography className={styles.bottom}><span><Link href="#">CPRA Manual</Link></span></Typography>
-                        <Typography className={styles.bottom}><span><Link href="#">Admin Order 4, 2019</Link></span></Typography>
-                        <Typography className={styles.bottom}><span><Link href="#">2022 CPRA Inspection Report</Link></span></Typography>
-                        <Typography className={styles.bottom}><span><Link href="#">2021 CPRA Inspection Report</Link></span></Typography>
-                        <Typography className={styles.bottom}><span><Link href="#">2020 CPRA Inspection Report</Link></span></Typography>
-                        <Typography className={styles.bottom}><span><Link href="#">Winston Settlement</Link></span></Typography>
+<Box sx={{display:"flex",flexDirection:"column",gap:"30px",paddingBottom:"20px"}}>
+                        <Typography><span><Link href="#">CPRA Manual</Link></span></Typography>
+                        <Typography><span><Link href="#">Admin Order 4, 2019</Link></span></Typography>
+                        <Typography><span><Link href="#">2022 CPRA Inspection Report</Link></span></Typography>
+                        <Typography><span><Link href="#">2021 CPRA Inspection Report</Link></span></Typography>
+                        <Typography><span><Link href="#">2020 CPRA Inspection Report</Link></span></Typography>
+                        <Typography><span><Link href="#">Winston Settlement</Link></span></Typography>
+                        </Box>
+                        <Typography sx={{fontSize:"18px"}}>In 1968, the California Legislature enacted the California Public Records Act (CPRA) under Government Code (GC) sections 6250-6270. In its findings and declarations, mindful of the right of individuals’ privacy, the Legislature declared it was the public’s right to access information concerning the peoples business.</Typography>
+                        <h4 style={{ marginBottom: '8px', fontSize: '22px', fontWeight: '400', lineHeight: '1.27', letterSpacing: '-.25px' }}>Types of records are available? </h4>
+                        <Typography sx={{fontSize:"18px"}}>The law requires law enforcement agencies to provide information the public has the right to know and at the same time, to withhold information if the release would jeopardize an individual’s right to privacy.</Typography>
+                        <Typography >Certain records or portions of records are subject to privacy laws and/or other exemptions and are rarely ever available for viewing. All agency records not exempted by law are otherwise available.</Typography>
 
-                        <Typography className={styles.ptag}>In 1968, the California Legislature enacted the California Public Records Act (CPRA) under Government Code (GC) sections 6250-6270. In its findings and declarations, mindful of the right of individuals’ privacy, the Legislature declared it was the public’s right to access information concerning the peoples business.</Typography>
-                        <h4 style={{ marginBottom: '8px', fontSize: '22px', fontWeight: '400', lineHeight: '1.27', letterSpacing: '-.25px' }} className={styles.spaceleft}>Types of records are available? </h4>
-                        <Typography className={styles.ptag}>The law requires law enforcement agencies to provide information the public has the right to know and at the same time, to withhold information if the release would jeopardize an individual’s right to privacy.</Typography>
-                        <Typography className={styles.ptag}>Certain records or portions of records are subject to privacy laws and/or other exemptions and are rarely ever available for viewing. All agency records not exempted by law are otherwise available.</Typography>
 
-
-                        <Typography sx={{display: toggle ? 'none' : 'flex', alignItems: 'center', marginBottom: '30px', paddingTop: '30px'}}>
+                        <Typography sx={{display: toggle ? 'none' : 'flex', alignItems: 'center', paddingTop: '30px'}}>
                             <span className={styles.hlinetwo}></span><Link href="javascript:;" className={styles.insidelnktwo} onClick={() => setToggle(true)}>Read More</Link>
                         </Typography>
 
@@ -62,7 +62,7 @@ const California = () => {
                         <Box className={`${toggle?styles.readMoreView:styles.readMoreHide} ${styles.scale_up_left}`}>
 
 
-                            <h4 style={{ marginBottom: '8px', fontSize: '22px', fontWeight: '400', lineHeight: '1.27', letterSpacing: '-.25px' }} className={styles.spaceleft}>Records Exempt from Public Requests</h4>
+                            <h4 style={{ marginBottom: '8px', fontSize: '22px', fontWeight: '400', lineHeight: '1.27', letterSpacing: '-.25px' }}>Records Exempt from Public Requests</h4>
                             <Typography className={styles.ptag}>Items that are exempt, subject to Government Code (GC) 6254, and will likely be redacted are:</Typography>
 
                             <Typography className={styles.ptag1}>● Identifying juvenile information </Typography>
@@ -80,14 +80,14 @@ const California = () => {
                             <Typography className={styles.ptag1}>● Follow ups to initial investigation</Typography>
 
 
-                            <h3 style={{ fontSize: '26px', fontWeight: 'bold' }} className={styles.typoleft}>Be Aware</h3>
+                            <Typography style={{ fontSize: '26px', fontWeight: 'bold', marginTop: '60px' , marginBottom: '30px' }}>Be Aware</Typography>
                             <Typography className={styles.ptag}>Prompt access to public records is required by the CPRA (Government Code 6253). The 10– day period mentioned in the act is not a legal deadline for producing records. The 10-days allows the agency to review records, if it is not clear that they are public records. As soon as a determination is made, it will be at that time the records shall be released.</Typography>
                             <Typography className={styles.ptag}>The rights under the CPRA provide for the inspection of public records or to obtain copies of identifiable records, it does not compel the agency to create lists or reports in response to the request.</Typography>
                             <Typography className={styles.ptag}>Under Government Code 6253(b), Agencies may charge for the “direct costs” for providing copies of an identifiable record.</Typography>
                             <Typography className={styles.ptag}>Public records requests for information from the Los Angeles Police Department can be obtained from the Discovery Section by submitting a California Public Records Act (CPRA) request below.</Typography>
                             <Typography className={styles.ptag}>You will want to include the following information to ensure the scope of the request is understood and clear enough for personnel to determine if we have the records you are requesting.</Typography>
 
-                            <ul className={`${styles.disc} ${styles.spaceleft}`}>
+                            <ul className={styles.disc}>
                                 <li>
                                     <Typography sx={{ marginBottom: '12px', color: 'black', fontStyle: 'italic', fontSize: '18px' }}>The date(s) of the record</Typography>
                                 </li>
@@ -107,7 +107,7 @@ const California = () => {
                                 </li>
                             </ul>
 
-                            <Typography sx={{display: toggle ? 'block' : 'flex', alignItems: 'center', marginBottom: '30px', marginLeft: tab ?'20px' : '80px', paddingTop: '30px'}}>
+                            <Typography sx={{display: toggle ? 'block' : 'flex', alignItems: 'center', marginBottom: '30px', paddingTop: '30px'}}>
                                 <span className={styles.hlinetwo} style={{marginTop: '10px'}}></span><Link href="javascript:;" className={styles.insidelnktwo} onClick={() => setToggle(false)}>Read Less</Link>
                             </Typography>
                         </Box>
@@ -115,7 +115,7 @@ const California = () => {
 
                     </Grid>
                 </Grid>
-          
+            </Box>
 
 
 
@@ -125,12 +125,12 @@ const California = () => {
 
 
 
-            
+            <Box sx={{marginTop: '50px'}}>
                 <Grid container columnSpacing={3} rowSpacing={7}>
 
                     <Grid item xs={12} sm={6} md={3}>
                         <Box sx={{ background: '#ebf4f7', padding: '24px', height: '70%' }}>
-                      
+                            <Box sx={{}}>
                                 <Typography sx={{ marginBottom: '15px', fontSize: '20px', lineHeight: '24px', fontWeight: '700' }}>CPRA Manual</Typography>
                                 <Typography sx={{ display: 'flex', alignItems: 'center' }}>
                                     <LaunchIcon sx={{ width: '20px', padding: '0px 5px 0px 0px' }} />
@@ -138,7 +138,7 @@ const California = () => {
                                         CPRA Manual
                                     </Link>
                                 </Typography>
-                         
+                            </Box>
                         </Box>
                     </Grid>
 
@@ -204,19 +204,7 @@ const California = () => {
                         </Box>
                     </Grid>
 
-                </Grid>
-           
-
-            {/* ================================================== section ================================================ */}
-
-            {/*====================================== lg & md view  im looking================================================*/}
-
-            <Box>
-                <Grid container>
-
-                    {/*====================================== Left side ================================================*/}
-
-                    <Grid item xs={12} sm={6} md={3} sx={{marginTop:"40px"}}>
+                    <Grid item xs={12} sm={6} md={6.01} >
                         <Box className={styles.linkbox}>
                             <h2>Im Looking for...</h2>
                             <ul className={styles.aboutul}>
@@ -240,8 +228,21 @@ const California = () => {
                 </Grid>
             </Box>
 
+            {/* ================================================== section ================================================ */}
+
+            {/*====================================== lg & md view  im looking================================================*/}
+
+
+            {/* <Box sx={{marginTop: '30px'}}>
+                <Grid container>
+
+                    
+
+                </Grid>
+            </Box> */}
 
             </Container>
+
             {/*====================================== xs view ================================================*/}
 
 

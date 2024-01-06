@@ -263,17 +263,17 @@ const Mobilenav: React.FC<props> = ({ navClose }) => {
                         </li>
 
                         <li>
-                            <Link onClick={navClose} href='/' className={navStyle.menu_links}>
+                            <Link onClick={navClose} href='/ab-953-the-racial-and-identity-profiling-act-of-2015-ripa' className={navStyle.menu_links}>
                                 <Typography sx={{ color: "#0f212b", textTransform: "none", '&:hover': { color: "#e73f15" } }} className={navStyle.link_text}>AB 953: The Racial and Identity Profiling Act of 2015 (RIPA)</Typography>
                             </Link>
                         </li>
                         <li>
-                            <Link onClick={navClose} href='/' className={navStyle.menu_links}>
+                            <Link onClick={navClose} href='/office-of-the-chief-of-police/office-of-special-operations/detective-bureau/detective-support-and-vice-division/hate-crimes/' className={navStyle.menu_links}>
                                 <Typography sx={{ color: "#0f212b", textTransform: "none", '&:hover': { color: "#e73f15" } }} className={navStyle.link_text}>Hate Crime Information</Typography>
                             </Link>
                         </li>
                         <li>
-                            <Link onClick={navClose} href='/' className={navStyle.menu_links}>
+                            <Link onClick={navClose} href='/office-of-the-chief-of-police/office-of-special-operations/detective-bureau/detective-support-and-vice-division/human-trafficking' className={navStyle.menu_links}>
                                 <Typography sx={{ color: "#0f212b", textTransform: "none", '&:hover': { color: "#e73f15" } }} className={navStyle.link_text}>Human Trafficking</Typography>
                             </Link>
                         </li>
@@ -288,7 +288,7 @@ const Mobilenav: React.FC<props> = ({ navClose }) => {
                             </Link>
                         </li>
                         <li>
-                            <Link onClick={navClose} href='/' className={navStyle.menu_links}>
+                            <Link onClick={navClose} href='/crime-prevention' className={navStyle.menu_links}>
                                 <Typography sx={{ color: "#0f212b", textTransform: "none", '&:hover': { color: "#e73f15" } }} className={navStyle.link_text}>Crime Prevention</Typography>
                             </Link>
                         </li>

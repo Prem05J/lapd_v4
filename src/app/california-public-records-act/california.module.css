@@ -1,7 +1,7 @@
 .bg{
     background-color: #0f212b;
     color: #fff;
-    padding: 38px 0px;
+    padding:32px 0px
 }
 
 .h1size{
@@ -18,6 +18,8 @@
     font-style: italic;
     font-size: 18px;
 }
+
+
 
 
 .hlinetwo{
@@ -116,9 +118,7 @@
 /* tablet */
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-    .blockspace{
-        padding: 36px 0px 36px 60px;
-    }
+  
     /* .h4size{
         font-size: 20px;
     }  */
@@ -130,15 +130,14 @@
     .wholeblock{
         margin: 50px 30px 70px 30px !important;
     }
-    .blockspace{
-        padding: 36px 0px 36px 60px !important;
-    }
+  
     .bluecard{
     background-color: #ebf4f7;
     padding: 43px 22px 43px 20px;
 }
+
 .gridscardpadone{
-    padding: 40px 20px 0px 30px !important;
+    padding: 40px 10px 0px 50px !important;
 }
 .gridscardpadtwo{
     padding: 40px 40px 0px 30px !important;
@@ -152,7 +151,7 @@
     margin-left: 60px !important;
 }
 .ptag{
-    margin-left: 60px !important;
+    /* margin-left: 60px !important; */
 }
 .spaceleft{
     margin-left: 60px !important;
@@ -161,7 +160,6 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 1.55;
-    margin-left: 60px !important;
     font-style: italic;
 }
 .spaceleft{
@@ -187,9 +185,7 @@
 
 /* mobile */
 @media screen and (max-width: 576px) {
-    .blockspace{
-        padding: 36px 0px 36px 20px;
-    }
+  
     .wholeblock{
         margin: 50px 20px 20px 20px !important;
     }
@@ -210,7 +206,7 @@
     }
 
 .gridscardpadone{
-    padding: 0px 0px 40px 20px !important;
+    padding: 50px 30px 60px 50px !important;
     margin-right: 20px;
 }
 .gridscardpadtwo{
@@ -224,7 +220,7 @@
 
 
 .ptag{
-    margin-left: 20px !important;
+    /* margin-left: 20px !important; */
 }
 .spaceleft{
     margin-left: 20px !important;
@@ -233,7 +229,6 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 1.55;
-    margin-left: 0px !important;
     font-style: italic;
 }
 
@@ -245,7 +240,7 @@
     display: flex; 
     align-items: center; 
     margin-bottom: 30px;
-    margin-left: 0px !important;
+    margin-left: 40px !important;
     padding-top: 30px;
 }
 
@@ -256,12 +251,14 @@
     display: flex; 
     align-items: center; 
     margin-bottom: 30px;
-    margin-left: 0px;
+    margin-left: 80px;
     padding-top: 30px;
 }
-
+.spaceleft{
+    margin-left: 80px;
+}
 .typoleft{
-    margin: 60px 0px 30px 0px;
+    margin: 60px 0px 30px 80px;
 }
 
 /* about card */
@@ -296,14 +293,12 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 1.55;
-    margin-left: 0px;
     margin-bottom: 30px;
 }
 .ptag1{
     font-size: 18px;
     font-weight: 400;
     line-height: 1.55;
-    margin-left: 0px;
     font-style: italic;
 }
 .aboutul a{
@@ -314,7 +309,6 @@
 
 .bottom{
     margin-bottom: 30px;
-    margin-left: 0px;
 }
 .aboutul a:hover{
     color: #798c96;
@@ -333,20 +327,18 @@
 
 
 .gridscardpadone{
-    padding: 0px 20px 0px 0px;
+    padding: 0px 10px 0px 70px;
 }
 
 
 .gridscardpadone2nd{
-    padding: 0px 20px 0px 0px;
+    padding: 0px 20px 0px 20px;
 }
 .gridscardpadtwo{
-    padding: 0px 40px 0px 0px;
+    padding: 0px 40px 0px 20px;
 }
 
-.wholeblock{
-    margin: 75px 0px 20px 0px;
-}
+
 
 
 .hoveLink{

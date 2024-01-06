@@ -1,0 +1,25 @@
+.typograpy_list{
+    color: '#0f212b';
+    font-weight: 'bold'; 
+    font-size: 18px;
+}
+.para_styles{
+    color: #0f212b;
+    margin: 0px 0px 30px;
+    font-size: 18px;
+    text-align:left
+}
+
+.para_style{
+    color: #0f212b;
+    font-size: 18px;
+    text-align:left
+}
+
+.anchor_link{
+    text-decoration: none;
+    color: #e73f15;
+}
+.anchor_link:hover{
+    color: #798c96;
+}

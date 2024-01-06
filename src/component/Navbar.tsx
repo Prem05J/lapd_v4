@@ -294,13 +294,13 @@ const Navbar = () => {
 
                                         <Box sx={{ display: "flex", flexDirection: "row", gap: "30px" }}>
                                             <Box sx={{ display: "flex", flexDirection: "column", gap: "10px", alignItems: "flex-start" }}>
-                                                <Link style={{ textDecoration: 'none' }} href='#'>
+                                                <Link style={{ textDecoration: 'none' }} href='/ab-953-the-racial-and-identity-profiling-act-of-2015-ripa'>
                                                     <Typography sx={{ color: "black", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`AB 953: The Racial and Identity Profiling Act of 2015 (RIPA)`}</Typography>
                                                 </Link>
                                                 <Link style={{ textDecoration: 'none' }} href='https://www.ojp.gov/about/offices/bureau-justice-statistics-bjs'>
                                                     <Typography sx={{ color: "black", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`Bureau of Justice Statistics (BJS)`}</Typography>
                                                 </Link>
-                                                <Link style={{ textDecoration: 'none' }} href='#'>
+                                                <Link style={{ textDecoration: 'none' }} href='/crime-prevention'>
                                                     <Typography sx={{ color: "black", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`Crime Prevention`}</Typography>
                                                 </Link>
                                                 <Link style={{ textDecoration: 'none' }} href='/office-of-the-chief-of-police/professional-standards-bureau/critical-incident-videos/'>
@@ -312,10 +312,10 @@ const Navbar = () => {
                                             </Box>
 
                                             <Box sx={{ display: "flex", flexDirection: "column", gap: "10px" }}>
-                                                <Link style={{ textDecoration: 'none' }} href='#'>
+                                                <Link style={{ textDecoration: 'none' }} href='/office-of-the-chief-of-police/office-of-special-operations/detective-bureau/detective-support-and-vice-division/hate-crimes/'>
                                                     <Typography sx={{ color: "black", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`Hate Crime Information`}</Typography>
                                                 </Link>
-                                                <Link style={{ textDecoration: 'none' }} href='#'>
+                                                <Link style={{ textDecoration: 'none' }} href='/office-of-the-chief-of-police/office-of-special-operations/detective-bureau/detective-support-and-vice-division/human-trafficking'>
                                                     <Typography sx={{ color: "black", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`Human Trafficking`}</Typography>
                                                 </Link>
                                                 <Link style={{ textDecoration: 'none' }} href='#'>

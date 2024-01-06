@@ -72,7 +72,7 @@ const CriticalIncident = () => {
             </Box>
 
               <Container>
-      <Box sx={{padding:"60px 0px 40px 0px",display:"flex",flexDirection:"column",gap:"70px"}}>
+      <Box className={global.fadeInUp} sx={{padding:"60px 0px 40px 0px",display:"flex",flexDirection:"column",gap:"70px"}}>
 
              <Grid container columnSpacing={5} rowSpacing={5}>
                 <Grid item xs={12} sm={7} md={6} lg={6} xl={6}>
@@ -276,7 +276,18 @@ const CriticalIncident = () => {
               <StyledTableCell>{data.Type}</StyledTableCell>
               <StyledTableCell>{data.Division}</StyledTableCell>
               <StyledTableCell>{data.Location}</StyledTableCell>
-              <StyledTableCell className={styles.linkName} ><Link href="#">{data.Name}</Link></StyledTableCell>
+              <StyledTableCell className={styles.linkName} >
+
+                {
+                  data.Name.match("Please contact the Los Angeles School Police Department for details.") ||
+                   data.Name.match("Boles, Jason") ? 
+                  <Typography>{data.Name}</Typography> 
+                  : <Link href="#">{data.Name}</Link>
+                }
+                
+                
+                
+                </StyledTableCell>
               <StyledTableCell>{data.NRNumber}</StyledTableCell>
               <StyledTableCell className={styles.linkName}>
                 {
