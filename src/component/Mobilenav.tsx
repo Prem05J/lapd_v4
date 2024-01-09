@@ -283,7 +283,7 @@ const Mobilenav: React.FC<props> = ({ navClose }) => {
                             </Link>
                         </li>
                         <li>
-                            <Link onClick={navClose} href='/' className={navStyle.menu_links}>
+                            <Link onClick={navClose} href='/identity-theft' className={navStyle.menu_links}>
                                 <Typography sx={{ color: "#0f212b", textTransform: "none", '&:hover': { color: "#e73f15" } }} className={navStyle.link_text}>ID Theft</Typography>
                             </Link>
                         </li>
@@ -293,7 +293,7 @@ const Mobilenav: React.FC<props> = ({ navClose }) => {
                             </Link>
                         </li>
                         <li>
-                            <Link onClick={navClose} href='/' className={navStyle.menu_links}>
+                            <Link onClick={navClose} href='/statistical-data' className={navStyle.menu_links}>
                                 <Typography sx={{ color: "#0f212b", textTransform: "none", '&:hover': { color: "#e73f15" } }} className={navStyle.link_text}>Statistical Data</Typography>
                             </Link>
                         </li>
@@ -303,7 +303,7 @@ const Mobilenav: React.FC<props> = ({ navClose }) => {
                             </Link>
                         </li>
                         <li>
-                            <Link onClick={navClose} href='/' className={navStyle.menu_links}>
+                            <Link onClick={navClose} href='/office-of-the-chief-of-police/office-of-special-operations/transit-services-bureau/traffic-group' className={navStyle.menu_links}>
                                 <Typography sx={{ color: "#0f212b", textTransform: "none", '&:hover': { color: "#e73f15" } }} className={navStyle.link_text}>Traffic Info</Typography>
                             </Link>
                         </li>

@@ -1,17 +1,55 @@
+/* Topnavbar */
+
+.topNavbar {
+    background-color: white;
+    border-radius: 5px;
+    padding:1px 7px 1px 7px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.topNavContentBox {
+    display: flex;
+    flex-direction: row;
+    background-color: #ebf4f7;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0px;
+     gap: 10px;
+}
+
+.topNavContent1 {
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.topNavContent2 {
+    font-size: 16px;
+    color: #e73f15;
+    text-transform: none;
+    font-family: sans-serif;
+}
+.topNavContent2:hover {
+    color: gray;
+}
+
+ .mobNav  {
+     display:none;
+}
+
+
 .menu{
     text-decoration: none;
     font-size: 15px;
     font-weight: 800;
     text-transform: uppercase;
-    letter-spacing: .75px;
     color: #000;
-    line-height: 20px;
-    padding: 54px 0;
-    height: auto;
     font-family: sans-serif;
+    padding: 54px 0px;
 }
 .lists > li{
-    margin: 0px 10px;
+    margin: 0px 7px;
 
 }
 .lists > li:not(:last-child)::after{
@@ -21,7 +59,7 @@
     font-size: 10px;
     margin-left: 5px;
     color: #e73f15;
-    margin-top: 2px;
+    margin-top: 5px;
 }
 .menu_cnt{
     display: none;
@@ -33,10 +71,24 @@
     display: block;
 }
 
-@media screen and (max-width: 992px) {
+
+
+@media screen and (max-width: 1020px) {
+
+    .mobNav {
+      display:block
+    }
+
+    .tablist {
+        display:none ;
+    }
+
+  
    .headerContent {
     display: none;
    }
+
+   
    .topNavbar {
     background-color: transparent;
     color: #ffffff;
@@ -45,13 +97,16 @@
     padding: 0;
     width: 45px;
    }
-   .topNavContent {
-    font-size: 11px;
-    opacity: .8;
-    margin-left: 20px;
-   }
+
+  
    .topNavContentBox {
     justify-content: left;
+    padding: 10px 0px 20px 70px ;
+   
+   }
+
+   .topNavContent1, .topNavContent2{
+    font-size: 11px;
    }
 }
 
@@ -67,12 +122,25 @@
     top: 0;
     z-index: 99999;
     background-color: #ffffff;
+    padding: 15px 15% 15px 15%;
   }
 
-  @media screen and (max-width: 992px) {
+
+  @media screen and (max-width: 1430px) {
     .stickyHeader {
-        padding: 15px;
+        padding: 0% 3%;
       }
+    
+
+  }
+
+
+
+  @media screen and (max-width: 720px) {
+
+    .topNavContentBox {
+        padding-left: 20px;
+    }
   }
 
 

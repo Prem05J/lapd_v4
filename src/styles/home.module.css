@@ -169,17 +169,6 @@
 
 /* Quick-Links */
 
-.boxes{
-  display: grid;
-  padding: 45px;
-  border-left: 1px solid #d0dade;
-  border-top: 1px solid #d0dade;
-  color: black;
-}
-
-.imgs {
-  width: 100%;
-}
 
 .file{
   padding-bottom: 21px;
@@ -195,25 +184,43 @@
   padding-bottom: 24px !important;
 }
 
-.boxes:hover{
-  background: #ebf4f7;
-  color: #e73f15;
+.boxes .imgs {
+color:#000;
+height: 50px;
+width: 50px;
 
 }
-.boxes:hover .imgs {
+
+.boxes p {
+  color:#000;
+  text-align: center;
+ }
+
+ .boxes:hover {
+  background-color:#ebf4f7;
+ }
+.boxes:hover img{
   transform: scale(1.2);
-  transition-delay: .5s;
+  transition: .4s;
+  color: #e73f15;
+}
+
+#icon-filepolicereport:hover {
+   fill:#e73f15;
+  }
+
+
+
+
+
+.boxes:hover p{
+   transition: .4s;
+  color:#e73f15
 }
 
 @media screen and (max-width: 768px) {
  
-  .boxes{
-      display: grid;
-      padding: 45px;
-      border-left: 1px solid #d0dade;
-      border-top: 1px solid #d0dade;
-      border-right: 1px solid #d0dade;
-  }
+  
   .pb{
       padding-bottom: 45px !important;
   }
@@ -244,52 +251,40 @@
 
 /* Tab-section */
 
-
-.news{
-    background-color: #052942;
-    color: #fff;
-    padding: 10px;
-   
-}
-
-.news h3{
-    font-size: 28px;
-    font-weight: 600;
-}
-@media screen and (max-width: 768px) {
-    .news h3{
-        font-size: 22px;
-        font-weight: 600;
-    }
-   
-}
-
-.news p{
-    font-size: 18px;
+.textspace {
+text-decoration: none;
 }
 
 
-.news h3:hover{
-    color: #798c96;
+.hoverBox a {
+  text-decoration: none;
 }
 
-.textspace h3{
-    color: black;
-    text-align: left;
-    font-size: 18px;
-    line-height: 28px;
-    letter-spacing: normal;
-    font-weight: 100;
+
+
+.hoverBox {
+  padding: 25px 15px 25px 25px;
+  background-color: #052942;
 }
 
-.textspace h3:hover{
-    color:#e73f15;
+.hoverBox:hover a .typo{
+  color:#798c96;
+  transition: .5s;
 }
 
-.textspace p{
-    color: #798c96;
-    padding-top: 10px;
+.hoverBox1 a {
+  text-decoration: none;
 }
+
+.hoverBox1  {
+  background-color: #fff;
+}
+
+.hoverBox1:hover a .typo1 {
+  color:#e73f15;
+  transition: .5s;
+}
+
 
 .line{
     width: 20px;

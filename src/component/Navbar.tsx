@@ -43,7 +43,7 @@ const Navbar = () => {
     const [ishover5, setIshover5] = useState(false);
 
 
-    const tablet = useMediaQuery('(max-width:1150px)');
+    const tablet = useMediaQuery('(max-width:1020px)');
 
 
     return (
@@ -61,7 +61,7 @@ const Navbar = () => {
                         <Box sx={{ display: "flex", gap: "15px", marginRight: "15px", justifyContent: "center", alignItems: "center" }}>
                             <Box>
                                 <Box sx={{ display: "flex", gap: "5px" }}>
-                                    <Box className={navStyle.topNavbar} sx={{ backgroundColor: "white", borderRadius: "5px", padding: "1px 7px 1px 7px", textAlign: "center", justifyContent: "center", display: "flex" }}>
+                                    <Box className={navStyle.topNavbar}>
                                         <Typography sx={{ fontSize: "12px" }}>311</Typography>
                                     </Box>
                                     <Typography className={navStyle.headerContent} sx={{ color: "white", fontSize: "12px" }}>
@@ -73,7 +73,7 @@ const Navbar = () => {
 
                             <Box>
                                 <Box sx={{ display: "flex", gap: "5px" }}>
-                                    <Box className={navStyle.topNavbar} sx={{ backgroundColor: "white", borderRadius: "5px", padding: "1px 7px 1px 7px", textAlign: "center", justifyContent: "center", display: "flex" }}>
+                                    <Box className={navStyle.topNavbar}>
                                         <Typography sx={{ fontSize: "12px" }}>LA</Typography>
                                     </Box>
                                     <Typography className={navStyle.headerContent} sx={{ color: "white", fontSize: "12px" }}>
@@ -92,10 +92,10 @@ const Navbar = () => {
 
 
 
-                    <Box className={navStyle.topNavContentBox} sx={{ display: "flex", alignItems: "center", backgroundColor: "#ebf4f7", width: "100%", justifyContent: "center", height: "50px", gap: "10px" }}>
-                        <Typography className={navStyle.topNavContent}>Have a Safe Holiday </Typography> <span style={{ height: "2px", width: "20px", opacity: ".9", backgroundColor: "black", marginLeft: "10px" }}></span>
+                    <Box className={navStyle.topNavContentBox}>
+                        <p className={navStyle.topNavContent1}>Have a Safe Holiday </p> <span style={{ height: "2px", width: "20px", opacity: ".9", backgroundColor: "black", marginLeft: "10px" }}></span>
                         <Link style={{ textDecoration: 'none' }} href='https://www.youtube.com/watch?v=SIUb_Y3fVFk'>
-                            <Typography className={navStyle.topNavContent} sx={{ color: "#e73f15", textTransform: "none", '&:hover': { color: "grey" } }}>{`Chief's Message - December 2023`}</Typography>
+                            <p className={navStyle.topNavContent2}>{`Chief's Message - December 2023`}</p>
                         </Link>
 
                     </Box>
@@ -103,16 +103,15 @@ const Navbar = () => {
                 </Box>
             </div>
 
-            <Box className={navStyle.stickyHeader} sx={{ padding: "15px 15% 15px 15%" }}>
-                <Grid sx={{}} container rowSpacing={2} columnSpacing={2}>
-                    <Grid item xs={4} sm={2} md={2}>
+            <Box className={navStyle.stickyHeader} >
+                <Grid  container rowSpacing={2} columnSpacing={2}>
+                    <Grid item xs={2} md={1}>
                         <Box sx={{ marginTop: "-12px", display: toggle ? tablet ? "none" : '' : "block" }}>
                             <Link href="/"><Image src={headerLogo} id="logo" alt="header-logo" height={96} width={68} /></Link>
                         </Box>
                     </Grid>
-                    <Grid item xs={4} sm={8} md={9}>
-
-                        <Box sx={{ display: tablet ? 'none' : '' }}>
+                    <Grid item xs={10} md={11} sx={{display:"flex",flexDirection:"row",justifyContent:"flex-end",gap:"30px"}}>
+                       <Box className={navStyle.tablist}>
                             <ul className={navStyle.lists} style={{ display: 'flex', alignItems: 'center', justifyContent: "end", listStyle: 'none', gap: "20px" }}>
 
                                 <li onMouseEnter={() => setIshover1(true)}
@@ -318,13 +317,13 @@ const Navbar = () => {
                                                 <Link style={{ textDecoration: 'none' }} href='/office-of-the-chief-of-police/office-of-special-operations/detective-bureau/detective-support-and-vice-division/human-trafficking'>
                                                     <Typography sx={{ color: "black", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`Human Trafficking`}</Typography>
                                                 </Link>
-                                                <Link style={{ textDecoration: 'none' }} href='#'>
+                                                <Link style={{ textDecoration: 'none' }} href='/identity-theft'>
                                                     <Typography sx={{ color: "black", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`ID Theft`}</Typography>
                                                 </Link>
-                                                <Link style={{ textDecoration: 'none' }} href='#'>
+                                                <Link style={{ textDecoration: 'none' }} href='/statistical-data'>
                                                     <Typography sx={{ color: "black", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`Statistical Data`}</Typography>
                                                 </Link>
-                                                <Link style={{ textDecoration: 'none' }} href='#'>
+                                                <Link style={{ textDecoration: 'none' }} href='/office-of-the-chief-of-police/office-of-special-operations/transit-services-bureau/traffic-group'>
                                                     <Typography sx={{ color: "black", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`Traffic Info`}</Typography>
                                                 </Link>
                                                 <Link style={{ textDecoration: 'none' }} href='#'>
@@ -436,23 +435,26 @@ const Navbar = () => {
 
 
                         {/* ==================== Mobile Menu =======================  */}
-                        <Box sx={{ display: tablet ? 'block' : 'none', transition: 'all .3s ease-in-out', zIndex: toggle ? "99999" : '0' }}>
+                        <Box className={navStyle.mobNav} sx={{  transition: 'all .3s ease-in-out', zIndex: toggle ? "99999" : '0' }}>
                             <Box sx={{ position: 'absolute', top: toggle ? '100%' : '-1500px', width: '100%', left: '0', transition: 'top .5s ease-in-out' }} >
                                 <Mobilenav navClose={close}/>
                             </Box>
                         </Box>
                         {/* ========================== End Mobile menu =================  */}
 
-                    </Grid>
-                    <Grid item xs={4} sm={2} md={1}>
-                        <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: tablet ? 'flex-end' : 'flex-start', height: '100%' }}>
+                        <Box sx={{ display: 'flex', alignItems: 'center', justifyContent:'flex-end', height: '100%' }}>
+                            <Box className={navStyle.tabSearch}>
                             <SearchIcon sx={{ display: toggle ? "none" : "block", cursor: 'pointer', width: '35px', height: '35px', color: tablet ? '#e73f15' : '#000' }} />
+                            </Box>
 
+                            <Box className={navStyle.mobSearch}>
                             <MenuIcon onClick={toggleBtn} sx={{ display: tablet ? toggle ? 'none' : 'block' : 'none', cursor: 'pointer', marginRight: '10px', width: '40px', height: '40px', color: '#e73f15' }} />
 
                             <CloseIcon sx={{ display: toggle ? 'block' : 'none', opacity: tablet ? '1' : '0', width: '40px', height: '40px', color: '#e73f15' }} onClick={close} />
+                            </Box>
                         </Box>
                     </Grid>
+                  
                 </Grid >
             </Box >
         </>

@@ -1,0 +1,78 @@
+.bullet {
+    padding: 4px;
+    background-color: #7ddfff;
+    border-radius: 50%;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.listBox {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+
+.fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    }
+    @-webkit-keyframes fadeInUp {
+    0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 25%, 0);
+    transform: translate3d(0, 25%, 0);
+    }
+    100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+    }
+    }
+    @keyframes fadeInUp {
+    0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 25%, 0);
+    transform: translate3d(0, 25%, 0);
+    }
+    100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+    }
+    } 
+
+
+
+
+    
+    .listItem{
+        padding-left: 0px !important;
+    
+    }
+    
+    .listItem li{
+        list-style-type: none;
+        margin-bottom: 16px;
+    }
+    
+    .listItem a{
+        text-decoration: none;
+        color: #e73f15 ;
+        font-size: 16px;
+    }
+    
+    .listItem a:hover{
+        color: #798c96;
+    }
+    
