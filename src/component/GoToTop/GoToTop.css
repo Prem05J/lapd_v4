@@ -1,0 +1,25 @@
+.GoToTop {
+    background-color:#e73f15;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    text-decoration: none;
+    text-align: center;
+    display: none;
+    position: fixed;
+    bottom: 60px;
+    right: 60px;
+    z-index: 990;
+    border: none;
+    cursor: pointer;
+    background-size: cover;
+    opacity: 1;
+  
+      
+  }
+
+  .GoToTop img {
+    margin-top: 20px;
+  }
+  
+  

@@ -82,6 +82,9 @@ const Footer = () => {
           </Grid>
           <Grid item sm={12} lg={4}>
             <h6 className={footerStyle.hsix}>TRANSLATE THIS PAGE</h6>
+            <Box  sx={{ padding: "5px" }}>
+                                <input placeholder='English'></input>
+                            </Box>
           </Grid>
         </Grid>
       </Box>

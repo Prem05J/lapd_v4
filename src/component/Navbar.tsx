@@ -164,7 +164,7 @@ const Navbar = () => {
                                                 <Link style={{ textDecoration: 'none' }} href='/lapd-organization-chart' onClick={() => setIshover1(false)}>
                                                     <Typography sx={{ color: "black", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`LAPD Organization Chart`}</Typography>
                                                 </Link>
-                                                <Link style={{ textDecoration: 'none' }} href='https://thelapdstore.com/' >
+                                                <Link style={{ textDecoration: 'none' }} href='https://thelapdstore.com/' onClick={() => setIshover1(false)}>
                                                     <Typography sx={{ color: "black", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`LAPD Store`}</Typography>
                                                 </Link>
                                             </Box>
@@ -281,7 +281,7 @@ const Navbar = () => {
                                             </Box>
                                             <Box sx={{ display: "flex", alignItems: "center", gap: "20px" }}>
                                                 <Image src={IconMision} alt='search' height={35} width={35} />
-                                                <Link style={{ textDecoration: 'none' }} href='#'>
+                                                <Link style={{ textDecoration: 'none' }} href='#' onClick={() => setIshover3(false)}>
                                                     <Typography sx={{ color: "black", fontSize: "22px", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`Missing Persons`}</Typography>
                                                 </Link>
 
@@ -293,40 +293,40 @@ const Navbar = () => {
 
                                         <Box sx={{ display: "flex", flexDirection: "row", gap: "30px" }}>
                                             <Box sx={{ display: "flex", flexDirection: "column", gap: "10px", alignItems: "flex-start" }}>
-                                                <Link style={{ textDecoration: 'none' }} href='/ab-953-the-racial-and-identity-profiling-act-of-2015-ripa'>
+                                                <Link style={{ textDecoration: 'none' }} href='/ab-953-the-racial-and-identity-profiling-act-of-2015-ripa' onClick={() => setIshover3(false)}>
                                                     <Typography sx={{ color: "black", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`AB 953: The Racial and Identity Profiling Act of 2015 (RIPA)`}</Typography>
                                                 </Link>
-                                                <Link style={{ textDecoration: 'none' }} href='https://www.ojp.gov/about/offices/bureau-justice-statistics-bjs'>
+                                                <Link style={{ textDecoration: 'none' }} href='https://www.ojp.gov/about/offices/bureau-justice-statistics-bjs' onClick={() => setIshover3(false)}>
                                                     <Typography sx={{ color: "black", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`Bureau of Justice Statistics (BJS)`}</Typography>
                                                 </Link>
-                                                <Link style={{ textDecoration: 'none' }} href='/crime-prevention'>
+                                                <Link style={{ textDecoration: 'none' }} href='/crime-prevention' onClick={() => setIshover3(false)}>
                                                     <Typography sx={{ color: "black", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`Crime Prevention`}</Typography>
                                                 </Link>
-                                                <Link style={{ textDecoration: 'none' }} href='/office-of-the-chief-of-police/professional-standards-bureau/critical-incident-videos/'>
+                                                <Link style={{ textDecoration: 'none' }} href='/office-of-the-chief-of-police/professional-standards-bureau/critical-incident-videos/' onClick={() => setIshover3(false)}>
                                                     <Typography sx={{ color: "black", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`Critical Incident Videos`}</Typography>
                                                 </Link>
-                                                <Link style={{ textDecoration: 'none' }} href='#'>
+                                                <Link style={{ textDecoration: 'none' }} href='#' onClick={() => setIshover3(false)}>
                                                     <Typography sx={{ color: "black", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`Domestic Violence`}</Typography>
                                                 </Link>
                                             </Box>
 
                                             <Box sx={{ display: "flex", flexDirection: "column", gap: "10px" }}>
-                                                <Link style={{ textDecoration: 'none' }} href='/office-of-the-chief-of-police/office-of-special-operations/detective-bureau/detective-support-and-vice-division/hate-crimes/'>
+                                                <Link onClick={() => setIshover3(false)} style={{ textDecoration: 'none' }} href='/office-of-the-chief-of-police/office-of-special-operations/detective-bureau/detective-support-and-vice-division/hate-crimes/'>
                                                     <Typography sx={{ color: "black", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`Hate Crime Information`}</Typography>
                                                 </Link>
-                                                <Link style={{ textDecoration: 'none' }} href='/office-of-the-chief-of-police/office-of-special-operations/detective-bureau/detective-support-and-vice-division/human-trafficking'>
+                                                <Link onClick={() => setIshover3(false)} style={{ textDecoration: 'none' }} href='/office-of-the-chief-of-police/office-of-special-operations/detective-bureau/detective-support-and-vice-division/human-trafficking'>
                                                     <Typography sx={{ color: "black", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`Human Trafficking`}</Typography>
                                                 </Link>
-                                                <Link style={{ textDecoration: 'none' }} href='/identity-theft'>
+                                                <Link onClick={() => setIshover3(false)} style={{ textDecoration: 'none' }} href='/identity-theft'>
                                                     <Typography sx={{ color: "black", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`ID Theft`}</Typography>
                                                 </Link>
-                                                <Link style={{ textDecoration: 'none' }} href='/statistical-data'>
+                                                <Link onClick={() => setIshover3(false)} style={{ textDecoration: 'none' }} href='/statistical-data'>
                                                     <Typography sx={{ color: "black", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`Statistical Data`}</Typography>
                                                 </Link>
-                                                <Link style={{ textDecoration: 'none' }} href='/office-of-the-chief-of-police/office-of-special-operations/transit-services-bureau/traffic-group'>
+                                                <Link onClick={() => setIshover3(false)} style={{ textDecoration: 'none' }} href='/office-of-the-chief-of-police/office-of-special-operations/transit-services-bureau/traffic-group'>
                                                     <Typography sx={{ color: "black", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`Traffic Info`}</Typography>
                                                 </Link>
-                                                <Link style={{ textDecoration: 'none' }} href='#'>
+                                                <Link onClick={() => setIshover3(false)} style={{ textDecoration: 'none' }} href='/unsolved-murders-of-lapd-officers/'>
                                                     <Typography sx={{ color: "black", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`Unsolved Murders of LAPD Officers`}</Typography>
                                                 </Link>
                                             </Box>
@@ -347,7 +347,7 @@ const Navbar = () => {
                                         <Box sx={{ display: "flex", flexDirection: "column", gap: "30px" }}>
                                             <Box sx={{ display: "flex", alignItems: "center", gap: "20px" }}>
                                                 <Image src={Bino} alt='search' height={32} width={32} />
-                                                <Link style={{ textDecoration: 'none' }} href='#'>
+                                                <Link onClick={() => setIshover4(false)} style={{ textDecoration: 'none' }} href='/iwatch/'>
                                                     <Typography sx={{ color: "black", fontSize: "22px", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`iWatch`}</Typography>
                                                 </Link>
                                             </Box>
@@ -358,22 +358,22 @@ const Navbar = () => {
 
                                         <Box sx={{ display: "flex", flexDirection: "row", gap: "30px" }}>
                                             <Box sx={{ display: "flex", flexDirection: "column", gap: "10px", alignItems: "flex-start" }}>
-                                                <Link style={{ textDecoration: 'none' }} href='#'>
+                                                <Link onClick={() => setIshover4(false)} style={{ textDecoration: 'none' }} href='https://www.lacrimestoppers.org/'>
                                                     <Typography sx={{ color: "black", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`Crime Stoppers`}</Typography>
                                                 </Link>
-                                                <Link style={{ textDecoration: 'none' }} href='#'>
+                                                <Link onClick={() => setIshover4(false)} style={{ textDecoration: 'none' }} href='/iwatch/'>
                                                     <Typography sx={{ color: "black", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`iWatch`}</Typography>
                                                 </Link>
-                                                <Link style={{ textDecoration: 'none' }} href='#'>
+                                                <Link  onClick={() => setIshover4(false)} style={{ textDecoration: 'none' }} href='#'>
                                                     <Typography sx={{ color: "black", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`Neighborhood Watch`}</Typography>
                                                 </Link>
                                             </Box>
 
                                             <Box sx={{ display: "flex", flexDirection: "column", gap: "10px" }}>
-                                                <Link style={{ textDecoration: 'none' }} href='#'>
+                                                <Link onClick={() => setIshover4(false)} style={{ textDecoration: 'none' }} href='/office-of-the-chief-of-police/office-of-special-operations/detective-bureau/reward-bulletin/'>
                                                     <Typography sx={{ color: "black", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`Reward Bulletin`}</Typography>
                                                 </Link>
-                                                <Link style={{ textDecoration: 'none' }} href='#'>
+                                                <Link onClick={() => setIshover4(false)} style={{ textDecoration: 'none' }} href='#'>
                                                     <Typography sx={{ color: "black", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`Volunteer`}</Typography>
                                                 </Link>
 

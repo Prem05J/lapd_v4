@@ -34,7 +34,7 @@ const PoliceCommission = () => {
                             <Typography sx={{ fontSize: "18px" }}>The Board of Police Commissioners serves as the head of the Los Angeles Police Department, functioning like a corporate board of directors, setting policies for the Department and overseeing its operations. The Board works in conjunction with the Chief of Police who acts as a chief executive officer and reports to the Board. There are five civilian members who make up the Board of Police Commissioners.
                             </Typography>
 
-                            <Typography sx={{ fontSize: "18px", marginTop: "30px" }}>Commissioners are appointed by the <a className={styles.link} href="javascript:;"> Mayor:</a></Typography>
+                            <Typography sx={{ fontSize: "18px", marginTop: "30px" }}>Commissioners are appointed by the <a className={styles.link} href="https://mayor.lacity.gov/" target="_blank"> Mayor:</a></Typography>
                             <Box sx={{ marginTop: "20px" }}>
                                 <Typography sx={{ fontSize: "18px" }}>President, Dr. Erroll G. Southers</Typography>
                                 <Typography sx={{ fontSize: "18px" }}>Vice President, Rasha Gerges Shields</Typography>
@@ -44,7 +44,7 @@ const PoliceCommission = () => {
                             </Box>
 
                             <Box sx={{ marginTop: '30px' }}>
-                                <Link className={styles.link} href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><LaunchIcon sx={{ color: 'black', marginRight: '10px' }} /><Typography sx={{ fontSize: "18px" }}>Holiday Give Wisely Message</Typography></Link></Box>
+                                <Link className={styles.link} href="https://www.youtube.com/watch?v=1so6vdQF3-Y " target="_blank" style={{ display: 'flex', alignItems: 'center' }}><LaunchIcon sx={{ color: 'black', marginRight: '10px' }} /><Typography sx={{ fontSize: "18px" }}>Holiday Give Wisely Message</Typography></Link></Box>
 
                         </Grid>
                         <Grid item xs={12} sm={5}  >

@@ -605,7 +605,7 @@ const IdentityTheft = () => {
 
 
                                 <Typography sx={{ fontSize: '18px', lineHeight: '1.55', marginLeft: '5px', marginTop: '30px' }}>
-                                    See Also &nbsp; <span className={styles.hlinetwo}></span><Link href="#" style={{ marginLeft: '25px' }} className={styles.lnk}>Coping With Identity Theft</Link>.
+                                    See Also &nbsp; <span className={styles.hlinetwo}></span><Link href="/coping-with-identity-theft/" style={{ marginLeft: '25px' }} className={styles.lnk}>Coping With Identity Theft</Link>.
                                 </Typography>
                             </Grid>
                         </Grid>

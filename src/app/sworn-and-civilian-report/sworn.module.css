@@ -1,0 +1,88 @@
+.bg{
+    background-color: #0f212b;
+    color: #fff;
+    padding:32px 0px
+}
+
+.h1size{
+    font-size: 62px;
+    margin: 0px 0px 20px 0px;
+    line-height: 1.15;
+    letter-spacing: -1.15px;
+    font-weight: 700;
+}
+
+.hlinetwo{
+    width: 18px !important;
+    height: 2px !important;
+    background-color: #000000 !important;
+    position: absolute;
+    margin-bottom: 2px;
+}
+
+
+.textstyl h2{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 0px 0px 22px 0px !important;
+    letter-spacing: -.3px;
+}
+.textstyl p a{
+    color: red;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 28px; 
+    letter-spacing: normal;
+}
+.textstyl p a:hover{
+    color: #798c96;
+    text-decoration: none;
+}
+
+
+
+
+.lnk{
+    color: #e73f15;
+    text-decoration: none;
+}
+.lnk:hover{
+    color:#798c96;
+}
+
+
+
+
+/* tablet */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  
+    /* .h4size{
+        font-size: 20px;
+    }  */
+    .h1size{
+        font-size: 49px !important;
+        margin: 0px 0px 20px 0px;
+    }
+  
+
+}
+
+
+
+
+
+/* mobile */
+@media screen and (max-width: 576px) {
+  
+
+
+    .h1size{
+        font-size: 38px;
+        margin: 0px 0px 20px 0px;
+    }
+
+
+}
+

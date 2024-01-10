@@ -7,7 +7,7 @@ import Image from 'next/image'
 import styles from './inside.module.css'
 import pdf from '../../../public/Icons/pdf-svg-icon.svg'
 import global from "../global.module.css"
-import { Container } from '@mui/material'
+import { Container, Typography } from '@mui/material'
 
 const InsideLap = () => {
     return (
@@ -34,14 +34,14 @@ const InsideLap = () => {
                         <Box sx={{backgroundColor:"#ebf4f7",padding:"25px"}}>
                             <h2>About the LAPD</h2>
                             <ul className={styles.aboutul}>
-                                <li><Link href="javascript:;">Office of the Inspector General</Link></li>
-                                <li><Link href="javascript:;">Police Commission</Link></li>
-                                <li><Link href="javascript:;">LAPD Organization</Link></li>
-                                <li><Link href="javascript:;">History of the LAPD</Link></li>
-                                <li><Link href="javascript:;">Los Angeles Police Department Safe Place</Link></li>
-                                <li><Link href="javascript:;">Professional Standards Bureau</Link></li>
-                                <li><Link href="javascript:;">Saluting Our Heroes</Link></li>
-                                <li><Link href="javascript:;">Sworn and Civilian Report</Link></li>
+                                <li><Link href="/police-commission/office-of-the-inspector-general/"><Typography>Office of the Inspector General</Typography></Link></li>
+                                <li><Link href="/police-commission/"><Typography>Police Commission</Typography></Link></li>
+                                <li><Link href="/lapd-organization/"><Typography>LAPD Organization</Typography></Link></li>
+                                <li><Link href="/history-of-the-lapd/"><Typography>History of the LAPD</Typography></Link></li>
+                                <li><Link href="/safe-place/"><Typography>Los Angeles Police Department Safe Place</Typography></Link></li>
+                                <li><Link href="/office-of-the-chief-of-police/professional-standards-bureau/"><Typography>Professional Standards Bureau</Typography></Link></li>
+                                <li><Link href="/saluting-our-heroes"><Typography>Saluting Our Heroes</Typography></Link></li>
+                                <li><Link href="/sworn-and-civilian-report/"><Typography>Sworn and Civilian Report</Typography></Link></li>
                             </ul>
                         </Box>
                     </Grid>
@@ -49,8 +49,8 @@ const InsideLap = () => {
                         <Box sx={{backgroundColor:"#ebf4f7",padding:"25px"}}>
                             <h2>Resources</h2>
                             <ul className={styles.aboutul}>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Image src={pdf} alt='pdf' style={{ height: '20px', width: '20px', marginRight: '10px' }} />Board of Inquiry Report [PDF] - Rampart Area Corruption Incident</Link></li>
-                                <li><Link href="javascript:;">Sites of Interest</Link></li>
+                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Image src={pdf} alt='pdf' style={{ height: '20px', width: '20px', marginRight: '10px' }} /><Typography>Board of Inquiry Report [PDF] - Rampart Area Corruption Incident</Typography></Link></li>
+                                <li><Link href="javascript:;"><Typography>Sites of Interest</Typography></Link></li>
                             </ul>
                         </Box>
                     </Grid>

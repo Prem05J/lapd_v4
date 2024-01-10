@@ -1,0 +1,73 @@
+.bg {
+    background-color: #0f212b;
+    color: #fff;
+}
+
+.h1size {
+    font-size: 62px;
+    margin: 0px 0px 20px 0px;
+}
+
+
+.blockspace {
+    padding: 34px 0px 34px 0px;
+}
+/* about card */
+
+.linkbox {
+    background-color: #ebf4f7;
+    padding: 25px;
+}
+
+.linkbox h2 {
+    font-size: 26px;
+}
+
+.aboutul {
+    padding-left: 0px !important;
+
+}
+
+.aboutul li {
+    list-style-type: none;
+    margin-bottom: 16px;
+}
+
+.aboutul a {
+    text-decoration: none;
+    color: #e73f15;
+    font-size: 16px;
+}
+
+.aboutul a:hover {
+    color: #798c96;
+}
+
+
+/* tablet */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .blockspace {
+        padding: 36px 0px 36px 0px;
+    }
+
+    .h1size {
+        font-size: 49px !important;
+        margin: 0px 0px 20px 0px;
+    }
+
+
+}
+
+/* mobile */
+@media screen and (max-width: 576px) {
+ 
+
+    .h1size {
+        font-size: 38px;
+        margin: 0px 0px 20px 0px;
+    }
+
+}
+
+

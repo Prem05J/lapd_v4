@@ -22,7 +22,7 @@ const MedalValor = () => {
     return (
         <>
 
-            <Box sx={{ display: 'flex', padding: '32px 5%', flexDirection: 'column', background: '#0f212b' }}>
+            <Box sx={{ display: 'flex', padding: '32px 0px', flexDirection: 'column', background: '#0f212b' }}>
                 <Container>
                 <Typography className={styles.fadeInUp} sx={{ marginBottom: '5px', color: '#fff', fontSize: mobile ? '18px' : '22px', fontStyle: 'italic' }}>valor, preservation of life, extreme courage</Typography>
                 <Typography className={styles.fadeInUp} sx={{ color: '#fff', margin: '0px 0px 20px', fontSize: mobile ? '30px' : '62px', fontWeight: '700' }}>Medal of Valor</Typography>

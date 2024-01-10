@@ -22,7 +22,7 @@ const MissionVision = () => {
                 <Container>
                     <Grid container className={global.fadeInUp}>
                         <Grid item xs={11} sm={11} lg={8} >
-                            <Typography className={styles.fadeInUp} sx={{ color: '#fff', margin: '0px 0px 20px', fontSize: mobile ? '34px' : '3vw', fontWeight: '700' }}>Our Commitment to the  People of Los Angeles</Typography>
+                            <Typography className={global.fadeInUp} sx={{ color: '#fff', margin: '0px 0px 20px', fontSize: mobile ? '34px' : '3vw', fontWeight: '700' }}>Our Commitment to the  People of Los Angeles</Typography>
                         </Grid>
 
                     </Grid></Container>

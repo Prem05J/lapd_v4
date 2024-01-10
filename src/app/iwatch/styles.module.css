@@ -1,0 +1,13 @@
+.linktxt a {
+    text-decoration: none;
+    color: #e73f15 ;
+}
+
+.linktxt a:hover {
+    color: #798c96;
+}
+
+.iwatchImage {
+    height: auto;
+    max-width: 100%;
+}

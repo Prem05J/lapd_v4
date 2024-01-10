@@ -55,7 +55,7 @@ const Mobilenav: React.FC<props> = ({ navClose }) => {
 
     return (
 
-        <Box sx={{ height: '100vh', backgroundColor: "#fff", textAlign: "center" }}>
+        <Box sx={{ height: '100vh', backgroundColor: "#fff", textAlign: "center"}}>
             <Box sx={{ display: 'flex', flexDirection: 'column', backgroundColor: "#ffffff" }}>
                 <Typography sx={{ padding: '10px 30px', fontSize: '12px', backgroundColor: '#fff' }}>For Emergencies Dial 911 | For Non-Emergency Police Response 877-ASK-LAPD</Typography>
             </Box>
@@ -102,7 +102,7 @@ const Mobilenav: React.FC<props> = ({ navClose }) => {
                         </li>
                         <li>
                             <Link href='/police-commission/medal-of-valor' className={navStyle.menu_links} onClick={navClose}>
-                                <Typography sx={{ color: "#0f212b", textTransform: "none", '&:hover': { color: "#e73f15" } }} className={navStyle.link_text}>Medal of Valor, Purple Heart & Preservation of Life Awards</Typography>
+                                <Typography sx={{ color: "#0f212b",textAlign:"left", textTransform: "none", '&:hover': { color: "#e73f15" } }} className={navStyle.link_text}>Medal of Valor, Purple Heart & Preservation of Life Awards</Typography>
                             </Link>
                         </li>
                         <li>
@@ -264,7 +264,7 @@ const Mobilenav: React.FC<props> = ({ navClose }) => {
 
                         <li>
                             <Link onClick={navClose} href='/ab-953-the-racial-and-identity-profiling-act-of-2015-ripa' className={navStyle.menu_links}>
-                                <Typography sx={{ color: "#0f212b", textTransform: "none", '&:hover': { color: "#e73f15" } }} className={navStyle.link_text}>AB 953: The Racial and Identity Profiling Act of 2015 (RIPA)</Typography>
+                                <Typography sx={{ color: "#0f212b",textAlign:"left", textTransform: "none", '&:hover': { color: "#e73f15" } }} className={navStyle.link_text}>AB 953: The Racial and Identity Profiling Act of 2015 (RIPA)</Typography>
                             </Link>
                         </li>
                         <li>
@@ -313,7 +313,7 @@ const Mobilenav: React.FC<props> = ({ navClose }) => {
                             </Link>
                         </li>
                         <li>
-                            <Link onClick={navClose} href='/' className={navStyle.menu_links}>
+                            <Link onClick={navClose} href='/unsolved-murders-of-lapd-officers/' className={navStyle.menu_links}>
                                 <Typography sx={{ color: "#0f212b", textTransform: "none", '&:hover': { color: "#e73f15" } }} className={navStyle.link_text}>Unsolved Murders of LAPD Officers</Typography>
                             </Link>
                         </li>
@@ -335,7 +335,7 @@ const Mobilenav: React.FC<props> = ({ navClose }) => {
                 <AccordionDetails>
                     <ul style={{ listStyleType: 'none', paddingLeft: '0' }}>
                         <li>
-                            <Link onClick={navClose} href='/' className={navStyle.menu_links}>
+                            <Link onClick={navClose} href='/iwatch/' className={navStyle.menu_links}>
                                 <Image src={iWatch} alt='search' height={32} width={32} />
                                 <Typography sx={{ color: "#0f212b", textTransform: "none", '&:hover': { color: "#e73f15" }, marginLeft: '10px' }} className={navStyle.link_text}>iWatch</Typography>
                             </Link>
@@ -345,17 +345,17 @@ const Mobilenav: React.FC<props> = ({ navClose }) => {
                         </li>
 
                         <li>
-                            <Link onClick={navClose} href='/' className={navStyle.menu_links}>
+                            <Link onClick={navClose} href='https://www.lacrimestoppers.org/' className={navStyle.menu_links}>
                                 <Typography sx={{ color: "#0f212b", textTransform: "none", '&:hover': { color: "#e73f15" } }} className={navStyle.link_text}>Crime Stoppers</Typography>
                             </Link>
                         </li>
                         <li>
-                            <Link onClick={navClose} href='/' className={navStyle.menu_links}>
+                            <Link onClick={navClose} href='/office-of-the-chief-of-police/office-of-special-operations/detective-bureau/reward-bulletin/' className={navStyle.menu_links}>
                                 <Typography sx={{ color: "#0f212b", textTransform: "none", '&:hover': { color: "#e73f15" } }} className={navStyle.link_text}>Reward Bulletin</Typography>
                             </Link>
                         </li>
                         <li>
-                            <Link onClick={navClose} href='/' className={navStyle.menu_links}>
+                            <Link onClick={navClose} href='/iwatch/' className={navStyle.menu_links}>
                                 <Typography sx={{ color: "#0f212b", textTransform: "none", '&:hover': { color: "#e73f15" } }} className={navStyle.link_text}>iWatch</Typography>
                             </Link>
                         </li>
