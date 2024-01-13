@@ -10,6 +10,7 @@ import Typography from '@mui/material/Typography'
 import LaunchIcon from '@mui/icons-material/Launch';
 import useMediaQuery from '@mui/material/useMediaQuery'
 import { Container } from '@mui/material'
+import global from "../../global.module.css"
 
 const ConstitutionalPolicy = () => {
     const tab = useMediaQuery('(max-width:768px)');
@@ -20,11 +21,11 @@ const ConstitutionalPolicy = () => {
             {/* 1st block */}
             <Box className={styles.bg}>
                 <Container>
-                <Grid container>
+                <Grid container className={global.fadeInUp}>
                     <Grid item xs={11} sm={10} md={10} lg={8}>
                         <h1 className={styles.h1size}>Office of Constitutional Policing and Policy</h1>
                         <Box sx={{ display: 'flex', alignItems: 'center' }}>
-                            <span className={styles.hline}></span><Link href="#" className={styles.insidelnk}>Commanding Officer - Police Administrator Lizabeth Rhodes</Link>
+                            <span className={styles.hline}></span><Link href="#" className={styles.insidelnk}><Typography>Commanding Officer - Police Administrator Lizabeth Rhodes</Typography></Link>
                         </Box>
                     </Grid>
                 </Grid>
@@ -32,14 +33,14 @@ const ConstitutionalPolicy = () => {
             </Box>
             {/* 2nd block */}
 
-            <Container>
+            <Container className={global.fadeInUp}>
             <Box className={styles.wholeblock}>
                 <Box>
                     <Grid container>
                         <Grid item sm={12} md={10} lg={7} className={styles.textstyl}>
                             <h2>Office of Constitutional Policing and Policy (OCPP) Public Website</h2>
                             <Box sx={{ display: 'flex', alignItems: 'center', marginBottom: '30px' }}>
-                                <span className={styles.hlinetwo}></span><Link href="#" className={styles.insidelnktwo}>Read More</Link>
+                                <span className={styles.hlinetwo}></span><Link href="https://lapdonlinestrgeacc.blob.core.usgovcloudapi.net/lapdonlinemedia/2021/10/10-14-21_FINAL_OCPP-Website-Draft.pdf" className={styles.insidelnktwo}><Typography>Read More</Typography></Link>
                             </Box>
                         </Grid>
                     </Grid>
@@ -47,7 +48,7 @@ const ConstitutionalPolicy = () => {
                 <Box>
                     <Grid container>
                         <Grid item sm={12} md={10} lg={7} className={styles.textstyl} sx={{ marginTop: '50px' }}>
-                            <Typography sx={{ marginBottom: '30px' }}>Following the discovery and disclosure of the Rampart Area Corruption Incident by the Los Angeles Police Department, the <Link href="#">United States Department of Justice (DOJ)</Link>notified the City of Los Angeles that it intended to file a civil suit alleging that the Department was engaging in a pattern or practice of excessive force, false arrests and unreasonable searches and seizures.</Typography>
+                            <Typography sx={{ marginBottom: '30px' ,fontSize:"18px"}}>Following the discovery and disclosure of the Rampart Area Corruption Incident by the Los Angeles Police Department, the <Link href="#">United States Department of Justice (DOJ)</Link>notified the City of Los Angeles that it intended to file a civil suit alleging that the Department was engaging in a pattern or practice of excessive force, false arrests and unreasonable searches and seizures.</Typography>
 
                             <Typography sx={{ display: toggle ? 'none' : 'flex', alignItems: 'center', marginBottom: '30px', paddingTop: '20px' }}>
                                 <span className={styles.hlinetwo}></span><Link href="javascript:;" className={styles.insidelnktwo} onClick={() => setToggle(true)}>Read More</Link>
@@ -113,7 +114,7 @@ const ConstitutionalPolicy = () => {
                             <Box className={styles.linkbox}>
                                 <h2>Use Of Force Year End Review</h2>
                                 <ul className={styles.aboutul}>
-                                    <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}><Image src={pdf} alt='pdf' style={{ height: '25px', width: '25px', marginRight: '10px' }} />2021 Use of Force - Year End Report</Link></li>
+                                    <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}><Image src={pdf} alt='pdf' style={{ height: '25px', width: '25px', marginRight: '10px' }} /><Typography>2021 Use of Force - Year End Report</Typography></Link></li>
                                     <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}><Image src={pdf} alt='pdf' style={{ height: '25px', width: '25px', marginRight: '10px' }} />2020 Use Of Force - Year End Review</Link></li>
                                     <li><Link href="#" style={{ display: 'flex', alignItems: 'center' }}><Image src={pdf} alt='pdf' style={{ height: '25px', width: '25px', marginRight: '10px' }} />2019 End of Year Report Crime & Initiatives</Link></li>
                                 </ul>

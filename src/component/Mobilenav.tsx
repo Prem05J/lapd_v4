@@ -365,7 +365,7 @@ const Mobilenav: React.FC<props> = ({ navClose }) => {
                             </Link>
                         </li>
                         <li>
-                            <Link onClick={navClose} href='/' className={navStyle.menu_links}>
+                            <Link onClick={navClose} href='/office-of-the-chief-of-police/office-of-operations/neighborhood-watch/' className={navStyle.menu_links}>
                                 <Typography sx={{ color: "#0f212b", textTransform: "none", '&:hover': { color: "#e73f15" } }} className={navStyle.link_text}>Neighborhood Watch</Typography>
                             </Link>
                         </li>
@@ -397,17 +397,17 @@ const Mobilenav: React.FC<props> = ({ navClose }) => {
                         </li>
 
                         <li>
-                            <Link onClick={navClose} href='/' className={navStyle.menu_links}>
+                            <Link onClick={navClose} href='/office-of-the-chief-of-police/professional-standards-bureau/critical-incident-videos/' className={navStyle.menu_links}>
                                 <Typography sx={{ color: "#0f212b", textTransform: "none", '&:hover': { color: "#e73f15" } }} className={navStyle.link_text}>Critical Incident Videos</Typography>
                             </Link>
                         </li>
                         <li>
-                            <Link onClick={navClose} href='/' className={navStyle.menu_links}>
+                            <Link onClick={navClose} href='https://www.youtube.com/playlist?list=PLW5iqZEagvjPVEfckYNrJGY9Ps-hv407M' className={navStyle.menu_links}>
                                 <Typography sx={{ color: "#0f212b", textTransform: "none", '&:hover': { color: "#e73f15" } }} className={navStyle.link_text}>LAPD Up Close</Typography>
                             </Link>
                         </li>
                         <li>
-                            <Link onClick={navClose} href='/' className={navStyle.menu_links}>
+                            <Link onClick={navClose} href='/lapd_tv/lapd-tv' className={navStyle.menu_links}>
                                 <Typography sx={{ color: "#0f212b", textTransform: "none", '&:hover': { color: "#e73f15" } }} className={navStyle.link_text}>LAPD TV</Typography>
                             </Link>
                         </li>
@@ -416,9 +416,9 @@ const Mobilenav: React.FC<props> = ({ navClose }) => {
             </Accordion>
 
 
-            <Link href="javascript:;"><Button sx={{ marginTop: "20px", borderRadius: "0px", backgroundColor: "#e73f15", padding: "12px 16px", width: "98%", boxShadow: "inset 0 0 0 0 #ff7526", transition: "ease-in-out.3s" }} className={global.contactBtn} variant="contained" >
-                <Typography sx={{ fontWeight: "bold" }}>CONTACT </Typography>
-            </Button></Link>
+            <Link href="javascript:;"><button style={{width: "98%",marginTop:"30px"}} className={global.contactBtn}>
+                <Typography sx={{ fontWeight: "bold",color:"#fff" }}>CONTACT </Typography>
+            </button></Link>
 
 
 

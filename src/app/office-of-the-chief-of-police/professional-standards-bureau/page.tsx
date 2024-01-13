@@ -139,12 +139,12 @@ const Professional = () => {
                         <Box sx={{ padding: '45px', background: '#ebf4f7', margin: '20px 0px' }}>
                             <Typography sx={{ fontSize: '20px', marginBottom: '20px', fontWeight: '700' }}>Public Reports on Discipline</Typography>
                             <Typography sx={{ fontSize: '16px', lineHeight: '1.5', margin: '20px 0px' }}>
-                                <Link href='https://www.lapdonline.org/office-of-the-chief-of-police/professional-standards-bureau/disciplinary-penalties/' className={Styles.linkHover}>
+                                <Link href='/office-of-the-chief-of-police/professional-standards-bureau/disciplinary-penalties/' className={Styles.linkHover}>
                                     Disciplinary Penalties Reports
                                 </Link>
                             </Typography>
                             <Typography sx={{ fontSize: '16px', lineHeight: '1.5', margin: '20px 0px' }}>
-                                <Link href='https://www.lapdonline.org/office-of-the-chief-of-police/professional-standards-bureau/month-and-ytd-2022/' className={Styles.linkHover}>Month and YTD (2023)</Link>
+                                <Link href='/office-of-the-chief-of-police/professional-standards-bureau/month-and-ytd-2022/' className={Styles.linkHover}>Month and YTD (2023)</Link>
                             </Typography>
                         </Box>
                     </Grid>

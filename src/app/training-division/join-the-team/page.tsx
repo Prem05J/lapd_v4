@@ -34,36 +34,36 @@ const JoinTeam = () => {
             <Typography sx={{ fontSize: '26px', fontWeight: '700', marginBottom: '20px' }}>Join the LAPD</Typography>
             <ul style={{listStyleType: 'none', paddingLeft: '0'}}>
               <li style={{margin: '15px 0px'}}>
-                <Link style={{ textDecoration: 'none', display: 'flex', alignItems: 'center' }} href='https://www.joinlapd.com/?gclid=Cj0KCQjwpImTBhCmARIsAKr58cwW4uEGHtkyefbch7M0wVxtCxlVnWcyZs3_pXwIwytkGXzycl4W8PMaAlXwEALw_wcB'>
+                <Link style={{ textDecoration: 'none', display: 'flex', alignItems: 'center' }} href='https://www.joinlapd.com/?gclid=Cj0KCQjwpImTBhCmARIsAKr58cwW4uEGHtkyefbch7M0wVxtCxlVnWcyZs3_pXwIwytkGXzycl4W8PMaAlXwEALw_wcB' target="_blank">
                   <LaunchIcon sx={{ fontSize: 'large', color: '#000', marginRight: '5px' }} />
                   <Typography sx={{ padding: '0px 0px 0xp 20px', color: "#e73f15", fontSize: "16px", textTransform: "none", '&:hover': { color: "#798c96" } }}>Become a Sworn Officer</Typography>
                 </Link>
               </li>
               <li style={{margin: '15px 0px'}}>
-                <Link style={{ textDecoration: 'none', display: 'flex', alignItems: 'center' }} href='https://www.lapdonline.org/candidate-advancement-program/'>
+                <Link style={{ textDecoration: 'none', display: 'flex', alignItems: 'center' }} href='/candidate-advancement-program/'>
                    <Typography sx={{ padding: '0px 0px 0xp 20px', color: "#e73f15", fontSize: "16px", textTransform: "none", '&:hover': { color: "#798c96" } }}>Candidate Advancement Program (CAP)</Typography>
                 </Link>
               </li>
               <li style={{margin: '15px 0px'}}>
-                <Link style={{ textDecoration: 'none', display: 'flex', alignItems: 'center' }} href='http://per.lacity.org/'>
+                <Link style={{ textDecoration: 'none', display: 'flex', alignItems: 'center' }} href='https://personnel.lacity.gov/index.html' target="_blank">
                   <LaunchIcon sx={{ fontSize: 'large', color: '#000', marginRight: '5px' }} />
                   <Typography sx={{ padding: '0px 0px 0xp 20px', color: "#e73f15", fontSize: "16px", textTransform: "none", '&:hover': { color: "#798c96" } }}>City of Los Angeles Personnel Department</Typography>
                 </Link>
               </li>
               <li style={{margin: '15px 0px'}}>
-                <Link style={{ textDecoration: 'none', display: 'flex', alignItems: 'center' }} href='http://per.lacity.org/'>
+                <Link style={{ textDecoration: 'none', display: 'flex', alignItems: 'center' }} href='http://per.lacity.org/' target="_blank">
                   <LaunchIcon sx={{ fontSize: 'large', color: '#000', marginRight: '5px' }} />
                   <Typography sx={{ padding: '0px 0px 0xp 20px', color: "#e73f15", fontSize: "16px", textTransform: "none", '&:hover': { color: "#798c96" } }}>Civilian Employment Opportunities</Typography>
                 </Link>
               </li>
               <li style={{margin: '15px 0px'}}>
-                <Link style={{ textDecoration: 'none', display: 'flex', alignItems: 'center' }} href='href="http://per.lacity.org/'>
+                <Link style={{ textDecoration: 'none', display: 'flex', alignItems: 'center' }} href='href="http://per.lacity.org/' target="_blank">
                   <LaunchIcon sx={{ fontSize: 'large', color: '#000', marginRight: '5px' }} />
                   <Typography sx={{ padding: '0px 0px 0xp 20px', color: "#e73f15", fontSize: "16px", textTransform: "none", '&:hover': { color: "#798c96" } }}>Rehired Candidates</Typography>
                 </Link>
               </li>
               <li style={{margin: '15px 0px'}}>
-                <Link style={{ textDecoration: 'none', display: 'flex', alignItems: 'center' }} href='https://www.lapdonline.org/reserve-police-officer-program/'>
+                <Link style={{ textDecoration: 'none', display: 'flex', alignItems: 'center' }} href='/reserve-police-officer-program'>
                 <Typography sx={{ padding: '0px 0px 0xp 20px', color: "#e73f15", fontSize: "16px", textTransform: "none", '&:hover': { color: "#798c96" } }}>Reserve Corps</Typography>
                 </Link>
               </li>

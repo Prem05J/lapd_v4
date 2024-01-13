@@ -19,9 +19,13 @@ const Reportemployee = () => {
         <>
             <Box sx={{ display: 'flex', padding: '32px 5%', flexDirection: 'column', background: '#0f212b' }}>
                 <Container>
-                <Typography sx={{ color: '#fff', margin: '0px 0px 20px', fontSize: mobile ? '28px' : '62px', fontWeight: '700',lineHeight:"1" }}>Report Employee Misconduct</Typography>
-                <Link style={{ textDecoration: 'none', display: 'flex', alignItems: 'center' }} href='/information-on-how-to-file-a-complaint'>
-                    <LaunchIcon sx={{ fontSize: 'large', color: '#fff', marginRight: '5px' }} />
+                    <Grid container>
+                        <Grid item lg={7}>
+                        <Typography sx={{ color: '#fff', margin: '0px 0px 20px', fontSize: mobile ? '28px' : '62px', fontWeight: '700',lineHeight:"1" }}>Report Employee Misconduct</Typography>
+                        </Grid>
+                </Grid>
+                <Link style={{ textDecoration: 'none', display: 'flex', alignItems: 'center',gap:"10px" }} href='/information-on-how-to-file-a-complaint'>
+                <span style={{width:"18px",height:"2px",backgroundColor:"#fff",marginBottom:"2px"}}></span>
                     <Typography sx={{ padding: '0px 0px 0xp 20px', color: "#7DDFFF", fontSize: "16px", textTransform: "none", '&:hover': { color: "#fff" } }}>Information on How to File a Complaint</Typography>
                 </Link>
                 </Container>

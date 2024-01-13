@@ -20,36 +20,26 @@ import global from "./global.module.css"
 
 const Home = () => {
 
-  const [isVisible, setIsVisible] = useState(false);
-
-  useEffect(() => {
-    const delay = setTimeout(() => {
-      setIsVisible(true);
-    }, 10);
-
-    return () => clearTimeout(delay);
-  }, []);
-
+  
   return (
     <div className={homeStyle.home}>
 
-      <Box className={homeStyle.italicTypoBox} sx={{ marginLeft: "12%", marginTop: "50px", display: "flex", flexDirection: "column", gap: "15px" }} data-aos="fade-up"
-      >
-        <Typography className={homeStyle.italicTypo1} sx={{ fontSize: "22px", fontStyle: "italic", fontWeight: "400", lineHeight: "1.27", letterSpacing: "-.25px", color: "#0f212b" }}>
+ 
+
+<Container>
+   <Box sx={{marginTop:"70px"}}>
+   <Typography  className={`${homeStyle.italicTypo1} ${global.fadeInUp}`} sx={{ fontSize: "22px", fontStyle: "italic", fontWeight: "400", lineHeight: "1.27", letterSpacing: "-.25px", color: "#0f212b" }}>
           The Official Site of the Los Angeles Police Department
         </Typography>
-        <Typography className={homeStyle.italicTypo2} sx={{ fontSize: "55px", fontStyle: "italic", fontWeight: "700", lineHeight: "1.1", letterSpacing: "1.15px", fontFamily: "Public Sans,sans-serif" }}>
+        <Typography  className={`${homeStyle.italicTypo2} ${global.fadeInUp}`} sx={{ fontSize: "55px",marginTop:"10px", fontStyle: "italic", fontWeight: "700", lineHeight: "1.1", letterSpacing: "1.15px", fontFamily: "Public Sans,sans-serif" }}>
           “to protect and to serve”
         </Typography>
-        <Box sx={{ margin: "6% 0% -7% 0%" }}>
-          <TextField
-            className={`${homeStyle.formTextField} ${isVisible ? homeStyle.visible : ''}`}
-            sx={{
-              width: "50%",
+
+    <TextField  className={`${global.fadeInUp} ${homeStyle.formTextField}`}
+             sx={{
               position: 'absolute',
-              marginTop: '50px',
-              opacity: '0',
               zIndex: "9999",
+              marginTop:"110px",
               backgroundColor: "white",
               paddingTop: "10px",
               paddingBottom: "10px",
@@ -75,8 +65,10 @@ const Home = () => {
 
             variant="standard"
           />
-        </Box>
-      </Box>
+  </Box>
+   </Container>
+
+
 
       <section>
         <SwiperImage />
@@ -152,11 +144,9 @@ const Home = () => {
                       <Typography sx={{ fontSize: "16px", color: "#ffffff" }}>Email Questions & Comments:</Typography>
                       <Link href="javascript:;" style={{ textDecoration: 'none' }}><Typography sx={{ color: "#ffffff", fontSize: "18px" }}>contact.lapdonline@gmail.com</Typography></Link>
                     </Box>
-
                   </Box>
-
-                </Box>
-                <Box sx={{ display: "flex", alignItems: "center", height: "50px",marginTop:"20px" }}>
+                    </Box> 
+                <Box sx={{ display: "flex", alignItems: "center", height: "50px",marginTop:"20px",gap:"10px" }}>
                   <span style={{ height: "2px", width: "20px", opacity: ".9", backgroundColor: "black" }}></span>
                   <Link style={{ textDecoration: 'none' }} href='https://www.youtube.com/watch?v=SIUb_Y3fVFk'>
                     <Typography sx={{ color: "#e73f15", textTransform: "none", '&:hover': { color: "grey" } }}>{`View All Contact Information`}</Typography>

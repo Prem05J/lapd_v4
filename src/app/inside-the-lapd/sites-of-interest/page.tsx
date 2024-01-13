@@ -133,7 +133,7 @@ const SiteOfInterest = () => {
         </Grid>
 
         <Grid item xs={12} sm={6}  className={styles.gridBox1}>
-                    <Box sx={{backgroundColor:"#ebf4f7",padding:"40px 30px 40px 40px",display:"flex",flexDirection:"column",gap:"20px"}}>
+             <Box sx={{backgroundColor:"#ebf4f7",padding:"40px 30px 40px 40px",display:"flex",flexDirection:"column",gap:"20px"}}>
                       <Typography  sx={{fontSize:"26px",fontWeight:"bold"}}>Criminal Justice Research and Other Legal Information</Typography>
                      
                       <ul className={styles.listItem}>

@@ -32,7 +32,7 @@ const Office = () => {
                 </Container>
             </Box>
 
-<Container>
+         <Container>
             <Box className={global.fadeInUp} sx={{marginTop:"60px"}}>
                 <Box>
                     <ul style={{ listStyleType: 'none', paddingLeft: '0', margin: '0px 0px 30px' }}>

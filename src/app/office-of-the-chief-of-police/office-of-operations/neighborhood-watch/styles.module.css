@@ -1,0 +1,52 @@
+.listbox ul{
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  gap: 20px;
+  margin-top: 20;
+}
+
+.listbox ul li {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.linktxt {
+    font-size: 18px;
+}
+
+
+.linktxt a{
+     color:#000;
+    text-decoration: none;
+}
+
+.linktxt a:hover{
+ color:#e73f15
+}
+
+.lnk a{
+    text-decoration: none;
+    color: #e73f15;
+}
+
+.readMoreHide{
+    display: none;
+}
+.readMoreView{
+    display: block;
+}
+
+.link a {
+    color:#e73f15;
+    text-decoration: none;
+    margin-left: 5px;
+    }
+
+.link a:hover {
+    color:#798c96;
+   
+  }

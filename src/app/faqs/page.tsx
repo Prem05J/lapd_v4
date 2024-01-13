@@ -19,7 +19,8 @@ const Faq = () => {
           <Container>
             <Typography className={global.fadeInUp} sx={{fontSize:"22px",color:"#fff",fontWeight:'bold'}}>Frequently Asked Questions</Typography>
                 <Typography className={global.fadeInUp} sx={{ color: '#fff', margin: '0px 0px 10px', fontSize: mobile ? '40px' : '62px', fontWeight: '700' }}>FAQ&apos;s</Typography>
-                </Container> </Box>
+                </Container>
+                 </Box>
 
 
      <Container>

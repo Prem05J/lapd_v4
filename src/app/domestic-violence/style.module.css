@@ -1,0 +1,47 @@
+.linkHover{
+    text-decoration: none;
+    color: #e73f15;
+}
+.linkHover:hover{
+    color: #798c96;
+}
+.para{
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 20px 0px;
+}
+.faqPara{
+    font-size: 18px;
+    line-height: 1.55;
+    margin-bottom: 20px;
+}
+.hyphen{
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    background-color: #000;
+    margin-top: 10px;
+}
+
+
+
+
+.expandBtn{
+    color: #e73f15;
+    font-size: 30px;
+    font-weight: 100;
+}
+.accordion{
+    box-shadow: none;
+    border: 1px solid #ccc;
+}
+.accordionSummary{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 0px;
+}
+.accordionSummary:hover .plusHover{
+    color: #798c96;
+}
+
+

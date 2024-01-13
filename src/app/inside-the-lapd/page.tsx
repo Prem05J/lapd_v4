@@ -49,8 +49,8 @@ const InsideLap = () => {
                         <Box sx={{backgroundColor:"#ebf4f7",padding:"25px"}}>
                             <h2>Resources</h2>
                             <ul className={styles.aboutul}>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Image src={pdf} alt='pdf' style={{ height: '20px', width: '20px', marginRight: '10px' }} /><Typography>Board of Inquiry Report [PDF] - Rampart Area Corruption Incident</Typography></Link></li>
-                                <li><Link href="javascript:;"><Typography>Sites of Interest</Typography></Link></li>
+                                <li><Link href="https://lapdonlinestrgeacc.blob.core.usgovcloudapi.net/lapdonlinemedia/2021/12/boi_pub.pdf" style={{ display: 'flex', alignItems: 'center' }}><Image src={pdf} alt='pdf' style={{ height: '20px', width: '20px', marginRight: '10px' }} /><Typography>Board of Inquiry Report [PDF] - Rampart Area Corruption Incident</Typography></Link></li>
+                                <li><Link href="/inside-the-lapd/sites-of-interest/"><Typography>Sites of Interest</Typography></Link></li>
                             </ul>
                         </Box>
                     </Grid>

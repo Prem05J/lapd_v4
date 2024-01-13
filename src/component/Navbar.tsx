@@ -305,7 +305,7 @@ const Navbar = () => {
                                                 <Link style={{ textDecoration: 'none' }} href='/office-of-the-chief-of-police/professional-standards-bureau/critical-incident-videos/' onClick={() => setIshover3(false)}>
                                                     <Typography sx={{ color: "black", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`Critical Incident Videos`}</Typography>
                                                 </Link>
-                                                <Link style={{ textDecoration: 'none' }} href='#' onClick={() => setIshover3(false)}>
+                                                <Link style={{ textDecoration: 'none' }} href='/domestic-violence' onClick={() => setIshover3(false)}>
                                                     <Typography sx={{ color: "black", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`Domestic Violence`}</Typography>
                                                 </Link>
                                             </Box>
@@ -364,7 +364,7 @@ const Navbar = () => {
                                                 <Link onClick={() => setIshover4(false)} style={{ textDecoration: 'none' }} href='/iwatch/'>
                                                     <Typography sx={{ color: "black", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`iWatch`}</Typography>
                                                 </Link>
-                                                <Link  onClick={() => setIshover4(false)} style={{ textDecoration: 'none' }} href='#'>
+                                                <Link  onClick={() => setIshover4(false)} style={{ textDecoration: 'none' }} href='/office-of-the-chief-of-police/office-of-operations/neighborhood-watch/'>
                                                     <Typography sx={{ color: "black", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`Neighborhood Watch`}</Typography>
                                                 </Link>
                                             </Box>
@@ -394,7 +394,7 @@ const Navbar = () => {
                                         <Box sx={{ display: "flex", flexDirection: "column", gap: "30px" }}>
                                             <Box sx={{ display: "flex", alignItems: "center", gap: "20px" }}>
                                                 <Image src={Newspaper} alt='search' height={32} width={32} />
-                                                <Link style={{ textDecoration: 'none' }} href='#'>
+                                                <Link style={{ textDecoration: 'none' }} href='#' onClick={() => setIshover5(false)}>
                                                     <Typography sx={{ color: "black", fontSize: "22px", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`Newsroom`}</Typography>
                                                 </Link>
                                             </Box>
@@ -404,17 +404,16 @@ const Navbar = () => {
 
                                         <Box sx={{ display: "flex", flexDirection: "row", gap: "30px" }}>
                                             <Box sx={{ display: "flex", flexDirection: "column", gap: "10px", alignItems: "flex-start" }}>
-                                                <Link style={{ textDecoration: 'none' }} href='#'>
+                                                <Link onClick={() => setIshover5(false)} style={{ textDecoration: 'none' }} href='/office-of-the-chief-of-police/professional-standards-bureau/critical-incident-videos/'>
                                                     <Typography sx={{ color: "black", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`Critical Incident Videos`}</Typography>
                                                 </Link>
-                                                <Link style={{ textDecoration: 'none' }} href='#'>
+                                                <Link onClick={() => setIshover5(false)} style={{ textDecoration: 'none' }} href='/lapd_tv/lapd-tv'>
                                                     <Typography sx={{ color: "black", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`LAPD TV`}</Typography>
                                                 </Link>
-
-                                            </Box>
+                                             </Box>
 
                                             <Box sx={{ display: "flex", flexDirection: "column", gap: "10px" }}>
-                                                <Link style={{ textDecoration: 'none' }} href='#'>
+                                                <Link onClick={() => setIshover5(false)} style={{ textDecoration: 'none' }} href='https://www.youtube.com/playlist?list=PLW5iqZEagvjPVEfckYNrJGY9Ps-hv407M'>
                                                     <Typography sx={{ color: "black", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`LAPD Up Close`}</Typography>
                                                 </Link>
 
@@ -425,9 +424,10 @@ const Navbar = () => {
                                 </li>
 
                                 <li>
-                                    <Link href="/contact-us"><Button sx={{ borderRadius: "0px", backgroundColor: "#e73f15", padding: "12px 16px", boxShadow: "inset 0 0 0 0 #ff7526", transition: "ease-out .5s" }} className={global.contactBtn} variant="contained" >
-                                        <Typography sx={{ fontWeight: "bold" }}>CONTACT </Typography>
-                                    </Button></Link>
+                                    <Link href="/contact-us">
+                                        <button  className={global.contactBtn}>
+                                        <Typography sx={{ fontWeight: "bold",color:"#fff" }}>CONTACT </Typography>
+                                    </button></Link>
                                 </li>
                             </ul>
                             

@@ -7,6 +7,8 @@
 .h1size{
     font-size: 62px;
     margin: 0px 0px 20px 0px;
+    font-family: Public Sans,sans-serif;
+    font-weight: bold;
 }
 
 
@@ -91,11 +93,12 @@
   }
 
 .textstyl h2{
-    font-size: 30px;
+    font-size: 32px;
     font-weight: 700;
     line-height: 1.1;
-    margin: 0px 0px 22px 0px !important;
+    margin: 20px 0px 22px 0px !important;
     letter-spacing: -.3px;
+    font-family: Public Sans,sans-serif;
 }
 .textstyl p a{
     color: red;

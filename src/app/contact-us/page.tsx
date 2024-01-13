@@ -1,6 +1,6 @@
 'use client'
 import React from 'react'
-import { Box, Typography, Grid  } from '@mui/material'
+import { Box, Typography, Grid, Container  } from '@mui/material'
 import Image from 'next/image'
 import Link from 'next/link'
 import useMediaQuery from '@mui/material/useMediaQuery'
@@ -17,21 +17,26 @@ const Contact = () => {
 
   return (
     <Box>
-        <Box sx={{padding:"2% 5%"}}>
+      <Container>
+        <Box>
+
        <Typography className={global.fadeInUp} sx={{fontSize:"22px"}}>
        Get in Touch with the LAPD
        </Typography>
        <Typography className={global.fadeInUp} sx={{fontWeight:'bold',fontSize:"62px"}}>
        Contact Us
-       </Typography></Box>
-       <Box sx={{display:"flex"}}>
+       </Typography>
+       </Box>
+       </Container>
+       <Box sx={{display:"flex",marginTop:"40px"}}>
         <Image className={contactStyle.image} src={contactImage1} alt="contact-image" />
         <Image className={contactStyle.image} src={contactImage2} alt="contact-image" />
        </Box>
 
-       <Box className={global.fadeInUp} sx={{marginTop:"60px",margin:"60px 5% 50px 5%"}}>
+       <Container>
+       <Box className={global.fadeInUp} sx={{marginTop:"60px",margin:"60px 5% 50px 0px"}}>
         <Grid container columnSpacing={5} rowSpacing={5}>
-            <Grid item xs={12} sm={12} md={6} lg={3.5}>
+            <Grid item xs={12} sm={6}>
               <Box sx={{backgroundColor:"#ebf4f7",padding:"40px 20px 40px 40px",display:"flex",flexDirection:"column",gap:"20px"}}>
                <Typography sx={{fontSize:"26px",fontWeight:"bold"}}>Phone Numbers</Typography>
                <Typography className={contactStyle.linkText1} sx={{fontSize:"16px",fontWeight:"bold"}}>For Life-Threatening Emergencies <br />
@@ -48,7 +53,7 @@ const Contact = () => {
               </Box>
             </Grid>
 
-            <Grid item xs={12} sm={12} md={6} lg={3.5}>
+            <Grid item xs={12} sm={6}>
               <Box sx={{backgroundColor:"#ebf4f7",padding:"40px 20px 40px 40px",display:"flex",flexDirection:"column",gap:"20px"}}>
                <Typography  sx={{fontSize:"26px",fontWeight:"bold"}}>Email the LAPD</Typography>
                <Typography>In case of an emergency, telephone 911. An emergency is a situation that threatens human life or property and demands immediate attention. Please note due to a high volume of e-mails we receive on a daily basis there may be a delay in our response.
@@ -58,7 +63,7 @@ const Contact = () => {
               </Box>
             </Grid>
 
-            <Grid item xs={12} sm={12} md={6} lg={3.5}>
+            <Grid item xs={12} sm={6}>
               <Box sx={{backgroundColor:"#ebf4f7",padding:"40px 20px 40px 40px",display:"flex",flexDirection:"column",gap:"20px"}}>
                <Typography  sx={{fontSize:"26px",fontWeight:"bold"}}>Addresses</Typography>
                <Typography>LAPD Headquarters <br/>
@@ -71,7 +76,7 @@ const Contact = () => {
         </Grid>
 
         <Grid container columnSpacing={5} rowSpacing={5} sx={{marginTop:"30px"}}>
-            <Grid item xs={12} sm={12} md={6} lg={5}>
+            <Grid item xs={12} sm={6}>
               <Box sx={{backgroundColor:"#ebf4f7",padding:"40px 20px 40px 40px",display:"flex",flexDirection:"column",gap:"20px"}}>
                <Typography sx={{fontSize:"26px",fontWeight:"bold"}}>Non-Emergency Crime Reporting & Hotlines</Typography>
                
@@ -123,7 +128,7 @@ const Contact = () => {
               </Box>
             </Grid>
 
-            <Grid item xs={12} sm={12} md={6} lg={5}>
+            <Grid item xs={12} sm={6}>
               <Box sx={{backgroundColor:"#ebf4f7",padding:"40px 20px 40px 40px",display:"flex",flexDirection:"column",gap:"20px"}}>
                <Typography  sx={{fontSize:"26px",fontWeight:"bold"}}>Get Service</Typography>
                <Typography className={contactStyle.linkText2} sx={{fontSize:"16px"}} >
@@ -165,6 +170,7 @@ const Contact = () => {
             
         </Grid>
        </Box>
+       </Container>
 
        <Box sx={{ display: 'flex', padding: '32px 5%', flexDirection: 'column', background: '#0f212b' }}>
         <Grid container>
@@ -180,9 +186,10 @@ const Contact = () => {
  
        </Box>
 
-       <Box className={global.fadeInUp} sx={{marginTop:"60px",margin:"60px 5% 50px 5%"}}>
+       <Container>
+       <Box className={global.fadeInUp} sx={{marginTop:"60px",margin:"60px 5% 50px 0px"}}>
         <Grid container columnSpacing={5}>
-       <Grid item xs={12} sm={12} md={6} lg={5}>
+       <Grid item xs={12} sm={6}>
        <Box sx={{backgroundColor:"#ebf4f7",padding:"40px 20px 40px 40px",display:"flex",flexDirection:"column",gap:"20px"}}>
                <Typography  sx={{fontSize:"26px",fontWeight:"bold"}}>Actions & Information</Typography>
                <Typography className={contactStyle.linkText2} sx={{fontSize:"16px"}} >
@@ -202,7 +209,7 @@ const Contact = () => {
                       </Typography>
         </Box></Grid>
 
-        <Grid item xs={12} sm={12} md={6} lg={5}>
+        <Grid item xs={12} sm={6}>
        <Box sx={{backgroundColor:"#ebf4f7",padding:"40px 20px 40px 40px",display:"flex",flexDirection:"column",gap:"20px"}}>
                <Typography  sx={{fontSize:"26px",fontWeight:"bold"}}>External Resources</Typography>
             
@@ -222,6 +229,7 @@ const Contact = () => {
 
 
        </Box>
+       </Container>
     </Box>
   )
 }

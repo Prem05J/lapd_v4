@@ -1,0 +1,20 @@
+     .listItem{
+        padding-left: 0px !important;
+    
+    }
+    
+    .listItem li{
+        list-style-type: none;
+        margin-bottom: 16px;
+    }
+    
+    .listItem a{
+        text-decoration: none;
+        color: #e73f15 ;
+        font-size: 16px;
+    }
+    
+    .listItem a:hover{
+        color: #798c96;
+    }
+    

@@ -3,6 +3,8 @@ import Navbar from '@/component/Navbar'
 import Footer from '@/component/Footer'
 import { Poppins } from 'next/font/google'
 import GoToTop from "../component/GoToTop/GoToTop"
+import "../app/global.module.css"
+
 
 
 
@@ -20,27 +22,29 @@ export default function RootLayout({
   return (
 
     <html>
+ 
 
       <head>
-        {/* AOS Animation*/}
+        {/* AOS Animation */}
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
        
 
       </head>
-      
-      <body style={{ margin: "0px" }}>
-      
+    
+      <body style={{ margin: "0px"}}>
+     
         <Navbar />
         {children}
         <Footer />
-        {/* <GoToTop /> */}
-        {/* AOS Animation*/}
+   
+        <GoToTop />
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script>
           AOS.init();
         </script>
-
+       
       </body>
+
 
     </html>
 

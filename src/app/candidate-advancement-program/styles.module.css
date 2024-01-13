@@ -1,0 +1,47 @@
+.listbox ul{
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    gap: 20px;
+    margin-top: 20;
+  }
+  
+  .listbox ul li {
+      display:flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 20px;
+  
+  }
+
+  .linktxt {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .linktxt a {
+    text-decoration: none;
+    color:#e73f15;
+ }
+  .linktxt a:hover {
+   
+    color:#798c96;
+   }
+
+
+   /* LAPD Reserve Cops Page */
+
+   .linkText {
+    font-size: 18px;
+ }
+   .linkText a{
+    text-decoration: none;
+    color:#e73f15;
+    
+   }
+   .linkText a:hover{
+    text-decoration: none;
+    color:#798c96;
+   }
+  
