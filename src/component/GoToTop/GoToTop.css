@@ -22,4 +22,21 @@
     margin-top: 20px;
   }
   
+
+  @media screen and (max-width: 574px) {
+
+    .GoToTop {
+      width: 40px;
+    height: 40px;
+    bottom: 40px;
+    right: 40px;
+    }
+
+    .GoToTop img {
+      margin-top: 12px;
+      height:15px;
+      width: 20px;
+    }
+    
+  }
   

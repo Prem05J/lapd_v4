@@ -1,0 +1,32 @@
+{
+    "C": [
+        {
+            "name": "Central Bureau",
+            "anchor": "https:\/\/www.lapdonline.org\/lapd-contact\/central-bureau\/"
+        }
+    ],
+    "D": [
+        {
+            "name": "Diversity, Equity, & Inclusion Division",
+            "anchor": "https:\/\/www.lapdonline.org\/lapd-contact\/diversity-equity-inclusion-division\/"
+        }
+    ],
+    "S": [
+        {
+            "name": "South Bureau",
+            "anchor": "https:\/\/www.lapdonline.org\/lapd-contact\/south-bureau\/"
+        }
+    ],
+    "V": [
+        {
+            "name": "Valley Bureau",
+            "anchor": "https:\/\/www.lapdonline.org\/lapd-contact\/valley-bureau\/"
+        }
+    ],
+    "W": [
+        {
+            "name": "West Bureau",
+            "anchor": "https:\/\/www.lapdonline.org\/lapd-contact\/west-bureau\/"
+        }
+    ]
+}

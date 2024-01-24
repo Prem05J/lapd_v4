@@ -13,9 +13,6 @@ import Colors from "../../stylingColors/colors.module.scss"
 
 
 
-
-
-
 const BasicTabs = () => {
   const [selectedTab, setSelectedTab] = useState(0);
 
@@ -158,7 +155,7 @@ const BasicTabs = () => {
            </Box>
           </TabPanel>
           </Box>
-          </Box>
+    </Box>
 
   );
 }

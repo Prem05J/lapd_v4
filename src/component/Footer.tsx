@@ -30,12 +30,11 @@ const Footer = () => {
         </Grid>
       </Box>
 
-    
+  
 
       {/* Social Block */}
-      <Grid container sx={{padding:"0% 10%"}}  className={`${footerStyle.socialspace} ${global.fadeInUp}`} 
-     >
-        <Grid item lg={4} sx={{ margin: '30px 0px 15px 30px' }}>
+      <Grid container sx={{padding:"0% 10%"}}  className={`${footerStyle.socialspace} ${global.fadeInUp}`}>
+        <Grid item lg={4}>
           <Box className={footerStyle.socialcard}>
             <h6 className={footerStyle.hsix} style={{ color: '#798c96' }}>STAY CONNECTED</h6>
 
@@ -49,7 +48,10 @@ const Footer = () => {
         </Grid>
       </Grid>
       {/* Empty container */}
-      
+      <Grid container>
+        <Grid item xs={12} sm={12} md={12} lg={12} className={footerStyle.clearfix}>
+        </Grid>
+      </Grid>
 
       {/* Quick links */}
       <Box sx={{ margin: '30px 30px 0px',padding:"0% 10% 0% 10%" }} className={footerStyle.mobspace}>
@@ -80,9 +82,6 @@ const Footer = () => {
           </Grid>
           <Grid item sm={12} lg={4}>
             <h6 className={footerStyle.hsix}>TRANSLATE THIS PAGE</h6>
-            <Box  sx={{ padding: "5px" }}>
-                                <input placeholder='English'></input>
-                            </Box>
           </Grid>
         </Grid>
       </Box>
@@ -93,7 +92,7 @@ const Footer = () => {
     <Box sx={{textAlign:"center"}} className={footerStyle.subfooter}>
     <Grid container>
       <Grid item md={8} lg={9} className={footerStyle.subclr}>
-        <span>Copyright ©2023<Link href="https://www.supportlapd.org/" target='_blank' className={footerStyle.sublnk}> Los Angeles Police Foundation</Link> and the LAPD. All Rights Reserved.</span><span className={footerStyle.spn}><Link href="/privacy-policy/"  className={footerStyle.sublnk}>Privacy Policy</Link></span> <span className={footerStyle.spn}><Link href="/do-not-sell-my-info/"  className={footerStyle.sublnk}>Do Not Sell My Info</Link></span>
+        <span>Copyright ©2023<Link href="javascript:;" target={'_blank'} className={footerStyle.sublnk}> Los Angeles Police Foundation</Link> and the LAPD. All Rights Reserved.</span><span className={footerStyle.spn}><Link href="javascript:;" target={'_blank'} className={footerStyle.sublnk}>Privacy Policy</Link></span> <span className={footerStyle.spn}><Link href="javascript:;" target={'_blank'} className={footerStyle.sublnk}>Do Not Sell My Info</Link></span>
       </Grid>
       <Grid item md={4} lg={3}>
         <span><Link href="javascript:;" target="_blank" rel='noopener'></Link></span>

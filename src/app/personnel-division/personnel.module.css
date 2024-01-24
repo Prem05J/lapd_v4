@@ -1,0 +1,149 @@
+.bg{
+    background-color: #0f212b;
+    color: #fff;
+    padding:32px 0px
+}
+
+.h1size{
+    font-size: 62px;
+    margin: 0px 0px 20px 0px;
+    line-height: 1.15;
+    letter-spacing: -1.15px;
+    font-weight: 700;
+}
+
+.hlinetwo{
+    width: 18px !important;
+    height: 2px !important;
+    background-color: #000000 !important;
+    position: absolute;
+    margin-bottom: 2px;
+}
+
+
+.insidelnktwo{
+    text-decoration: none;
+    font-size: 16px; 
+    color: #e73f15;
+    margin-left: 25px;
+}
+.insidelnktwo:hover{
+    color: #798c96;
+}
+
+.textstyl h2{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 0px 0px 22px 0px !important;
+    letter-spacing: -.3px;
+}
+.textstyl p a{
+    color: red;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 28px; 
+    letter-spacing: normal;
+}
+.textstyl p a:hover{
+    color: #798c96;
+    text-decoration: none;
+}
+
+.readMoreHide{
+    display: none;
+}
+.readMoreView{
+    display: block;
+}
+
+
+.bullet {
+    padding: 4px;
+    background-color: #7ddfff;
+    border-radius: 50%;
+   
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+   
+
+}
+
+.listBox {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-left: 0;
+}
+.linkbox {
+    background-color: #ebf4f7;
+    padding: 25px;
+}
+.scale_up_left {
+    -webkit-animation: scale_up_left 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: scale_up_left 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+
+@-webkit-keyframes scale_up_left {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+      -webkit-transform-origin: 0% 50%;
+              transform-origin: 0% 50%;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: 0% 50%;
+              transform-origin: 0% 50%;
+    }
+  }
+  @keyframes scale_up_left {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+      -webkit-transform-origin: 0% 50%;
+              transform-origin: 0% 50%;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: 0% 50%;
+              transform-origin: 0% 50%;
+    }
+  }
+
+
+/* tablet */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  
+    /* .h4size{
+        font-size: 20px;
+    }  */
+    .h1size{
+        font-size: 49px !important;
+        margin: 0px 0px 20px 0px;
+    }
+  
+
+}
+
+
+/* mobile */
+@media screen and (max-width: 576px) {
+  
+    .h1size{
+        font-size: 38px;
+        margin: 0px 0px 20px 0px;
+    }
+
+
+}
+

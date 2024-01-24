@@ -1,5 +1,10 @@
 /* Topnavbar */
 
+.scrollView::-webkit-scrollbar {
+    display: none;
+  }
+
+
 .topNavbar {
     background-color: white;
     border-radius: 5px;
@@ -220,3 +225,6 @@
     color: "#e73f15"
 }
 
+.scrollView {
+    overflow-y: auto;
+}

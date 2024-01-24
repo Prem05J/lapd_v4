@@ -9,9 +9,11 @@ import pdf1 from '../../../public/Icons/icon-pdf-white.svg'
 import global from "../global.module.css"
 import Typography from '@mui/material/Typography'
 import LaunchIcon from '@mui/icons-material/Launch';
-import { Container } from '@mui/material'
+import { Container } from '@mui/material';
+import useMediaQuery from '@mui/material/useMediaQuery'
 
 const IdentityTheft = () => {
+    const tab = useMediaQuery('(max-width:768px)');
     return (
         <>
             {/* 1st block */}
@@ -20,7 +22,7 @@ const IdentityTheft = () => {
 
                     <Grid container className={styles.blockspace}>
                         <Grid item xs={11} sm={10} md={7} lg={6} className={global.fadeInUp}>
-                            <Typography className={styles.h1size}>Identity Theft</Typography>
+                            <Typography className={styles.h1size} sx={{ fontSize: tab ? "40px" : "62px", lineHeight: "1.1", fontWeight: "bold" }}>Identity Theft</Typography>
                         </Grid>
                     </Grid>
                 </Container>

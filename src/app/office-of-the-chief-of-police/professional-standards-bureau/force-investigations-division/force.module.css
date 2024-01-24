@@ -1,0 +1,81 @@
+.bg{
+    background-color: #0f212b;
+    color: #fff;
+    padding:32px 0px
+}
+
+.h1size{
+    font-size: 62px;
+    margin: 0px 0px 20px 0px;
+    line-height: 1.15;
+    letter-spacing: -1.15px;
+    font-weight: 700;
+}
+
+
+.textstyl h2{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 0px 0px 22px 0px !important;
+    letter-spacing: -.3px;
+}
+.textstyl p a{
+    color: red;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 28px; 
+    letter-spacing: normal;
+}
+.textstyl p a:hover{
+    color: #798c96;
+    text-decoration: none;
+}
+
+
+.bullet {
+    padding: 4px;
+    background-color: #7ddfff;
+    border-radius: 50%;
+   
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.listBox {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-left: 0;
+}
+
+
+/* tablet */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  
+    .h1size{
+        font-size: 49px !important;
+        margin: 0px 0px 20px 0px;
+    }
+  
+
+}
+
+
+/* mobile */
+@media screen and (max-width: 576px) {
+  
+    .h1size{
+        font-size: 38px;
+        margin: 0px 0px 20px 0px;
+    }
+
+
+}
+

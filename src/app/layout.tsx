@@ -32,12 +32,12 @@ export default function RootLayout({
       </head>
     
       <body style={{ margin: "0px"}}>
-     
+      <GoToTop />
         <Navbar />
         {children}
         <Footer />
    
-        <GoToTop />
+        
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script>
           AOS.init();

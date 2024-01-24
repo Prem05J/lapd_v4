@@ -61,62 +61,62 @@ const OrganizationChat = () => {
                         <Box className={styles.linkbox}>
                             <h2>Board of Police Commissioners</h2>
                             <ul className={styles.aboutul}>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Board of Police Commissioners</Link></li>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Office of the Chief of Police</Link></li>
+                                <li><Link href="/police-commission/function-and-role-of-the-board-of-police-commissioners/" style={{ display: 'flex', alignItems: 'center' }}><Typography>Board of Police Commissioners</Typography></Link></li>
+                                <li><Link href="/office-of-the-chief-of-police/" style={{ display: 'flex', alignItems: 'center' }}><Typography>Office of the Chief of Police</Typography></Link></li>
                             </ul>
                         </Box>
                         <Box className={styles.linkbox} sx={{ marginTop: '40px' }}>
                             <h2>Community Safety Partnership Bureau</h2>
                             <ul className={styles.aboutul}>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><LaunchIcon sx={{ color: 'black', marginRight: '10px' }} />Community Safety Partnership Bureau</Link></li>
+                                <li><Link href="https://www.lapdcsp.org/" target='_blank' style={{ display: 'flex', alignItems: 'center' }}><LaunchIcon sx={{ color: 'black', marginRight: '10px' }} /><Typography>Community Safety Partnership Bureau</Typography></Link></li>
                             </ul>
                         </Box>
                         <Box className={styles.linkbox} sx={{ marginTop: '40px' }}>
                             <h2>Professional Standards Bureau</h2>
                             <ul className={styles.aboutul}>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Internal Affairs Division (IAD)</Link></li>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Force Investigation Division</Link></li>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Special Operations Division</Link></li>
+                                <li><Link href="/office-of-the-chief-of-police/professional-standards-bureau/internal-affairs-division/" style={{ display: 'flex', alignItems: 'center' }}><Typography>Internal Affairs Division (IAD)</Typography></Link></li>
+                                <li><Link href="/office-of-the-chief-of-police/professional-standards-bureau/force-investigations-division/" style={{ display: 'flex', alignItems: 'center' }}><Typography>Force Investigation Division</Typography></Link></li>
+                                <li><Link href="/office-of-the-chief-of-police/professional-standards-bureau/special-operations-division/" style={{ display: 'flex', alignItems: 'center' }}><Typography>Special Operations Division</Typography></Link></li>
                             </ul>
                         </Box>
                         <Box className={styles.linkbox} sx={{ marginTop: '40px' }}>
                             <h2>Administrative Services Bureau</h2>
                             <ul className={styles.aboutul}>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Commanding Officer</Link></li>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Support Services Group</Link></li>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Communications Division</Link></li>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Custody Services Division</Link></li>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Motor Transport Division</Link></li>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Records and Identification Division</Link></li>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Evidence and Property Management Division</Link></li>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Facilities Management Division</Link></li>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Fiscal Group</Link></li>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Personnel Division</Link></li>
+                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Commanding Officer</Typography></Link></li>
+                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Support Services Group</Typography></Link></li>
+                                <li><Link href="/office-of-the-chief-of-police/administrative-services-bureau/support-services-group/communications-division/" style={{ display: 'flex', alignItems: 'center' }}><Typography>Communications Division</Typography></Link></li>
+                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Custody Services Division</Typography></Link></li>
+                                <li><Link href="/motor-transport-division/" style={{ display: 'flex', alignItems: 'center' }}><Typography>Motor Transport Division</Typography></Link></li>
+                                <li><Link href="/records-and-identification-division-2/" style={{ display: 'flex', alignItems: 'center' }}><Typography>Records and Identification Division</Typography></Link></li>
+                                <li><Link href="/evidence-and-property-management-division/" style={{ display: 'flex', alignItems: 'center' }}><Typography>Evidence and Property Management Division</Typography></Link></li>
+                                <li><Link href="/facilities-management-division/" style={{ display: 'flex', alignItems: 'center' }}><Typography>Facilities Management Division</Typography></Link></li>
+                                <li><Link href="/office-of-the-chief-of-police/administrative-services-bureau/fiscal-group/" style={{ display: 'flex', alignItems: 'center' }}><Typography>Fiscal Group</Typography></Link></li>
+                                <li><Link href="/personnel-division/" style={{ display: 'flex', alignItems: 'center' }}><Typography>Personnel Division</Typography></Link></li>
                             </ul>
                         </Box>
 
                         <Box className={styles.linkbox} sx={{ marginTop: '40px' }}>
                             <h2>Detective Bureau</h2>
                             <ul className={styles.aboutul}>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Detective Bureau</Link></li>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>COMPSTAT</Link></li>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Detective Services Group</Link></li>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Robbery-Homicide Division</Link></li>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Juvenile Division</Link></li>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Gang and Narcotics Division</Link></li>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Commercial Crimes Division</Link></li>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Detective Support and Vice Division</Link></li>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Forensic Science Division</Link></li>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Technical Investigation Division</Link></li>
+                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Detective Bureau</Typography></Link></li>
+                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>COMPSTAT</Typography></Link></li>
+                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Detective Services Group</Typography></Link></li>
+                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Robbery-Homicide Division</Typography></Link></li>
+                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Juvenile Division</Typography></Link></li>
+                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Gang and Narcotics Division</Typography></Link></li>
+                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Commercial Crimes Division</Typography></Link></li>
+                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Detective Support and Vice Division</Typography></Link></li>
+                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Forensic Science Division</Typography></Link></li>
+                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Technical Investigation Division</Typography></Link></li>
                             </ul>
                         </Box>
                         <Box className={styles.linkbox} sx={{ marginTop: '40px' }}>
                             <h2>Information Technology Bureau</h2>
                             <ul className={styles.aboutul}>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Application Development and Support Division</Link></li>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>ECCCS Division</Link></li>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Information Technology Division</Link></li>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Innovation Management Division </Link></li>
+                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Application Development and Support Division</Typography></Link></li>
+                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>ECCCS Division</Typography></Link></li>
+                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Information Technology Division</Typography></Link></li>
+                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Innovation Management Division </Typography></Link></li>
                             </ul>
                         </Box>
 
@@ -124,23 +124,23 @@ const OrganizationChat = () => {
                         <Box className={styles.linkbox} sx={{ marginTop: '40px' }}>
                             <h2>Personnel Division</h2>
                             <ul className={styles.aboutul}>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Personnel Division</Link></li>
+                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Personnel Division</Typography></Link></li>
                             </ul>
                         </Box>
 
                         <Box className={styles.linkbox} sx={{ marginTop: '40px' }}>
                             <h2>Specialized Units</h2>
                             <ul className={styles.aboutul}>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Air Support Division</Link></li>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Art Theft Detail</Link></li>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Gang and Narcotics Division</Link></li>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>K-9 Unit</Link></li>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Metropolitan Division</Link></li>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Mounted Unit</Link></li>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Off-Road Enforcement</Link></li>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Specialized Enforcement Section (Motors & Commercial Enforcement)</Link></li>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>S.W.A.T.</Link></li>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Underwater Dive Unit</Link></li>
+                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Air Support Division</Typography></Link></li>
+                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Art Theft Detail</Typography></Link></li>
+                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Gang and Narcotics Division</Typography></Link></li>
+                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>K-9 Unit</Typography></Link></li>
+                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Metropolitan Division</Typography></Link></li>
+                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Mounted Unit</Typography></Link></li>
+                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Off-Road Enforcement</Typography></Link></li>
+                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Specialized Enforcement Section (Motors & Commercial Enforcement)</Typography></Link></li>
+                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>S.W.A.T.</Typography></Link></li>
+                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Underwater Dive Unit</Typography></Link></li>
                             </ul>
                         </Box>
 
@@ -155,58 +155,58 @@ const OrganizationChat = () => {
                         <Box className={styles.linkbox}>
                             <h2>Chief of Staff</h2>
                             <ul className={styles.aboutul}>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Commanding Officer</Link></li>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Employee Relations Group</Link></li>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Public Communications Group</Link></li>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Media Relations Division</Link></li>
+                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Commanding Officer</Typography></Link></li>
+                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Employee Relations Group</Typography></Link></li>
+                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Public Communications Group</Typography></Link></li>
+                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Media Relations Division</Typography></Link></li>
 
                             </ul>
                         </Box>
                         <Box className={styles.linkbox} sx={{ marginTop: '40px' }}>
                             <h2>Office of Constitutional Policing & Policy</h2>
                             <ul className={styles.aboutul}>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Commanding Officer</Link></li>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Audit Division</Link></li>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Diversity, Equity, & Inclusion</Link></li>
+                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Commanding Officer</Typography></Link></li>
+                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Audit Division</Typography></Link></li>
+                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Diversity, Equity, & Inclusion</Typography></Link></li>
                             </ul>
                         </Box>
 
                         <Box className={styles.linkbox} sx={{ marginTop: '40px' }}>
                             <h2>Office of Support Services</h2>
                             <ul className={styles.aboutul}>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Director, Office of Support Services</Link></li>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Behavioral Science Services</Link></li>
+                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Director, Office of Support Services</Typography></Link></li>
+                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Behavioral Science Services</Typography></Link></li>
                             </ul>
                         </Box>
 
                         <Box className={styles.linkbox} sx={{ marginTop: '40px' }}>
                             <h2>Training Bureau</h2>
                             <ul className={styles.aboutul}>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Commanding Officer</Link></li>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Training Bureau (TB)</Link></li>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Recruitment and Employment Division</Link></li>
+                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Commanding Officer</Typography></Link></li>
+                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Training Bureau (TB)</Typography></Link></li>
+                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Recruitment and Employment Division</Typography></Link></li>
                             </ul>
                         </Box>
 
                         <Box className={styles.linkbox} sx={{ marginTop: '40px' }}>
                             <h2>Office of Special Operations</h2>
                             <ul className={styles.aboutul}>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Office of Special Operations</Link></li>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Counter-Terrorism and Special Operations Bureau</Link></li>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Major Crimes Division</Link></li>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Emergency Services Division</Link></li>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Metropolitan Division</Link></li>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Air Support Division</Link></li>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Security Services Division</Link></li>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Transit Service Bureau</Link></li>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Transit Services Group</Link></li>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Transit Services Division</Link></li>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Traffic Group</Link></li>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Central Traffic Division</Link></li>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>South Traffic Division</Link></li>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>West Traffic Division</Link></li>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Valley Traffic Division</Link></li>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Underwater Dive Unit</Link></li>
+                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Office of Special Operations</Typography></Link></li>
+                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Counter-Terrorism and Special Operations Bureau</Typography></Link></li>
+                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Major Crimes Division</Typography></Link></li>
+                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Emergency Services Division</Typography></Link></li>
+                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Metropolitan Division</Typography></Link></li>
+                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Air Support Division</Typography></Link></li>
+                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Security Services Division</Typography></Link></li>
+                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Transit Service Bureau</Typography></Link></li>
+                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Transit Services Group</Typography></Link></li>
+                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Transit Services Division</Typography></Link></li>
+                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Traffic Group</Typography></Link></li>
+                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Central Traffic Division</Typography></Link></li>
+                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>South Traffic Division</Typography></Link></li>
+                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>West Traffic Division</Typography></Link></li>
+                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Valley Traffic Division</Typography></Link></li>
+                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Underwater Dive Unit</Typography></Link></li>
                             </ul>
                         </Box>
                         <Box className={styles.linkbox} sx={{ marginTop: '40px' }}>
@@ -259,8 +259,8 @@ const OrganizationChat = () => {
                             <Box className={styles.linkbox}>
                                 <h2>Board of Police Commissioners</h2>
                                 <ul className={styles.aboutul}>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Board of Police Commissioners</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Office of the Chief of Police</Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Board of Police Commissioners</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Office of the Chief of Police</Typography></Link></li>
                                 </ul>
                             </Box>
                         </Grid>
@@ -268,10 +268,10 @@ const OrganizationChat = () => {
                             <Box className={styles.linkbox}>
                                 <h2>Chief of Staff</h2>
                                 <ul className={styles.aboutul}>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Commanding Officer</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Employee Relations Group</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Public Communications Group</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Media Relations Division</Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Commanding Officer</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Employee Relations Group</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Public Communications Group</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Media Relations Division</Typography></Link></li>
 
                                 </ul>
                             </Box>
@@ -287,7 +287,7 @@ const OrganizationChat = () => {
                             <Box className={styles.linkbox}>
                                 <h2>Community Safety Partnership Bureau</h2>
                                 <ul className={styles.aboutul}>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><LaunchIcon sx={{ color: 'black', marginRight: '10px' }} />Community Safety Partnership Bureau</Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><LaunchIcon sx={{ color: 'black', marginRight: '10px' }} /><Typography>Community Safety Partnership Bureau</Typography></Link></li>
                                 </ul>
                             </Box>
                         </Grid>
@@ -295,9 +295,9 @@ const OrganizationChat = () => {
                             <Box className={styles.linkbox}>
                                 <h2>Office of Constitutional Policing & Policy</h2>
                                 <ul className={styles.aboutul}>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Commanding Officer</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Audit Division</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Diversity, Equity, & Inclusion</Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Commanding Officer</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Audit Division</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Diversity, Equity, & Inclusion</Typography></Link></li>
                                 </ul>
                             </Box>
                         </Grid>
@@ -311,9 +311,9 @@ const OrganizationChat = () => {
                             <Box className={styles.linkbox}>
                                 <h2>Professional Standards Bureau</h2>
                                 <ul className={styles.aboutul}>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Internal Affairs Division (IAD)</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Force Investigation Division</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Special Operations Division</Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Internal Affairs Division (IAD)</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Force Investigation Division</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Special Operations Division</Typography></Link></li>
                                 </ul>
                             </Box>
                         </Grid>
@@ -327,8 +327,8 @@ const OrganizationChat = () => {
                             <Box className={styles.linkbox}>
                                 <h2>Office of Support Services</h2>
                                 <ul className={styles.aboutul}>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Director, Office of Support Services</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Behavioral Science Services</Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Director, Office of Support Services</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Behavioral Science Services</Typography></Link></li>
                                 </ul>
                             </Box>
                         </Grid>
@@ -336,16 +336,16 @@ const OrganizationChat = () => {
                             <Box className={styles.linkbox}>
                                 <h2>Administrative Services Bureau</h2>
                                 <ul className={styles.aboutul}>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Commanding Officer</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Support Services Group</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Communications Division</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Custody Services Division</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Motor Transport Division</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Records and Identification Division</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Evidence and Property Management Division</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Facilities Management Division</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Fiscal Group</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Personnel Division</Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Commanding Officer</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Support Services Group</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Communications Division</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Custody Services Division</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Motor Transport Division</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Records and Identification Division</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Evidence and Property Management Division</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Facilities Management Division</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Fiscal Group</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Personnel Division</Typography></Link></li>
                                 </ul>
                             </Box>
                         </Grid>
@@ -361,9 +361,9 @@ const OrganizationChat = () => {
                             <Box className={styles.linkbox}>
                                 <h2>Training Bureau</h2>
                                 <ul className={styles.aboutul}>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Commanding Officer</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Training Bureau (TB)</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Recruitment and Employment Division</Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Commanding Officer</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Training Bureau (TB)</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Recruitment and Employment Division</Typography></Link></li>
                                 </ul>
                             </Box>
                         </Grid>
@@ -371,22 +371,22 @@ const OrganizationChat = () => {
                             <Box className={styles.linkbox}>
                                 <h2>Office of Special Operations</h2>
                                 <ul className={styles.aboutul}>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Office of Special Operations</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Counter-Terrorism and Special Operations Bureau</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Major Crimes Division</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Emergency Services Division</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Metropolitan Division</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Air Support Division</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Security Services Division</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Transit Service Bureau</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Transit Services Group</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Transit Services Division</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Traffic Group</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Central Traffic Division</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>South Traffic Division</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>West Traffic Division</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Valley Traffic Division</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Underwater Dive Unit</Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Office of Special Operations</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Counter-Terrorism and Special Operations Bureau</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Major Crimes Division</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Emergency Services Division</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Metropolitan Division</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Air Support Division</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Security Services Division</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Transit Service Bureau</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Transit Services Group</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Transit Services Division</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Traffic Group</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Central Traffic Division</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>South Traffic Division</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>West Traffic Division</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Valley Traffic Division</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Underwater Dive Unit</Typography></Link></li>
                                 </ul>
                             </Box>
                         </Grid>
@@ -401,16 +401,16 @@ const OrganizationChat = () => {
                             <Box className={styles.linkbox}>
                                 <h2>Detective Bureau</h2>
                                 <ul className={styles.aboutul}>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Detective Bureau</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>COMPSTAT</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Detective Services Group</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Robbery-Homicide Division</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Juvenile Division</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Gang and Narcotics Division</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Commercial Crimes Division</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Detective Support and Vice Division</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Forensic Science Division</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Technical Investigation Division</Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Detective Bureau</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>COMPSTAT</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Detective Services Group</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Robbery-Homicide Division</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Juvenile Division</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Gang and Narcotics Division</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Commercial Crimes Division</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Detective Support and Vice Division</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Forensic Science Division</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Technical Investigation Division</Typography></Link></li>
                                 </ul>
                             </Box>
                         </Grid>
@@ -418,10 +418,10 @@ const OrganizationChat = () => {
                             <Box className={styles.linkbox}>
                                 <h2>Information Technology Bureau</h2>
                                 <ul className={styles.aboutul}>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Application Development and Support Division</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>ECCCS Division</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Information Technology Division</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Innovation Management Division </Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Application Development and Support Division</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>ECCCS Division</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Information Technology Division</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Innovation Management Division </Typography></Link></li>
                                 </ul>
                             </Box>
                         </Grid>
@@ -435,33 +435,33 @@ const OrganizationChat = () => {
                             <Box className={styles.linkbox}>
                                 <h2>Office of Operations</h2>
                                 <ul className={styles.aboutul}>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Office of Operations</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Central Bureau</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Central Division</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Rampart Division</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Hollenbeck Division</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Northeast Division</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Newton Division</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>South Bureau</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>77th Street Division</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Southwest Division</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Harbor Division</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Southeast Division</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>South Bureau Homicide Division</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>West Bureau</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Hollywood Division</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Wilshire Division</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>West Los Angeles Division</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Olympic Division</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Pacific Division</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Valley Bureau</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Van Nuys Division</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>West Valley Division</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>North Hollywood Division</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Foothill Division</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Devonshire Division</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Mission Division</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Topanga Division</Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Office of Operations</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Central Bureau</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Central Division</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Rampart Division</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Hollenbeck Division</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Northeast Division</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Newton Division</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>South Bureau</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>77th Street Division</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Southwest Division</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Harbor Division</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Southeast Division</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>South Bureau Homicide Division</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>West Bureau</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Hollywood Division</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Wilshire Division</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>West Los Angeles Division</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Olympic Division</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Pacific Division</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Valley Bureau</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Van Nuys Division</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>West Valley Division</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>North Hollywood Division</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Foothill Division</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Devonshire Division</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Mission Division</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Topanga Division</Typography></Link></li>
                                 </ul>
                             </Box>
                         </Grid>
@@ -469,7 +469,7 @@ const OrganizationChat = () => {
                             <Box className={styles.linkbox}>
                                 <h2>Personnel Division</h2>
                                 <ul className={styles.aboutul}>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Personnel Division</Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Personnel Division</Typography></Link></li>
                                 </ul>
                             </Box>
                         </Grid>
@@ -483,16 +483,16 @@ const OrganizationChat = () => {
                             <Box className={styles.linkbox}>
                                 <h2>Specialized Units</h2>
                                 <ul className={styles.aboutul}>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Air Support Division</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Art Theft Detail</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Gang and Narcotics Division</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>K-9 Unit</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Metropolitan Division</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Mounted Unit</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Off-Road Enforcement</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Specialized Enforcement Section (Motors & Commercial Enforcement)</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>S.W.A.T.</Link></li>
-                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}>Underwater Dive Unit</Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Air Support Division</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Art Theft Detail</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Gang and Narcotics Division</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>K-9 Unit</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Metropolitan Division</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Mounted Unit</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Off-Road Enforcement</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Specialized Enforcement Section (Motors & Commercial Enforcement)</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>S.W.A.T.</Typography></Link></li>
+                                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Underwater Dive Unit</Typography></Link></li>
                                 </ul>
                             </Box>
                         </Grid>

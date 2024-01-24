@@ -126,7 +126,7 @@ const Navbar = () => {
                                         <Box sx={{ display: "flex", flexDirection: "column", gap: "30px", marginLeft: "-50px" }}>
                                             <Box sx={{ display: "flex", alignItems: "center", gap: "20px" }}>
                                                 <Image src={searchIcon2} alt='search' height={32} width={32} />
-                                                <Link style={{ textDecoration: 'none' }} href='#' onClick={() => setIshover1(false)}>
+                                                <Link style={{ textDecoration: 'none' }} href='/find-your-local-police-station' onClick={() => setIshover1(false)}>
                                                     <Typography sx={{ color: "black", fontSize: "22px", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`Find Your Local Police Station`}</Typography>
                                                 </Link>
                                             </Box>
@@ -373,7 +373,7 @@ const Navbar = () => {
                                                 <Link onClick={() => setIshover4(false)} style={{ textDecoration: 'none' }} href='/office-of-the-chief-of-police/office-of-special-operations/detective-bureau/reward-bulletin/'>
                                                     <Typography sx={{ color: "black", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`Reward Bulletin`}</Typography>
                                                 </Link>
-                                                <Link onClick={() => setIshover4(false)} style={{ textDecoration: 'none' }} href='#'>
+                                                <Link onClick={() => setIshover4(false)} style={{ textDecoration: 'none' }} href='/office-of-the-chief-of-police/office-of-operations/office-of-operations-orders-and-notices/public-engagement-section/volunteer/'>
                                                     <Typography sx={{ color: "black", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`Volunteer`}</Typography>
                                                 </Link>
 

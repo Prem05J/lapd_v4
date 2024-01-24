@@ -1,0 +1,32 @@
+{
+    "C": [
+        {
+            "name": "Central Bureau Homicide",
+            "anchor": "https:\/\/www.lapdonline.org\/lapd-contact\/central-bureau\/central-bureau-of-homicide\/"
+        }
+    ],
+    "S": [
+        {
+            "name": "South Bureau Homicide Division",
+            "anchor": "https:\/\/www.lapdonline.org\/lapd-contact\/south-bureau\/south-bureau-homicide-division\/"
+        }
+    ],
+    "T": [
+        {
+            "name": "Traffic Group",
+            "anchor": "https:\/\/www.lapdonline.org\/lapd-contact\/transit-services-bureau\/traffic-group\/"
+        }
+    ],
+    "V": [
+        {
+            "name": "Valley Bureau Homicide",
+            "anchor": "https:\/\/www.lapdonline.org\/lapd-contact\/valley-bureau\/valley-bureau-homicide\/"
+        }
+    ],
+    "W": [
+        {
+            "name": "West Bureau Homicide",
+            "anchor": "https:\/\/www.lapdonline.org\/lapd-contact\/west-bureau\/west-bureau-homicide\/"
+        }
+    ]
+}

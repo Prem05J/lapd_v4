@@ -1,0 +1,130 @@
+{
+    "7": [
+        {
+            "name": "77th Street Community Police Station",
+            "anchor": "https:\/\/www.lapdonline.org\/lapd-contact\/south-bureau\/77th-street-community-police-station\/"
+        }
+    ],
+    "C": [
+        {
+            "name": "Central Community Police Station",
+            "anchor": "https:\/\/www.lapdonline.org\/lapd-contact\/central-bureau\/central-community-police-station\/"
+        },
+        {
+            "name": "Central Traffic Division",
+            "anchor": "https:\/\/www.lapdonline.org\/lapd-contact\/transit-services-bureau\/traffic-group\/central-traffic-division\/"
+        }
+    ],
+    "D": [
+        {
+            "name": "Devonshire Community Police Station",
+            "anchor": "https:\/\/www.lapdonline.org\/lapd-contact\/valley-bureau\/devonshire-community-police-station\/"
+        }
+    ],
+    "F": [
+        {
+            "name": "Foothill Community Police Station",
+            "anchor": "https:\/\/www.lapdonline.org\/lapd-contact\/valley-bureau\/foothill-community-police-station\/"
+        }
+    ],
+    "H": [
+        {
+            "name": "Harbor Community Police Station",
+            "anchor": "https:\/\/www.lapdonline.org\/lapd-contact\/south-bureau\/harbor-community-police-station\/"
+        },
+        {
+            "name": "Hollenbeck Community Police Station",
+            "anchor": "https:\/\/www.lapdonline.org\/lapd-contact\/central-bureau\/hollenbeck-community-police-station\/"
+        },
+        {
+            "name": "Hollywood Community Police Station",
+            "anchor": "https:\/\/www.lapdonline.org\/lapd-contact\/west-bureau\/hollywood-community-police-station\/"
+        }
+    ],
+    "M": [
+        {
+            "name": "Mission Community Police Station",
+            "anchor": "https:\/\/www.lapdonline.org\/lapd-contact\/valley-bureau\/mission-community-police-station\/"
+        }
+    ],
+    "N": [
+        {
+            "name": "Newton Community Police Station",
+            "anchor": "https:\/\/www.lapdonline.org\/lapd-contact\/central-bureau\/newton-community-police-station\/"
+        },
+        {
+            "name": "North Hollywood Community Police Station",
+            "anchor": "https:\/\/www.lapdonline.org\/lapd-contact\/valley-bureau\/north-hollywood-community-police-station\/"
+        },
+        {
+            "name": "Northeast Community Police Station",
+            "anchor": "https:\/\/www.lapdonline.org\/lapd-contact\/central-bureau\/northeast-community-police-station\/"
+        }
+    ],
+    "O": [
+        {
+            "name": "Olympic Community Police Station",
+            "anchor": "https:\/\/www.lapdonline.org\/lapd-contact\/west-bureau\/olympic-community-police-station\/"
+        }
+    ],
+    "P": [
+        {
+            "name": "Pacific Community Police Station",
+            "anchor": "https:\/\/www.lapdonline.org\/lapd-contact\/west-bureau\/pacific-community-police-station\/"
+        }
+    ],
+    "R": [
+        {
+            "name": "Rampart Community Police Station",
+            "anchor": "https:\/\/www.lapdonline.org\/lapd-contact\/central-bureau\/rampart-community-police-station\/"
+        }
+    ],
+    "S": [
+        {
+            "name": "South Traffic Division",
+            "anchor": "https:\/\/www.lapdonline.org\/lapd-contact\/transit-services-bureau\/traffic-group\/south-traffic-division\/"
+        },
+        {
+            "name": "Southeast Community Police Station",
+            "anchor": "https:\/\/www.lapdonline.org\/lapd-contact\/south-bureau\/southeast-community-police-station\/"
+        },
+        {
+            "name": "Southwest Community Police Station",
+            "anchor": "https:\/\/www.lapdonline.org\/lapd-contact\/south-bureau\/southwest-community-police-station\/"
+        }
+    ],
+    "T": [
+        {
+            "name": "Topanga Community Police Station",
+            "anchor": "https:\/\/www.lapdonline.org\/lapd-contact\/valley-bureau\/topanga-community-police-station\/"
+        }
+    ],
+    "V": [
+        {
+            "name": "Valley Traffic Division",
+            "anchor": "https:\/\/www.lapdonline.org\/lapd-contact\/transit-services-bureau\/traffic-group\/valley-traffic-division\/"
+        },
+        {
+            "name": "Van Nuys Community Police Station",
+            "anchor": "https:\/\/www.lapdonline.org\/lapd-contact\/valley-bureau\/van-nuys-community-police-station\/"
+        }
+    ],
+    "W": [
+        {
+            "name": "West Los Angeles Community Police Station",
+            "anchor": "https:\/\/www.lapdonline.org\/lapd-contact\/west-bureau\/west-los-angeles-community-police-station\/"
+        },
+        {
+            "name": "West Traffic Division",
+            "anchor": "https:\/\/www.lapdonline.org\/lapd-contact\/transit-services-bureau\/traffic-group\/west-traffic-division\/"
+        },
+        {
+            "name": "West Valley Community Police Station",
+            "anchor": "https:\/\/www.lapdonline.org\/lapd-contact\/valley-bureau\/west-valley-community-police-station\/"
+        },
+        {
+            "name": "Wilshire Community Police Station",
+            "anchor": "https:\/\/www.lapdonline.org\/lapd-contact\/west-bureau\/wilshire-community-police-station\/"
+        }
+    ]
+}

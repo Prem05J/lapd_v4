@@ -1,0 +1,104 @@
+.bg{
+    background-color: #0f212b;
+    color: #fff;
+    padding:35px 0px
+}
+
+
+.hlinetwo{
+    width: 18px !important;
+    height: 2px !important;
+    background-color: #000000 !important;
+    position: absolute;
+    margin-bottom: 2px;
+}
+
+.insidelnktwo{
+    text-decoration: none;
+    font-size: 16px; 
+    color: #e73f15;
+    margin-left: 25px;
+}
+.insidelnktwo:hover{
+    color: #798c96;
+}
+
+.readMoreHide{
+    display: none;
+}
+.readMoreView{
+    display: block;
+}
+
+
+.scale_up_left {
+    -webkit-animation: scale_up_left 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: scale_up_left 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+
+@-webkit-keyframes scale_up_left {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+      -webkit-transform-origin: 0% 50%;
+              transform-origin: 0% 50%;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: 0% 50%;
+              transform-origin: 0% 50%;
+    }
+  }
+  @keyframes scale_up_left {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+      -webkit-transform-origin: 0% 50%;
+              transform-origin: 0% 50%;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: 0% 50%;
+              transform-origin: 0% 50%;
+    }
+  }
+
+.wholeblock{
+    margin: 50px 0px 20px 0px;
+}
+
+
+/* tablet */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    
+
+    .h1size{
+        font-size: 49px !important;
+        margin: 0px 0px 20px 0px;
+    }
+    /* constitutional */
+    .wholeblock{
+        margin: 50px 0px 20px 0px !important;
+    }
+  
+}
+
+/* mobile */
+@media screen and (max-width: 576px) {
+    
+    .wholeblock{
+        margin: 50px 0px 20px 0px !important;
+    }
+ 
+    .h1size{
+        font-size: 38px;
+        margin: 0px 0px 20px 0px;
+    }
+    /* aboutcard */
+    
+}
+

@@ -55,7 +55,7 @@ const Mobilenav: React.FC<props> = ({ navClose }) => {
 
     return (
 
-        <Box sx={{ height: '100vh', backgroundColor: "#fff", textAlign: "center"}}>
+        <Box className={navStyle.scrollView} sx={{ height: '100vh', backgroundColor: "#fff", textAlign: "center"}}>
             <Box sx={{ display: 'flex', flexDirection: 'column', backgroundColor: "#ffffff" }}>
                 <Typography sx={{ padding: '10px 30px', fontSize: '12px', backgroundColor: '#fff' }}>For Emergencies Dial 911 | For Non-Emergency Police Response 877-ASK-LAPD</Typography>
             </Box>
@@ -74,7 +74,7 @@ const Mobilenav: React.FC<props> = ({ navClose }) => {
                 <AccordionDetails>
                     <ul style={{ listStyleType: 'none', paddingLeft: '0' }}>
                         <li>
-                            <Link href='#' className={navStyle.menu_links} onClick={navClose}>
+                            <Link href='/find-your-local-police-station' className={navStyle.menu_links} onClick={navClose}>
                                 <Image src={searchIcon2} alt='search' height={32} width={32} />
                                 <Typography sx={{ marginLeft: '10px', color: "#0f212b", textTransform: "none", '&:hover': { color: "#e73f15" } }} className={navStyle.link_text}>Find Your Local Police Station</Typography>
                             </Link>
@@ -360,7 +360,7 @@ const Mobilenav: React.FC<props> = ({ navClose }) => {
                             </Link>
                         </li>
                         <li>
-                            <Link onClick={navClose} href='/' className={navStyle.menu_links}>
+                            <Link onClick={navClose} href='/office-of-the-chief-of-police/office-of-operations/office-of-operations-orders-and-notices/public-engagement-section/volunteer/' className={navStyle.menu_links}>
                                 <Typography sx={{ color: "#0f212b", textTransform: "none", '&:hover': { color: "#e73f15" } }} className={navStyle.link_text}>Volunteer</Typography>
                             </Link>
                         </li>

@@ -1,0 +1,49 @@
+.policeImage  img{
+    width: 480px;
+    height:600px;
+}
+
+.linkText a {
+    text-decoration: none;
+    color: #e73f15 ;
+}
+.linkText a:hover {
+    color: #798c96;
+}
+
+
+.linkletter  {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.linkletter a{
+    color: #e73f15;
+    text-decoration: none;
+    font-family: Public Sans,sans-serif;
+    font-size: 18px;
+  
+}
+
+.flexBox {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.linkList {
+    color:"#000";
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1370px) {
+    .policeImage  img{
+        width: 100%;
+        height:auto;
+    }
+}
+
+

@@ -27,33 +27,32 @@ const UnsolvedMurder = () => {
           </Container>
         </Box>
 
-           <Container>
+        <Container>                            
            <Box sx={{marginTop:"50px"}}>
             <Grid container rowSpacing={10}>
                 <Grid item lg={7.5}>
                 <Typography sx={{fontSize:"18px"}}>
-                 The below listed cases are Officers of the Los Angeles Police Department that were murdered. These cases have not been solved and as of today, remain unsolved. 
+                 The below listed cases are Officers of the Los Angeles Police Depa  rtment that were murdered. These cases have not been solved and as of today, remain unsolved. 
                  If you have any information with regards to any of these cases, please contact the names on the bulletins.
                  </Typography>
              </Grid>
 
              <Grid item lg={6}>
              <Box sx={{backgroundColor:"#ebf4f7",padding:"40px 30px 40px 40px",display:"flex",flexDirection:"column",gap:"20px"}}>
-                  <ul className={styles.listItem}>
-                      <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><LaunchIcon sx={{ color: 'black', marginRight: '10px' }} /><Typography>Officer Fred Early</Typography></Link></li>
-                      <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Image src={pdf} alt='pdf' style={{ height: '20px', width: '20px', marginRight: '10px' }} /><Typography>Officer Fred Early (pic)</Typography></Link></li>
-                      <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Image src={pdf} alt='pdf' style={{ height: '20px', width: '20px', marginRight: '10px' }} /><Typography>Officer Michael Lee Edwards</Typography></Link></li>
-                      <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><LaunchIcon sx={{ color: 'black', marginRight: '10px' }} /><Typography>Officer Michael Lee Edwards (non-uniform)</Typography></Link></li>
-                     </ul>
-              </Box>
+                <ul className={styles.listItem}>
+                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><LaunchIcon sx={{ color: 'black', marginRight: '10px' }} /><Typography>Officer Fred Early</Typography></Link></li>
+                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Image src={pdf} alt='pdf' style={{ height: '20px', width: '20px', marginRight: '10px' }} /><Typography>Officer Fred Early (pic)</Typography></Link></li>
+                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Image src={pdf} alt='pdf' style={{ height: '20px', width: '20px', marginRight: '10px' }} /><Typography>Officer Michael Lee Edwards</Typography></Link></li>
+                    <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><LaunchIcon sx={{ color: 'black', marginRight: '10px' }} /><Typography>Officer Michael Lee Edwards (non-uniform)</Typography></Link></li>
+                </ul>  
+             </Box>
              </Grid>
             </Grid>
-         
-           </Box>
-           </Container>
+          </Box>
+        </Container>
         
         </div>
   )
-}
+} 
 
 export default UnsolvedMurder
