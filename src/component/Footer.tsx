@@ -33,7 +33,7 @@ const Footer = () => {
   
 
       {/* Social Block */}
-      <Grid container sx={{padding:"0% 10%"}}  className={`${footerStyle.socialspace} ${global.fadeInUp}`}>
+      <Grid container sx={{padding:"20px 10%"}}  className={`${footerStyle.socialspace} ${global.fadeInUp}` }>
         <Grid item lg={4}>
           <Box className={footerStyle.socialcard}>
             <h6 className={footerStyle.hsix} style={{ color: '#798c96' }}>STAY CONNECTED</h6>
@@ -48,13 +48,13 @@ const Footer = () => {
         </Grid>
       </Grid>
       {/* Empty container */}
-      <Grid container>
+      {/* <Grid container>
         <Grid item xs={12} sm={12} md={12} lg={12} className={footerStyle.clearfix}>
         </Grid>
-      </Grid>
+      </Grid> */}
 
       {/* Quick links */}
-      <Box sx={{ margin: '30px 30px 0px',padding:"0% 10% 0% 10%" }} className={footerStyle.mobspace}>
+      <Box sx={{ margin: '160px 0px 0px',padding:"0% 10% 0% 10%" }} className={footerStyle.mobspace}>
         <Grid container>
           <Grid item sm={12} lg={8}>
             <h6 className={footerStyle.hsix}>QUICKLINKS</h6>

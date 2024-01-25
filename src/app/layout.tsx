@@ -3,11 +3,13 @@ import Navbar from '@/component/Navbar'
 import Footer from '@/component/Footer'
 import { Poppins } from 'next/font/google'
 import GoToTop from "../component/GoToTop/GoToTop"
+import { Inter } from 'next/font/google'
 import "../app/global.module.css"
+import "./globals.css"
 
 
 
-
+const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Lapd',
@@ -28,12 +30,13 @@ export default function RootLayout({
         {/* AOS Animation */}
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
        
-
+      
       </head>
     
-      <body style={{ margin: "0px"}}>
-      <GoToTop />
+      <body style={{ margin: "0px"}} className={inter.className}>
+      
         <Navbar />
+        <GoToTop />
         {children}
         <Footer />
    

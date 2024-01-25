@@ -131,10 +131,10 @@ const OrganizationChat = () => {
                         <Box className={styles.linkbox} sx={{ marginTop: '40px' }}>
                             <h2>Specialized Units</h2>
                             <ul className={styles.aboutul}>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Air Support Division</Typography></Link></li>
+                                <li><Link href="/office-of-the-chief-of-police/office-of-special-operations/air-support-division/" style={{ display: 'flex', alignItems: 'center' }}><Typography>Air Support Division</Typography></Link></li>
                                 <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Art Theft Detail</Typography></Link></li>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Gang and Narcotics Division</Typography></Link></li>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>K-9 Unit</Typography></Link></li>
+                                <li><Link href="/office-of-the-chief-of-police/office-of-special-operations/detective-bureau/detective-services-group/gang-and-narcotics-division/" style={{ display: 'flex', alignItems: 'center' }}><Typography>Gang and Narcotics Division</Typography></Link></li>
+                                <li><Link href="/office-of-the-chief-of-police/office-of-special-operations/metropolitan-division/k9/" style={{ display: 'flex', alignItems: 'center' }}><Typography>K-9 Unit</Typography></Link></li>
                                 <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Metropolitan Division</Typography></Link></li>
                                 <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Mounted Unit</Typography></Link></li>
                                 <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Off-Road Enforcement</Typography></Link></li>

@@ -125,7 +125,7 @@
         background-color: #ebf4f7;
         padding: 30px 30px 10px 30px;
         width: 250px;
-        bottom: 50px;
+       
     }
     .clearfix{
         padding: 30px 15px;
@@ -133,7 +133,7 @@
     }
     .socialcard{
         position: absolute;
-        bottom: 180px;
+        bottom: 30px;
     }
     .mobspace{
         margin-top: 180px;
@@ -152,12 +152,14 @@
     }
     .socialcard{
         position: absolute;
-        bottom: 190px;
+        bottom: 120px;
         padding: 20px 0px 5px 20px;
-        width: 310px;
+        width: 300px;
+        margin-bottom: 40px;
     }
     .mobspace{
-        padding: 0px !important;
+        padding: 40px 30px 0px 30px;
+        
     }
     .socialspace {
         padding: 0;
