@@ -1,0 +1,53 @@
+.bg{
+    background-color: #0f212b;
+    color: #fff;
+    padding:"25px"
+}
+
+.blockspace{
+    padding: 36px 0px 36px 0px;
+}
+
+.hline{
+    width: 18px !important;
+    height: 2px !important;
+    background-color: #fff !important;
+    position: absolute;
+    margin-bottom: 2px;
+}
+
+.insidelnk{
+    text-decoration: none;
+    font-size: 16px; 
+    color: #7ddfff;
+    margin-left: 25px;
+}
+
+.insidelnk:hover{
+    color: #fff;
+}
+.innerLink1{
+    text-decoration: none;
+    color: #e73f15;
+}
+.innerLink1:hover{
+    color: #798c96;
+}
+.aboutul{
+    padding-left: 0px !important;
+
+}
+.aboutul li{
+    list-style-type: none;
+    margin-bottom: 16px;
+}
+
+.aboutul a{
+    text-decoration: none;
+    color: #e73f15 ;
+    font-size: 16px;
+}
+
+.aboutul a:hover{
+    color: #798c96;
+}

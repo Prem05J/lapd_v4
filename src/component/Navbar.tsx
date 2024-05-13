@@ -93,9 +93,9 @@ const Navbar = () => {
 
 
                     <Box className={navStyle.topNavContentBox}>
-                        <p className={navStyle.topNavContent1}>Have a Safe Holiday </p> <span style={{ height: "2px", width: "20px", opacity: ".9", backgroundColor: "black", marginLeft: "10px" }}></span>
+                        <p className={navStyle.topNavContent1}> </p> <span style={{ height: "2px", width: "20px", opacity: ".9", backgroundColor: "black", marginLeft: "10px" }}></span>
                         <Link style={{ textDecoration: 'none' }} href='https://www.youtube.com/watch?v=SIUb_Y3fVFk'>
-                            <p className={navStyle.topNavContent2}>{`Chief's Message - December 2023`}</p>
+                            <p className={navStyle.topNavContent2}>{`Mother's Day`}</p>
                         </Link>
 
                     </Box>
@@ -176,7 +176,7 @@ const Navbar = () => {
                                                 <Link style={{ textDecoration: 'none' }} href='/our-motto-mission-statement-core-values' onClick={() => setIshover1(false)}>
                                                     <Typography sx={{ color: "black", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`Mission, Vision, Values`}</Typography>
                                                 </Link>
-                                                <Link style={{ textDecoration: 'none' }} href='#' onClick={() => setIshover1(false)}>
+                                                <Link style={{ textDecoration: 'none' }} href='/officers-killed-in-the-line-of-duty/' onClick={() => setIshover1(false)}>
                                                     <Typography sx={{ color: "black", textTransform: "none", '&:hover': { color: "#e73f15" } }}>{`Officers Killed in the Line of Duty`}</Typography>
                                                 </Link>
                                                 <Link style={{ textDecoration: 'none' }} href='https://lapdonlinestrgeacc.blob.core.usgovcloudapi.net/lapdonlinemedia/2021/12/Strategic-Plan-2021-to-2023.pdf' onClick={() => setIshover1(false)}>

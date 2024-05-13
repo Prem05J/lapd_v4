@@ -49,9 +49,8 @@ const BasicTabs = () => {
                          <Box className={styles.hoverBox}>
                           <Link href="#">
                           <Typography className={styles.typo} sx={{fontSize:"26px",fontWeight:"bold",color:"#fff"}}>
-                          Ten Arrested in Prostitution Sting Operation     NR24007cm/dm
-                          </Typography>
-                          <Typography sx={{color:"#fff",marginTop:"30px"}}>01/05/2024</Typography>
+                          Los Angeles Police Department to Conduct DUI Checkpoints NA24095dm                          </Typography>
+                          <Typography sx={{color:"#fff",marginTop:"30px"}}>05/09/2024</Typography>
                           </Link>
                          </Box>
                 </Grid>
@@ -63,9 +62,8 @@ const BasicTabs = () => {
                     <Box className={styles.hoverBox1}>
                           <Link href="#">
                           <Typography className={styles.typo1} sx={{fontSize:"18px",color:"#000"}}>
-                          Los Angeles Police Department Recruit Graduation    NA24002cm
-                          </Typography>
-                          <Typography sx={{marginTop:"5px",color:"#798c96"}}>01/05/2024</Typography>
+                          Arrest Made in Hollywood Assault Incident NR24146kt/ne                          </Typography>
+                          <Typography sx={{marginTop:"5px",color:"#798c96"}}>05/09/2024</Typography>
                           </Link>
                          </Box>
                 </Grid>
@@ -73,9 +71,8 @@ const BasicTabs = () => {
                     <Box className={styles.hoverBox1}>
                           <Link href="#">
                           <Typography className={styles.typo1} sx={{fontSize:"18px",color:"#000"}}>
-                          Los Angeles Police Department Recruit Graduation    NA24002cm
-                          </Typography>
-                          <Typography sx={{marginTop:"5px",color:"#798c96"}}>01/05/2024</Typography>
+                          Fatal Hit-and-Run leaves Pedestrian Dead NR24155ne/dm                          </Typography>
+                          <Typography sx={{marginTop:"5px",color:"#798c96"}}>05/09/2024</Typography>
                           </Link>
                          </Box>
                 </Grid>
@@ -83,9 +80,8 @@ const BasicTabs = () => {
                     <Box className={styles.hoverBox1}>
                           <Link href="#">
                           <Typography className={styles.typo1} sx={{fontSize:"18px",color:"#000"}}>
-                          Los Angeles Police Department Recruit Graduation    NA24002cm
-                          </Typography>
-                          <Typography sx={{marginTop:"5px",color:"#798c96"}}>01/05/2024</Typography>
+                          Stabbing in Palms NR24144kt/dm                          </Typography>
+                          <Typography sx={{marginTop:"5px",color:"#798c96"}}>05/09/2024</Typography>
                           </Link>
                          </Box>
                 </Grid>
@@ -93,9 +89,8 @@ const BasicTabs = () => {
                     <Box className={styles.hoverBox1}>
                           <Link href="#">
                           <Typography className={styles.typo1} sx={{fontSize:"18px",color:"#000"}}>
-                          Los Angeles Police Department Recruit Graduation    NA24002cm
-                          </Typography>
-                          <Typography sx={{marginTop:"5px",color:"#798c96"}}>01/05/2024</Typography>
+                          Murder Suspect Arrested NR24143kt/dm                          </Typography>
+                          <Typography sx={{marginTop:"5px",color:"#798c96"}}>05/07/2024</Typography>
                           </Link>
                          </Box>
                 </Grid>

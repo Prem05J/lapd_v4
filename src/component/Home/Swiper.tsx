@@ -49,7 +49,7 @@ const SwiperImage = () => {
                             <SwiperSlide>
                                 <Box className={homeStyle.swipBox3}>
                                     <Box className={homeStyle.nameBox}>
-                                        <Typography sx={{ color: "white", fontSize: "25px", marginLeft: "30px" }}>CIntegrity in All We Say and Do</Typography>
+                                        <Typography sx={{ color: "white", fontSize: "25px", marginLeft: "30px" }}>Integrity in All We Say and Do</Typography>
                                     </Box>
                                 </Box>
                             </SwiperSlide>

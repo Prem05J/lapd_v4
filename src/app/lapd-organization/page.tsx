@@ -17,7 +17,7 @@ import useMediaQuery from '@mui/material/useMediaQuery'
 const OrganizationChat = () => {
 
     const mobile = useMediaQuery('(max-width: 576px)');
-
+   
 
     return (
         <>
@@ -37,7 +37,7 @@ const OrganizationChat = () => {
 
             <Container>
 
-
+ 
 
             {/*====================================== lg & md view ================================================*/}
 
@@ -47,8 +47,7 @@ const OrganizationChat = () => {
                     {/*====================================== Left side ================================================*/}
 
                     <Grid item sm={6} md={6} lg={6}>
-
-                        <Box className={styles.linkbox} sx={{ marginTop: '30px', marginBottom: '30px' }}>
+                          <Box className={styles.linkbox} sx={{ marginTop: '30px', marginBottom: '30px' }}>
                             <h2>Goals, Command Staff, Core Values, Org Chart</h2>
                             <ul className={styles.aboutul}>
                                 <li><Link href="https://lapdonlinestrgeacc.blob.core.usgovcloudapi.net/lapdonlinemedia/2021/12/Strategic-Plan-2021-to-2023.pdf" target="_blank" style={{ display: 'flex', alignItems: 'center' }}><LaunchIcon sx={{ color: 'black', marginRight: '10px' }} /><Typography>Chief&lsquo;s Goals</Typography></Link></li>
@@ -57,13 +56,10 @@ const OrganizationChat = () => {
                                 <li><Link href="/lapd-organization-chart/" style={{ display: 'flex', alignItems: 'center' }}><Typography>LAPD Organization Chart</Typography></Link></li>
                                 <li><Link href="/our-motto-mission-statement-core-values/" style={{ display: 'flex', alignItems: 'center' }}><Typography>Motto Mission Statement & Core Values</Typography></Link></li>
                                 <li><Link href="/end-of-watch-broadcast-parker-center-tuesday-january-15-2013/" style={{ display: 'flex', alignItems: 'center' }}><Typography>End of Watch Broadcast Parker Center</Typography></Link></li>
-                             </ul>
-                        </Box>
-
-
-
+                            </ul>
+                          </Box> 
                     </Grid>
-
+   
 
                 </Grid>
             </Box>

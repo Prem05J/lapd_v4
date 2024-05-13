@@ -3,12 +3,25 @@
     height:600px;
 }
 
+.linkText  {
+    text-decoration: none;
+   
+    
+  
+}
 .linkText a {
     text-decoration: none;
     color: #e73f15 ;
+    padding:0px 10px;
+    font-size: 18px;
+
+   
+  
+    
 }
 .linkText a:hover {
     color: #798c96;
+
 }
 
 
@@ -17,7 +30,6 @@
     flex-direction: row;
     gap: 15px;
     flex-wrap: wrap;
- 
 }
 
 .linkletter a{

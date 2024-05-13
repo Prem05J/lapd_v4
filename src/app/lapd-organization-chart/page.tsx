@@ -82,7 +82,7 @@ const OrganizationChat = () => {
                         <Box className={styles.linkbox} sx={{ marginTop: '40px' }}>
                             <h2>Administrative Services Bureau</h2>
                             <ul className={styles.aboutul}>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Commanding Officer</Typography></Link></li>
+                                <li><Link href="/command-staff/sauer-annemarie/" style={{ display: 'flex', alignItems: 'center' }}><Typography>Commanding Officer</Typography></Link></li>
                                 <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Support Services Group</Typography></Link></li>
                                 <li><Link href="/office-of-the-chief-of-police/administrative-services-bureau/support-services-group/communications-division/" style={{ display: 'flex', alignItems: 'center' }}><Typography>Communications Division</Typography></Link></li>
                                 <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Custody Services Division</Typography></Link></li>
@@ -100,14 +100,14 @@ const OrganizationChat = () => {
                             <ul className={styles.aboutul}>
                                 <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Detective Bureau</Typography></Link></li>
                                 <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>COMPSTAT</Typography></Link></li>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Detective Services Group</Typography></Link></li>
+                                <li><Link href="/office-of-the-chief-of-police/office-of-special-operations/detective-bureau/detective-services-group/" style={{ display: 'flex', alignItems: 'center' }}><Typography>Detective Services Group</Typography></Link></li>
                                 <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Robbery-Homicide Division</Typography></Link></li>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Juvenile Division</Typography></Link></li>
+                                <li><Link href="/office-of-the-chief-of-police/office-of-special-operations/detective-bureau/detective-services-group/juvenile-division/" style={{ display: 'flex', alignItems: 'center' }}><Typography>Juvenile Division</Typography></Link></li>
                                 <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Gang and Narcotics Division</Typography></Link></li>
                                 <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Commercial Crimes Division</Typography></Link></li>
                                 <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Detective Support and Vice Division</Typography></Link></li>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Forensic Science Division</Typography></Link></li>
-                                <li><Link href="javascript:;" style={{ display: 'flex', alignItems: 'center' }}><Typography>Technical Investigation Division</Typography></Link></li>
+                                <li><Link href="/office-of-the-chief-of-police/office-of-special-operations/detective-bureau/detective-services-group/forensic-science-and-technical-division/" style={{ display: 'flex', alignItems: 'center' }}><Typography>Forensic Science Division</Typography></Link></li>
+                                <li><Link href="/technical-investigation-division/" style={{ display: 'flex', alignItems: 'center' }}><Typography>Technical Investigation Division</Typography></Link></li>
                             </ul>
                         </Box>
                         <Box className={styles.linkbox} sx={{ marginTop: '40px' }}>

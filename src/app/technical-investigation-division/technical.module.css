@@ -1,0 +1,25 @@
+.bg{
+    background-color: #0f212b;
+    color: #fff;
+    padding:"25px"
+}
+.blockspace{
+    padding: 36px 0px 36px 0px;
+}
+
+.aboutul{
+    padding-left: 0px !important;
+
+}
+.aboutul li{
+    list-style-type: none;
+    margin-bottom: 16px;
+}
+.aboutul a{
+    text-decoration: none;
+    color: #e73f15 ;
+    font-size: 16px;
+}
+.aboutul a:hover{
+    color: #798c96;
+}

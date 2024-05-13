@@ -121,7 +121,7 @@ const Mobilenav: React.FC<props> = ({ navClose }) => {
                             </Link>
                         </li>
                         <li>
-                            <Link href='#' className={navStyle.menu_links} onClick={navClose}>
+                            <Link href='/officers-killed-in-the-line-of-duty/' className={navStyle.menu_links} onClick={navClose}>
                                 <Typography sx={{ color: "#0f212b", textTransform: "none", '&:hover': { color: "#e73f15" } }} className={navStyle.link_text}>Officers Killed in the Line of Duty</Typography>
                             </Link>
                         </li>
