@@ -1,0 +1,437 @@
+{
+  "format": "page",
+  "id": "settings",
+  "label": "Settings",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "description": {
+        "type": "StructuredText",
+        "config": {
+          "label": "description",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+        }
+      },
+      "site_title": {
+        "type": "Text",
+        "config": {
+          "label": "site title",
+          "placeholder": ""
+        }
+      },
+      "data_description": {
+        "type": "Text",
+        "config": {
+          "label": "data_description",
+          "placeholder": ""
+        }
+      },
+      "heading": {
+        "type": "Text",
+        "config": {
+          "label": "Heading",
+          "placeholder": ""
+        }
+      },
+      "subheading": {
+        "type": "Text",
+        "config": {
+          "label": "Subheading",
+          "placeholder": ""
+        }
+      },
+      "daily_update": {
+        "type": "Text",
+        "config": {
+          "label": "daily_update",
+          "placeholder": ""
+        }
+      },
+      "your_lapd": {
+        "type": "Text",
+        "config": {
+          "label": "your_lapd",
+          "placeholder": ""
+        }
+      },
+      "get_service": {
+        "type": "Text",
+        "config": {
+          "label": "get_service",
+          "placeholder": ""
+        }
+      },
+      "crime_info": {
+        "type": "Text",
+        "config": {
+          "label": "crime_info",
+          "placeholder": ""
+        }
+      },
+      "get_involved": {
+        "type": "Text",
+        "config": {
+          "label": "get_involved",
+          "placeholder": ""
+        }
+      },
+      "news": {
+        "type": "Text",
+        "config": {
+          "label": "news",
+          "placeholder": ""
+        }
+      },
+      "contact": {
+        "type": "Text",
+        "config": {
+          "label": "contact",
+          "placeholder": ""
+        }
+      },
+      "homepage_image1": {
+        "type": "Image",
+        "config": {
+          "label": "homepage_image1",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "homepage_image2": {
+        "type": "Image",
+        "config": {
+          "label": "homepage_image2",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "homepage_image3": {
+        "type": "Image",
+        "config": {
+          "label": "homepage_image3",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "homepage_image4": {
+        "type": "Image",
+        "config": {
+          "label": "homepage_image4",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "homepage_image5": {
+        "type": "Image",
+        "config": {
+          "label": "homepage_image5",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "homepage_image6": {
+        "type": "Image",
+        "config": {
+          "label": "homepage_image6",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "message_from_chief_image": {
+        "type": "Image",
+        "config": {
+          "label": "message_from_chief_image",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "quicklinks": {
+        "type": "Group",
+        "config": {
+          "label": "QuickLinks",
+          "repeat": true,
+          "fields": {
+            "section_1": {
+              "type": "Text",
+              "config": {
+                "label": "section_1",
+                "placeholder": ""
+              }
+            },
+            "section_2": {
+              "type": "Text",
+              "config": {
+                "label": "section_2",
+                "placeholder": ""
+              }
+            },
+            "section_3": {
+              "type": "Text",
+              "config": {
+                "label": "section_3",
+                "placeholder": ""
+              }
+            },
+            "section_4": {
+              "type": "Text",
+              "config": {
+                "label": "section_4",
+                "placeholder": ""
+              }
+            },
+            "section_5": {
+              "type": "Text",
+              "config": {
+                "label": "section_5",
+                "placeholder": ""
+              }
+            },
+            "section_6": {
+              "type": "Text",
+              "config": {
+                "label": "section_6",
+                "placeholder": ""
+              }
+            }
+          }
+        }
+      },
+      "newsroom": {
+        "type": "Group",
+        "config": {
+          "label": "Newsroom",
+          "repeat": true,
+          "fields": {
+            "news_1": {
+              "type": "Text",
+              "config": {
+                "label": "news_1",
+                "placeholder": ""
+              }
+            },
+            "news_2": {
+              "type": "Text",
+              "config": {
+                "label": "news_2",
+                "placeholder": ""
+              }
+            },
+            "news_3": {
+              "type": "Text",
+              "config": {
+                "label": "news_3",
+                "placeholder": ""
+              }
+            },
+            "news_4": {
+              "type": "Text",
+              "config": {
+                "label": "news_4",
+                "placeholder": ""
+              }
+            },
+            "news_5": {
+              "type": "Text",
+              "config": {
+                "label": "news_5",
+                "placeholder": ""
+              }
+            },
+            "news_1_date": {
+              "type": "Text",
+              "config": {
+                "label": "news_1_date",
+                "placeholder": ""
+              }
+            },
+            "news_2_date": {
+              "type": "Text",
+              "config": {
+                "label": "news_2_date",
+                "placeholder": ""
+              }
+            },
+            "news_3_date": {
+              "type": "Text",
+              "config": {
+                "label": "news_3_date",
+                "placeholder": ""
+              }
+            },
+            "news_4_date": {
+              "type": "Text",
+              "config": {
+                "label": "news_4_date",
+                "placeholder": ""
+              }
+            },
+            "news_5_date": {
+              "type": "Text",
+              "config": {
+                "label": "news_5_date",
+                "placeholder": ""
+              }
+            }
+          }
+        }
+      },
+      "updates_from_lapd": {
+        "type": "Group",
+        "config": {
+          "label": "Updates_from_lapd",
+          "repeat": true,
+          "fields": {
+            "update_title_1": {
+              "type": "Text",
+              "config": {
+                "label": "update_title_1",
+                "placeholder": ""
+              }
+            },
+            "update_image_1": {
+              "type": "Image",
+              "config": {
+                "label": "update_image_1",
+                "constraint": {},
+                "thumbnails": []
+              }
+            },
+            "update_description_1": {
+              "type": "Text",
+              "config": {
+                "label": "update_description_1",
+                "placeholder": ""
+              }
+            },
+            "update_title_2": {
+              "type": "Text",
+              "config": {
+                "label": "update_title_2",
+                "placeholder": ""
+              }
+            },
+            "update_image_2": {
+              "type": "Image",
+              "config": {
+                "label": "update_image_2",
+                "constraint": {},
+                "thumbnails": []
+              }
+            },
+            "update_description_2": {
+              "type": "Text",
+              "config": {
+                "label": "update_description_2",
+                "placeholder": ""
+              }
+            }
+          }
+        }
+      },
+      "contact_details": {
+        "type": "Group",
+        "config": {
+          "label": "Contact_details",
+          "repeat": true,
+          "fields": {
+            "section_2": {
+              "type": "Text",
+              "config": {
+                "label": "section_2",
+                "placeholder": ""
+              }
+            },
+            "section_2_details": {
+              "type": "Text",
+              "config": {
+                "label": "section_2_details",
+                "placeholder": ""
+              }
+            },
+            "section_3": {
+              "type": "Text",
+              "config": {
+                "label": "section_3",
+                "placeholder": ""
+              }
+            },
+            "section_3_details": {
+              "type": "Text",
+              "config": {
+                "label": "section_3_details",
+                "placeholder": ""
+              }
+            },
+            "section_1": {
+              "type": "Text",
+              "config": {
+                "label": "section_1",
+                "placeholder": ""
+              }
+            },
+            "section_1_details": {
+              "type": "Text",
+              "config": {
+                "label": "section_1_details",
+                "placeholder": ""
+              }
+            }
+          }
+        }
+      },
+      "footer_image_1": {
+        "type": "Image",
+        "config": {
+          "label": "footer_image_1",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "footer_image_2": {
+        "type": "Image",
+        "config": {
+          "label": "footer_image_2",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {}
+        }
+      }
+    },
+    "SEO & Metadata": {
+      "meta_description": {
+        "config": {
+          "label": "Meta Description",
+          "placeholder": "A brief summary of the page"
+        },
+        "type": "Text"
+      },
+      "meta_image": {
+        "config": {
+          "constraint": {
+            "height": 1260,
+            "width": 2400
+          },
+          "label": "Meta Image",
+          "thumbnails": []
+        },
+        "type": "Image"
+      },
+      "meta_title": {
+        "config": {
+          "label": "Meta Title",
+          "placeholder": "A title of the page used for social media and search engines"
+        },
+        "type": "Text"
+      }
+    }
+  }
+}

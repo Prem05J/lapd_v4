@@ -3,48 +3,41 @@
 @media screen and (max-width: 992px) {
   .italicTypo1 {
     font-size: 20px;
-    opacity: .8;
+    opacity: 0.8;
     text-align: left;
     z-index: -1;
   }
-  
+
   .italicTypo2 {
     font-size: 38px;
-    opacity: .9;
+    opacity: 0.9;
   }
   .italicTypoBox {
-    
-   margin-left: 20px;
+    margin-left: 20px;
   }
- 
-
 }
 
 .formTextField {
-  width:700px
+  width: 700px;
 }
 
 @media screen and (max-width: 1170px) {
-
   .formTextField {
-          width: 55%;
-   }
+    width: 55%;
   }
-
+}
 
 @media screen and (max-width: 890px) {
-
   .formTextField {
-          width: 90%;
-   }
-  
+    width: 90%;
+  }
 }
 
 .visible {
   position: absolute;
   opacity: 1;
   margin-top: -50px;
-  transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 @media screen and (max-width: 768px) {
@@ -52,106 +45,105 @@
     position: absolute;
     opacity: 1;
     margin-top: -20px;
-    transition: all .5s ease-in-out;
+    transition: all 0.5s ease-in-out;
   }
 }
 
-
 /* Swiper-section */
 
-
 .mySwiper {
-  --swiper-pagination-color:white;
+  --swiper-pagination-color: white;
   --swiper-pagination-bullet-size: 8px;
   --swiper-pagination-bullet-inactive-color: #ccc;
   --swiper-pagination-bottom: 25px;
-
-} 
+}
 
 .swipBox1 {
   background-size: cover;
- background-image: url("../../public//Images//Home//HeroImage-01.jpg");
+  background-image: url("../../public//Images//Home//HeroImage-01.jpg");
   background-position: center;
-  width:100%;
-  height:65vh;
+  width: 100%;
+  height: 65vh;
   object-fit: cover;
-
 }
 
 .swipBox2 {
   background-size: cover;
- background-image: url("../../public//Images//Home//HeroImage-02.jpg");
+  background-image: url("../../public//Images//Home//HeroImage-02.jpg");
   background-position: center;
-  width:100%;
-  height:65vh;
+  width: 100%;
+  height: 65vh;
 }
 .swipBox3 {
   background-size: cover;
- background-image: url("../../public//Images//Home//HeroImage-03.jpg");
+  background-image: url("../../public//Images//Home//HeroImage-03.jpg");
   background-position: center;
-  width:100%;
-  height:65vh;
+  width: 100%;
+  height: 65vh;
 }
 .swipBox4 {
   background-size: cover;
- background-image: url("../../public//Images//Home//HeroImage-04.jpg");
+  background-image: url("../../public//Images//Home//HeroImage-04.jpg");
   background-position: center;
-  width:100%;
-  height:65vh;
+  width: 100%;
+  height: 65vh;
 }
-.swipBox5 {
+/* .swipBox5 {
   background-size: cover;
  background-image: url("../../public//Images//Home//HeroImage-05.jpg");
   background-position: center;
   width:100%;
   height:65vh;
+} */
+
+.swipBox5 {
+  background-size: cover;
+  background-image: url("../../public//Images//Home//HeroImage-05.jpg");
+  background-position: center;
+  width: 100%;
+  height: 65vh;
 }
 .swipBox6 {
   background-size: cover;
- background-image: url("../../public//Images//Home//HeroImage-06.jpg");
+  background-image: url("../../public//Images//Home//HeroImage-06.jpg");
   background-position: center;
-  width:100%;
-  height:65vh;
- 
+  width: 100%;
+  height: 65vh;
 }
 
 .videoBox {
   background-image: url("../../public//Images//Home//video-img-01.jpg");
   background-size: cover;
-  background-position:initial;
-  width:100%;
-  height:65vh;
+  background-position: initial;
+  width: 100%;
+  height: 65vh;
   margin-top: -35px;
   position: relative;
   transition: transform 0.2s ease-in-out;
- 
-  
+}
 
- }
-
-
- @media screen and (max-width: 920px) {
-  .swipBox1, .swipBox2 ,.swipBox3, .swipBox4 ,.swipBox5, .swipBox6, .videoBox {
+@media screen and (max-width: 920px) {
+  .swipBox1,
+  .swipBox2,
+  .swipBox3,
+  .swipBox4,
+  .swipBox5,
+  .swipBox6,
+  .videoBox {
     height: 40vh;
-   
   }
- 
-
- }
- @media screen and (max-width: 1024px) {
-  .swipBox1, .swipBox2 ,.swipBox3, .swipBox4 ,.swipBox5, .swipBox6, .videoBox {
+}
+@media screen and (max-width: 1024px) {
+  .swipBox1,
+  .swipBox2,
+  .swipBox3,
+  .swipBox4,
+  .swipBox5,
+  .swipBox6,
+  .videoBox {
     height: 50vh;
-
-  
   }
-
-
-
- }
-
-
-
-
+}
 
 .nameBox {
   bottom: 0;
@@ -160,7 +152,7 @@
   padding-top: 3%;
   padding-bottom: 3%;
   background-color: #052942;
-  }
+}
 
 .videoBoxContent {
   position: absolute;
@@ -168,8 +160,7 @@
   width: 100%;
   padding-top: 5%;
   padding-bottom: 5%;
-  }
-
+}
 
 .playBoxIcon {
   margin-left: 5px;
@@ -186,201 +177,174 @@
   justify-content: center;
 }
 
-.videoBox:hover .playBox{
- background-color:transparent;
- border:3px solid #ffffff;
- opacity: .9;
+.videoBox:hover .playBox {
+  background-color: transparent;
+  border: 3px solid #ffffff;
+  opacity: 0.9;
 }
 
-.videoBox:hover  {
+.videoBox:hover {
   transform: scale(1.05);
-  
 }
 
 /* Quick-Links */
 
-
-.file{
+.file {
   padding-bottom: 21px;
 }
 
-
-
-.link{
+.link {
   text-decoration: none;
 }
 
-.pb{
+.pb {
   padding-bottom: 24px !important;
 }
 
 .boxes .imgs {
-color:#000;
-height: 50px;
-width: 50px;
-
+  color: #000;
+  height: 50px;
+  width: 50px;
 }
 
 .boxes p {
-  color:#000;
+  color: #000;
   text-align: center;
- }
+}
 
- .boxes:hover {
-  background-color:#ebf4f7;
- }
-.boxes:hover img{
+.boxes:hover {
+  background-color: #ebf4f7;
+}
+.boxes:hover img {
   transform: scale(1.2);
-  transition: .4s;
+  transition: 0.4s;
   color: #e73f15;
 }
 
 #icon-filepolicereport:hover {
-   fill:#e73f15;
-  }
+  fill: #e73f15;
+}
 
-
-
-
-
-.boxes:hover p{
-   transition: .4s;
-  color:#e73f15
+.boxes:hover p {
+  transition: 0.4s;
+  color: #e73f15;
 }
 
 @media screen and (max-width: 768px) {
- 
-  
-  .pb{
-      padding-bottom: 45px !important;
+  .pb {
+    padding-bottom: 45px !important;
   }
-  .none{
-      border-right: none;
+  .none {
+    border-right: none;
   }
-  .bottom{
-      padding-bottom: 10px;
+  .bottom {
+    padding-bottom: 10px;
   }
-  .file{
-      padding-bottom: 0px;
+  .file {
+    padding-bottom: 0px;
   }
- 
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
- 
-  .pb{
-      padding-bottom: 24px !important;
+  .pb {
+    padding-bottom: 24px !important;
   }
-  .file{
-      padding-bottom: 0px;
+  .file {
+    padding-bottom: 0px;
   }
 }
-
-
-
 
 /* Tab-section */
 
 .textspace {
-text-decoration: none;
+  text-decoration: none;
 }
-
 
 .hoverBox a {
   text-decoration: none;
 }
-
-
 
 .hoverBox {
   padding: 25px 15px 25px 25px;
   background-color: #052942;
 }
 
-.hoverBox:hover a .typo{
-  color:#798c96;
-  transition: .5s;
+.hoverBox:hover a .typo {
+  color: #798c96;
+  transition: 0.5s;
 }
 
 .hoverBox1 a {
   text-decoration: none;
 }
 
-.hoverBox1  {
+.hoverBox1 {
   background-color: #fff;
 }
 
 .hoverBox1:hover a .typo1 {
-  color:#e73f15;
-  transition: .5s;
+  color: #e73f15;
+  transition: 0.5s;
 }
 
-
-.line{
-    width: 20px;
-    height: 2px;
-    margin-top: 10px;
-    background-color: black;
+.line {
+  width: 20px;
+  height: 2px;
+  margin-top: 10px;
+  background-color: black;
 }
-.seperate p:hover{
-   color:#e73f15;
+.seperate p:hover {
+  color: #e73f15;
 }
-
 
 /* menu-2 */
-.calendar{
-    background: #ebf4f7;
-    font-weight: bolder;
-    padding:15px 35px;
-    line-height: 20px;
+.calendar {
+  background: #ebf4f7;
+  font-weight: bolder;
+  padding: 15px 35px;
+  line-height: 20px;
 }
 
-.textstyle h4{
-    font-size: 24px;
-    margin-left: 20px;
-    margin-top: 15px;
+.textstyle h4 {
+  font-size: 24px;
+  margin-left: 20px;
+  margin-top: 15px;
 }
-
 
 .textLink {
-    font-size: 70px;
+  font-size: 70px;
 }
 
-.textstyle p{
-    margin-left: 20px;
-    color: #798c96;
+.textstyle p {
+  margin-left: 20px;
+  color: #798c96;
 }
-.seperateone{
-    background-color: #ebf4f7;
+.seperateone {
+  background-color: #ebf4f7;
 }
-.seperateone p{
-    color:#e73f15;
-}
-
-.lineone{
-    width: 20px;
-    height: 2px;
-    background-color: black;
+.seperateone p {
+  color: #e73f15;
 }
 
-.cardtext{
-    font-weight: bolder;
-    font-size: 26px;
-}
-.cardtextone{
-    font-size: 16px;
-    color: black;
+.lineone {
+  width: 20px;
+  height: 2px;
+  background-color: black;
 }
 
-
-.hdr{
-    padding: 30px;
-    background-color: #ebf4f7;
+.cardtext {
+  font-weight: bolder;
+  font-size: 26px;
+}
+.cardtextone {
+  font-size: 16px;
+  color: black;
 }
 
-
-
-
+.hdr {
+  padding: 30px;
+  background-color: #ebf4f7;
+}
 
 /* Card section */
 
@@ -388,8 +352,6 @@ text-decoration: none;
   width: 100%;
   height: auto;
 }
-
-
 
 /* 
 @media screen and (max-width: 1150px) {
@@ -401,4 +363,3 @@ text-decoration: none;
 .paddingBox {
   margin-top: 150px;
 } */
-
