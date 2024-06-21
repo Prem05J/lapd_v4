@@ -1,0 +1,23 @@
+FROM node:20-slim as base
+WORKDIR /app
+
+EXPOSE 9999
+
+FROM base as dev
+
+COPY package*.json ./
+
+RUN npm config set legacy-peer-deps true
+RUN npm install -g npm@10.7.0
+
+RUN npm install
+
+COPY . .
+
+# ARG USERID
+# ARG GROUPID
+
+# RUN usermod -u ${USERID} node \
+#   && groupmod -o -g ${GROUPID} node
+
+CMD ["npm", "run", "slicemachine"]
